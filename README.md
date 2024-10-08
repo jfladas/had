@@ -1,2 +1,2 @@
-# Hearts Across Universes
+# Hearts Across Dimensions
 HSLU DI MEN3 HS24 | Lukas Bucher & Angelika Gort | work in progress...
