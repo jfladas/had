@@ -14,6 +14,23 @@ public class StoryScene : GameScene
     {
         public string text;
         public Character character;
+        public List<Action> actions;
+
+        [System.Serializable]
+        public struct Action
+        {
+            public Character character;
+            public int spriteIndex;
+            public Type type;
+            public Vector2 position;
+            public float speed;
+
+            [System.Serializable]
+            public enum Type
+            {
+                NONE, SHOW, MOVE, HIDE
+            }
+        }
     }
 }
 

@@ -31,6 +31,16 @@ public class ChooseController : MonoBehaviour
             }
 
             newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(index, scene.labels.Count));
+
+            RectTransform labelRectTransform = newLabel.GetComponent<RectTransform>();
+            labelRectTransform.anchorMin = new Vector2(0, 0.5f);
+            labelRectTransform.anchorMax = new Vector2(1, 0.5f);
+            labelRectTransform.pivot = new Vector2(0.5f, 0.5f);
+            labelRectTransform.offsetMin = new Vector2(100, labelRectTransform.offsetMin.y);
+            labelRectTransform.offsetMax = new Vector2(-100, labelRectTransform.offsetMax.y);
+
+            TMP_Text labelText = newLabel.GetComponentInChildren<TMP_Text>();
+            labelText.alignment = TextAlignmentOptions.Center;
         }
 
         Vector2 size = rectTransform.sizeDelta;

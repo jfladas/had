@@ -13,6 +13,10 @@ public class BottomBarController : MonoBehaviour
     private State state = State.COMPLETED;
     private Animator animator;
     private bool isHidden = false;
+    private Coroutine typingCoroutine;
+
+    public Dictionary<Character, SpriteController> sprites;
+    public GameObject spritesPrefab;
 
     private enum State
     {
@@ -21,6 +25,7 @@ public class BottomBarController : MonoBehaviour
 
     private void Start()
     {
+        sprites = new Dictionary<Character, SpriteController>();
         animator = GetComponent<Animator>();
     }
 
@@ -53,8 +58,23 @@ public class BottomBarController : MonoBehaviour
 
     public void PlayNextSentence()
     {
-        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+        typingCoroutine = StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].character.characterName;
+        ActCharacter();
+    }
+
+    public void SkipToFullSentence()
+    {
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            barText.text = currentScene.sentences[sentenceIndex].text;
+            state = State.COMPLETED;
+        }
     }
 
     public bool IsCompleted()
@@ -76,11 +96,60 @@ public class BottomBarController : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.03f);
             if (++wordIndex == text.Length)
             {
                 state = State.COMPLETED;
                 break;
+            }
+        }
+    }
+
+    private void ActCharacter()
+    {
+        List<StoryScene.Sentence.Action> actions = currentScene.sentences[sentenceIndex].actions;
+        foreach (StoryScene.Sentence.Action action in actions)
+        {
+            SpriteController controller = null;
+            switch (action.type)
+            {
+                case StoryScene.Sentence.Action.Type.SHOW:
+                    if (!sprites.ContainsKey(action.character))
+                    {
+                        controller = Instantiate(action.character.prefab.gameObject, spritesPrefab.transform).GetComponent<SpriteController>();
+                        sprites.Add(action.character, controller);
+                    }
+                    else
+                    {
+                        controller = sprites[action.character];
+                    }
+                    controller.Setup(action.character.sprites[action.spriteIndex]);
+                    controller.Show(action.position);
+                    break;
+                case StoryScene.Sentence.Action.Type.MOVE:
+                    if (sprites.ContainsKey(action.character))
+                    {
+                        controller = sprites[action.character];
+                        controller.Move(action.position, action.speed);
+                    }
+                    break;
+                case StoryScene.Sentence.Action.Type.HIDE:
+                    if (sprites.ContainsKey(action.character))
+                    {
+                        controller = sprites[action.character];
+                        controller.Hide();
+                    }
+                    break;
+                case StoryScene.Sentence.Action.Type.NONE:
+                    if (sprites.ContainsKey(action.character))
+                    {
+                        controller = sprites[action.character];
+                    }
+                    break;
+            }
+            if (controller != null)
+            {
+                controller.SwitchSprite(action.character.sprites[action.spriteIndex]);
             }
         }
     }
