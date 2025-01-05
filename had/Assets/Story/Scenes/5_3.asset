@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 5_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I scan the shelves for any books that might help.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I already have a stack in my arms but I'm determined to get to the cause
+      of my demise.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: My life can't continue like this.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: A book with a delicately decorated cover sticks out to me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I pull it out and read the title.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: '"Fairies, Elves and Me"'
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I decide to add it to my large stack of books and then look for an empty
+      table.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: A few hours later I have skimmed through most of the books I had picked
+      out and found out about a lot of occult themes but nothing that would help
+      me find the cause of all the strange situations I've been in lately.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I glance to the side.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Oh, this pretty book is still left.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I pick up "Fairies, Elves and Me" and look at the back.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: It's by... Ethan.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I wonder why the author chose this pen name.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Hm, you finally picked it up.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: '*GAH!*'
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: I quickly cover my mouth after the shriek I just let out and turn around
+      angrily.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Excuse me, that scared the heck out of me!
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: A man is standing behind me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: I haven't heard him approach me but he's standing so close that he can
+      look over my shoulder and watch me read.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Ah, sorry. Didn't mean to do that.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: He scratches his cheek awkwardly and points to the book I'm holding.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: It's just... I was waiting for you to read that one so I can see... your
+      reaction.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: I look him up and down.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: He has bangs that hang into his face and his shoulders are slumped.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: He also has deep eye bags; he must not get a lot of sleep.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Why would you want to see my reaction? Are you a stalker???
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Erm... no I am Ethan. You know, the author.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: Oh? Of this book? Uh, okay...
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Ethan pulls a chair closer and sits beside me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: What kind of research are you doing this late at night? You do know that
+      this is a fantasy book, right?
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: He scoffs at me and I feel myself getting a bit annoyed.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Yeah, because a lot of weird things happened to me lately.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Like what?
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: Like, that one time, I got lost in a building because its layout kept changing.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: And another time I saw something really strange. And nobody seemed to question
+      it.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Ethan's eyebrow twitches and his expression turns pensive.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: And this morning I woke up three times! And each time it was the same time!
+      I thought I was going crazy.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: He looks at me intently.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: You don't believe me, do you?
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: "Pff\u2026 Are you stupid or something?"
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: He snickers, trying to keep it at a library-appropriate volume.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I am genuinely pissed now.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: What's wrong with this guy?!
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: So you're saying you need my book for research about you going gaga?
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: If you're going to be like this I'd like you to leave.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Ethan smirks.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Nah this is too entertaining. Now tell me more about your delusions!
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: He laughs at me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Ugh, I really don't have the energy to fight with this wacko.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Reluctantly I tell him about everything. The changing labyrinth of a building,
+      the mysterious girl with the four bun hairstyle, that Horseman, losing control
+      over my actions and the encounter with Sunny aka Aleph and finally the little
+      time loop I experienced this morning.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Ethan listens to all of it and throws in some snarky remarks here and there
+      and laughs at a few of my claims.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: You are a fun one. You might need to get checked into a mental hospital
+      though.
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: What? Shut your trap! I basically just poured my heart out to you!
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Frustrated I begin to pack my bag and get ready to leave as tears start
+      to blur my vision.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Agh! I can't start crying now.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: '*sniffle, sniffle*'
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Wait, oh my god are you crying?
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: His voice was shaking from the giggles that escaped him.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I've had enough! This is ridiculous.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Don't talk to me, you perv.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: "Alright, alright. I'm sorry little sensitive one\u2014I was just playing.
+      Jeez you really are no fun."
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: He rummages through the trash bin and picks out what looks like a little
+      piece of paper and then grabs one of my pens I haven't packed yet.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Look here, as an apology I will give you my autograph because I'm just
+      so generous.
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: He signs it and shoves it into the pocket of my jacket.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: How much will this piece of trash sell for?
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Ouch, turns out you can be quite sassy too. Whatever, I'm outta here now.
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+  - text: I give him a last evil side eye and pull out the paper from the pocket
+      as he leaves.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: "Oh, it's not just a paper\u2014it's an envelope!"
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I open it and take out an even tinier piece of paper.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: There is something written on it.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: '"The answer will come to the right person. The one who will restore the
+      balance."'
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: What does this mean?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I put the letter back into the envelope and see Ethan's autograph on the
+      back.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Ugh.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I put it in my bag angrily, hoping to soon forget about that bully of a
+      dude.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I hope I won't run into him ever again.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Then I make my way home and I realize how late it has gotten.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: be09c4f56331d424cb70585861185a02, type: 3}
+  nextScene: {fileID: 11400000, guid: c1c9773d35198474c99e75912822181a, type: 2}

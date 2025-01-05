@@ -21,12 +21,12 @@ public class SpriteSwitcher : MonoBehaviour
         if (!isSwitched)
         {
             image2.sprite = sprite;
-            animator.SetTrigger("fade");
+            animator.SetTrigger("SwitchFirst");
         }
         else
         {
             image1.sprite = sprite;
-            animator.SetTrigger("fade_back");
+            animator.SetTrigger("SwitchSecond");
         }
         isSwitched = !isSwitched;
     }

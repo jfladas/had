@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 3_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Another day, another headache.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I planned to sleep in on my first day off, but all these experiences I've
+      had just in the past few days obviously didn't help my horrendous sleep schedule.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: My head might actually implode if I don't get some fresh air soon.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Also, there's currently nothing in my fridge besides some yogurt and a
+      tube of mayonnaise, so there's really no way of avoiding leaving the house
+      today.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I quickly get ready, grab my headphones, and head straight to the subway
+      station.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
+  nextScene: {fileID: 11400000, guid: 4423041711152a24da2f52ef2d88d7cf, type: 2}

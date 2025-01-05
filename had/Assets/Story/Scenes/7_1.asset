@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 7_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The letter I received is weighing on my mind.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: But what can I do? I don't really understand what it is I have to do.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: The only thing I know is that there is some kind of evil force that disrupts
+      a type of balance and I should somehow fix that problem.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: My thoughts get interrupted by a loud noise.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: '*GGGRRARMMBBLLERR*'
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I cover my ears and begin to sway.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The ground is shaking viciously.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Is this an earthquake?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: It doesn't seem like it's stopping anytime soon.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I seek shelter beneath the living room table and grab the remote control
+      in the process.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I turn on the TV and put on the news channel.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The footage is very laggy and there are some interruptions as well.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The footage is very laggy and there are some interruptions as well.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "There has bee\u2014 \u2026 \u2014quake and a big rift in the ground seems
+      to have form\u2014 \u2026"
+    character: {fileID: 11400000, guid: 1f224e57b72e81f43a07a21c884230fe, type: 2}
+    actions: []
+  - text: "\u2014onsequence. We urge everyone to immed\u2014 \u2026 \u2014ly search
+      shelter i\u2014 \u2026 \u2014arest bunker."
+    character: {fileID: 11400000, guid: 1f224e57b72e81f43a07a21c884230fe, type: 2}
+    actions: []
+  - text: "\u2014epeat: To all\u2014 \u2026 \u2014o the nearest bunker immediately!"
+    character: {fileID: 11400000, guid: 1f224e57b72e81f43a07a21c884230fe, type: 2}
+    actions: []
+  - text: I check my phone and see an emergency message telling all the people to
+      go to the nearest bunker.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The quaking still hasn't stopped. Is it really safe to go out of the house
+      right now?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I force myself to get up and run as fast as I can, even though I'm scared
+      as hell.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
+  nextScene: {fileID: 11400000, guid: b97d056c9fbb52e4ba72b2e1cb0ee99a, type: 2}

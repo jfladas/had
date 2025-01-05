@@ -16,25 +16,19 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
         textMesh.color = defaultColor;
     }
 
-    public float GetHeight()
-    {
-        return textMesh.rectTransform.sizeDelta.y * textMesh.rectTransform.localScale.y;
-    }
-
-    public void Setup(ChooseScene.ChooseLabel label, ChooseController controller, float y)
+    public void Setup(ChooseScene.ChooseLabel label, ChooseController controller)
     {
         scene = label.nextScene;
         textMesh.text = label.text;
         this.controller = controller;
-
-        Vector3 position = textMesh.rectTransform.localPosition;
-        position.y = y;
-        textMesh.rectTransform.localPosition = position;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        controller.PerformChoose(scene);
+        if (controller.gameController.currentScene is ChooseScene)
+        {
+            controller.PerformChoose(scene);
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)

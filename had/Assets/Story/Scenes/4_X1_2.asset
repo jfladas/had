@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 4_X1_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: It's as if my body has a mind of its own.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I start not only swaying from side to side but also twirling around with
+      light footsteps.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The musician takes notice of me and signals me to come closer.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: As if pulled by invisible puppet strings, I dance into the spotlight next
+      to him and continue to dance.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The musician seems to approve and takes my hand to twirl me around some
+      more.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: What has gotten into me?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: My mind is confused but my body somehow feels at ease by his side, even
+      though many people are watching.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: As the song comes to an end, I do one last pirouette and land right in
+      his arms.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Oh my god, we are practically hugging! What is happening???
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: The musician smiles at me and I realize in what kind of position we are
+      right now.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I feel my cheeks getting hot.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I push myself off him immediately.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
+  nextScene: {fileID: 11400000, guid: 15bbfcb007b242a47801e15eeedd4d60, type: 2}

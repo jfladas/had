@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 0_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The dark fog was inching closer with every passing moment as she ran past
+      the abandoned apartment buildings.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: She felt herself growing weaker, the numbing pain pulsing inside her head
+      becoming almost unbearable.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "But she had to keep going. She had to stop them before it was too late.
+      She wouldn't let them consume this dimension. Not this one\u2026"
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "Suddenly, something pierced her chest, and she collapsed to the ground.
+      She couldn\u2019t move anymore."
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
+      spriteIndex: 0
+      type: 2
+      position: {x: 100, y: 0}
+      speed: 2
+  - text: They are getting closer, I can feel it. There are too many of them.
+    character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
+    actions: []
+  - text: She must have missed a dimensional overlap when they hit her.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "She thought she might be able to shift into another dimension if it was
+      still within reach. She didn\u2019t know if she had enough strength left, but
+      it might have been her only chance\u2026"
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "It all depended on this moment. She needed to do this right, or else\u2026
+      it would be the end. The end of everything. This was it."
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+  background: {fileID: 21300000, guid: 63f009b642580224fae9109fe100ca9f, type: 3}
+  nextScene: {fileID: 11400000, guid: b29f9eb0d82df19479b3f5d03730b42e, type: 2}

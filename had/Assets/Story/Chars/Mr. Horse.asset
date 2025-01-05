@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Mr. Horse
   m_EditorClassIdentifier: 
   characterName: Mr. Horse
+  sprites:
+  - {fileID: 21300000, guid: 68195352035ed3a4191a0e9090c5d807, type: 3}
+  prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 3_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: An empty seat catches my eye and I head towards it without paying much
+      attention to my surroundings.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Wait, what was that?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: I just saw a very... unconventional figure in the corner of my eye.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "\"Next Stop \u2014 West End\""
+    character: {fileID: 11400000, guid: e23cf3e0f19e01c40a20bab9f15b6526, type: 2}
+    actions: []
+  - text: I slowly turn my head back in that direction.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Just then, I see an elderly lady walking towards me and snatching my seat
+      away from right before my nose.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: "Well, I guess I can't be mad about that... What now? Should I try to get
+      another look at that\u2026 thing I saw before?"
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 6ea78f5f10541284d850a75953761717, type: 3}
+  nextScene: {fileID: 11400000, guid: d5c9173bcab5baf4baa3182431497054, type: 2}

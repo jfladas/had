@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 1_X1_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I look around to find the break room. There must be a coffee machine somewhere.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I find a door with the word 'break' on it and open it after knocking.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: '*Bam*'
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I seem to have hit something while opening the door.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Ouch!
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: Huh, what was that?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I look down and see a figure on the ground, holding their nose and whimpering
+      in pain.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 6
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: Oh my! I'm terribly sorry. Are you okay?
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: The person on the ground glances up at me and I gaze into the most beautiful
+      pair of eyes I have seen in my life.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: Upon further inspection, I realize how cute this girl is. She has a very
+      unique appearance with her hairdo and cute dress.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Oh, I'm okay, this is just a little nosebleed, nothing serious. I am used
+      to these kinds of situations.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: Let me help you, I'll get some tissues.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: I help her up and go to the sink to grab some tissues.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Once we get her nosebleed under control, she smiles at me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: Do you work here? I have never seen you before.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: Oh yes, actually, it's my first day here. I should introduce myself. My
+      name is _ and I will work in the administration office.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Nice to meet you, I'm Ash Clover. But are you on break already if it's
+      this early and also your first day?
+    character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+    actions: []
+  - text: Come to think of it, I should be in the office right now! There is no time
+      for coffee anymore, at least 20 minutes must have passed while I was helping
+      Ash.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Yes, about that, I'm sorry but I should be in my office now so I must leave
+      right now!
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: I'm sorry for taking up your time. It's because of me that you're late.
+    character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 4
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: No, not at all! I mean, I just injured you and again, I'm sorry about that.
+      Helping you was the least I could do.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Don't worry about it. You should hurry now. And don't worry, things will
+      turn out fine in the end, I'm sure.
+    character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: With an encouraging smile, she waves goodbye.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 5
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: I nod and quickly make my way to the office. I did have to search a little
+      before I finally find it on the third floor.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 5
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: Out of breath, I knock on the door and enter the room.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
+  nextScene: {fileID: 11400000, guid: 6bf5ccb6acae9214a9247909e55ea9b1, type: 2}

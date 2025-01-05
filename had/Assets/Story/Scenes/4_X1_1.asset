@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 4_X1_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Moved by the song, I want to start humming along but then the words just
+      flow out of me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: '"Starlight, sunshine, laughter and you~"'
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: '"How I long for it back~"'
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: '"As I stare into the void of blue~"'
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: I don't even know this song, how am I singing along right now?!
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: The singer looks in my direction and we lock eyes.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: My mind must be playing tricks on me, why do I see literal sparks flying
+      in the air?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: The musician raises his hand beckoning me over.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Almost automatically I walk over to him.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: He takes my hand and together we continue to sing the song as bystanders
+      were cheering us on.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Normally I am not the kind of person to sing in front of a group of strangers
+      but today something must have possessed me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I snap back to my senses as the song comes to an end.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Still holding my hands, the musician smiles at me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Thank you for singing with me.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: You have a very pretty voice.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: O-Oh, thank you.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: I feel the blood rushing to my head and I cast my eyes down in embarrassment.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
+  nextScene: {fileID: 11400000, guid: 15bbfcb007b242a47801e15eeedd4d60, type: 2}

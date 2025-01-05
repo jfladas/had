@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     public GameScene currentScene;
     public BottomBarController bottomBar;
+    public NameBarController nameBar;
     public SpriteSwitcher spriteSwitcher;
     public ChooseController chooseController;
 
@@ -61,6 +62,7 @@ public class GameController : MonoBehaviour
         state = State.ANIMATE;
         currentScene = scene;
         bottomBar.Hide();
+        nameBar.Hide();
         yield return new WaitForSeconds(1f);
         if (scene is StoryScene)
         {
@@ -69,6 +71,7 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(1f);
             bottomBar.ClearText();
             bottomBar.Show();
+            nameBar.Show();
             yield return new WaitForSeconds(1f);
             bottomBar.PlayScene(storyScene);
             state = State.IDLE;

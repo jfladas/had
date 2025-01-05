@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: 3_X1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Find another seat and mind your own business.
+    nextScene: {fileID: 11400000, guid: 484ea1156f8fb5d41978c16f376a2f47, type: 2}
+  - text: Just stand and try to get a closer look.
+    nextScene: {fileID: 11400000, guid: 13598e1397cc4ea44bb98540a0f92e3b, type: 2}

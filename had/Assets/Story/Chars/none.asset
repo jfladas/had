@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: none
   m_EditorClassIdentifier: 
   characterName: 
+  sprites: []
+  prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

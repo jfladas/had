@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: 1_X1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Yeah, might as well bring some coffee for my coworkers too.
+    nextScene: {fileID: 11400000, guid: f6dae445ef42aba43accdd0436a8b2c2, type: 2}
+  - text: No, there's no time. I should hurry to the office. I can't be late on my
+      first day!
+    nextScene: {fileID: 11400000, guid: be0695e38954c5245b8c92057c18c0f4, type: 2}

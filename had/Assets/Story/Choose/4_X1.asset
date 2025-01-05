@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: 4_X1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Try singing along as well.
+    nextScene: {fileID: 11400000, guid: 47f6a48dac8ff7e479355d617820859a, type: 2}
+  - text: Start dancing to his singing.
+    nextScene: {fileID: 11400000, guid: 41e191d7536cebc40844049b5a6a2255, type: 2}
+  - text: I'm not very talented in singing or dancing so I will enjoy the music staying
+      put just like this.
+    nextScene: {fileID: 11400000, guid: 08a3bac18bca7634394094616d15ec78, type: 2}

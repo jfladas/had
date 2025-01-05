@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 1_X2_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: What the hell. This is scary. Why does nothing in this building make sense?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I decide to ignore the mystical crying door and go back to trying to find
+      my office.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: '*pang*'
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: A sharp pain surges through my head.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Suddenly I see an image of a girl in my head.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 6
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: She looks very unique. She has two-colored hair, one half ginger and the
+      other green.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Her eyes are kinda weird too. The pupil is in the shape of a four-leaf
+      clover.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I haven't seen anything like it before.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: And she is crying.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I wonder what happened.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: "Ash\u2026"
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Huh?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
+      spriteIndex: 6
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: What did I just say?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Well, that was weird. But I really gotta find my office now. I'm already
+      late enough.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: My vision returns to normal slowly and I continue my search.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Finally, I get to the third floor and find a door that says 'administration'
+      on it.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: It was really difficult to find, either because my orientation disappeared
+      in this building, or the building is really changing its layout and some kind
+      of magic is at work here.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Happily, I open the door after knocking three times.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
+  nextScene: {fileID: 11400000, guid: 6bf5ccb6acae9214a9247909e55ea9b1, type: 2}

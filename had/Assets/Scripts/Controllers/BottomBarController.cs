@@ -6,7 +6,6 @@ using TMPro;
 public class BottomBarController : MonoBehaviour
 {
     public TextMeshProUGUI barText;
-    public TextMeshProUGUI personNameText;
 
     private int sentenceIndex = -1;
     private StoryScene currentScene;
@@ -17,6 +16,7 @@ public class BottomBarController : MonoBehaviour
 
     public Dictionary<Character, SpriteController> sprites;
     public GameObject spritesPrefab;
+    public NameBarController nameBar;
 
     private enum State
     {
@@ -63,7 +63,7 @@ public class BottomBarController : MonoBehaviour
             StopCoroutine(typingCoroutine);
         }
         typingCoroutine = StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
-        personNameText.text = currentScene.sentences[sentenceIndex].character.characterName;
+        nameBar.SetName(currentScene.sentences[sentenceIndex].character.characterName);
         ActCharacter();
     }
 

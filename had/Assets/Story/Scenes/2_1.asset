@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: As soon as I step inside, multiple sets of eyes stare at me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Oh no. I think I'm in trouble.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Good morning! Sorry for being late, I look forward to working with you.
+      I will be in your care.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Damn, late on the first day? Miss Moon won't be happy, I can tell you that.
+    character: {fileID: 11400000, guid: d0304e74809960a469d18bd04c0860b7, type: 2}
+    actions: []
+  - text: ...yes. I do not want to be in your situation... good luck though.
+    character: {fileID: 11400000, guid: dab00d1a72d416044af684d0d5e53e9f, type: 2}
+    actions: []
+  - text: They turn away and continue their work.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Haha, don't worry. Everyone gets to feel Miss Moon's anger someday; for
+      you, it just happens to be on your first day.
+    character: {fileID: 11400000, guid: fa8702de092448d478f0567638604cf7, type: 2}
+    actions: []
+  - text: I flash them a wry smile and at the same time want to bury myself in a
+      hole.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: You can come and get settled at this desk.
+    character: {fileID: 11400000, guid: fa8702de092448d478f0567638604cf7, type: 2}
+    actions: []
+  - text: My coworker points at the desk next to them.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Thank you so mu-
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: So you're late.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: I jump at the stern voice appearing from behind me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I turn around and see a stunningly beautiful woman in office attire.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: She does look very stern though.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Yes, I'm terribly sorr-
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: You're the new employee, right? Leave your stuff here and follow me.
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+  - text: Oh my god. I'm so dead.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: That's probably the Miss Moon they were talking about earlier.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I scurry to my desk and put my stuff down as Coworker 1 turns to me and
+      whispers.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Yup, there you go. Told ya.
+    character: {fileID: 11400000, guid: d0304e74809960a469d18bd04c0860b7, type: 2}
+    actions: []
+  - text: With a pained expression, I walk back out of the office and follow Miss
+      Moon, who is walking swiftly.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: What do I do? Am I bound to get fired again?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+  background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
+  nextScene: {fileID: 11400000, guid: 6bb4c6084ce010d44bbb42ff18ebb84c, type: 2}

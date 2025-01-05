@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
   m_Name: Vorgaengerin
   m_EditorClassIdentifier: 
-  characterName: ...
+  characterName: ???
   sprites:
-  - {fileID: 21300000, guid: 07a9717cfb4709e419fa2e31f4c9435f, type: 3}
-  - {fileID: 21300000, guid: c98dd7cebb75b444caa99a4489e1ee32, type: 3}
+  - {fileID: 21300000, guid: b5715cbe0580bb04286da7a5bada14f5, type: 3}
+  - {fileID: 21300000, guid: 82ef274d2ebb09d44bcec79e6e84aabe, type: 3}
   prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

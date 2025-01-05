@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 4_X1_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I stay for quite a while and listen to him finish a few more songs. He
+      has quite a nice voice and his songs are also quite heart-stirring.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I might have to look him up later and put some songs on my playlist.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: He finishes another song and the crowd claps their hands.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: As the applause dies down, he reaches for his mic again.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Thank you guys for listening to my songs tonight.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: He looks at me and smiles apologetically.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Unfortunately I am not able to answer any questions or give out autographs
+      because I have an appointment later.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: Huh? Why is he looking at me?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I look up and see a hand in the air.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Wait, that's MY hand! Why is my hand raised??
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Panicked, I swat my hand down as quickly as possible.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: The musician comes over to me and takes my hand.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I can offer you a quick handshake though.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: He laughs and squeezes my hand.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: He has warm hands. Wait, what am I thinking?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: Next time, do you want to perform with me? You seem like an interesting
+      person.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: My head nods automatically but then I quickly snap back to my senses.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: I mean no thank you. I'm flattered but I'm not exactly made for the spotlight.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
+  nextScene: {fileID: 11400000, guid: 15bbfcb007b242a47801e15eeedd4d60, type: 2}

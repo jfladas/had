@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 4_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Why the heck did I just do that?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I am about to turn around and flee the scene when he stops me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Can I see you after my performance? It'll be just a minute.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: "Ah, sure\u2026"
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+  - text: Okay, wait by the fountain. I just have to wrap this up.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
+    actions: []
+  - text: For some reason, I follow his orders.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+  - text: Should I be trusting this person?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: "Hmm but I can't deny that those moments during the song felt\u2026 magical."
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I make my way through the crowd to find the fountain when I notice people
+      whispering among each other.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  - text: Did you see that? Sunny picked that girl to perform with him. Who is she?
+    character: {fileID: 11400000, guid: 229e5df98f0545f45956710a651ade50, type: 2}
+    actions: []
+  - text: Yeah, he even held her hands. I don't think he's ever done that.
+    character: {fileID: 11400000, guid: 33a7083436fee1c4295166278d0e0da6, type: 2}
+    actions: []
+  - text: Ugh, just what I needed. People involving me in some kind of scandal with
+      their beloved idol.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+  - text: I finally make it out of the crowd and arrive at the fountain in the center
+      of the park.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
+  nextScene: {fileID: 11400000, guid: 9551a62ced46e5e49ba8cf8c1f919a03, type: 2}
