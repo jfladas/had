@@ -21,7 +21,7 @@ MonoBehaviour:
       type: 1
       position: {x: 0, y: 0}
       speed: 0
-  - text: Hearts Across Dimensions Demo End
+  - text: Hearts across Dimensions - Demo end
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}

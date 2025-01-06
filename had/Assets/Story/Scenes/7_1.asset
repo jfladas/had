@@ -51,9 +51,6 @@ MonoBehaviour:
   - text: The footage is very laggy and there are some interruptions as well.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-  - text: The footage is very laggy and there are some interruptions as well.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
   - text: "There has bee\u2014 \u2026 \u2014quake and a big rift in the ground seems
       to have form\u2014 \u2026"
     character: {fileID: 11400000, guid: 1f224e57b72e81f43a07a21c884230fe, type: 2}

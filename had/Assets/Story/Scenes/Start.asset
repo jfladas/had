@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hearts Across Dimensions
+  - text: Hearts across Dimensions
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
   background: {fileID: 21300000, guid: 63f009b642580224fae9109fe100ca9f, type: 3}
