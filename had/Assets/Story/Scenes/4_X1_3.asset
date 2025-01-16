@@ -17,58 +17,94 @@ MonoBehaviour:
       has quite a nice voice and his songs are also quite heart-stirring.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I might have to look him up later and put some songs on my playlist.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: He finishes another song and the crowd claps their hands.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: As the applause dies down, he reaches for his mic again.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
   - text: Thank you guys for listening to my songs tonight.
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: He looks at me and smiles apologetically.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Unfortunately I am not able to answer any questions or give out autographs
       because I have an appointment later.
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Huh? Why is he looking at me?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I look up and see a hand in the air.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Wait, that's MY hand! Why is my hand raised??
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Panicked, I swat my hand down as quickly as possible.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: The musician comes over to me and takes my hand.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I can offer you a quick handshake though.
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: He laughs and squeezes my hand.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: He has warm hands. Wait, what am I thinking?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Next time, do you want to perform with me? You seem like an interesting
       person.
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My head nods automatically but then I quickly snap back to my senses.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I mean no thank you. I'm flattered but I'm not exactly made for the spotlight.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
   nextScene: {fileID: 11400000, guid: 15bbfcb007b242a47801e15eeedd4d60, type: 2}

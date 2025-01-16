@@ -16,23 +16,35 @@ MonoBehaviour:
   - text: I arrive at the company.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 8300000, guid: 4ddd349202a6f2d4ab954f83223dbcc0, type: 3}
+    sound: {fileID: 0}
   - text: Velvet Vows is known to be the best company to plan weddings as they always
       make the festivities lavish enough while staying within the clients' budget.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I will be working in the administration faction.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Man, I'm so nervous and I don't have any time to prepare myself mentally.
       It will be 8 am in 5 minutes and then I will meet all my new coworkers.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I scream internally at the thought of that stressful situation.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Should I calm my nerves and get another coffee or head straight to the
       office?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
   nextScene: {fileID: 11400000, guid: 5cef7897fac8d8f4f81833160df7e844, type: 2}

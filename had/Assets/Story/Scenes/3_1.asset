@@ -16,21 +16,31 @@ MonoBehaviour:
   - text: Another day, another headache.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
   - text: I planned to sleep in on my first day off, but all these experiences I've
       had just in the past few days obviously didn't help my horrendous sleep schedule.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My head might actually implode if I don't get some fresh air soon.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Also, there's currently nothing in my fridge besides some yogurt and a
       tube of mayonnaise, so there's really no way of avoiding leaving the house
       today.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I quickly get ready, grab my headphones, and head straight to the subway
       station.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
   nextScene: {fileID: 11400000, guid: 4423041711152a24da2f52ef2d88d7cf, type: 2}

@@ -15,8 +15,7 @@ MonoBehaviour:
   characterName: Miss Moon
   sprites:
   - {fileID: 21300000, guid: 0c38fd13779c2a44a9a90e1d54d7c740, type: 3}
-  - {fileID: 21300000, guid: 0c38fd13779c2a44a9a90e1d54d7c740, type: 3}
-  - {fileID: 21300000, guid: 0c38fd13779c2a44a9a90e1d54d7c740, type: 3}
-  - {fileID: 21300000, guid: 0c38fd13779c2a44a9a90e1d54d7c740, type: 3}
-  - {fileID: 21300000, guid: 0c38fd13779c2a44a9a90e1d54d7c740, type: 3}
+  - {fileID: 21300000, guid: eb7e5cfa84c06594e8a6aae7f2523bb7, type: 3}
+  - {fileID: 21300000, guid: 27bf922b56f3be640a442364f7a63491, type: 3}
+  - {fileID: 21300000, guid: 44e393de1f280304cbaf42dc1e97eaa9, type: 3}
   prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

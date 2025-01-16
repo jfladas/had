@@ -17,6 +17,8 @@ MonoBehaviour:
       attention to my surroundings.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 8300000, guid: fdbc08cc73730754fad19e1295bafb63, type: 3}
+    sound: {fileID: 0}
   - text: Wait, what was that?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions:
@@ -30,22 +32,34 @@ MonoBehaviour:
       type: 3
       position: {x: 0, y: 0}
       speed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I just saw a very... unconventional figure in the corner of my eye.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: "\"Next Stop \u2014 West End\""
     character: {fileID: 11400000, guid: e23cf3e0f19e01c40a20bab9f15b6526, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I slowly turn my head back in that direction.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Just then, I see an elderly lady walking towards me and snatching my seat
       away from right before my nose.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: "Well, I guess I can't be mad about that... What now? Should I try to get
       another look at that\u2026 thing I saw before?"
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 6ea78f5f10541284d850a75953761717, type: 3}
   nextScene: {fileID: 11400000, guid: d5c9173bcab5baf4baa3182431497054, type: 2}

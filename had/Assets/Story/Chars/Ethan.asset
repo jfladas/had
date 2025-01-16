@@ -15,4 +15,8 @@ MonoBehaviour:
   characterName: Ethan
   sprites:
   - {fileID: 21300000, guid: d896d052ed141854080589553fb5a7ce, type: 3}
+  - {fileID: 21300000, guid: b13d38cceb59c0346a83127a24d8ef7a, type: 3}
+  - {fileID: 21300000, guid: 2041a62015cb225478c93ec9375d54f9, type: 3}
+  - {fileID: 21300000, guid: b25141a54f072184fa61ef334223f37c, type: 3}
+  - {fileID: 21300000, guid: 2cebd9d02f8478d4a92345199ab80eba, type: 3}
   prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

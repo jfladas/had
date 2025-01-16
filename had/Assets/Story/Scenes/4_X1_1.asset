@@ -17,56 +17,90 @@ MonoBehaviour:
       flow out of me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: '"Starlight, sunshine, laughter and you~"'
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: '"How I long for it back~"'
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: '"As I stare into the void of blue~"'
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I don't even know this song, how am I singing along right now?!
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: The singer looks in my direction and we lock eyes.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My mind must be playing tricks on me, why do I see literal sparks flying
       in the air?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: The musician raises his hand beckoning me over.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Almost automatically I walk over to him.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: He takes my hand and together we continue to sing the song as bystanders
       were cheering us on.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Normally I am not the kind of person to sing in front of a group of strangers
       but today something must have possessed me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I snap back to my senses as the song comes to an end.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
   - text: Still holding my hands, the musician smiles at me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Thank you for singing with me.
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: You have a very pretty voice.
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: O-Oh, thank you.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I feel the blood rushing to my head and I cast my eyes down in embarrassment.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
   nextScene: {fileID: 11400000, guid: 15bbfcb007b242a47801e15eeedd4d60, type: 2}

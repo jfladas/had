@@ -17,35 +17,53 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
-      spriteIndex: 0
+      spriteIndex: 1
       type: 2
       position: {x: 0, y: 0}
       speed: 2
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: The pain that shot through her whole body was hard to describe.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: No, I failed to protect this world.
     character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: She pulled out a little piece of paper from her sleeve and using her finger
       smeared with her own blood she wrote down her message.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I have to warn my successor.
     character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I'm sorry I couldn't be a good mentor for you.
     character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: A single tear ran down her face.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: She wanted to start sobbing but the pain wouldn't allow her to.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: As she drew her last breath, she sent the letter into the universe.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: May this final message find you at the right place and the right time.
     character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
     actions:
@@ -54,5 +72,7 @@ MonoBehaviour:
       type: 3
       position: {x: 0, y: 0}
       speed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 63f009b642580224fae9109fe100ca9f, type: 3}
   nextScene: {fileID: 11400000, guid: 7f590ba649d609e4ab06d35333342979, type: 2}

@@ -14,5 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Aleph
   sprites:
-  - {fileID: 21300000, guid: 7e2009909421a2746a439ec32dd955d0, type: 3}
+  - {fileID: 21300000, guid: ba622affe6927524f9810d61065479f1, type: 3}
+  - {fileID: 21300000, guid: 42098c64be2a3b84bb4ea294ba50969a, type: 3}
+  - {fileID: 21300000, guid: 98d526ffb68cb9841bce7e47ee1c63b5, type: 3}
+  - {fileID: 21300000, guid: ff5411c067a897148bb4efe9220aff37, type: 3}
+  - {fileID: 21300000, guid: 9ee40c8b92eaa4349b41892cf630339d, type: 3}
+  - {fileID: 21300000, guid: 90b04f2788ba8284c994df5cf028a8d1, type: 3}
+  - {fileID: 21300000, guid: ba28fd934e18beb4990b01da99b8e196, type: 3}
+  - {fileID: 21300000, guid: a155869153b9952459219243a4adefb6, type: 3}
+  - {fileID: 21300000, guid: 81670c9a8fc079c44bcd1e0b0ed960ff, type: 3}
+  - {fileID: 21300000, guid: 79112dfb077e4df49b1e94c9400a2e88, type: 3}
   prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}
