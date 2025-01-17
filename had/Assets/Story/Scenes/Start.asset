@@ -16,5 +16,7 @@ MonoBehaviour:
   - text: Hearts across Dimensions
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 63f009b642580224fae9109fe100ca9f, type: 3}
   nextScene: {fileID: 11400000, guid: 316af5f9bcbd4394a923d8f5ca38afe2, type: 2}

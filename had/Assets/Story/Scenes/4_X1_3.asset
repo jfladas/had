@@ -26,7 +26,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: He finishes another song and the crowd claps their hands.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 4
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: As the applause dies down, he reaches for his mic again.
@@ -41,7 +47,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: He looks at me and smiles apologetically.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Unfortunately I am not able to answer any questions or give out autographs
@@ -52,7 +64,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Huh? Why is he looking at me?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I look up and see a hand in the air.
@@ -82,7 +100,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: He laughs and squeezes my hand.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 2
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He has warm hands. Wait, what am I thinking?

@@ -18,19 +18,25 @@ public class ChooseController : MonoBehaviour
 
     public void SetupChoose(ChooseScene scene)
     {
-        DestroyLabels();
-        animator.SetTrigger("Show");
         for (int index = 0; index < scene.labels.Count; index++)
         {
             ChooseLabelController newLabel = Instantiate(label.gameObject, transform).GetComponent<ChooseLabelController>();
             newLabel.Setup(scene.labels[index], this);
         }
+        animator.SetTrigger("Show");
     }
 
     public void PerformChoose(StoryScene scene)
     {
         gameController.PlayScene(scene);
         animator.SetTrigger("Hide");
+        StartCoroutine(DestroyLabelsAfterTimeout());
+    }
+
+    private IEnumerator DestroyLabelsAfterTimeout()
+    {
+        yield return new WaitForSeconds(1.0f);
+        DestroyLabels();
     }
 
     private void DestroyLabels()

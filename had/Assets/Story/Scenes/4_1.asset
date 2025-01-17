@@ -40,10 +40,11 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
+      spriteIndex: 5
       type: 1
       position: {x: 0, y: 0}
       speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Wow, he can play really well and the melody is really beautiful. I wonder
@@ -60,7 +61,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Oh, there is a mic stand, I just noticed! Is he gonna sing?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 9
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Just when I finished that thought, he begins to sing with the most soothing
@@ -71,7 +78,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '"All the lights have disappeared, so blinding yet my soul is hollow~"'
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 8
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Oh how I wish I could hear, the twinkling echo of your sorrows~"'

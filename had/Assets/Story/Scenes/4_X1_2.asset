@@ -26,13 +26,25 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: The musician takes notice of me and signals me to come closer.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 5
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: As if pulled by invisible puppet strings, I dance into the spotlight next
       to him and continue to dance.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 2
+      position: {x: 0, y: -100}
+      speed: -1
+      targetScale: 1.5
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: The musician seems to approve and takes my hand to twirl me around some
@@ -55,7 +67,13 @@ MonoBehaviour:
   - text: As the song comes to an end, I do one last pirouette and land right in
       his arms.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 4
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh my god, we are practically hugging! What is happening???
@@ -66,7 +84,13 @@ MonoBehaviour:
   - text: The musician smiles at me and I realize in what kind of position we are
       right now.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 7
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I feel my cheeks getting hot.
@@ -76,7 +100,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: I push myself off him immediately.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 2
+      position: {x: 0, y: 0}
+      speed: -1
+      targetScale: 1
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}

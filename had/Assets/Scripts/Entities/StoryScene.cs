@@ -26,6 +26,7 @@ public class StoryScene : GameScene
             public Type type;
             public Vector2 position;
             public float speed;
+            public float targetScale;
 
             [System.Serializable]
             public enum Type

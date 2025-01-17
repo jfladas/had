@@ -129,13 +129,13 @@ public class BottomBarController : MonoBehaviour
                         controller = sprites[action.character];
                     }
                     controller.Setup(action.character.sprites[action.spriteIndex]);
-                    controller.Show(action.position);
+                    controller.Show(action.position, action.targetScale);
                     break;
                 case StoryScene.Sentence.Action.Type.MOVE:
                     if (sprites.ContainsKey(action.character))
                     {
                         controller = sprites[action.character];
-                        controller.Move(action.position, action.speed);
+                        controller.Move(action.position, action.speed, action.targetScale);
                     }
                     break;
                 case StoryScene.Sentence.Action.Type.HIDE:

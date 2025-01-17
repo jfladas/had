@@ -15,12 +15,7 @@ MonoBehaviour:
   sentences:
   - text: RRRRRTTTCHHHHH
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
-      spriteIndex: 1
-      type: 2
-      position: {x: 0, y: 0}
-      speed: 2
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: The pain that shot through her whole body was hard to describe.
@@ -68,10 +63,11 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
-      spriteIndex: 0
+      spriteIndex: 1
       type: 3
       position: {x: 0, y: 0}
       speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 63f009b642580224fae9109fe100ca9f, type: 3}

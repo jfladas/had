@@ -16,43 +16,86 @@ MonoBehaviour:
   - text: She reaches into the drawer of her desk and hands me a stack of documents.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Thank you, Miss Moon. I will do my best.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I take the documents and try to leave, but Miss Moon stops me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Wait.
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 3
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I stop and turn around.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Yes?
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: ...
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Have we met before?
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: She seems different from before.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Her expression looks... sad? No, not entirely.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: No, I don't think so. Today is the first time we've met.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Hm. You may return to your colleagues now.
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Yes, Miss Moon. Thank you.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: With a curt nod she sends me out of her office.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I return to the administration office and tidy up my desk.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -60,15 +103,19 @@ MonoBehaviour:
       type: 3
       position: {x: 0, y: 0}
       speed: 0
-  - text: I return to the administration office and tidy up my desk.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I think about what happened today and about Miss Moon.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: What happened to the building this morning? And what is Miss Moon's personality
       really like?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
   nextScene: {fileID: 11400000, guid: f9157cc76b23a4f49a7d060db03b36b0, type: 2}

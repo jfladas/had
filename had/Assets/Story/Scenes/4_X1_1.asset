@@ -41,7 +41,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: The singer looks in my direction and we lock eyes.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 5
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: My mind must be playing tricks on me, why do I see literal sparks flying
@@ -63,7 +69,13 @@ MonoBehaviour:
   - text: He takes my hand and together we continue to sing the song as bystanders
       were cheering us on.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 9
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Normally I am not the kind of person to sing in front of a group of strangers
@@ -74,7 +86,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: I snap back to my senses as the song comes to an end.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 4
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: Still holding my hands, the musician smiles at me.
