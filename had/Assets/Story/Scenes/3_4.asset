@@ -17,15 +17,23 @@ MonoBehaviour:
       office building?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: "\"Next Stop \u2014 Grand Avenue\""
     character: {fileID: 11400000, guid: e23cf3e0f19e01c40a20bab9f15b6526, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: That's my stop!
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I take one last glance back as I step out of the train but I can't see
       anything out of the ordinary.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-  background: {fileID: 21300000, guid: 6ea78f5f10541284d850a75953761717, type: 3}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 8d7032634d1014f40ae2ea139bb27e7c, type: 3}
   nextScene: {fileID: 11400000, guid: 03ae4a6ce4de7754db72ea51f386a5b0, type: 2}

@@ -17,6 +17,7 @@ public class SpriteController : MonoBehaviour
     public void Setup(Sprite sprite)
     {
         switcher.SetImage(sprite);
+        switcher.SetOtherImage(sprite);
     }
 
     public void Show(Vector2 position, float targetScale)
@@ -29,8 +30,9 @@ public class SpriteController : MonoBehaviour
         animator.SetTrigger("Show");
     }
 
-    public void Hide()
+    public void Hide(Sprite sprite)
     {
+        switcher.SetOtherImage(sprite);
         animator.SetTrigger("Hide");
     }
 

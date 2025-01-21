@@ -13,85 +13,84 @@ MonoBehaviour:
   m_Name: 4_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: Why the heck did I just do that?
+  - text: After a while, I stand in the city park and in the middle of a small crowd
+      that has formed around a street musician with a guitar.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 5
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wow, he can play really well and the melody is really beautiful. I wonder
+      if he came up with it himself.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I am about to turn around and flee the scene when he stops me.
+  - text: The musician then takes a step forward and adjusts his posture before inhaling
+      a deep breath.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, there is a mic stand, I just noticed! Is he gonna sing?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
+      spriteIndex: 9
       type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Can I see you after my performance? It'll be just a minute.
-    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Ah, sure\u2026"
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Okay, wait by the fountain. I just have to wrap this up.
-    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: For some reason, I follow his orders.
+  - text: Just when I finished that thought, he begins to sing with the most soothing
+      voice I have ever heard.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"All the lights have disappeared, so blinding yet my soul is hollow~"'
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
-      type: 3
+      spriteIndex: 8
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Should I be trusting this person?
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+  - text: '"Oh how I wish I could hear, the twinkling echo of your sorrows~"'
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Hmm but I can't deny that those moments during the song felt\u2026 magical."
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I make my way through the crowd to find the fountain when I notice people
-      whispering among each other.
+  - text: Everyone in the crowd swayed from side to side, some even had their eyes
+      closed.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Did you see that? Sunny picked that girl to perform with him. Who is she?
-    character: {fileID: 11400000, guid: 229e5df98f0545f45956710a651ade50, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Yeah, he even held her hands. I don't think he's ever done that.
-    character: {fileID: 11400000, guid: 33a7083436fee1c4295166278d0e0da6, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Ugh, just what I needed. People involving me in some kind of scandal with
-      their beloved idol.
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I finally make it out of the crowd and arrive at the fountain in the center
-      of the park.
+  - text: I find myself to be swaying too.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
-  nextScene: {fileID: 11400000, guid: 9551a62ced46e5e49ba8cf8c1f919a03, type: 2}
+  - text: His voice is just so captivating.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I hear some people singing along too. He must be well known if they know
+      the lyrics by heart.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6e03813dd6e4f1546b5d1fe791f26c50, type: 3}
+  nextScene: {fileID: 11400000, guid: d175fc93b47cb8d4e9245bcbde963c15, type: 2}

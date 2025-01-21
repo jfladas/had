@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2_X1_2a
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: We enter her office and she points to a seat.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Have a seat.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I sit down and wait until Miss Moon speaks again.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I will be frank with you. I hope you won't be late again. But as this is
+      your first day, I will cut you some slack.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 2
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel a wave of relief wash over me.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I called you here because I have some documents that may help you get started
+      with your work, like our manual to help you understand how we write our documents
+      as well as some basic rules.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I notice her staring at me for a bit.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 3
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wait here.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I smile and nod.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Why does she keep glancing at me?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Do I have something stuck on my face?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 1baa1407f6863264b8fc68ce06de4f09, type: 3}
+  nextScene: {fileID: 11400000, guid: 6ed6d256741133646bbe8cf2d01f4598, type: 2}

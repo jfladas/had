@@ -44,13 +44,13 @@ MonoBehaviour:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
       spriteIndex: 0
       type: 3
-      position: {x: 100, y: 0}
+      position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 0
       type: 1
-      position: {x: 0, y: 0}
+      position: {x: 100, y: 0}
       speed: 0
       targetScale: 1
     music: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: As I spot the last person i know in the crowd, I roll my eyes. It's Ethan,
-      the unfriendly guy from the library. He might know what the deal is with this
+      the unfriendly guy from the library. He might know what the deal is with that
       letter, since he's the one who gave it to me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
@@ -122,5 +122,5 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 74de8cb9e14e80f45962cdb9c4ce90ba, type: 3}
+  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
   nextScene: {fileID: 11400000, guid: cba1aff2cf0149540a41ded3d0d51702, type: 2}

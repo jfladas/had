@@ -27,11 +27,13 @@ MonoBehaviour:
       type: 1
       position: {x: 0, y: 0}
       speed: 0
+      targetScale: 0
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
       spriteIndex: 0
       type: 3
       position: {x: 0, y: 0}
       speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I just saw a very... unconventional figure in the corner of my eye.
@@ -61,5 +63,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 6ea78f5f10541284d850a75953761717, type: 3}
+  background: {fileID: 21300000, guid: 8d7032634d1014f40ae2ea139bb27e7c, type: 3}
   nextScene: {fileID: 11400000, guid: d5c9173bcab5baf4baa3182431497054, type: 2}

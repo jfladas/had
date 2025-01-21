@@ -16,108 +16,176 @@ MonoBehaviour:
   - text: '*BZZZ BZZZ BZZZ*'
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I open my eyes abruptly.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Oh, my alarm went off.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Time to go to work I guess.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Mmhh... Nah, five more minutes should be fine.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I press the snooze button and look at the time.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It's 6:45 am. Five minutes and then I really should get up.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: But before I know it, my eyes close and I fall back asleep.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: '*BZZZ BZZZ BZZZ*'
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: AGH!
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Once again I jolt awake.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My alarm went off again. It must have been five minutes already.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Thank god I pressed the snooze button or I would have overslept for sure.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I look at the time and rub my eyes in disbelief.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: What? Still 6:45 am???
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: That can't be possible. It's the same time as the first time I woke up.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: In my mind I go through the possibilities.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Either time has frozen or I slept 24 hours instead of five minutes. Both
       seem impossible.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: This time I wait until a few minutes pass.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It is now 6:53 am.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Okay, let's just sleep a little bit more, I can just skip breakfast for
       today so it should be fine.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: And I didn't press the snooze button this time so no alarm will wake me
       again.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: "But I'm willing to take this risk for the sake of my sanity. I can't be
       going crazy\u2014I'm still too young for that."
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I hide under the covers and close my eyes again.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Soon after I drift into a comfy slumber.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: '*BZZZ BZZZ BZZZ*'
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: No. Please.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I decide to ignore the buzzing alarm this time.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It can't be, right?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I slowly open my eyes and turn the alarm off.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: After I look at the time I sit up in my bed.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It's 6:45 am again?!
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My mind can't comprehend what's going on right now.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: What should I do?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
-  background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
   nextScene: {fileID: 11400000, guid: ccefe7828546359478422ebae837755b, type: 2}

@@ -19,8 +19,11 @@ MonoBehaviour:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 0
       type: 1
-      position: {x: 0, y: 0}
+      position: {x: 100, y: 0}
       speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Hearts across Dimensions - Demo end
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
@@ -29,5 +32,8 @@ MonoBehaviour:
       type: 3
       position: {x: 0, y: 0}
       speed: 0
-  background: {fileID: 21300000, guid: 74de8cb9e14e80f45962cdb9c4ce90ba, type: 3}
-  nextScene: {fileID: 11400000, guid: 9d78242d8fa65c9419ff2b5b5d4a58e7, type: 2}
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
+  nextScene: {fileID: 11400000, guid: 316af5f9bcbd4394a923d8f5ca38afe2, type: 2}

@@ -17,30 +17,48 @@ MonoBehaviour:
       itself again.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: For a while I just sit at the table and stare at the clock while eating
       breakfast.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: The time seems to pass normally now though.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I decide to distract myself with some games and a bit of exercise.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: But I can't help glancing at the clock from time to time.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It still stresses me out.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: But I somehow managed to get through most of the day.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I wasn't really productive though.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I start feeling guilty about skipping work.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-  background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
   nextScene: {fileID: 11400000, guid: a9091ba1837344a4f9c851153bd48911, type: 2}

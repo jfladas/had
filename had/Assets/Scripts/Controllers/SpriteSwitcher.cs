@@ -16,6 +16,7 @@ public class SpriteSwitcher : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+
     public void SwitchImage(Sprite sprite)
     {
         if (!isSwitched)
@@ -34,6 +35,18 @@ public class SpriteSwitcher : MonoBehaviour
     public void SetImage(Sprite sprite)
     {
         if (!isSwitched)
+        {
+            image1.sprite = sprite;
+        }
+        else
+        {
+            image2.sprite = sprite;
+        }
+    }
+
+    public void SetOtherImage(Sprite sprite)
+    {
+        if (isSwitched)
         {
             image1.sprite = sprite;
         }

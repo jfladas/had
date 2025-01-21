@@ -16,21 +16,23 @@ MonoBehaviour:
   - text: The day at work passes normally and no strange occurrences happen.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: But as soon as work is over my mind goes back to what happened this morning.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Ugh, it's already time to go home?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Still, I'm glad that work was able to get my mind off it for a while at
       least.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
-  - text: On my way home a cold shiver runs down my spine.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-  - text: Why does all this scary stuff have to happen to me?
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-  background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
-  nextScene: {fileID: 11400000, guid: a9091ba1837344a4f9c851153bd48911, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 9ffb627455adace4786cef9541e6c996, type: 3}
+  nextScene: {fileID: 11400000, guid: 3d27de038569b0c41bec1b6416a3fab5, type: 2}

@@ -16,90 +16,146 @@ MonoBehaviour:
   - text: I got home pretty late from the library yesterday.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I was so tired that I just fell asleep right after lying down.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I didn't even have any capacity left to think about the scary alarm thing.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Now I sit in my bed and wonder what day it is.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It is Saturday, so I do not have work today.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: This week was unusually rough for me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My stress level has skyrocketed, and I need a weekend full of relaxation
       right now.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Should I go make coffee?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I get up and realize that I'm still wearing the clothes from yesterday.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Oops, I'm never staying out that late again.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: As I stand up, I notice something fall out of my pocket.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It's a small envelope, the one Ethan gave to me yesterday.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I pick it up and am about to open it.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: What's this?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I stop in my tracks when I see the paper emitting some kind of light.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Why is it glowing? It started as soon as I touched it.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: A few seconds later, the glowing stops and I take out the contents of the
       envelope.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I unfold the paper and, to my surprise, the letter has changed.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: The words are now written in a smeary dark red color.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Ugh, it looks like blood.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: '"Defeat the interdimensional spirits and restore the balance of the dimensions.
       I''m sorry that I can''t be there to fulfill my role as your teacher. But you
       are the chosen one, and I trust that you will find a way."'
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: My head tries to process what I just read.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I have to what?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: What even are interdimensional spirits?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: And is the person who wrote this letter already dead? Is it their blood?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Then I remember my nightmares.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: They seem to be linked to the letter in some way.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: But I'm not sure yet, how exactly.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
-  background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
   nextScene: {fileID: 11400000, guid: df45fc01e84bfc74987037009b5c5ed5, type: 2}

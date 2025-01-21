@@ -16,34 +16,54 @@ MonoBehaviour:
   - text: I guess I could just stand for this quick ride.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I must've just imagined that before, right?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Still, I make my way towards the front of the train to investigate.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I grab onto a pole and try to keep an eye out for anything out of the ordinary.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: "\"Next Stop \u2014 Central Park\""
     character: {fileID: 11400000, guid: e23cf3e0f19e01c40a20bab9f15b6526, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: There! What are those things I see poking out from over the crowd? They
       look like ears. Animal ears.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I shift and try to get a better look at it.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Why is nobody else noticing this? Everyone just seems unfazed.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I catch another glimpse of the strange creature.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Oh my god, so my mind wasn't playing tricks on me before.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It really is a horse!
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions:
@@ -52,6 +72,9 @@ MonoBehaviour:
       type: 1
       position: {x: 0, y: 0}
       speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Is nobody else seeing this?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions:
@@ -60,5 +83,8 @@ MonoBehaviour:
       type: 3
       position: {x: 0, y: 0}
       speed: 0
-  background: {fileID: 21300000, guid: 6ea78f5f10541284d850a75953761717, type: 3}
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 8d7032634d1014f40ae2ea139bb27e7c, type: 3}
   nextScene: {fileID: 11400000, guid: 02885ccb656b24041a83c54f6f88b879, type: 2}

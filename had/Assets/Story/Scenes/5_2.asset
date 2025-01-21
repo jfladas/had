@@ -17,12 +17,18 @@ MonoBehaviour:
       soon.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Yeah, let's just go to the library.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I should do some research about these strange occurrences; lately a lot
       of them happened in my day-to-day life.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
-  background: {fileID: 21300000, guid: d8d074a14447b7d4f8bac993a6b24397, type: 3}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
   nextScene: {fileID: 11400000, guid: 2391c77401c2cfb4d97bb5515c7828ce, type: 2}

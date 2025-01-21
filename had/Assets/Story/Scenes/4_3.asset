@@ -13,73 +13,13 @@ MonoBehaviour:
   m_Name: 4_3
   m_EditorClassIdentifier: 
   sentences:
-  - text: After a few minutes of waiting, the musician, Sunny I suppose, appears
-      before me.
+  - text: Why the heck did I just do that?
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I am about to turn around and flee the scene when he stops me.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 1
-      type: 1
-      position: {x: 0, y: -100}
-      speed: 0
-      targetScale: 1.5
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Hi, thanks for waiting. Sorry for this sudden request.
-    character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: No, I apologize for behaving like that earlier. I'm sure people will talk
-      about it and it will tarnish your reputation.
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 3
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: No worries, I also did something out of the ordinary today. I normally
-      avoid too much interaction with any fans but something about you caught my
-      attention.
-    character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Will you hear me out for a bit? I promise I'm not a weird person.
-    character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: His lips curled into an awkward smile.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I understand. In fact, I also noticed something strange, just today in
-      general.
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: So let me start by introducing myself properly. I am known as Sunny by
-      my fans but I want you to know my real name.
-    character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: My name is Aleph. And I have an ability that normal people here do not
-      have. I can see the color of people's souls.
-    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
       spriteIndex: 0
@@ -89,46 +29,22 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: And your soul has the same color as my people.
-    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+  - text: Can I see you after my performance? It'll be just a minute.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Your people?
+  - text: "Ah, sure\u2026"
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Yes, you see, I'm not really from this world.
-    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+  - text: Okay, wait by the fountain. I just have to wrap this up.
+    character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What kind of nonsense is he spouting now? I shouldn't have trusted him
-      after all.
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Okay, sure\u2026 I think I need to go home now it's pretty late\u2026
-      ahaha\u2026"
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Wait! I know it sounds very suspicious and illogical but I'm telling the
-      truth. I understand you wanting to leave, but please reach out to me when you
-      are ready and willing to have a conversation with me.
-    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I take it and put it into my bag.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: After that we say our goodbyes and part ways.
+  - text: For some reason, I follow his orders.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -139,11 +55,43 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Today was another weird day. Why do strange things always have to happen
-      to me?
+  - text: Should I be trusting this person?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 5aec2bf078e37fa47a03ff074d64d6ef, type: 3}
-  nextScene: {fileID: 11400000, guid: 1edd97f181232fb448aa9f104a655d05, type: 2}
+  - text: "Hmm but I can't deny that those moments during the song felt\u2026 magical."
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I make my way through the crowd to find the fountain when I notice people
+      whispering among each other.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Did you see that? Sunny picked that girl to perform with him. Who is she?
+    character: {fileID: 11400000, guid: 229e5df98f0545f45956710a651ade50, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yeah, he even held her hands. I don't think he's ever done that.
+    character: {fileID: 11400000, guid: 33a7083436fee1c4295166278d0e0da6, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Ugh, just what I needed. People involving me in some kind of scandal with
+      their beloved idol.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I finally make it out of the crowd and arrive at the fountain in the center
+      of the park.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6e03813dd6e4f1546b5d1fe791f26c50, type: 3}
+  nextScene: {fileID: 11400000, guid: 9551a62ced46e5e49ba8cf8c1f919a03, type: 2}

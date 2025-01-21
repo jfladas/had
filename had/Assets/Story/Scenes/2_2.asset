@@ -92,11 +92,6 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: With a curt nod she sends me out of her office.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I return to the administration office and tidy up my desk.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 0
@@ -106,16 +101,5 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I think about what happened today and about Miss Moon.
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: What happened to the building this morning? And what is Miss Moon's personality
-      really like?
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 1788db815d81ff3499baf808fead5253, type: 3}
-  nextScene: {fileID: 11400000, guid: f9157cc76b23a4f49a7d060db03b36b0, type: 2}
+  background: {fileID: 21300000, guid: 1baa1407f6863264b8fc68ce06de4f09, type: 3}
+  nextScene: {fileID: 11400000, guid: 9584aa2bf92268c4d8677fe134e49ede, type: 2}

@@ -322,10 +322,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Reluctantly I tell him about everything. The changing labyrinth of a building,
-      the mysterious girl with the four bun hairstyle, that Horseman, losing control
-      over my actions and the encounter with Sunny aka Aleph and finally the little
-      time loop I experienced this morning.
+  - text: Reluctantly I tell him about everything.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -334,6 +331,13 @@ MonoBehaviour:
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The changing labyrinth of a building, the mysterious girl with the four
+      bun hairstyle, that Horseman, losing control over my actions and the encounter
+      with Sunny aka Aleph and finally the little time loop I experienced this morning.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ethan listens to all of it and throws in some snarky remarks here and there
@@ -511,5 +515,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: be09c4f56331d424cb70585861185a02, type: 3}
+  background: {fileID: 21300000, guid: 1566f7b0f128e61478da68be4c8ab36c, type: 3}
   nextScene: {fileID: 11400000, guid: c1c9773d35198474c99e75912822181a, type: 2}

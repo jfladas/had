@@ -16,17 +16,27 @@ MonoBehaviour:
   - text: It's still a bit gloomy and pretty cold outside.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Shouldn't it get warmer soon? Isn't it spring already?
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I walk down the stairs and spot just a few other people waiting there.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I have to take the blue line and ride three stops.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Not much later, the train arrives and I get on.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-  background: {fileID: 21300000, guid: c6e6c228614518e4198ca61d26bcff1b, type: 3}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 2ac81b3fa8c07cf4883385768872e799, type: 3}
   nextScene: {fileID: 11400000, guid: 342e80306e4146f4e97de07d615fabfd, type: 2}
