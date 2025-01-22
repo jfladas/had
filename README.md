@@ -2,7 +2,7 @@
 HSLU DI MEN3 HS24 | Lukas Bucher & Angelika Gort | Demo
 
 ## Installation / Play Instructions
-Note that the game is build for a mobile/portrait layout, but it does work in landscape and on desktop as well.
+Note that the game is built for a mobile/portrait layout, but it does work in landscape and on desktop as well.
 The game can be played and downloaded here:
 
 ### [itch.io](https://jfladas.itch.io/hearts-across-dimensions)
