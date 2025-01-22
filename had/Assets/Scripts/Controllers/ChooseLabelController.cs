@@ -7,12 +7,11 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     public Color defaultColor;
     public Color hoverColor;
     private StoryScene scene;
-    private TextMeshProUGUI textMesh;
+    public TextMeshProUGUI textMesh;
     private ChooseController controller;
 
     void Awake()
     {
-        textMesh = GetComponent<TextMeshProUGUI>();
         textMesh.color = defaultColor;
     }
 
