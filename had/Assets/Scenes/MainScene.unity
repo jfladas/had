@@ -197,7 +197,7 @@ RectTransform:
   m_GameObject: {fileID: 311245346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50.000004, y: 50.000004, z: 50.000004}
+  m_LocalScale: {x: 42, y: 42, z: 42}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1174363103}
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -629,7 +629,7 @@ RectTransform:
   m_GameObject: {fileID: 690022661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50.000004, y: 50.000004, z: 50.000004}
+  m_LocalScale: {x: 42, y: 42, z: 42}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1174363103}
@@ -871,12 +871,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 316af5f9bcbd4394a923d8f5ca38afe2, type: 2}
+  currentScene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
   bottomBar: {fileID: 466386393}
   nameBar: {fileID: 1586933556}
   spriteSwitcher: {fileID: 1174363105}
   chooseController: {fileID: 461910396}
   audioController: {fileID: 109970441}
+  player: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
 --- !u!1 &1242896342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,8 +1549,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

@@ -14,38 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: I scan the shelves for any books that might help.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I already have a stack in my arms but I'm determined to get to the cause
       of my demise.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: My life can't continue like this.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: A book with a delicately decorated cover sticks out to me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I pull it out and read the title.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Fairies, Elves and Me"'
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I decide to add it to my large stack of books and then look for an empty
       table.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
@@ -53,57 +60,68 @@ MonoBehaviour:
   - text: A few hours later I have skimmed through most of the books I had picked
       out and found out about a lot of occult themes but nothing that would help
       me find the cause of all the strange situations I've been in lately.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I glance to the side.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, this pretty book is still left.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I pick up "Fairies, Elves and Me" and look at the back.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: It's by... Ethan.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I wonder why the author chose this pen name.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Hm, you finally picked it up.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '*GAH!*'
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I quickly cover my mouth after the shriek I just let out and turn around
       angrily.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Excuse me, that scared the heck out of me!
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: A man is standing behind me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -116,16 +134,19 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: I haven't heard him approach me but he's standing so close that he can
       look over my shoulder and watch me read.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ah, sorry. Didn't mean to do that.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He scratches his cheek awkwardly and points to the book I'm holding.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -138,31 +159,37 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: It's just... I was waiting for you to read that one so I can see... your
       reaction.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I look him up and down.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He has bangs that hang into his face and his shoulders are slumped.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He also has deep eye bags; he must not get a lot of sleep.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Why would you want to see my reaction? Are you a stalker???
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Erm... no I am Ethan. You know, the author.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -174,22 +201,26 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh? Of this book? Uh, okay...
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ethan pulls a chair closer and sits beside me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What kind of research are you doing this late at night? You do know that
       this is a fantasy book, right?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He scoffs at me and I feel myself getting a bit annoyed.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -201,27 +232,32 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yeah, because a lot of weird things happened to me lately.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Like what?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Like, that one time, I got lost in a building because its layout kept changing.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: And another time I saw something really strange. And nobody seemed to question
       it.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ethan's eyebrow twitches and his expression turns pensive.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -234,21 +270,25 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: And this morning I woke up three times! And each time it was the same time!
       I thought I was going crazy.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He looks at me intently.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You don't believe me, do you?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Pff\u2026 Are you stupid or something?"
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -260,21 +300,25 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He snickers, trying to keep it at a library-appropriate volume.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I am genuinely pissed now.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What's wrong with this guy?!
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: So you're saying you need my book for research about you going gaga?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -286,11 +330,13 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: If you're going to be like this I'd like you to leave.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ethan smirks.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -302,11 +348,13 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Nah this is too entertaining. Now tell me more about your delusions!
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He laughs at me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -318,11 +366,13 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ugh, I really don't have the energy to fight with this wacko.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Reluctantly I tell him about everything.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -336,12 +386,14 @@ MonoBehaviour:
   - text: The changing labyrinth of a building, the mysterious girl with the four
       bun hairstyle, that Horseman, losing control over my actions and the encounter
       with Sunny aka Aleph and finally the little time loop I experienced this morning.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ethan listens to all of it and throws in some snarky remarks here and there
       and laughs at a few of my claims.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -354,32 +406,38 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: You are a fun one. You might need to get checked into a mental hospital
       though.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What? Shut your trap! I basically just poured my heart out to you!
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Frustrated I begin to pack my bag and get ready to leave as tears start
       to blur my vision.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Agh! I can't start crying now.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '*sniffle, sniffle*'
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Wait, oh my god are you crying?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -391,22 +449,26 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: His voice was shaking from the giggles that escaped him.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I've had enough! This is ridiculous.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Don't talk to me, you perv.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Alright, alright. I'm sorry little sensitive one\u2014I was just playing.
       Jeez you really are no fun."
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -419,27 +481,32 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: He rummages through the trash bin and picks out what looks like a little
       piece of paper and then grabs one of my pens I haven't packed yet.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Look here, as an apology I will give you my autograph because I'm just
       so generous.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He signs it and shoves it into the pocket of my jacket.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: How much will this piece of trash sell for?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ouch, turns out you can be quite sassy too. Whatever, I'm outta here now.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -452,6 +519,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: I give him a last evil side eye and pull out the paper from the pocket
       as he leaves.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
@@ -463,57 +531,67 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Oh, it's not just a paper\u2014it's an envelope!"
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I open it and take out an even tinier piece of paper.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: There is something written on it.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"The answer will come to the right person. The one who will restore the
       balance."'
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What does this mean?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I put the letter back into the envelope and see Ethan's autograph on the
       back.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ugh.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I put it in my bag angrily, hoping to soon forget about that bully of a
       dude.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I hope I won't run into him ever again.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Then I make my way home and I realize how late it has gotten.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 1566f7b0f128e61478da68be4c8ab36c, type: 3}
-  nextScene: {fileID: 11400000, guid: c1c9773d35198474c99e75912822181a, type: 2}
+  nextScene: {fileID: 11400000, guid: d717243a1f2e9a940baba151c2581c42, type: 2}

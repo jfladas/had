@@ -14,74 +14,89 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: As soon as I step inside, multiple sets of eyes stare at me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh no. I think I'm in trouble.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Good morning! Sorry for being late, I look forward to working with you.
-      I will be in your care.
+  - text: Good morning! Sorry for being late, my name is {playerName} and I look
+      forward to working with you. I will be in your care.
+    alternativeText: Good morning! Sorry for being late. I look forward to working
+      with you and will be in your care.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Damn, late on the first day? Miss Moon won't be happy, I can tell you that.
+    alternativeText: 
     character: {fileID: 11400000, guid: d0304e74809960a469d18bd04c0860b7, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: ...yes. I do not want to be in your situation... good luck though.
+    alternativeText: 
     character: {fileID: 11400000, guid: dab00d1a72d416044af684d0d5e53e9f, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: They turn away and continue their work.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Haha, don't worry. Everyone gets to feel Miss Moon's anger someday; for
       you, it just happens to be on your first day.
+    alternativeText: 
     character: {fileID: 11400000, guid: fa8702de092448d478f0567638604cf7, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I flash them a wry smile and at the same time want to bury myself in a
       hole.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You can come and get settled at this desk.
+    alternativeText: 
     character: {fileID: 11400000, guid: fa8702de092448d478f0567638604cf7, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: My coworker points at the desk next to them.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Thank you so mu-
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: So you're late.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I jump at the stern voice appearing from behind me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I turn around and see a stunningly beautiful woman in office attire.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -93,21 +108,25 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: She does look very stern though.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, I'm terribly sorr-
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You're the new employee, right? Leave your stuff here and follow me.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh my god. I'm so dead.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -119,23 +138,27 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: That's probably the Miss Moon they were talking about earlier.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I scurry to my desk and put my stuff down as Coworker 1 turns to me and
       whispers.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yup, there you go. Told ya.
+    alternativeText: 
     character: {fileID: 11400000, guid: d0304e74809960a469d18bd04c0860b7, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: With a pained expression, I walk back out of the office and follow Miss
       Moon, who is walking swiftly.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -147,6 +170,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What do I do? Am I bound to get fired again?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}

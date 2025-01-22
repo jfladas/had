@@ -13,6 +13,7 @@ public class StoryScene : GameScene
     public struct Sentence
     {
         public string text;
+        public string alternativeText;
         public Character character;
         public List<Action> actions;
         public AudioClip music;

@@ -14,27 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: '*Bam*'
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I seem to have hit something while opening the door.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ouch!
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Huh, what was that?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I look down and see a figure on the ground, holding their nose and whimpering
       in pain.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -46,12 +51,14 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh my! I'm terribly sorry. Are you okay?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: The person on the ground glances up at me and I gaze into the most beautiful
       pair of eyes I have seen in my life.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -64,12 +71,14 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Upon further inspection, I realize how cute this girl is. She has a very
       unique appearance with her hairdo and cute dress.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, I'm okay, this is just a little nosebleed, nothing serious. I am used
       to these kinds of situations.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -81,11 +90,13 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Let me help you, I'll get some tissues.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I help her up and go to the sink to grab some tissues.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -97,6 +108,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Once we get her nosebleed under control, she smiles at me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -108,6 +120,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Do you work here? I have never seen you before.
+    alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -119,13 +132,16 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh yes, actually, it's my first day here. I should introduce myself. My
-      name is _ and I will work in the administration office.
+      name is {playerName} and I will work in the administration office.
+    alternativeText: Oh yes, actually, it's my first day here. I will work in the
+      administration office.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Nice to meet you, I'm Ash Clover. But are you on break already if it's
       this early and also your first day?
+    alternativeText: 
     character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
     actions: []
     music: {fileID: 0}
@@ -133,17 +149,20 @@ MonoBehaviour:
   - text: Come to think of it, I should be in the office right now! There is no time
       for coffee anymore, at least 20 minutes must have passed while I was helping
       Ash.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, about that, I'm sorry but I should be in my office now so I must leave
       right now!
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I'm sorry for taking up your time. It's because of me that you're late.
+    alternativeText: 
     character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -156,12 +175,14 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: No, not at all! I mean, I just injured you and again, I'm sorry about that.
       Helping you was the least I could do.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Don't worry about it. You should hurry now. And don't worry, things will
       turn out fine in the end, I'm sure.
+    alternativeText: 
     character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}
@@ -173,6 +194,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: With an encouraging smile, she waves goodbye.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3e20e5250c3f7a94fb0b6d6e6c1931ce, type: 2}

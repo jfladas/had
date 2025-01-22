@@ -15,6 +15,7 @@ MonoBehaviour:
   sentences:
   - text: After a few minutes of waiting, the musician, Sunny I suppose, appears
       before me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -26,12 +27,14 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Hi, thanks for waiting. Sorry for this sudden request.
+    alternativeText: 
     character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: No, I apologize for behaving like that earlier. I'm sure people will talk
       about it and it will tarnish your reputation.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -45,16 +48,19 @@ MonoBehaviour:
   - text: No worries, I also did something out of the ordinary today. I normally
       avoid too much interaction with any fans but something about you caught my
       attention.
+    alternativeText: 
     character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Will you hear me out for a bit? I promise I'm not a weird person.
+    alternativeText: 
     character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: His lips curled into an awkward smile.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -67,18 +73,21 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: I understand. In fact, I also noticed something strange, just today in
       general.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: So let me start by introducing myself properly. I am known as Sunny by
       my fans but I want you to know my real name.
+    alternativeText: 
     character: {fileID: 11400000, guid: 39eecf47f3a253d4185d1393f301db4a, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: My name is Aleph. And I have an ability that normal people here do not
       have. I can see the color of people's souls.
+    alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -90,28 +99,33 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: And your soul has the same color as my people.
+    alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Your people?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, you see, I'm not really from this world.
+    alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What kind of nonsense is he spouting now? I shouldn't have trusted him
       after all.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Okay, sure\u2026 I think I need to go home now it's pretty late\u2026
       ahaha\u2026"
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -119,16 +133,19 @@ MonoBehaviour:
   - text: Wait! I know it sounds very suspicious and illogical but I'm telling the
       truth. I understand you wanting to leave, but please reach out to me when you
       are ready and willing to have a conversation with me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I take it and put it into my bag.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: After that we say our goodbyes and part ways.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -141,9 +158,10 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Today was another weird day. Why do strange things always have to happen
       to me?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 45093754b13c7b740b938ce4a38bb4dd, type: 3}
-  nextScene: {fileID: 11400000, guid: 1edd97f181232fb448aa9f104a655d05, type: 2}
+  nextScene: {fileID: 11400000, guid: 7da4b89edd967644eb7ef285bafba849, type: 2}

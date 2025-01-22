@@ -15,7 +15,7 @@ public class BottomBarController : MonoBehaviour
     private StoryScene currentScene;
     private State state = State.COMPLETED;
     private Animator animator;
-    private bool isHidden = false;
+    private bool isHidden = true;
     private Coroutine typingCoroutine;
 
     public Dictionary<Character, SpriteController> sprites;
@@ -50,8 +50,11 @@ public class BottomBarController : MonoBehaviour
 
     public void Show()
     {
-        animator.SetTrigger("Show");
-        isHidden = false;
+        if (isHidden)
+        {
+            animator.SetTrigger("Show");
+            isHidden = false;
+        }
     }
 
     public void ClearText()
@@ -59,20 +62,28 @@ public class BottomBarController : MonoBehaviour
         barText.text = "";
     }
 
-    public void PlayScene(StoryScene scene)
+    public void PlayScene(StoryScene scene, string playerName)
     {
         currentScene = scene;
         sentenceIndex = -1;
-        PlayNextSentence();
+        PlayNextSentence(playerName);
     }
 
-    public void PlayNextSentence()
+    public void PlayNextSentence(string playerName)
     {
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
         }
-        typingCoroutine = StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+
+        string sentenceText = currentScene.sentences[++sentenceIndex].text;
+        if (playerName == "Me" && !string.IsNullOrEmpty(currentScene.sentences[sentenceIndex].alternativeText))
+        {
+            sentenceText = currentScene.sentences[sentenceIndex].alternativeText;
+        }
+        sentenceText = sentenceText.Replace("{playerName}", playerName);
+
+        typingCoroutine = StartCoroutine(TypeText(sentenceText));
 
         var characterName = currentScene.sentences[sentenceIndex].character.characterName;
         if (characterName == "" || characterName == "...")
@@ -95,14 +106,22 @@ public class BottomBarController : MonoBehaviour
         }
     }
 
-    public void SkipToFullSentence()
+    public void SkipToFullSentence(string playerName)
     {
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
-            barText.text = currentScene.sentences[sentenceIndex].text;
-            state = State.COMPLETED;
         }
+
+        string sentenceText = currentScene.sentences[sentenceIndex].text;
+        if (playerName == "Me" && !string.IsNullOrEmpty(currentScene.sentences[sentenceIndex].alternativeText))
+        {
+            sentenceText = currentScene.sentences[sentenceIndex].alternativeText;
+        }
+        sentenceText = sentenceText.Replace("{playerName}", playerName);
+
+        barText.text = sentenceText;
+        state = State.COMPLETED;
     }
 
     public bool IsCompleted()

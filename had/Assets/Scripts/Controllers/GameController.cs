@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour
     public SpriteSwitcher spriteSwitcher;
     public ChooseController chooseController;
     public AudioController audioController;
+    public Character player;
+    private string playerName;
 
     private State state = State.IDLE;
 
@@ -20,12 +22,18 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        playerName = player.characterName;
         if (currentScene is StoryScene)
         {
             StoryScene storyScene = currentScene as StoryScene;
-            bottomBar.PlayScene(storyScene);
+            bottomBar.PlayScene(storyScene, playerName);
             spriteSwitcher.SetImage(storyScene.background);
             PlayAudio(storyScene.sentences[0]);
+        }
+        else if (currentScene is ChapterScene)
+        {
+            ChapterScene chapterScene = currentScene as ChapterScene;
+            StartCoroutine(DisplayChapterScene(chapterScene));
         }
     }
 
@@ -35,21 +43,24 @@ public class GameController : MonoBehaviour
         {
             if (state == State.IDLE)
             {
-                if (bottomBar.IsCompleted())
+                if (currentScene is StoryScene)
                 {
-                    if (bottomBar.IsLastSentence())
+                    if (bottomBar.IsCompleted())
                     {
-                        PlayScene((currentScene as StoryScene).nextScene);
+                        if (bottomBar.IsLastSentence())
+                        {
+                            PlayScene((currentScene as StoryScene).nextScene);
+                        }
+                        else
+                        {
+                            bottomBar.PlayNextSentence(playerName);
+                            PlayAudio((currentScene as StoryScene).sentences[bottomBar.GetSentenceIndex()]);
+                        }
                     }
                     else
                     {
-                        bottomBar.PlayNextSentence();
-                        PlayAudio((currentScene as StoryScene).sentences[bottomBar.GetSentenceIndex()]);
+                        bottomBar.SkipToFullSentence(playerName);
                     }
-                }
-                else
-                {
-                    bottomBar.SkipToFullSentence();
                 }
             }
         }
@@ -81,7 +92,7 @@ public class GameController : MonoBehaviour
                 nameBar.Show();
             }
             yield return new WaitForSeconds(0.5f);
-            bottomBar.PlayScene(storyScene);
+            bottomBar.PlayScene(storyScene, playerName);
             state = State.IDLE;
         }
         else if (scene is ChooseScene)
@@ -89,6 +100,19 @@ public class GameController : MonoBehaviour
             state = State.CHOOSE;
             chooseController.SetupChoose(scene as ChooseScene);
         }
+        else if (scene is ChapterScene)
+        {
+            StartCoroutine(DisplayChapterScene(scene as ChapterScene));
+        }
+    }
+
+    private IEnumerator DisplayChapterScene(ChapterScene chapterScene)
+    {
+        bottomBar.Hide();
+        nameBar.Hide();
+        spriteSwitcher.SetImage(chapterScene.background);
+        yield return new WaitForSeconds(0.5f);
+        PlayScene(chapterScene.nextScene);
     }
 
     private void PlayAudio(StoryScene.Sentence sentence)

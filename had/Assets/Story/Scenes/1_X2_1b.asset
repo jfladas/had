@@ -16,14 +16,16 @@ MonoBehaviour:
   - text: After a while of roaming around and what felt like a sick game of hide
       and seek between me and the office, I finally see a door on the third floor
       with the label 'administration'.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: With a sigh of relief, I push the door open.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: fe3df7bfda5b4784b8a3ad58532db4aa, type: 3}
-  nextScene: {fileID: 11400000, guid: 6bf5ccb6acae9214a9247909e55ea9b1, type: 2}
+  nextScene: {fileID: 11400000, guid: 6d86207c855e24b4fb35a96d2a4083c4, type: 2}
