@@ -110,7 +110,7 @@ public class GameController : MonoBehaviour
     {
         bottomBar.Hide();
         nameBar.Hide();
-        spriteSwitcher.SetImage(chapterScene.background);
+        spriteSwitcher.SwitchImage(chapterScene.background);
         yield return new WaitForSeconds(0.5f);
         PlayScene(chapterScene.nextScene);
     }
