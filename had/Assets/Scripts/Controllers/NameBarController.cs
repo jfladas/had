@@ -8,7 +8,7 @@ public class NameBarController : MonoBehaviour
     public TextMeshProUGUI personNameText;
 
     private Animator animator;
-    private bool isHidden = false;
+    private bool isHidden = true;
 
     public void SetName(string name)
     {
@@ -36,8 +36,11 @@ public class NameBarController : MonoBehaviour
 
     public void Show()
     {
-        ClearName();
-        animator.SetTrigger("Show");
-        isHidden = false;
+        if (isHidden)
+        {
+            ClearName();
+            animator.SetTrigger("Show");
+            isHidden = false;
+        }
     }
 }

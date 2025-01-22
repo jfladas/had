@@ -66,17 +66,21 @@ public class GameController : MonoBehaviour
         currentScene = scene;
         bottomBar.Hide();
         nameBar.Hide();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         if (scene is StoryScene)
         {
             StoryScene storyScene = scene as StoryScene;
             spriteSwitcher.SwitchImage(storyScene.background);
             PlayAudio(storyScene.sentences[0]);
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             bottomBar.ClearText();
             bottomBar.Show();
-            nameBar.Show();
-            yield return new WaitForSeconds(1f);
+            string charName = storyScene.sentences[0].character.characterName;
+            if (charName != "" && charName != "...")
+            {
+                nameBar.Show();
+            }
+            yield return new WaitForSeconds(0.5f);
             bottomBar.PlayScene(storyScene);
             state = State.IDLE;
         }

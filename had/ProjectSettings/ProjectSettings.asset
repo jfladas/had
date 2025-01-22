@@ -141,7 +141,8 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0.2
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 6762447792537426210, guid: f0abc8e5d46d0bb44b6405e3cda7645e, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -267,7 +268,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 2800000, guid: 7efb1fdd9d5a9834ba3b36b16b9638fa, type: 3}
+  androidSplashScreen: {fileID: 2800000, guid: 866cbf0fde35f954296a92a3dbf02841, type: 3}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidEnableArmv9SecurityFeatures: 0
@@ -509,8 +510,8 @@ PlayerSettings:
       m_Kind: 1
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 7efb1fdd9d5a9834ba3b36b16b9638fa, type: 3}
-      - {fileID: 2800000, guid: f1574202edc9c40419d9c472b3c42a3a, type: 3}
+      - {fileID: 2800000, guid: 1a214e40e738e19468483e97f2747c43, type: 3}
+      - {fileID: 2800000, guid: 77c65a418b231ad44a08ed116975575d, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2

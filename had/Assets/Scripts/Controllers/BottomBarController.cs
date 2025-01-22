@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class BottomBarController : MonoBehaviour
 {
     public TextMeshProUGUI barText;
+    public Sprite defaultSprite;
+    public Sprite specialSprite;
+    private Image bottomBarImage;
 
     private int sentenceIndex = -1;
     private StoryScene currentScene;
@@ -27,6 +31,7 @@ public class BottomBarController : MonoBehaviour
     {
         sprites = new Dictionary<Character, SpriteController>();
         animator = GetComponent<Animator>();
+        bottomBarImage = GetComponent<Image>();
     }
 
     public int GetSentenceIndex()
@@ -68,8 +73,26 @@ public class BottomBarController : MonoBehaviour
             StopCoroutine(typingCoroutine);
         }
         typingCoroutine = StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
-        nameBar.SetName(currentScene.sentences[sentenceIndex].character.characterName);
+
+        var characterName = currentScene.sentences[sentenceIndex].character.characterName;
+        if (characterName == "" || characterName == "...")
+        {
+            nameBar.Hide();
+        }
+        else
+        {
+            nameBar.Show();
+        }
+        nameBar.SetName(characterName);
         ActCharacter();
+        if (characterName == "...")
+        {
+            bottomBarImage.sprite = specialSprite;
+        }
+        else
+        {
+            bottomBarImage.sprite = defaultSprite;
+        }
     }
 
     public void SkipToFullSentence()
