@@ -15,6 +15,7 @@ MonoBehaviour:
   sentences:
   - text: The dark fog was inching closer with every passing moment as she ran past
       the abandoned apartment buildings.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
@@ -27,28 +28,33 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: cd585841caa0abd449a0497ac4b7ab9b, type: 3}
   - text: She felt herself growing weaker, the numbing pain pulsing inside her head
       becoming almost unbearable.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "But she had to keep going. She had to stop them before it was too late.
       She wouldn't let them consume this dimension. Not this one\u2026"
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Suddenly, something pierced her chest, and she collapsed to the ground.
       She couldn\u2019t move anymore."
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: They are getting closer, I can feel it. There are too many of them.
+    alternativeText: 
     character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: She must have missed a dimensional overlap when they hit her.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
@@ -56,21 +62,23 @@ MonoBehaviour:
   - text: "She thought she might be able to shift into another dimension if it was
       still within reach. She didn\u2019t know if she had enough strength left, but
       it might have been her only chance\u2026"
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "It all depended on this moment. She needed to do this right, or else\u2026
       it would be the end. The end of everything. This was it."
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
-      spriteIndex: 1
-      type: 0
+      spriteIndex: 0
+      type: 3
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: f710f8d7b86d6b546984f1ceedaf7fbd, type: 3}
-  nextScene: {fileID: 11400000, guid: b29f9eb0d82df19479b3f5d03730b42e, type: 2}
+  nextScene: {fileID: 11400000, guid: 32f7c265deac17740bd2e79bc69f7386, type: 2}

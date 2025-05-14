@@ -16,7 +16,13 @@ MonoBehaviour:
   - text: RRRRRTTTCHHHHH
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 20c910165e941e14eab1fc5d2886df8d, type: 2}
+      spriteIndex: 1
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: The pain that shot through her whole body was hard to describe.

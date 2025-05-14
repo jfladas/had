@@ -878,6 +878,8 @@ MonoBehaviour:
   chooseController: {fileID: 461910396}
   audioController: {fileID: 109970441}
   player: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+  circlePrefab: {fileID: 5715037799853049465, guid: 43354ecce43e59c42bf601059cbcaee3, type: 3}
+  canvasTransform: {fileID: 1242838789}
 --- !u!1 &1242896342
 GameObject:
   m_ObjectHideFlags: 0
