@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // Add this for Text
+using TMPro; // Add this for TextMeshPro
 
 public class GameController : MonoBehaviour
 {
@@ -14,8 +16,18 @@ public class GameController : MonoBehaviour
     private string playerName;
 
     public GameObject circlePrefab;
+    public GameObject horizontalLinePrefab;
+    public GameObject verticalLinePrefab;
     public RectTransform canvasTransform;
+    public TMPro.TMP_Text scoreText; // Changed from UnityEngine.UI.Text to TMPro.TMP_Text
+
     private List<GameObject> activeCircles = new List<GameObject>();
+    private GameObject activeHorizontalLine;
+    private GameObject activeVerticalLine;
+    private bool isLineMoving = false;
+    private bool isVerticalLineMoving = false;
+
+    private int score = 0;
 
     private State state = State.IDLE;
 
@@ -130,25 +142,193 @@ public class GameController : MonoBehaviour
         nameBar.Hide();
         spriteSwitcher.SwitchImage(minigameScene.background);
 
-        float minigameDuration = 10f; // Duration of the minigame
-        float spawnInterval = 1f; // Interval between spawning circles
+        float minigameDuration = 20f;
+        float spawnInterval = 1f;
         float elapsedTime = 0f;
+        float gapDuration = 0.5f;
+
+        UpdateScoreText(); // Initialize score display
 
         while (elapsedTime < minigameDuration)
         {
-            SpawnCircle();
-            yield return new WaitForSeconds(spawnInterval);
-            elapsedTime += spawnInterval;
+            // Spawn and animate the horizontal line
+            activeHorizontalLine = Instantiate(horizontalLinePrefab, canvasTransform);
+            StartCoroutine(AnimateHorizontalLine());
+
+            // Wait for horizontal line to stop
+            float horizontalElapsed = 0f;
+            isLineMoving = true;
+            while (isLineMoving && elapsedTime < minigameDuration)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
+                    StopHorizontalLine();
+                    yield return null;
+                    break;
+                }
+                SpawnCircle();
+                yield return new WaitForSeconds(spawnInterval);
+                elapsedTime += spawnInterval;
+                horizontalElapsed += spawnInterval;
+            }
+
+            // Spawn and animate the vertical line (horizontal stays visible)
+            activeVerticalLine = Instantiate(verticalLinePrefab, canvasTransform);
+            StartCoroutine(AnimateVerticalLine());
+
+            // Wait for vertical line to stop
+            isVerticalLineMoving = true;
+            while (isVerticalLineMoving && elapsedTime < minigameDuration)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
+                    StopVerticalLine();
+                    yield return null;
+                    break;
+                }
+                yield return null;
+            }
+
+            // --- Intersection and scoring logic ---
+            if (activeHorizontalLine != null && activeVerticalLine != null)
+            {
+                RectTransform hLine = activeHorizontalLine.GetComponent<RectTransform>();
+                RectTransform vLine = activeVerticalLine.GetComponent<RectTransform>();
+                Vector2 intersection = new Vector2(
+                    vLine.anchoredPosition.x,
+                    hLine.anchoredPosition.y
+                );
+
+                GameObject hitCircle = null;
+                foreach (var circle in activeCircles)
+                {
+                    RectTransform cRect = circle.GetComponent<RectTransform>();
+                    float radius = cRect.sizeDelta.x * cRect.localScale.x / 2f;
+                    Vector2 circleCenter = cRect.anchoredPosition;
+                    if (Vector2.Distance(intersection, circleCenter) <= radius)
+                    {
+                        hitCircle = circle;
+                        break;
+                    }
+                }
+                if (hitCircle != null)
+                {
+                    activeCircles.Remove(hitCircle);
+                    Destroy(hitCircle);
+                    score += 100;
+                    UpdateScoreText();
+                }
+            }
+
+            // Clean up both lines
+            if (activeHorizontalLine != null)
+            {
+                Destroy(activeHorizontalLine);
+            }
+            if (activeVerticalLine != null)
+            {
+                Destroy(activeVerticalLine);
+            }
+
+            yield return new WaitForSeconds(gapDuration);
         }
 
-        // Clean up remaining circles
         foreach (var circle in activeCircles)
         {
             Destroy(circle);
         }
-        activeCircles.Clear();
+        if (activeHorizontalLine != null)
+        {
+            Destroy(activeHorizontalLine);
+        }
+        if (activeVerticalLine != null)
+        {
+            Destroy(activeVerticalLine);
+        }
+
+        if (scoreText != null)
+        {
+            scoreText.text = "";
+        }
 
         PlayScene(minigameScene.nextScene);
+    }
+
+    private IEnumerator AnimateHorizontalLine()
+    {
+        isLineMoving = true;
+        RectTransform lineTransform = activeHorizontalLine != null ? activeHorizontalLine.GetComponent<RectTransform>() : null;
+        float speed = 1000f;
+        int direction = 1;
+
+        while (isLineMoving)
+        {
+            if (activeHorizontalLine == null || lineTransform == null)
+                yield break;
+
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            {
+                StopHorizontalLine();
+                yield break;
+            }
+
+            lineTransform.anchoredPosition += new Vector2(0, speed * direction * Time.deltaTime);
+
+            if (lineTransform.anchoredPosition.y >= canvasTransform.rect.height / 2 && direction == 1)
+            {
+                direction = -1;
+            }
+            else if (lineTransform.anchoredPosition.y <= -canvasTransform.rect.height / 2 && direction == -1)
+            {
+                direction = 1;
+            }
+
+            yield return null;
+        }
+    }
+
+    private IEnumerator AnimateVerticalLine()
+    {
+        isVerticalLineMoving = true;
+        RectTransform lineTransform = activeVerticalLine != null ? activeVerticalLine.GetComponent<RectTransform>() : null;
+        float speed = 1000f;
+        int direction = 1;
+
+        while (isVerticalLineMoving)
+        {
+            // Check if the line or its RectTransform has been destroyed
+            if (activeVerticalLine == null || lineTransform == null)
+                yield break;
+
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            {
+                StopVerticalLine();
+                yield break;
+            }
+
+            lineTransform.anchoredPosition += new Vector2(speed * direction * Time.deltaTime, 0);
+
+            if (lineTransform.anchoredPosition.x >= canvasTransform.rect.width / 2 && direction == 1)
+            {
+                direction = -1;
+            }
+            else if (lineTransform.anchoredPosition.x <= -canvasTransform.rect.width / 2 && direction == -1)
+            {
+                direction = 1;
+            }
+
+            yield return null;
+        }
+    }
+
+    private void StopHorizontalLine()
+    {
+        isLineMoving = false;
+    }
+
+    private void StopVerticalLine()
+    {
+        isVerticalLineMoving = false;
     }
 
     private void SpawnCircle()
@@ -176,12 +356,12 @@ public class GameController : MonoBehaviour
             canvasGroup = circle.AddComponent<CanvasGroup>();
         }
 
-        float growDuration = 2f; // Time for the circle to grow
-        float fadeDuration = 1f; // Time for the circle to fade out
+        float growDuration = 3f;
+        float fadeDuration = 1f;
         float elapsedTime = 0f;
 
         Vector2 initialScale = Vector2.zero;
-        Vector2 targetScale = new Vector2(10f, 10f); // Final size of the circle
+        Vector2 targetScale = new Vector2(10f, 10f);
 
         // Grow the circle
         while (elapsedTime < growDuration)
@@ -215,5 +395,13 @@ public class GameController : MonoBehaviour
     private void PlayAudio(StoryScene.Sentence sentence)
     {
         audioController.PlayAudio(sentence.music, sentence.sound);
+    }
+
+    private void UpdateScoreText()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = "Score: " + score;
+        }
     }
 }
