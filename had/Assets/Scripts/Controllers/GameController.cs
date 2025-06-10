@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Add this for Text
-using TMPro; // Add this for TextMeshPro
+using UnityEngine.UI;
+using TMPro;
 
 public class GameController : MonoBehaviour
 {
@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
     public GameObject horizontalLinePrefab;
     public GameObject verticalLinePrefab;
     public RectTransform canvasTransform;
-    public TMPro.TMP_Text scoreText; // Changed from UnityEngine.UI.Text to TMPro.TMP_Text
+    public TMPro.TMP_Text scoreText;
 
     private List<GameObject> activeCircles = new List<GameObject>();
     private GameObject activeHorizontalLine;
@@ -142,23 +142,67 @@ public class GameController : MonoBehaviour
         nameBar.Hide();
         spriteSwitcher.SwitchImage(minigameScene.background);
 
-        float minigameDuration = 20f;
-        float spawnInterval = 1f;
-        float elapsedTime = 0f;
-        float gapDuration = 0.5f;
+        float minigameDuration;
+        float spawnInterval;
+        float lineSpeed;
+        float circleGrowDuration;
 
-        UpdateScoreText(); // Initialize score display
+
+        switch (minigameScene.level)
+        {
+            case 0:
+                minigameDuration = 15f;
+                spawnInterval = 1.5f;
+                lineSpeed = 3000f;
+                circleGrowDuration = 1f;
+                break;
+            case 1:
+                minigameDuration = 20f;
+                spawnInterval = 1f;
+                lineSpeed = 1000f;
+                circleGrowDuration = 3f;
+                break;
+            case 2:
+                minigameDuration = 15f;
+                spawnInterval = 0.8f;
+                lineSpeed = 1500f;
+                circleGrowDuration = 2f;
+                break;
+            case 3:
+                minigameDuration = 10f;
+                spawnInterval = 0.5f;
+                lineSpeed = 2000f;
+                circleGrowDuration = 1.5f;
+                break;
+            default:
+                minigameDuration = 20f;
+                spawnInterval = 1f;
+                lineSpeed = 1000f;
+                circleGrowDuration = 3f;
+                break;
+        }
+
+        UpdateScoreText();
+
+        float elapsedTime = 0f;
+        float circleSpawnTimer = 0f; // Move this outside the while loop to persist across rounds
 
         while (elapsedTime < minigameDuration)
         {
-            // Spawn and animate the horizontal line
-            activeHorizontalLine = Instantiate(horizontalLinePrefab, canvasTransform);
-            StartCoroutine(AnimateHorizontalLine());
+            // Add a small gap to prevent double-click/press
+            yield return new WaitForSeconds(0.1f);
 
-            // Wait for horizontal line to stop
+            activeHorizontalLine = Instantiate(horizontalLinePrefab, canvasTransform);
+            RectTransform hLineRect = activeHorizontalLine.GetComponent<RectTransform>();
+            hLineRect.anchoredPosition = new Vector2(0, canvasTransform.rect.height / 2);
+
+            StartCoroutine(AnimateHorizontalLine(lineSpeed));
+
             float horizontalElapsed = 0f;
             isLineMoving = true;
-            while (isLineMoving && elapsedTime < minigameDuration)
+
+            // Only use horizontalElapsed and circleSpawnTimer here
+            while (isLineMoving && (elapsedTime + horizontalElapsed) < minigameDuration)
             {
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
                 {
@@ -166,19 +210,40 @@ public class GameController : MonoBehaviour
                     yield return null;
                     break;
                 }
-                SpawnCircle();
-                yield return new WaitForSeconds(spawnInterval);
-                elapsedTime += spawnInterval;
-                horizontalElapsed += spawnInterval;
+
+                // This timer now persists across all rounds
+                circleSpawnTimer += Time.deltaTime;
+                if (circleSpawnTimer >= spawnInterval)
+                {
+                    SpawnCircle(circleGrowDuration);
+                    circleSpawnTimer = 0f;
+                }
+
+                horizontalElapsed += Time.deltaTime;
+                yield return null;
             }
 
-            // Spawn and animate the vertical line (horizontal stays visible)
-            activeVerticalLine = Instantiate(verticalLinePrefab, canvasTransform);
-            StartCoroutine(AnimateVerticalLine());
+            // If time is up after horizontal, break before vertical
+            if (elapsedTime + horizontalElapsed >= minigameDuration)
+            {
+                elapsedTime += horizontalElapsed;
+                if (activeHorizontalLine != null)
+                    Destroy(activeHorizontalLine);
+                break;
+            }
 
-            // Wait for vertical line to stop
+            // Add a small gap to prevent double-click/press
+            yield return new WaitForSeconds(0.1f);
+
+            activeVerticalLine = Instantiate(verticalLinePrefab, canvasTransform);
+            RectTransform vLineRect = activeVerticalLine.GetComponent<RectTransform>();
+            vLineRect.anchoredPosition = new Vector2(-canvasTransform.rect.width / 2, 0);
+
+            StartCoroutine(AnimateVerticalLine(lineSpeed));
+
             isVerticalLineMoving = true;
-            while (isVerticalLineMoving && elapsedTime < minigameDuration)
+            float verticalElapsed = 0f;
+            while (isVerticalLineMoving && (elapsedTime + horizontalElapsed + verticalElapsed) < minigameDuration)
             {
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
                 {
@@ -186,10 +251,29 @@ public class GameController : MonoBehaviour
                     yield return null;
                     break;
                 }
+
+                // Circles should also spawn during the vertical line phase
+                circleSpawnTimer += Time.deltaTime;
+                if (circleSpawnTimer >= spawnInterval)
+                {
+                    SpawnCircle(circleGrowDuration);
+                    circleSpawnTimer = 0f;
+                }
+
+                verticalElapsed += Time.deltaTime;
                 yield return null;
             }
 
-            // --- Intersection and scoring logic ---
+            // If time is up after vertical, update elapsedTime and break
+            if (elapsedTime + horizontalElapsed + verticalElapsed >= minigameDuration)
+            {
+                elapsedTime += horizontalElapsed + verticalElapsed;
+            }
+            else
+            {
+                elapsedTime += horizontalElapsed + verticalElapsed;
+            }
+
             if (activeHorizontalLine != null && activeVerticalLine != null)
             {
                 RectTransform hLine = activeHorizontalLine.GetComponent<RectTransform>();
@@ -220,7 +304,6 @@ public class GameController : MonoBehaviour
                 }
             }
 
-            // Clean up both lines
             if (activeHorizontalLine != null)
             {
                 Destroy(activeHorizontalLine);
@@ -229,8 +312,6 @@ public class GameController : MonoBehaviour
             {
                 Destroy(activeVerticalLine);
             }
-
-            yield return new WaitForSeconds(gapDuration);
         }
 
         foreach (var circle in activeCircles)
@@ -254,11 +335,10 @@ public class GameController : MonoBehaviour
         PlayScene(minigameScene.nextScene);
     }
 
-    private IEnumerator AnimateHorizontalLine()
+    private IEnumerator AnimateHorizontalLine(float speed = 1000f)
     {
         isLineMoving = true;
         RectTransform lineTransform = activeHorizontalLine != null ? activeHorizontalLine.GetComponent<RectTransform>() : null;
-        float speed = 1000f;
         int direction = 1;
 
         while (isLineMoving)
@@ -287,16 +367,14 @@ public class GameController : MonoBehaviour
         }
     }
 
-    private IEnumerator AnimateVerticalLine()
+    private IEnumerator AnimateVerticalLine(float speed = 1000f)
     {
         isVerticalLineMoving = true;
         RectTransform lineTransform = activeVerticalLine != null ? activeVerticalLine.GetComponent<RectTransform>() : null;
-        float speed = 1000f;
         int direction = 1;
 
         while (isVerticalLineMoving)
         {
-            // Check if the line or its RectTransform has been destroyed
             if (activeVerticalLine == null || lineTransform == null)
                 yield break;
 
@@ -331,7 +409,7 @@ public class GameController : MonoBehaviour
         isVerticalLineMoving = false;
     }
 
-    private void SpawnCircle()
+    private void SpawnCircle(float growDuration = 3f)
     {
         Vector2 randomPosition = new Vector2(
             Random.Range(0, canvasTransform.rect.width) - canvasTransform.rect.width / 2,
@@ -342,10 +420,10 @@ public class GameController : MonoBehaviour
         circle.GetComponent<RectTransform>().anchoredPosition = randomPosition;
         activeCircles.Add(circle);
 
-        StartCoroutine(AnimateCircle(circle));
+        StartCoroutine(AnimateCircle(circle, growDuration));
     }
 
-    private IEnumerator AnimateCircle(GameObject circle)
+    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f)
     {
         if (circle == null) yield break;
 
@@ -356,7 +434,6 @@ public class GameController : MonoBehaviour
             canvasGroup = circle.AddComponent<CanvasGroup>();
         }
 
-        float growDuration = 3f;
         float fadeDuration = 1f;
         float elapsedTime = 0f;
 
@@ -375,7 +452,6 @@ public class GameController : MonoBehaviour
 
         elapsedTime = 0f;
 
-        // Fade out the circle
         while (elapsedTime < fadeDuration)
         {
             if (circle == null) yield break;
@@ -392,6 +468,7 @@ public class GameController : MonoBehaviour
         }
     }
 
+    // Restore correct PlayAudio for StoryScene.Sentence
     private void PlayAudio(StoryScene.Sentence sentence)
     {
         audioController.PlayAudio(sentence.music, sentence.sound);
