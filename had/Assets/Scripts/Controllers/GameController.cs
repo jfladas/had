@@ -16,10 +16,13 @@ public class GameController : MonoBehaviour
     private string playerName;
 
     public GameObject circlePrefab;
+    public GameObject specialCirclePrefab;
     public GameObject horizontalLinePrefab;
     public GameObject verticalLinePrefab;
     public RectTransform canvasTransform;
     public TMPro.TMP_Text scoreText;
+    public TMPro.TMP_Text timerText;
+    public Image timerImage;
 
     private List<GameObject> activeCircles = new List<GameObject>();
     private GameObject activeHorizontalLine;
@@ -38,6 +41,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        timerImage?.gameObject.SetActive(false);
+
         playerName = player.characterName;
         if (currentScene is StoryScene)
         {
@@ -142,54 +147,79 @@ public class GameController : MonoBehaviour
         nameBar.Hide();
         spriteSwitcher.SwitchImage(minigameScene.background);
 
+        timerImage?.gameObject.SetActive(true);
+
         float minigameDuration;
         float spawnInterval;
         float lineSpeed;
         float circleGrowDuration;
-
+        float circleGrowSpeed;
+        float circleRadius;
 
         switch (minigameScene.level)
         {
             case 0:
                 minigameDuration = 15f;
-                spawnInterval = 1.5f;
+                spawnInterval = 0.8f;
                 lineSpeed = 3000f;
-                circleGrowDuration = 1f;
+                circleGrowDuration = 0.5f;
+                circleGrowSpeed = 20f;
+                circleRadius = 40f;
                 break;
             case 1:
                 minigameDuration = 20f;
                 spawnInterval = 1f;
                 lineSpeed = 1000f;
                 circleGrowDuration = 3f;
+                circleGrowSpeed = 10f;
+                circleRadius = 60f;
                 break;
             case 2:
                 minigameDuration = 15f;
                 spawnInterval = 0.8f;
                 lineSpeed = 1500f;
                 circleGrowDuration = 2f;
+                circleGrowSpeed = 7f;
+                circleRadius = 50f;
                 break;
             case 3:
                 minigameDuration = 10f;
                 spawnInterval = 0.5f;
                 lineSpeed = 2000f;
                 circleGrowDuration = 1.5f;
+                circleGrowSpeed = 15f;
+                circleRadius = 30f;
                 break;
             default:
                 minigameDuration = 20f;
                 spawnInterval = 1f;
                 lineSpeed = 1000f;
                 circleGrowDuration = 3f;
+                circleGrowSpeed = 10f;
+                circleRadius = 60f;
                 break;
         }
 
         UpdateScoreText();
 
         float elapsedTime = 0f;
-        float circleSpawnTimer = 0f; // Move this outside the while loop to persist across rounds
+        float circleSpawnTimer = 0f;
+
+        UpdateTimerText(minigameDuration);
+
+        float spawnIntervalMin = spawnInterval * 0.8f;
+        float spawnIntervalMax = spawnInterval * 1.2f;
+        float growDurationMin = circleGrowDuration * 0.8f;
+        float growDurationMax = circleGrowDuration * 1.2f;
+        float growSpeedMin = circleGrowSpeed * 0.8f;
+        float growSpeedMax = circleGrowSpeed * 1.2f;
+        float radiusMin = circleRadius * 0.8f;
+        float radiusMax = circleRadius * 1.2f;
+
+        float nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
 
         while (elapsedTime < minigameDuration)
         {
-            // Add a small gap to prevent double-click/press
             yield return new WaitForSeconds(0.1f);
 
             activeHorizontalLine = Instantiate(horizontalLinePrefab, canvasTransform);
@@ -201,7 +231,6 @@ public class GameController : MonoBehaviour
             float horizontalElapsed = 0f;
             isLineMoving = true;
 
-            // Only use horizontalElapsed and circleSpawnTimer here
             while (isLineMoving && (elapsedTime + horizontalElapsed) < minigameDuration)
             {
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
@@ -211,19 +240,22 @@ public class GameController : MonoBehaviour
                     break;
                 }
 
-                // This timer now persists across all rounds
                 circleSpawnTimer += Time.deltaTime;
-                if (circleSpawnTimer >= spawnInterval)
+                if (circleSpawnTimer >= nextSpawnInterval)
                 {
-                    SpawnCircle(circleGrowDuration);
+                    float thisGrowDuration = Random.Range(growDurationMin, growDurationMax);
+                    float thisGrowSpeed = Random.Range(growSpeedMin, growSpeedMax);
+                    float thisRadius = Random.Range(radiusMin, radiusMax);
+                    SpawnCircle(thisGrowDuration, thisGrowSpeed, thisRadius);
                     circleSpawnTimer = 0f;
+                    nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
                 }
 
                 horizontalElapsed += Time.deltaTime;
+                UpdateTimerText(minigameDuration - (elapsedTime + horizontalElapsed));
                 yield return null;
             }
 
-            // If time is up after horizontal, break before vertical
             if (elapsedTime + horizontalElapsed >= minigameDuration)
             {
                 elapsedTime += horizontalElapsed;
@@ -232,7 +264,6 @@ public class GameController : MonoBehaviour
                 break;
             }
 
-            // Add a small gap to prevent double-click/press
             yield return new WaitForSeconds(0.1f);
 
             activeVerticalLine = Instantiate(verticalLinePrefab, canvasTransform);
@@ -252,19 +283,22 @@ public class GameController : MonoBehaviour
                     break;
                 }
 
-                // Circles should also spawn during the vertical line phase
                 circleSpawnTimer += Time.deltaTime;
-                if (circleSpawnTimer >= spawnInterval)
+                if (circleSpawnTimer >= nextSpawnInterval)
                 {
-                    SpawnCircle(circleGrowDuration);
+                    float thisGrowDuration = Random.Range(growDurationMin, growDurationMax);
+                    float thisGrowSpeed = Random.Range(growSpeedMin, growSpeedMax);
+                    float thisRadius = Random.Range(radiusMin, radiusMax);
+                    SpawnCircle(thisGrowDuration, thisGrowSpeed, thisRadius);
                     circleSpawnTimer = 0f;
+                    nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
                 }
 
                 verticalElapsed += Time.deltaTime;
+                UpdateTimerText(minigameDuration - (elapsedTime + horizontalElapsed + verticalElapsed));
                 yield return null;
             }
 
-            // If time is up after vertical, update elapsedTime and break
             if (elapsedTime + horizontalElapsed + verticalElapsed >= minigameDuration)
             {
                 elapsedTime += horizontalElapsed + verticalElapsed;
@@ -283,23 +317,37 @@ public class GameController : MonoBehaviour
                     hLine.anchoredPosition.y
                 );
 
-                GameObject hitCircle = null;
-                foreach (var circle in activeCircles)
+                List<GameObject> hitCircles = new List<GameObject>();
+                foreach (var circle in new List<GameObject>(activeCircles))
                 {
                     RectTransform cRect = circle.GetComponent<RectTransform>();
                     float radius = cRect.sizeDelta.x * cRect.localScale.x / 2f;
+                    bool isSpecial = false;
+                    if (circle.TryGetComponent<CircleColliderData>(out var data))
+                    {
+                        radius = data.radius * cRect.localScale.x;
+                        isSpecial = data.isSpecial;
+                    }
                     Vector2 circleCenter = cRect.anchoredPosition;
                     if (Vector2.Distance(intersection, circleCenter) <= radius)
                     {
-                        hitCircle = circle;
-                        break;
+                        hitCircles.Add(circle);
                     }
                 }
-                if (hitCircle != null)
+                foreach (var hitCircle in hitCircles)
                 {
-                    activeCircles.Remove(hitCircle);
-                    Destroy(hitCircle);
-                    score += 100;
+                    if (activeCircles.Contains(hitCircle))
+                    {
+                        int addScore = 100;
+                        if (hitCircle.TryGetComponent<CircleColliderData>(out var data) && data.isSpecial)
+                            addScore = 200;
+                        activeCircles.Remove(hitCircle);
+                        Destroy(hitCircle);
+                        score += addScore;
+                    }
+                }
+                if (hitCircles.Count > 0)
+                {
                     UpdateScoreText();
                 }
             }
@@ -331,6 +379,12 @@ public class GameController : MonoBehaviour
         {
             scoreText.text = "";
         }
+        if (timerText != null)
+        {
+            timerText.text = "";
+        }
+
+        timerImage?.gameObject.SetActive(false);
 
         PlayScene(minigameScene.nextScene);
     }
@@ -409,21 +463,48 @@ public class GameController : MonoBehaviour
         isVerticalLineMoving = false;
     }
 
-    private void SpawnCircle(float growDuration = 3f)
+    private class CircleColliderData : MonoBehaviour
     {
+        public float radius;
+        public bool isSpecial = false;
+    }
+
+    private void SpawnCircle(float growDuration = 3f, float growSpeed = 10f, float radius = 60f)
+    {
+        bool spawnSpecial = Random.value < 0.1f;
+        GameObject prefab = circlePrefab;
+        float actualRadius = radius;
+        bool isSpecial = false;
+
+        if (spawnSpecial)
+        {
+            prefab = specialCirclePrefab != null ? specialCirclePrefab : circlePrefab;
+            actualRadius = radius * 0.5f;
+            isSpecial = true;
+        }
+
         Vector2 randomPosition = new Vector2(
             Random.Range(0, canvasTransform.rect.width) - canvasTransform.rect.width / 2,
             Random.Range(0, canvasTransform.rect.height) - canvasTransform.rect.height / 2
         );
 
-        GameObject circle = Instantiate(circlePrefab, canvasTransform);
+        GameObject circle = Instantiate(prefab, canvasTransform);
         circle.GetComponent<RectTransform>().anchoredPosition = randomPosition;
+        var rect = circle.GetComponent<RectTransform>();
+        rect.sizeDelta = new Vector2(actualRadius * 2f, actualRadius * 2f);
+
+        var data = circle.GetComponent<CircleColliderData>();
+        if (data == null)
+            data = circle.AddComponent<CircleColliderData>();
+        data.radius = actualRadius;
+        data.isSpecial = isSpecial;
+
         activeCircles.Add(circle);
 
-        StartCoroutine(AnimateCircle(circle, growDuration));
+        StartCoroutine(AnimateCircle(circle, growDuration, growSpeed));
     }
 
-    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f)
+    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, float growSpeed = 10f)
     {
         if (circle == null) yield break;
 
@@ -434,41 +515,41 @@ public class GameController : MonoBehaviour
             canvasGroup = circle.AddComponent<CanvasGroup>();
         }
 
-        float fadeDuration = 1f;
+        float fadeDuration = growDuration * 0.5f;
         float elapsedTime = 0f;
 
         Vector2 initialScale = Vector2.zero;
-        Vector2 targetScale = new Vector2(10f, 10f);
+        Vector2 targetScale = new Vector2(growSpeed, growSpeed);
 
-        // Grow the circle
-        while (elapsedTime < growDuration)
+        float totalDuration = growDuration + fadeDuration;
+        while (elapsedTime < totalDuration)
         {
             if (circle == null) yield break;
 
-            rectTransform.localScale = Vector2.Lerp(initialScale, targetScale, elapsedTime / growDuration);
+            float growT = Mathf.Clamp01(elapsedTime / totalDuration);
+            rectTransform.localScale = Vector2.Lerp(initialScale, targetScale, growT);
+
+            if (elapsedTime < growDuration)
+            {
+                canvasGroup.alpha = 1f;
+            }
+            else
+            {
+                float fadeT = (elapsedTime - growDuration) / fadeDuration;
+                canvasGroup.alpha = Mathf.Lerp(1f, 0f, fadeT);
+            }
+
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        elapsedTime = 0f;
-
-        while (elapsedTime < fadeDuration)
-        {
-            if (circle == null) yield break;
-
-            canvasGroup.alpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeDuration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        if (circle != null)
+        if (circle != null && activeCircles.Contains(circle))
         {
             Destroy(circle);
             activeCircles.Remove(circle);
         }
     }
 
-    // Restore correct PlayAudio for StoryScene.Sentence
     private void PlayAudio(StoryScene.Sentence sentence)
     {
         audioController.PlayAudio(sentence.music, sentence.sound);
@@ -478,7 +559,15 @@ public class GameController : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Score: " + score;
+            scoreText.text = score.ToString();
+        }
+    }
+
+    private void UpdateTimerText(float secondsLeft)
+    {
+        if (timerText != null)
+        {
+            timerText.text = Mathf.CeilToInt(Mathf.Max(0, secondsLeft)).ToString();
         }
     }
 }
