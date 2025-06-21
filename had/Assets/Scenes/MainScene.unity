@@ -285,8 +285,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: deb7d57ad501f884a8385eefd563b4bc, type: 2}
-  m_sharedMaterial: {fileID: 7550479208363336956, guid: deb7d57ad501f884a8385eefd563b4bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
+  m_sharedMaterial: {fileID: -2806986325483434471, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -514,8 +514,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: deb7d57ad501f884a8385eefd563b4bc, type: 2}
-  m_sharedMaterial: {fileID: 7550479208363336956, guid: deb7d57ad501f884a8385eefd563b4bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
+  m_sharedMaterial: {fileID: -2806986325483434471, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -831,6 +831,8 @@ MonoBehaviour:
   barText: {fileID: 1884544134}
   defaultSprite: {fileID: 21300000, guid: 8da9a90e9d2f2e64bacd038b7ca48892, type: 3}
   specialSprite: {fileID: 21300000, guid: a8422bebd92639c4896edf06f13ddd51, type: 3}
+  defaultFont: {fileID: 11400000, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
+  italicFont: {fileID: 11400000, guid: 5a4784af6013f1a4aa461d3127560cc4, type: 2}
   spritesPrefab: {fileID: 1418729328}
   nameBar: {fileID: 1586933556}
 --- !u!95 &466386394
@@ -1291,8 +1293,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mr. Horse
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: deb7d57ad501f884a8385eefd563b4bc, type: 2}
-  m_sharedMaterial: {fileID: 7550479208363336956, guid: deb7d57ad501f884a8385eefd563b4bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
+  m_sharedMaterial: {fileID: -2806986325483434471, guid: 049e15660d1488f489fbb860c61b82b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

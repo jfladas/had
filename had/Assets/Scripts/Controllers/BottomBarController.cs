@@ -9,6 +9,8 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI barText;
     public Sprite defaultSprite;
     public Sprite specialSprite;
+    public TMP_FontAsset defaultFont;
+    public TMP_FontAsset italicFont;
     private Image bottomBarImage;
 
     private int sentenceIndex = -1;
@@ -83,9 +85,18 @@ public class BottomBarController : MonoBehaviour
         }
         sentenceText = sentenceText.Replace("{playerName}", playerName);
 
+        var characterName = currentScene.sentences[sentenceIndex].character.characterName;
+        if (characterName == "...")
+        {
+            barText.font = italicFont;
+        }
+        else
+        {
+            barText.font = defaultFont;
+        }
+
         typingCoroutine = StartCoroutine(TypeText(sentenceText));
 
-        var characterName = currentScene.sentences[sentenceIndex].character.characterName;
         if (characterName == "" || characterName == "...")
         {
             nameBar.Hide();
@@ -119,6 +130,16 @@ public class BottomBarController : MonoBehaviour
             sentenceText = currentScene.sentences[sentenceIndex].alternativeText;
         }
         sentenceText = sentenceText.Replace("{playerName}", playerName);
+
+        var characterName = currentScene.sentences[sentenceIndex].character.characterName;
+        if (characterName == "...")
+        {
+            barText.font = italicFont;
+        }
+        else
+        {
+            barText.font = defaultFont;
+        }
 
         barText.text = sentenceText;
         state = State.COMPLETED;
