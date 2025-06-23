@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: Why the heck did I just do that?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I am about to turn around and flee the scene when he stops me.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -30,21 +32,25 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Can I see you after my performance? It'll be just a minute.
+    alternativeText: 
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Ah, sure\u2026"
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Okay, wait by the fountain. I just have to wrap this up.
+    alternativeText: 
     character: {fileID: 11400000, guid: 31bf2e783231f834e91845dbebeb6462, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: For some reason, I follow his orders.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
@@ -56,39 +62,46 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Should I be trusting this person?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Hmm but I can't deny that those moments during the song felt\u2026 magical."
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I make my way through the crowd to find the fountain when I notice people
       whispering among each other.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Did you see that? Sunny picked that girl to perform with him. Who is she?
+    alternativeText: 
     character: {fileID: 11400000, guid: 229e5df98f0545f45956710a651ade50, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Yeah, he even held her hands. I don't think he's ever done that.
+  - text: Yeah, he even held their hands. I don't think he's ever done that.
+    alternativeText: 
     character: {fileID: 11400000, guid: 33a7083436fee1c4295166278d0e0da6, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ugh, just what I needed. People involving me in some kind of scandal with
       their beloved idol.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I finally make it out of the crowd and arrive at the fountain in the center
       of the park.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}

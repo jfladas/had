@@ -216,13 +216,6 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "He was a weird one, but he did say some pretty interesting stuff. He could
-      help u- I mean help you in the future as well, don\u2019t you think?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: "He almost said \u201Cus\u201D. That was kinda cute. I wouldn\u2019t mind
       going on this journey with Aleph to be honest."
     alternativeText: 
