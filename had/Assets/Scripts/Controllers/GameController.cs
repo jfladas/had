@@ -218,6 +218,134 @@ public class GameController : MonoBehaviour
 
         float nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
 
+        if (minigameScene.level == 1)
+        {
+            Vector2 centerPos = Vector2.zero;
+            float tutorialRadius = radiusMin;
+            float tutorialGrowDuration = Random.Range(growDurationMin, growDurationMax);
+            float tutorialGrowSpeed = Random.Range(growSpeedMin, growSpeedMax);
+            GameObject tutorialCircle = null;
+            tutorialCircle = Instantiate(circlePrefab, canvasTransform);
+            RectTransform tRect = tutorialCircle.GetComponent<RectTransform>();
+            tRect.anchoredPosition = centerPos;
+            tRect.sizeDelta = new Vector2(tutorialRadius * 2f, tutorialRadius * 2f);
+            var tData = tutorialCircle.GetComponent<CircleColliderData>();
+            if (tData == null) tData = tutorialCircle.AddComponent<CircleColliderData>();
+            tData.radius = tutorialRadius;
+            tData.isSpecial = false;
+            activeCircles.Add(tutorialCircle);
+            StartCoroutine(AnimateCircle(tutorialCircle, tutorialGrowDuration, tutorialGrowSpeed, true));
+
+            activeHorizontalLine = Instantiate(horizontalLinePrefab, canvasTransform);
+            RectTransform hLineRect = activeHorizontalLine.GetComponent<RectTransform>();
+            hLineRect.anchoredPosition = new Vector2(0, canvasTransform.rect.height / 2);
+            float hTargetY = 0f;
+            isLineMoving = true;
+            bool tutorialTap1 = false;
+            bool tutorialTap2 = false;
+            bool lineArrived = false;
+            bool vLineArrived = false;
+
+            while (!lineArrived)
+            {
+                float moveStep = lineSpeed * Time.deltaTime;
+                hLineRect.anchoredPosition += new Vector2(0, -moveStep);
+                if (hLineRect.anchoredPosition.y <= hTargetY)
+                {
+                    hLineRect.anchoredPosition = new Vector2(0, hTargetY);
+                    isLineMoving = false;
+                    lineArrived = true;
+                }
+                yield return null;
+            }
+
+            bottomBar.barText.font = bottomBar.defaultFont;
+            bottomBar.barText.text = "When your dimensional axis reaches the right position, give an impulse. Repeat this with the second axis and make them overlap in a specific spot.";
+            bottomBar.Show();
+            nameBar.Show();
+            nameBar.SetName("???");
+
+            while (!tutorialTap1)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                    tutorialTap1 = true;
+                yield return null;
+            }
+            bottomBar.Hide();
+            nameBar.Hide();
+
+            activeVerticalLine = Instantiate(verticalLinePrefab, canvasTransform);
+            RectTransform vLineRect = activeVerticalLine.GetComponent<RectTransform>();
+            vLineRect.anchoredPosition = new Vector2(-canvasTransform.rect.width / 2, 0);
+            float vTargetX = 0f;
+            isVerticalLineMoving = true;
+            while (!vLineArrived)
+            {
+                vLineRect.anchoredPosition += new Vector2(lineSpeed * Time.deltaTime, 0);
+                if (vLineRect.anchoredPosition.x >= vTargetX)
+                {
+                    vLineRect.anchoredPosition = new Vector2(vTargetX, 0);
+                    isVerticalLineMoving = false;
+                    vLineArrived = true;
+                }
+                yield return null;
+            }
+
+            bottomBar.barText.font = bottomBar.defaultFont;
+            bottomBar.barText.text = "Ultimately, you must achieve a high enough level of total energy in order to restore the balnce of the universe... They are depending on you!";
+            bottomBar.Show();
+            nameBar.Show();
+            nameBar.SetName("???");
+
+            while (!tutorialTap2)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                    tutorialTap2 = true;
+                yield return null;
+            }
+            bottomBar.Hide();
+            nameBar.Hide();
+
+            if (activeHorizontalLine != null && activeVerticalLine != null)
+            {
+                Vector2 intersection = new Vector2(
+                    vLineRect.anchoredPosition.x,
+                    hLineRect.anchoredPosition.y
+                );
+                List<GameObject> hitCircles = new List<GameObject>();
+                foreach (var circle in new List<GameObject>(activeCircles))
+                {
+                    RectTransform cRect = circle.GetComponent<RectTransform>();
+                    float radius = cRect.sizeDelta.x * cRect.localScale.x / 2f;
+                    if (circle.TryGetComponent<CircleColliderData>(out var data))
+                        radius = data.radius * cRect.localScale.x;
+                    Vector2 circleCenter = cRect.anchoredPosition;
+                    if (Vector2.Distance(intersection, circleCenter) <= radius)
+                        hitCircles.Add(circle);
+                }
+                foreach (var hitCircle in hitCircles)
+                {
+                    if (activeCircles.Contains(hitCircle))
+                    {
+                        int addScore = 100;
+                        if (hitCircle.TryGetComponent<CircleColliderData>(out var data) && data.isSpecial)
+                            addScore = 300;
+                        activeCircles.Remove(hitCircle);
+                        Destroy(hitCircle);
+                        score += addScore;
+                    }
+                }
+                if (hitCircles.Count > 0)
+                    UpdateScoreText();
+            }
+            if (activeHorizontalLine != null)
+                Destroy(activeHorizontalLine);
+            if (activeVerticalLine != null)
+                Destroy(activeVerticalLine);
+        }
+
+        UpdateScoreText();
+
         while (elapsedTime < minigameDuration)
         {
             yield return new WaitForSeconds(0.1f);
@@ -469,7 +597,7 @@ public class GameController : MonoBehaviour
         public bool isSpecial = false;
     }
 
-    private void SpawnCircle(float growDuration = 3f, float growSpeed = 10f, float radius = 60f)
+    private void SpawnCircle(float growDuration = 3f, float growSpeed = 10f, float radius = 60f, bool noFade = false)
     {
         bool spawnSpecial = Random.value < 0.1f;
         GameObject prefab = circlePrefab;
@@ -501,10 +629,10 @@ public class GameController : MonoBehaviour
 
         activeCircles.Add(circle);
 
-        StartCoroutine(AnimateCircle(circle, growDuration, growSpeed));
+        StartCoroutine(AnimateCircle(circle, growDuration, growSpeed, noFade));
     }
 
-    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, float growSpeed = 10f)
+    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, float growSpeed = 10f, bool noFade = false)
     {
         if (circle == null) yield break;
 
@@ -521,7 +649,7 @@ public class GameController : MonoBehaviour
         Vector2 initialScale = Vector2.zero;
         Vector2 targetScale = new Vector2(growSpeed, growSpeed);
 
-        float totalDuration = growDuration + fadeDuration;
+        float totalDuration = noFade ? growDuration : (growDuration + fadeDuration);
         while (elapsedTime < totalDuration)
         {
             if (circle == null) yield break;
@@ -529,7 +657,7 @@ public class GameController : MonoBehaviour
             float growT = Mathf.Clamp01(elapsedTime / totalDuration);
             rectTransform.localScale = Vector2.Lerp(initialScale, targetScale, growT);
 
-            if (elapsedTime < growDuration)
+            if (noFade || elapsedTime < growDuration)
             {
                 canvasGroup.alpha = 1f;
             }
@@ -543,7 +671,7 @@ public class GameController : MonoBehaviour
             yield return null;
         }
 
-        if (circle != null && activeCircles.Contains(circle))
+        if (!noFade && circle != null && activeCircles.Contains(circle))
         {
             Destroy(circle);
             activeCircles.Remove(circle);
