@@ -88,6 +88,7 @@ public class BottomBarController : MonoBehaviour
         var characterName = currentScene.sentences[sentenceIndex].character.characterName;
         if (characterName == "...")
         {
+            characterName = "";
             barText.font = italicFont;
         }
         else
@@ -97,7 +98,7 @@ public class BottomBarController : MonoBehaviour
 
         typingCoroutine = StartCoroutine(TypeText(sentenceText));
 
-        if (characterName == "" || characterName == "...")
+        if (characterName == "")
         {
             nameBar.Hide();
         }
@@ -204,8 +205,7 @@ public class BottomBarController : MonoBehaviour
                 case StoryScene.Sentence.Action.Type.HIDE:
                     if (sprites.ContainsKey(action.character))
                     {
-                        controller = sprites[action.character];
-                        controller.Hide(action.character.sprites[action.spriteIndex]);
+                        sprites[action.character].Hide(action.character.sprites[action.spriteIndex]);
                     }
                     break;
                 case StoryScene.Sentence.Action.Type.NONE:
@@ -215,10 +215,7 @@ public class BottomBarController : MonoBehaviour
                     }
                     break;
             }
-            if (controller != null)
-            {
-                controller.SwitchSprite(action.character.sprites[action.spriteIndex]);
-            }
+            controller?.SwitchSprite(action.character.sprites[action.spriteIndex]);
         }
     }
 }

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A7_X3_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "It seems like being a Sustainer is quite dangerous and a huge responsibility.
+      What if I don\u2019t become their successor and leave it to someone else who
+      would be a better fit?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I don\u2019t think you have a choice in this matter. Normally the Sustainer
+      will choose a pupil and mentor them for a few years."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The dimensional principles need to be upheld or all the universes will
+      face danger. The Sustainer ensures that the dimensions do not collide. The
+      last Sustainer has kept us safe for a long time but she disappeared not long
+      ago.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
+  nextScene: {fileID: 11400000, guid: e208844e9885aec48b359093b6d6432e, type: 2}

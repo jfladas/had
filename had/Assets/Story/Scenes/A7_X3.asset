@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: A7_X3
+  m_EditorClassIdentifier: 
+  labels:
+  - text: What does that mean?
+    nextScene: {fileID: 11400000, guid: d7abeb88d13e0384fa7fe35d40f1adb9, type: 2}
+  - text: "What if I don\u2019t want to?"
+    nextScene: {fileID: 11400000, guid: 4c2b79bfbfb6c38469fe5b6ce8c5879f, type: 2}

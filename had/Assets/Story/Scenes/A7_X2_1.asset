@@ -10,14 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: 6_X1_4
+  m_Name: A7_X2_1
   m_EditorClassIdentifier: 
   sentences:
-  - text: "I head over to Aleph\u2026"
+  - text: "I still feel like he\u2019s a bit off. Something tells me that the part
+      that he omitted about that incident is important."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
+  - text: I think i need to let this friendship marinate a bit more before I can
+      fully trust him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
-  nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
+  nextScene: {fileID: 11400000, guid: 1bfda2fe3d8e1fc4184d702dcf16ae61, type: 2}
