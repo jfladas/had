@@ -197,7 +197,7 @@ RectTransform:
   m_GameObject: {fileID: 126341995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 250446529}
@@ -205,7 +205,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -432.5, y: -15}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &126341997
 MonoBehaviour:
@@ -229,7 +229,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 3be195ba0ba8433409412dd38eec2425, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1228,6 +1228,7 @@ MonoBehaviour:
   player: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
   circlePrefab: {fileID: 5715037799853049465, guid: 43354ecce43e59c42bf601059cbcaee3, type: 3}
   specialCirclePrefab: {fileID: 5715037799853049465, guid: d5ff4428a34b608459c22e36655ca6c6, type: 3}
+  specialCirclePrefab2: {fileID: 5715037799853049465, guid: 70326695f11a65e47871650c6d4e4a5b, type: 3}
   horizontalLinePrefab: {fileID: 3759942504408408695, guid: b81df0b2a8d8d2c48bd5129e0b8d0ce6, type: 3}
   verticalLinePrefab: {fileID: 3759942504408408695, guid: 7adb2d02e249db44da4b62043ab7e2f6, type: 3}
   canvasTransform: {fileID: 1242838789}

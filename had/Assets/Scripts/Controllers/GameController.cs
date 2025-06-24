@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
 
     public GameObject circlePrefab;
     public GameObject specialCirclePrefab;
+    public GameObject specialCirclePrefab2;
     public GameObject horizontalLinePrefab;
     public GameObject verticalLinePrefab;
     public RectTransform canvasTransform;
@@ -243,6 +244,8 @@ public class GameController : MonoBehaviour
             isLineMoving = true;
             bool tutorialTap1 = false;
             bool tutorialTap2 = false;
+            bool tutorialTap3 = false;
+            bool tutorialTap4 = false;
             bool lineArrived = false;
             bool vLineArrived = false;
 
@@ -260,7 +263,7 @@ public class GameController : MonoBehaviour
             }
 
             bottomBar.barText.font = bottomBar.defaultFont;
-            bottomBar.barText.text = "When your dimensional axis reaches the right position, give an impulse. Repeat this with the second axis and make them overlap in a specific spot.";
+            bottomBar.barText.text = "When your dimensional axis reaches the right position, give an impulse.";
             bottomBar.Show();
             nameBar.Show();
             nameBar.SetName("???");
@@ -273,6 +276,7 @@ public class GameController : MonoBehaviour
             }
             bottomBar.Hide();
             nameBar.Hide();
+            yield return new WaitForSeconds(1f);
 
             activeVerticalLine = Instantiate(verticalLinePrefab, canvasTransform);
             RectTransform vLineRect = activeVerticalLine.GetComponent<RectTransform>();
@@ -291,8 +295,7 @@ public class GameController : MonoBehaviour
                 yield return null;
             }
 
-            bottomBar.barText.font = bottomBar.defaultFont;
-            bottomBar.barText.text = "Ultimately, you must achieve a high enough level of total energy in order to restore the balnce of the universe... They are depending on you!";
+            bottomBar.barText.text = "Repeat this with the second axis and make them overlap in a specific spot. You can harness its power like this.";
             bottomBar.Show();
             nameBar.Show();
             nameBar.SetName("???");
@@ -300,7 +303,41 @@ public class GameController : MonoBehaviour
             while (!tutorialTap2)
             {
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
                     tutorialTap2 = true;
+                }
+                yield return null;
+            }
+            bottomBar.Hide();
+            nameBar.Hide();
+            yield return new WaitForSeconds(1f);
+
+            bottomBar.barText.text = "Aim for coloured circles, they possess triple the power of regular ones. There is not much time, I believe in you.";
+            bottomBar.Show();
+            nameBar.Show();
+            nameBar.SetName("???");
+            while (!tutorialTap3)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
+                    tutorialTap3 = true;
+                }
+                yield return null;
+            }
+            bottomBar.Hide();
+            nameBar.Hide();
+            yield return new WaitForSeconds(1f);
+
+            bottomBar.barText.text = "Ultimately, you must achieve a high enough level of total energy in order to restore the balance of the universe... They are depending on you!";
+            bottomBar.Show();
+            nameBar.Show();
+            nameBar.SetName("???");
+            while (!tutorialTap4)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
+                    tutorialTap4 = true;
+                }
                 yield return null;
             }
             bottomBar.Hide();
@@ -457,7 +494,7 @@ public class GameController : MonoBehaviour
                         isSpecial = data.isSpecial;
                     }
                     Vector2 circleCenter = cRect.anchoredPosition;
-                    if (Vector2.Distance(intersection, circleCenter) <= radius)
+                    if (Vector2.Distance(intersection, circleCenter) <= radius * 0.75f)
                     {
                         hitCircles.Add(circle);
                     }
@@ -606,7 +643,7 @@ public class GameController : MonoBehaviour
 
         if (spawnSpecial)
         {
-            prefab = specialCirclePrefab != null ? specialCirclePrefab : circlePrefab;
+            prefab = Random.value < 0.5f ? specialCirclePrefab : specialCirclePrefab2;
             actualRadius = radius * 0.5f;
             isSpecial = true;
         }

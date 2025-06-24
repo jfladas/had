@@ -146,16 +146,22 @@ MonoBehaviour:
     actions:
     - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
       spriteIndex: 2
-      type: 2
+      type: 0
       position: {x: 0, y: 0}
-      speed: -1
-      targetScale: 1
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Chill out, it was a joke. You\u2019re just so amusing {playerName}."
     alternativeText: "Chill out, it was a joke. You\u2019re just so amusing."
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 4012a7de0e9dff247a457e9e5ceb9797, type: 2}
+      spriteIndex: 2
+      type: 2
+      position: {x: 0, y: 0}
+      speed: -1
+      targetScale: 1
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "That wasn\u2019t funny. It seems like each time we meet you manage to
