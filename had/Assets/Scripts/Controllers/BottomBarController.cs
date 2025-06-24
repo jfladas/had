@@ -105,8 +105,8 @@ public class BottomBarController : MonoBehaviour
         else
         {
             nameBar.Show();
+            nameBar.SetName(characterName);
         }
-        nameBar.SetName(characterName);
         ActCharacter();
         if (characterName == "...")
         {
