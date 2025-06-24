@@ -205,7 +205,7 @@ public class BottomBarController : MonoBehaviour
                 case StoryScene.Sentence.Action.Type.HIDE:
                     if (sprites.ContainsKey(action.character))
                     {
-                        sprites[action.character].Hide(action.character.sprites[action.spriteIndex]);
+                        sprites[action.character].Hide();
                     }
                     break;
                 case StoryScene.Sentence.Action.Type.NONE:

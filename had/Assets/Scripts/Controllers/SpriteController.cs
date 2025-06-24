@@ -23,16 +23,17 @@ public class SpriteController : MonoBehaviour
     public void Show(Vector2 position, float targetScale)
     {
         rect.localPosition = position;
-        if (targetScale != 0)
+        if (targetScale == 0)
         {
-            rect.localScale = new Vector3(targetScale, targetScale, targetScale);
+            targetScale = 1f;
         }
+        rect.localScale = new Vector3(targetScale, targetScale, targetScale);
         animator.SetTrigger("Show");
     }
 
-    public void Hide(Sprite sprite)
+    public void Hide()
     {
-        switcher.SetOtherImage(sprite);
+        switcher.SetOtherImage(switcher.GetImage());
         animator.SetTrigger("Hide");
     }
 

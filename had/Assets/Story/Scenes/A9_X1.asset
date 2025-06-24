@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: A9_X1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: ...should I just wait here?
+    nextScene: {fileID: 11400000, guid: e9c91dc341967794993c260d8e7410f0, type: 2}
+  - text: "...don\u2019t just leave me here!"
+    nextScene: {fileID: 11400000, guid: cbd760330f5de1e4d94e83c3d904d536, type: 2}
+  - text: ...wait! (run after him)
+    nextScene: {fileID: 11400000, guid: 2dbdf2be872881d449c68ef15e42dca4, type: 2}

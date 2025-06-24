@@ -137,7 +137,15 @@ public class GameController : MonoBehaviour
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);
-        yield return new WaitForSeconds(1.5f);
+        bool proceed = false;
+        while (!proceed)
+        {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            {
+                proceed = true;
+            }
+            yield return null;
+        }
         PlayScene(chapterScene.nextScene);
     }
 
