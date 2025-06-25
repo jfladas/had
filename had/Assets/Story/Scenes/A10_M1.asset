@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
-  m_Name: AFade9a
+  m_Script: {fileID: 11500000, guid: 9cc4303f8f262e0429d6312637f3b265, type: 3}
+  m_Name: A10_M1
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
-  nextScene: {fileID: 11400000, guid: 688d8938843f61f41a48f82075219019, type: 2}
+  background: {fileID: 21300000, guid: c7a9b71041f34dd4ea3fe85605df0a8d, type: 3}
+  level: 2
+  nextScene: {fileID: 0}

@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
-  m_Name: AFade9a
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Stella
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
-  nextScene: {fileID: 11400000, guid: 688d8938843f61f41a48f82075219019, type: 2}
+  characterName: Stella
+  sprites: []
+  prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

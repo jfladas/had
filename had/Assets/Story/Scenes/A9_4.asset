@@ -267,10 +267,15 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yeah almost. There was something strange though. At that time, I was stargazing
-      through my window one night. Then I saw a shooting star. I thought it was about
-      to rain fire again but instead a bright light engulfed everything and when
-      I came to, I was in the living room with my parents and it was like the disaster
-      never even happened.
+      through my window one night.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Then I saw a shooting star. I thought it was about to rain fire again but
+      instead a bright light engulfed everything and when I came to, I was in the
+      living room with my parents and it was like the disaster never even happened.
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
@@ -285,10 +290,16 @@ MonoBehaviour:
   - text: "No, I didn\u2019t go back to five years old. It felt just like it was
       a parallel universe where the incident never happened. I also didn\u2019t have
       my power and the golden eyes and hair anymore. I was happy but that lasted
-      only for a short while. Because the incident happened again. Just a lot later
-      than in the first timeline. I tried saving everyone but I had no powers and
-      then I blacked out and woke up in your dimension. But right now I think we
-      are in the timeline where everyone died."
+      only for a short while."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Because the incident happened again. Just a lot later than in the first
+      timeline. I tried saving everyone but I had no powers and then I blacked out
+      and woke up in your dimension. But right now I think we are in the timeline
+      where everyone died.
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []

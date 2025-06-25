@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
-  m_Name: AFade9a
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: A10_X1
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
-  nextScene: {fileID: 11400000, guid: 688d8938843f61f41a48f82075219019, type: 2}
+  labels:
+  - text: Make a sudden turn.
+    nextScene: {fileID: 0}
+  - text: Throw something.
+    nextScene: {fileID: 0}

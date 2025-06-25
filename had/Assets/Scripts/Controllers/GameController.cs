@@ -162,7 +162,6 @@ public class GameController : MonoBehaviour
         float spawnInterval;
         float lineSpeed;
         float circleGrowDuration;
-        float circleGrowSpeed;
         float circleRadius;
 
         switch (minigameScene.level)
@@ -172,40 +171,29 @@ public class GameController : MonoBehaviour
                 spawnInterval = 0.8f;
                 lineSpeed = 3000f;
                 circleGrowDuration = 0.5f;
-                circleGrowSpeed = 20f;
-                circleRadius = 40f;
+                circleRadius = 80f;
                 break;
             case 1:
+            default:
                 minigameDuration = 20f;
                 spawnInterval = 1f;
                 lineSpeed = 1000f;
                 circleGrowDuration = 3f;
-                circleGrowSpeed = 10f;
-                circleRadius = 60f;
+                circleRadius = 40f;
                 break;
             case 2:
                 minigameDuration = 15f;
                 spawnInterval = 0.8f;
                 lineSpeed = 1500f;
                 circleGrowDuration = 2f;
-                circleGrowSpeed = 7f;
-                circleRadius = 50f;
+                circleRadius = 60f;
                 break;
             case 3:
                 minigameDuration = 10f;
                 spawnInterval = 0.5f;
                 lineSpeed = 2000f;
                 circleGrowDuration = 1.5f;
-                circleGrowSpeed = 15f;
-                circleRadius = 30f;
-                break;
-            default:
-                minigameDuration = 20f;
-                spawnInterval = 1f;
-                lineSpeed = 1000f;
-                circleGrowDuration = 3f;
-                circleGrowSpeed = 10f;
-                circleRadius = 60f;
+                circleRadius = 80f;
                 break;
         }
 
@@ -220,8 +208,6 @@ public class GameController : MonoBehaviour
         float spawnIntervalMax = spawnInterval * 1.2f;
         float growDurationMin = circleGrowDuration * 0.8f;
         float growDurationMax = circleGrowDuration * 1.2f;
-        float growSpeedMin = circleGrowSpeed * 0.8f;
-        float growSpeedMax = circleGrowSpeed * 1.2f;
         float radiusMin = circleRadius * 0.8f;
         float radiusMax = circleRadius * 1.2f;
 
@@ -232,7 +218,6 @@ public class GameController : MonoBehaviour
             Vector2 centerPos = Vector2.zero;
             float tutorialRadius = radiusMin;
             float tutorialGrowDuration = Random.Range(growDurationMin, growDurationMax);
-            float tutorialGrowSpeed = Random.Range(growSpeedMin, growSpeedMax);
             GameObject tutorialCircle = null;
             tutorialCircle = Instantiate(circlePrefab, canvasTransform);
             RectTransform tRect = tutorialCircle.GetComponent<RectTransform>();
@@ -243,7 +228,7 @@ public class GameController : MonoBehaviour
             tData.radius = tutorialRadius;
             tData.isSpecial = false;
             activeCircles.Add(tutorialCircle);
-            StartCoroutine(AnimateCircle(tutorialCircle, tutorialGrowDuration, tutorialGrowSpeed, true));
+            StartCoroutine(AnimateCircle(tutorialCircle, tutorialGrowDuration, true));
 
             activeHorizontalLine = Instantiate(horizontalLinePrefab, canvasTransform);
             RectTransform hLineRect = activeHorizontalLine.GetComponent<RectTransform>();
@@ -417,9 +402,8 @@ public class GameController : MonoBehaviour
                 if (circleSpawnTimer >= nextSpawnInterval)
                 {
                     float thisGrowDuration = Random.Range(growDurationMin, growDurationMax);
-                    float thisGrowSpeed = Random.Range(growSpeedMin, growSpeedMax);
                     float thisRadius = Random.Range(radiusMin, radiusMax);
-                    SpawnCircle(thisGrowDuration, thisGrowSpeed, thisRadius);
+                    SpawnCircle(thisGrowDuration, thisRadius);
                     circleSpawnTimer = 0f;
                     nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
                 }
@@ -460,9 +444,8 @@ public class GameController : MonoBehaviour
                 if (circleSpawnTimer >= nextSpawnInterval)
                 {
                     float thisGrowDuration = Random.Range(growDurationMin, growDurationMax);
-                    float thisGrowSpeed = Random.Range(growSpeedMin, growSpeedMax);
                     float thisRadius = Random.Range(radiusMin, radiusMax);
-                    SpawnCircle(thisGrowDuration, thisGrowSpeed, thisRadius);
+                    SpawnCircle(thisGrowDuration, thisRadius);
                     circleSpawnTimer = 0f;
                     nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
                 }
@@ -642,7 +625,7 @@ public class GameController : MonoBehaviour
         public bool isSpecial = false;
     }
 
-    private void SpawnCircle(float growDuration = 3f, float growSpeed = 10f, float radius = 60f, bool noFade = false)
+    private void SpawnCircle(float growDuration = 3f, float radius = 60f, bool noFade = false)
     {
         bool spawnSpecial = Random.value < 0.1f;
         GameObject prefab = circlePrefab;
@@ -674,10 +657,10 @@ public class GameController : MonoBehaviour
 
         activeCircles.Add(circle);
 
-        StartCoroutine(AnimateCircle(circle, growDuration, growSpeed, noFade));
+        StartCoroutine(AnimateCircle(circle, growDuration, noFade));
     }
 
-    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, float growSpeed = 10f, bool noFade = false)
+    private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, bool noFade = false)
     {
         if (circle == null) yield break;
 
@@ -692,7 +675,7 @@ public class GameController : MonoBehaviour
         float elapsedTime = 0f;
 
         Vector2 initialScale = Vector2.zero;
-        Vector2 targetScale = new Vector2(growSpeed, growSpeed);
+        Vector2 targetScale = new Vector2(10, 10);
 
         float totalDuration = noFade ? growDuration : (growDuration + fadeDuration);
         while (elapsedTime < totalDuration)
