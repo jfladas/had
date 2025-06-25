@@ -161,8 +161,14 @@ public class GameController : MonoBehaviour
         nameBar.Hide();
         spriteSwitcher.SwitchImage(minigameScene.background);
 
-        timerImage?.gameObject.SetActive(true);
-        minigameEndImage?.gameObject.SetActive(false);
+        if (minigameEndImage != null)
+            minigameEndImage.gameObject.SetActive(false);
+        if (scoreText != null)
+            scoreText.gameObject.SetActive(true);
+        if (timerText != null)
+            timerText.gameObject.SetActive(true);
+        if (timerImage != null)
+            timerImage.gameObject.SetActive(true);
 
         float minigameDuration;
         float spawnInterval;
@@ -344,6 +350,8 @@ public class GameController : MonoBehaviour
 
             if (activeHorizontalLine != null && activeVerticalLine != null)
             {
+                if (activeHorizontalLine == null || activeVerticalLine == null)
+                    yield break;
                 Vector2 intersection = new Vector2(
                     vLineRect.anchoredPosition.x,
                     hLineRect.anchoredPosition.y
@@ -351,6 +359,7 @@ public class GameController : MonoBehaviour
                 List<GameObject> hitCircles = new List<GameObject>();
                 foreach (var circle in new List<GameObject>(activeCircles))
                 {
+                    if (circle == null) continue;
                     RectTransform cRect = circle.GetComponent<RectTransform>();
                     float radius = cRect.sizeDelta.x * cRect.localScale.x / 2f;
                     if (circle.TryGetComponent<CircleColliderData>(out var data))
@@ -361,6 +370,7 @@ public class GameController : MonoBehaviour
                 }
                 foreach (var hitCircle in hitCircles)
                 {
+                    if (hitCircle == null) continue;
                     if (activeCircles.Contains(hitCircle))
                     {
                         int addScore = 100;
@@ -472,6 +482,8 @@ public class GameController : MonoBehaviour
 
             if (activeHorizontalLine != null && activeVerticalLine != null)
             {
+                if (activeHorizontalLine == null || activeVerticalLine == null)
+                    yield break;
                 RectTransform hLine = activeHorizontalLine.GetComponent<RectTransform>();
                 RectTransform vLine = activeVerticalLine.GetComponent<RectTransform>();
                 Vector2 intersection = new Vector2(
@@ -482,6 +494,7 @@ public class GameController : MonoBehaviour
                 List<GameObject> hitCircles = new List<GameObject>();
                 foreach (var circle in new List<GameObject>(activeCircles))
                 {
+                    if (circle == null) continue;
                     RectTransform cRect = circle.GetComponent<RectTransform>();
                     float radius = cRect.sizeDelta.x * cRect.localScale.x / 2f;
                     bool isSpecial = false;
@@ -498,6 +511,7 @@ public class GameController : MonoBehaviour
                 }
                 foreach (var hitCircle in hitCircles)
                 {
+                    if (hitCircle == null) continue;
                     if (activeCircles.Contains(hitCircle))
                     {
                         int addScore = 100;
@@ -526,7 +540,8 @@ public class GameController : MonoBehaviour
 
         foreach (var circle in activeCircles)
         {
-            Destroy(circle);
+            if (circle != null)
+                Destroy(circle);
         }
         if (activeHorizontalLine != null)
         {
