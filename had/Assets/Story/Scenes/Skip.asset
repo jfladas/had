@@ -18,5 +18,5 @@ MonoBehaviour:
   - text: I have played the Demo, skip to Chapter 7 (and choose to approach Aleph
       in the bunker)
     nextScene: {fileID: 11400000, guid: c587ec060084c4f44be0ed687e7c2aeb, type: 2}
-  - text: Go to Chapter 9 (dev)
-    nextScene: {fileID: 11400000, guid: 572e152490c5430439e4966c430308af, type: 2}
+  - text: Go to Chapter 10 (dev)
+    nextScene: {fileID: 11400000, guid: 74235f7c8789f2b40bbe849edc2bf8a4, type: 2}

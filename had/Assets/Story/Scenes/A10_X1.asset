@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Make a sudden turn.
-    nextScene: {fileID: 0}
+    nextScene: {fileID: 11400000, guid: ecedf59636d96d549a888deeac8f6bb6, type: 2}
   - text: Throw something.
-    nextScene: {fileID: 0}
+    nextScene: {fileID: 11400000, guid: 2c19148bfd7a2d84f871e283ce8ecd5c, type: 2}

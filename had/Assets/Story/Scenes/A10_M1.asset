@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: c7a9b71041f34dd4ea3fe85605df0a8d, type: 3}
   level: 2
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: ea1b4845081890448a8360d78f04ef2c, type: 2}

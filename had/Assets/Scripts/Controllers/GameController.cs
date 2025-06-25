@@ -24,6 +24,7 @@ public class GameController : MonoBehaviour
     public TMPro.TMP_Text scoreText;
     public TMPro.TMP_Text timerText;
     public Image timerImage;
+    public Image minigameEndImage;
 
     private List<GameObject> activeCircles = new List<GameObject>();
     private GameObject activeHorizontalLine;
@@ -43,6 +44,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         timerImage?.gameObject.SetActive(false);
+        minigameEndImage?.gameObject.SetActive(false);
 
         playerName = player.characterName;
         if (currentScene is StoryScene)
@@ -55,6 +57,7 @@ public class GameController : MonoBehaviour
         else if (currentScene is ChapterScene)
         {
             ChapterScene chapterScene = currentScene as ChapterScene;
+            ChapterScene.SetChapterDone(chapterScene.name, true);
             StartCoroutine(DisplayChapterScene(chapterScene));
         }
     }
@@ -137,13 +140,15 @@ public class GameController : MonoBehaviour
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);
+        float waitTime = 0f;
         bool proceed = false;
-        while (!proceed)
+        while (waitTime < 5f && !proceed)
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 proceed = true;
             }
+            waitTime += Time.deltaTime;
             yield return null;
         }
         PlayScene(chapterScene.nextScene);
@@ -157,6 +162,7 @@ public class GameController : MonoBehaviour
         spriteSwitcher.SwitchImage(minigameScene.background);
 
         timerImage?.gameObject.SetActive(true);
+        minigameEndImage?.gameObject.SetActive(false);
 
         float minigameDuration;
         float spawnInterval;
@@ -531,18 +537,36 @@ public class GameController : MonoBehaviour
             Destroy(activeVerticalLine);
         }
 
+        if (minigameEndImage != null)
+            minigameEndImage.gameObject.SetActive(true);
         if (scoreText != null)
+            scoreText.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(1f);
+
+        float waitTime = 0f;
+        bool proceed = false;
+        while (waitTime < 4f && !proceed)
         {
-            scoreText.text = "";
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                proceed = true;
+            waitTime += Time.deltaTime;
+            yield return null;
         }
+
+        if (minigameEndImage != null)
+            minigameEndImage.gameObject.SetActive(false);
+        if (scoreText != null)
+            scoreText.gameObject.SetActive(false);
         if (timerText != null)
+            timerText.gameObject.SetActive(false);
+        if (timerImage != null)
+            timerImage.gameObject.SetActive(false);
+
+        if (minigameScene.nextScene != null)
         {
-            timerText.text = "";
+            PlayScene(minigameScene.nextScene);
         }
-
-        timerImage?.gameObject.SetActive(false);
-
-        PlayScene(minigameScene.nextScene);
     }
 
     private IEnumerator AnimateHorizontalLine(float speed = 1000f)
