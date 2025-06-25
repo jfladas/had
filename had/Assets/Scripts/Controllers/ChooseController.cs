@@ -26,7 +26,7 @@ public class ChooseController : MonoBehaviour
         animator.SetTrigger("Show");
     }
 
-    public void PerformChoose(StoryScene scene)
+    public void PerformChoose(GameScene scene)
     {
         gameController.PlayScene(scene);
         HideChoose();
@@ -40,7 +40,7 @@ public class ChooseController : MonoBehaviour
 
     private IEnumerator DestroyLabelsAfterTimeout()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.75f);
         DestroyLabels();
     }
 

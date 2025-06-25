@@ -11,7 +11,6 @@ public class ChapterScene : GameScene
     {
         PlayerPrefs.SetInt(chapterKey, done ? 1 : 0);
         PlayerPrefs.Save();
-        Debug.Log($"Chapter '{chapterKey}' completion set to: {done}");
     }
 
     public static bool IsChapterDone(string chapterKey)

@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
-  m_Name: Menu
+  m_Name: ChapterSelect
   m_EditorClassIdentifier: 
   labels:
-  - text: Chapter Select
-    nextScene: {fileID: 11400000, guid: 5d7fbb0d7f161ef4eb328bc6bc82a056, type: 2}
-  - text: Gallery
-    nextScene: {fileID: 0}
+  - text: Prologue - Chapter 6
+    nextScene: {fileID: 11400000, guid: dfbcd6c080c423d409a374e4667a237a, type: 2}
+  - text: Chapter 7 - 14 (Aleph)
+    nextScene: {fileID: 11400000, guid: 2d960f535233a1d4cab565df775b3f2a, type: 2}
+  - text: Chapter 15 - Epilogue (Aleph)
+    nextScene: {fileID: 11400000, guid: 2d960f535233a1d4cab565df775b3f2a, type: 2}

@@ -6,7 +6,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
 {
     public Color defaultColor;
     public Color hoverColor;
-    private StoryScene scene;
+    private GameScene scene;
     public TextMeshProUGUI textMesh;
     private ChooseController controller;
 

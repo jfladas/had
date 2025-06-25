@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Skip
   m_EditorClassIdentifier: 
   labels:
-  - text: Start from the beginning
+  - text: Start from the beginning.
     nextScene: {fileID: 11400000, guid: 316af5f9bcbd4394a923d8f5ca38afe2, type: 2}
-  - text: I have played the Demo, skip to Chapter 7 (and choose to approach Aleph
-      in the bunker)
-    nextScene: {fileID: 11400000, guid: c587ec060084c4f44be0ed687e7c2aeb, type: 2}
-  - text: Go to Chapter 10 (dev)
+  - text: I have played the Demo, skip to Chapter 7. (Aleph)
+    nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
+  - text: Go to Chapter 10. (dev)
     nextScene: {fileID: 11400000, guid: 74235f7c8789f2b40bbe849edc2bf8a4, type: 2}

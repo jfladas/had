@@ -53,6 +53,7 @@ public class GameController : MonoBehaviour
         timerImage?.gameObject.SetActive(false);
         minigameEndImage?.gameObject.SetActive(false);
         menuImage?.gameObject.SetActive(false);
+        menuButton?.gameObject.SetActive(false);
         closeButton?.gameObject.SetActive(false);
 
         playerName = player.characterName;
@@ -112,11 +113,35 @@ public class GameController : MonoBehaviour
     private IEnumerator SwitchScene(GameScene scene)
     {
         state = State.ANIMATE;
+        var previousScene = currentScene;
         currentScene = scene;
         bottomBar.Hide();
         nameBar.Hide();
         menuButton?.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.5f);
+        if (previousScene is ChooseScene && scene is ChooseScene)
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
+        if (scene is ChapterScene)
+        {
+            closeButton?.gameObject.SetActive(false);
+            if (menuImage != null && menuImage.gameObject.activeSelf)
+            {
+                menuImage.gameObject.SetActive(false);
+            }
+            if (bottomBar != null && bottomBar.spritesPrefab != null)
+            {
+                foreach (Transform child in bottomBar.spritesPrefab.transform)
+                {
+                    GameObject.Destroy(child.gameObject);
+                }
+                if (bottomBar.sprites != null)
+                {
+                    bottomBar.sprites.Clear();
+                }
+            }
+        }
         if (scene is StoryScene)
         {
             menuButton?.gameObject.SetActive(true);

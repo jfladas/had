@@ -12,6 +12,6 @@ public class ChooseScene : GameScene
     public struct ChooseLabel
     {
         public string text;
-        public StoryScene nextScene;
+        public GameScene nextScene;
     }
 }

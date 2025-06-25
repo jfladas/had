@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
   m_Name: Chapter4
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  background: {fileID: 21300000, guid: 7d5a390ac8fa3324f85f91a20372522f, type: 3}
   nextScene: {fileID: 11400000, guid: 67b9c6f5624d77347a73a6041be7f39c, type: 2}
