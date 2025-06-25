@@ -25,6 +25,10 @@ public class GameController : MonoBehaviour
     public TMPro.TMP_Text timerText;
     public Image timerImage;
     public Image minigameEndImage;
+    public Button menuButton;
+    public Image menuImage;
+    public GameScene menuScene;
+    public Button closeButton;
 
     private List<GameObject> activeCircles = new List<GameObject>();
     private GameObject activeHorizontalLine;
@@ -41,10 +45,15 @@ public class GameController : MonoBehaviour
         IDLE, ANIMATE, CHOOSE
     }
 
+    private GameScene savedScene;
+    private int savedSentenceIndex;
+
     void Start()
     {
         timerImage?.gameObject.SetActive(false);
         minigameEndImage?.gameObject.SetActive(false);
+        menuImage?.gameObject.SetActive(false);
+        closeButton?.gameObject.SetActive(false);
 
         playerName = player.characterName;
         if (currentScene is StoryScene)
@@ -57,9 +66,13 @@ public class GameController : MonoBehaviour
         else if (currentScene is ChapterScene)
         {
             ChapterScene chapterScene = currentScene as ChapterScene;
-            ChapterScene.SetChapterDone(chapterScene.name, true);
             StartCoroutine(DisplayChapterScene(chapterScene));
         }
+
+        if (menuButton != null)
+            menuButton.onClick.AddListener(OnMenuButtonClicked);
+        if (closeButton != null)
+            closeButton.onClick.AddListener(OnCloseButtonClicked);
     }
 
     void Update()
@@ -102,9 +115,11 @@ public class GameController : MonoBehaviour
         currentScene = scene;
         bottomBar.Hide();
         nameBar.Hide();
+        menuButton?.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         if (scene is StoryScene)
         {
+            menuButton?.gameObject.SetActive(true);
             StoryScene storyScene = scene as StoryScene;
             spriteSwitcher.SwitchImage(storyScene.background);
             PlayAudio(storyScene.sentences[0]);
@@ -127,6 +142,7 @@ public class GameController : MonoBehaviour
         }
         else if (scene is ChapterScene)
         {
+            ChapterScene.SetChapterDone(scene.name, true);
             StartCoroutine(DisplayChapterScene(scene as ChapterScene));
         }
         else if (scene is MinigameScene)
@@ -161,14 +177,10 @@ public class GameController : MonoBehaviour
         nameBar.Hide();
         spriteSwitcher.SwitchImage(minigameScene.background);
 
-        if (minigameEndImage != null)
-            minigameEndImage.gameObject.SetActive(false);
-        if (scoreText != null)
-            scoreText.gameObject.SetActive(true);
-        if (timerText != null)
-            timerText.gameObject.SetActive(true);
-        if (timerImage != null)
-            timerImage.gameObject.SetActive(true);
+        minigameEndImage?.gameObject.SetActive(false);
+        scoreText?.gameObject.SetActive(true);
+        timerText?.gameObject.SetActive(true);
+        timerImage?.gameObject.SetActive(true);
 
         float minigameDuration;
         float spawnInterval;
@@ -552,10 +564,8 @@ public class GameController : MonoBehaviour
             Destroy(activeVerticalLine);
         }
 
-        if (minigameEndImage != null)
-            minigameEndImage.gameObject.SetActive(true);
-        if (scoreText != null)
-            scoreText.gameObject.SetActive(true);
+        minigameEndImage?.gameObject.SetActive(true);
+        scoreText?.gameObject.SetActive(true);
 
         yield return new WaitForSeconds(1f);
 
@@ -569,21 +579,16 @@ public class GameController : MonoBehaviour
             yield return null;
         }
 
-        if (minigameEndImage != null)
-            minigameEndImage.gameObject.SetActive(false);
-        if (scoreText != null)
-            scoreText.gameObject.SetActive(false);
-        if (timerText != null)
-            timerText.gameObject.SetActive(false);
-        if (timerImage != null)
-            timerImage.gameObject.SetActive(false);
+        minigameEndImage?.gameObject.SetActive(false);
+        scoreText?.gameObject.SetActive(false);
+        timerText?.gameObject.SetActive(false);
+        timerImage?.gameObject.SetActive(false);
 
         if (minigameScene.nextScene != null)
         {
             PlayScene(minigameScene.nextScene);
         }
     }
-
     private IEnumerator AnimateHorizontalLine(float speed = 1000f)
     {
         isLineMoving = true;
@@ -615,7 +620,6 @@ public class GameController : MonoBehaviour
             yield return null;
         }
     }
-
     private IEnumerator AnimateVerticalLine(float speed = 1000f)
     {
         isVerticalLineMoving = true;
@@ -647,23 +651,19 @@ public class GameController : MonoBehaviour
             yield return null;
         }
     }
-
     private void StopHorizontalLine()
     {
         isLineMoving = false;
     }
-
     private void StopVerticalLine()
     {
         isVerticalLineMoving = false;
     }
-
     private class CircleColliderData : MonoBehaviour
     {
         public float radius;
         public bool isSpecial = false;
     }
-
     private void SpawnCircle(float growDuration = 3f, float radius = 60f, bool noFade = false)
     {
         bool spawnSpecial = Random.value < 0.1f;
@@ -698,7 +698,6 @@ public class GameController : MonoBehaviour
 
         StartCoroutine(AnimateCircle(circle, growDuration, noFade));
     }
-
     private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, bool noFade = false)
     {
         if (circle == null) yield break;
@@ -763,6 +762,37 @@ public class GameController : MonoBehaviour
         if (timerText != null)
         {
             timerText.text = Mathf.CeilToInt(Mathf.Max(0, secondsLeft)).ToString();
+        }
+    }
+
+    private void OnMenuButtonClicked()
+    {
+        //Time.timeScale = 0f;
+        menuImage?.gameObject.SetActive(true);
+        closeButton?.gameObject.SetActive(true);
+        menuButton?.gameObject.SetActive(false);
+        savedScene = currentScene;
+        if (currentScene is StoryScene && bottomBar != null)
+            savedSentenceIndex = bottomBar.GetSentenceIndex();
+        else
+            savedSentenceIndex = -1;
+        StartCoroutine(SwitchScene(menuScene));
+    }
+
+    private void OnCloseButtonClicked()
+    {
+        menuImage?.gameObject.SetActive(false);
+        closeButton?.gameObject.SetActive(false);
+        menuButton?.gameObject.SetActive(true);
+        //Time.timeScale = 1f;
+        if (savedScene is StoryScene && bottomBar != null && savedSentenceIndex >= 0)
+        {
+            chooseController.HideChoose();
+            StartCoroutine(SwitchScene(savedScene));
+            /*for (int i = 0; i < savedSentenceIndex; i++)
+            {
+                bottomBar.PlayNextSentence(playerName);
+            }*/
         }
     }
 }

@@ -29,6 +29,11 @@ public class ChooseController : MonoBehaviour
     public void PerformChoose(StoryScene scene)
     {
         gameController.PlayScene(scene);
+        HideChoose();
+    }
+
+    public void HideChoose()
+    {
         animator.SetTrigger("Hide");
         StartCoroutine(DestroyLabelsAfterTimeout());
     }
