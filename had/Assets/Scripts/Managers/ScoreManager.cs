@@ -4,6 +4,8 @@ public static class ScoreManager
 {
     private const string CURRENT_SCORE_KEY = "CurrentTotalScore";
     private const string MINIGAME_PLAYED_PREFIX = "MinigameLevel_";
+    private const string CURRENT_SCENE_KEY = "CurrentSceneName";
+    private const string CURRENT_SENTENCE_INDEX_KEY = "CurrentSentenceIndex";
 
     public static int GetCurrentScore()
     {
@@ -67,6 +69,7 @@ public static class ScoreManager
         }
 
         PlayerPrefs.DeleteKey("PlayerName");
+        ClearGameState();
 
         string[] chapterKeys = {
             "TheEnd", "AChapter15", "AChapter14", "AChapter13", "AChapter12",
@@ -83,20 +86,38 @@ public static class ScoreManager
         PlayerPrefs.Save();
     }
 
-    public static string GetDebugInfo()
+    public static string GetCurrentSceneName()
     {
-        System.Text.StringBuilder sb = new System.Text.StringBuilder();
-        sb.AppendLine($"Current Total Score: {GetCurrentScore()}");
-        sb.AppendLine("Completed Minigame Levels:");
+        return PlayerPrefs.GetString(CURRENT_SCENE_KEY, "");
+    }
 
-        for (int i = 0; i <= 10; i++)
-        {
-            if (HasMinigameLevelBeenPlayed(i))
-            {
-                sb.AppendLine($"  Level {i}: Completed");
-            }
-        }
+    public static void SetCurrentSceneName(string sceneName)
+    {
+        PlayerPrefs.SetString(CURRENT_SCENE_KEY, sceneName);
+        PlayerPrefs.Save();
+    }
 
-        return sb.ToString();
+    public static int GetCurrentSentenceIndex()
+    {
+        return PlayerPrefs.GetInt(CURRENT_SENTENCE_INDEX_KEY, -1);
+    }
+
+    public static void SetCurrentSentenceIndex(int sentenceIndex)
+    {
+        PlayerPrefs.SetInt(CURRENT_SENTENCE_INDEX_KEY, sentenceIndex);
+        PlayerPrefs.Save();
+    }
+
+    public static void SaveGameState(string sceneName, int sentenceIndex)
+    {
+        SetCurrentSceneName(sceneName);
+        SetCurrentSentenceIndex(sentenceIndex);
+    }
+
+    public static void ClearGameState()
+    {
+        PlayerPrefs.DeleteKey(CURRENT_SCENE_KEY);
+        PlayerPrefs.DeleteKey(CURRENT_SENTENCE_INDEX_KEY);
+        PlayerPrefs.Save();
     }
 }

@@ -71,6 +71,13 @@ public class BottomBarController : MonoBehaviour
         PlayNextSentence(playerName);
     }
 
+    public void PlaySceneFromSentence(StoryScene scene, string playerName, int targetSentenceIndex)
+    {
+        currentScene = scene;
+        sentenceIndex = targetSentenceIndex - 1;
+        PlayNextSentence(playerName);
+    }
+
     public void PlayNextSentence(string playerName)
     {
         if (typingCoroutine != null)

@@ -61,6 +61,8 @@ public class GameController : MonoBehaviour
             bottomBar.PlayScene(storyScene, playerName);
             spriteSwitcher.SetImage(storyScene.background);
             PlayAudio(storyScene.sentences[0]);
+            // Save initial game state for menu resume
+            ScoreManager.SaveGameState(currentScene.name, 0);
         }
         else if (currentScene is ChapterScene)
         {
@@ -99,6 +101,8 @@ public class GameController : MonoBehaviour
                         {
                             bottomBar.PlayNextSentence(playerName);
                             PlayAudio((currentScene as StoryScene).sentences[bottomBar.GetSentenceIndex()]);
+                            // Save current progress for menu resume
+                            ScoreManager.SaveGameState(currentScene.name, bottomBar.GetSentenceIndex());
                         }
                     }
                     else
@@ -164,6 +168,7 @@ public class GameController : MonoBehaviour
             }
             yield return new WaitForSeconds(0.5f);
             bottomBar.PlayScene(storyScene, playerName);
+            ScoreManager.SaveGameState(scene.name, 0);
             state = State.IDLE;
         }
         else if (scene is ChooseScene)
@@ -172,11 +177,13 @@ public class GameController : MonoBehaviour
             HandleGalleryIllustrations(chooseScene.name);
             state = State.CHOOSE;
             chooseController.SetupChoose(chooseScene);
+            ScoreManager.ClearGameState();
         }
         else if (scene is ChapterScene)
         {
             ChapterScene.SetChapterDone(scene.name, true);
             StartCoroutine(DisplayChapterScene(scene as ChapterScene));
+            ScoreManager.ClearGameState();
         }
         else if (scene is MinigameScene)
         {
@@ -185,6 +192,76 @@ public class GameController : MonoBehaviour
             {
                 StartCoroutine(minigameController.PlayMinigame(scene as MinigameScene));
             }
+            ScoreManager.ClearGameState();
+        }
+    }
+
+    private IEnumerator SwitchSceneFromSaved(GameScene scene, int savedSentenceIndex)
+    {
+        state = State.ANIMATE;
+        var previousScene = currentScene;
+        currentScene = scene;
+        bottomBar.Hide();
+        nameBar.Hide();
+        menuButton?.gameObject.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        if (previousScene is ChooseScene && scene is ChooseScene)
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        if (scene is StoryScene)
+        {
+            HideAllIllustrations();
+            menuButton?.gameObject.SetActive(true);
+            StoryScene storyScene = scene as StoryScene;
+            spriteSwitcher.SwitchImage(storyScene.background);
+
+            // Use saved sentence index if provided, otherwise start from beginning
+            int targetSentenceIndex = savedSentenceIndex >= 0 ? savedSentenceIndex : 0;
+            PlayAudio(storyScene.sentences[targetSentenceIndex]);
+            yield return new WaitForSeconds(0.5f);
+            bottomBar.ClearText();
+            bottomBar.Show();
+            string charName = storyScene.sentences[targetSentenceIndex].character.characterName;
+            if (charName != "" && charName != "...")
+            {
+                nameBar.Show();
+            }
+            yield return new WaitForSeconds(0.5f);
+
+            if (savedSentenceIndex >= 0)
+            {
+                bottomBar.PlaySceneFromSentence(storyScene, playerName, targetSentenceIndex);
+            }
+            else
+            {
+                bottomBar.PlayScene(storyScene, playerName);
+            }
+            state = State.IDLE;
+        }
+        else if (scene is ChooseScene)
+        {
+            ChooseScene chooseScene = scene as ChooseScene;
+            HandleGalleryIllustrations(chooseScene.name);
+            state = State.CHOOSE;
+            chooseController.SetupChoose(chooseScene);
+            ScoreManager.ClearGameState();
+        }
+        else if (scene is ChapterScene)
+        {
+            ChapterScene.SetChapterDone(scene.name, true);
+            StartCoroutine(DisplayChapterScene(scene as ChapterScene));
+            ScoreManager.ClearGameState();
+        }
+        else if (scene is MinigameScene)
+        {
+            HideAllIllustrations();
+            if (minigameController != null)
+            {
+                StartCoroutine(minigameController.PlayMinigame(scene as MinigameScene));
+            }
+            ScoreManager.ClearGameState();
         }
     }
 
@@ -341,6 +418,11 @@ public class GameController : MonoBehaviour
         closeButton?.gameObject.SetActive(false);
         menuButton?.gameObject.SetActive(true);
         if (savedScene is StoryScene && bottomBar != null && savedSentenceIndex >= 0)
+        {
+            chooseController.HideChoose();
+            StartCoroutine(SwitchSceneFromSaved(savedScene, savedSentenceIndex));
+        }
+        else if (savedScene != null)
         {
             chooseController.HideChoose();
             StartCoroutine(SwitchScene(savedScene));
