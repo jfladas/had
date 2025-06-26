@@ -19,6 +19,16 @@ public class StartController : MonoBehaviour
         startButton.onClick.AddListener(StartGame);
         animator = GetComponent<Animator>();
         StartCoroutine(PreloadMainScene());
+        LoadSavedPlayerName();
+    }
+
+    private void LoadSavedPlayerName()
+    {
+        string savedName = PlayerPrefs.GetString("PlayerName", "");
+        if (!string.IsNullOrEmpty(savedName))
+        {
+            playerNameInput.text = savedName;
+        }
     }
 
     private IEnumerator PreloadMainScene()
@@ -34,6 +44,8 @@ public class StartController : MonoBehaviour
         if (playerName != "")
         {
             meCharacter.characterName = playerName;
+            PlayerPrefs.SetString("PlayerName", playerName);
+            PlayerPrefs.Save();
         }
         else
         {

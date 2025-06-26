@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: ChapterSelect3
   m_EditorClassIdentifier: 
   labels:
-  - text: Chapter 7
-    nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
-  - text: Epilogue
+  - text: Chapter 15
     nextScene: {fileID: 0}
+  - text: Epilogue (Ending 1)
+    nextScene: {fileID: 0}
+  - text: Epilogue (Ending 2)
+    nextScene: {fileID: 0}
+  - text: Epilogue (Ending 3)
+    nextScene: {fileID: 0}
+  - text: Back
+    nextScene: {fileID: 11400000, guid: 5d7fbb0d7f161ef4eb328bc6bc82a056, type: 2}
