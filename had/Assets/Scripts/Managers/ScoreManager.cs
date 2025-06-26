@@ -71,8 +71,10 @@ public static class ScoreManager
         PlayerPrefs.DeleteKey("PlayerName");
         ClearGameState();
 
+        LogManager.ClearLog();
+
         string[] chapterKeys = {
-            "TheEnd", "AChapter15", "AChapter14", "AChapter13", "AChapter12",
+            "TheEnd", "AEpilogue1", "AEpilogue2", "AEpilogue3", "AChapter15", "AChapter14", "AChapter13", "AChapter12",
             "AChapter11", "AChapter10", "AChapter9", "AChapter8", "AChapter7",
             "Chapter6", "Chapter5", "Chapter4", "Chapter3", "Chapter2", "Chapter1",
             "A1", "A2", "A3", "A4", "A5", "A6"

@@ -61,7 +61,6 @@ public class GameController : MonoBehaviour
             bottomBar.PlayScene(storyScene, playerName);
             spriteSwitcher.SetImage(storyScene.background);
             PlayAudio(storyScene.sentences[0]);
-            // Save initial game state for menu resume
             ScoreManager.SaveGameState(currentScene.name, 0);
         }
         else if (currentScene is ChapterScene)
@@ -101,7 +100,6 @@ public class GameController : MonoBehaviour
                         {
                             bottomBar.PlayNextSentence(playerName);
                             PlayAudio((currentScene as StoryScene).sentences[bottomBar.GetSentenceIndex()]);
-                            // Save current progress for menu resume
                             ScoreManager.SaveGameState(currentScene.name, bottomBar.GetSentenceIndex());
                         }
                     }
@@ -217,7 +215,6 @@ public class GameController : MonoBehaviour
             StoryScene storyScene = scene as StoryScene;
             spriteSwitcher.SwitchImage(storyScene.background);
 
-            // Use saved sentence index if provided, otherwise start from beginning
             int targetSentenceIndex = savedSentenceIndex >= 0 ? savedSentenceIndex : 0;
             PlayAudio(storyScene.sentences[targetSentenceIndex]);
             yield return new WaitForSeconds(0.5f);

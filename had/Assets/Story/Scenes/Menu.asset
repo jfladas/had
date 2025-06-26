@@ -17,6 +17,8 @@ MonoBehaviour:
     nextScene: {fileID: 11400000, guid: 5d7fbb0d7f161ef4eb328bc6bc82a056, type: 2}
   - text: Gallery
     nextScene: {fileID: 11400000, guid: bfcc37f9e715f2e4eaa3dc6babd8776b, type: 2}
+  - text: Log
+    nextScene: {fileID: 11400000, guid: 47692ed888406284d933c6a717d97eb8, type: 2}
   - text: Delete Data
     nextScene: {fileID: 11400000, guid: aabff3b473ba108478a2abbe8710a33f, type: 2}
   - text: Home

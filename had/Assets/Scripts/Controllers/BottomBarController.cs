@@ -103,6 +103,8 @@ public class BottomBarController : MonoBehaviour
             barText.font = defaultFont;
         }
 
+        LogManager.AddLogEntry(currentScene.sentences[sentenceIndex].character.characterName, sentenceText);
+
         typingCoroutine = StartCoroutine(TypeText(sentenceText));
 
         if (characterName == "")
