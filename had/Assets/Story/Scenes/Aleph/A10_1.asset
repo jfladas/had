@@ -24,7 +24,7 @@ MonoBehaviour:
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 4ddd349202a6f2d4ab954f83223dbcc0, type: 3}
     sound: {fileID: 0}
   - text: Those clothes are dirty, so i borrow a shirt and some pants from Aleph
       though they are a bit big on me.
@@ -227,7 +227,7 @@ MonoBehaviour:
       position: {x: 0, y: -200}
       speed: -1
       targetScale: 1.5
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: What is it?
     alternativeText: 
@@ -311,7 +311,13 @@ MonoBehaviour:
   - text: Who are you? What happened to John?
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 11
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "His tone is very firm and commanding but John doesn\u2019t seem fazed
@@ -387,7 +393,13 @@ MonoBehaviour:
   - text: Watch out!
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I barely manage to dodge the attack.

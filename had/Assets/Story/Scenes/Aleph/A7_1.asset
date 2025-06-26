@@ -254,7 +254,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
+      spriteIndex: 12
       type: 1
       position: {x: 0, y: 0}
       speed: 0
@@ -290,13 +290,7 @@ MonoBehaviour:
   - text: "His eyes tell me that he\u2019s smiling."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "It suits you. I\u2019m happy we are getting to know each other more. By
@@ -327,13 +321,7 @@ MonoBehaviour:
   - text: Aleph shakes his head.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: No, I understand. I would gladly be your friend. I just thought, I must
@@ -348,25 +336,13 @@ MonoBehaviour:
   - text: He chuckles with an apologetic look in his eyes.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 2
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "I figured that was the reason you didn\u2019t contact me."
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "That\u2019s right, he gave me a note with his number on it and I never

@@ -23,7 +23,7 @@ MonoBehaviour:
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: "It\u2019s so sudden."
     alternativeText: 

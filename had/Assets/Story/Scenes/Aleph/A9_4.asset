@@ -368,7 +368,13 @@ MonoBehaviour:
   - text: Aleph nods with a sad expression.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 10
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I understand. That must have been information overload for you.

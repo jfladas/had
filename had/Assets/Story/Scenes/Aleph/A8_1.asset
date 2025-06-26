@@ -18,7 +18,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: Oh god, the majority of the buildings have been obliterated and only the
       sturdy ones are left standing, though they also have visible marks from the

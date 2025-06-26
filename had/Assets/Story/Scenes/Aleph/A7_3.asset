@@ -182,7 +182,7 @@ MonoBehaviour:
       speed: 0
       targetScale: 0
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
+      spriteIndex: 11
       type: 1
       position: {x: 0, y: 0}
       speed: 0
@@ -205,7 +205,13 @@ MonoBehaviour:
   - text: Is that true?
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I sigh with exhaustion.

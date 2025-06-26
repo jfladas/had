@@ -15,8 +15,6 @@ MonoBehaviour:
   labels:
   - text: Previous
     nextScene: {fileID: 11400000, guid: bfcc37f9e715f2e4eaa3dc6babd8776b, type: 2}
-  - text: Save Image
-    nextScene: {fileID: 0}
   - text: Next
     nextScene: {fileID: 11400000, guid: dd9020889907a164587479547dbfaddf, type: 2}
   - text: Back

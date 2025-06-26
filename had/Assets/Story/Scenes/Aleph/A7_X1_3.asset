@@ -23,13 +23,7 @@ MonoBehaviour:
   - text: Alephs face instantly lights up.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 2
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "I\u2019m so happy you feel that way. I\u2019ll try my best to be likable
@@ -54,13 +48,7 @@ MonoBehaviour:
   - text: "Seems like I\u2019ve at least been able to impress you with my singing."
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Oh, you\u2019ve got more than that going for you my guy, have you seen

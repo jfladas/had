@@ -1532,6 +1532,7 @@ GameObject:
   - component: {fileID: 1242838786}
   - component: {fileID: 1242838790}
   - component: {fileID: 1242838791}
+  - component: {fileID: 1242838792}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1689,6 +1690,27 @@ MonoBehaviour:
   bottomBar: {fileID: 466386393}
   nameBar: {fileID: 1586933556}
   spriteSwitcher: {fileID: 1174363105}
+--- !u!114 &1242838792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242838785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e2f9194121f0944aa3f8433f566f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logEntryPrefab: {fileID: 0}
+  logContentParent: {fileID: 0}
+  scrollRect: {fileID: 0}
+  backButton: {fileID: 0}
+  gameController: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  titleText: {fileID: 0}
+  currentLogScene: {fileID: 0}
+  instantiatedLogEntries: []
 --- !u!1 &1242896342
 GameObject:
   m_ObjectHideFlags: 0

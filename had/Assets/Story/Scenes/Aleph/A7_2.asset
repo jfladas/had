@@ -17,13 +17,7 @@ MonoBehaviour:
       and several small groups have formed.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Let\u2019s go sit on the sofa in the corner, I think it will be more comfortable
@@ -44,7 +38,13 @@ MonoBehaviour:
       and cap.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Okay, let me start with where I\u2019m from. I already told you last time
@@ -162,7 +162,13 @@ MonoBehaviour:
   - text: He suddenly has a sad expression on his face and turns quiet.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 10
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Aleph? Is everything okay?

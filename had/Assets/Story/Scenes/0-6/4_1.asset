@@ -14,23 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: On my way home from the convenience store, I watch the sky as the sun sets.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: It's a beautiful sunset but somehow I feel a bit strange. As if some kind
       of big change is about to happen in my life.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Not sure what exactly warranted that thought, I start to walk faster only
       to stop abruptly when I hear a faint melody.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 8300000, guid: d406a437aaf305640a867de5a788c5c4, type: 3}
     sound: {fileID: 0}
   - text: I follow the sound, straying from the path that leads home.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
