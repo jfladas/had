@@ -102,6 +102,13 @@ public class MinigameController : MonoBehaviour
                 break;
             case 3:
                 minigameDuration = 10f;
+                spawnInterval = 0.8f;
+                lineSpeed = 2000f;
+                circleGrowDuration = 2f;
+                circleRadius = 60f;
+                break;
+            case 4:
+                minigameDuration = 10f;
                 spawnInterval = 0.5f;
                 lineSpeed = 2000f;
                 circleGrowDuration = 1.5f;

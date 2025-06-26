@@ -13,110 +13,208 @@ MonoBehaviour:
   m_Name: A10_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: "I\u2019m so out of breath. Is there nowhere safe nearby?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: The Interdimensional Spirits will rule over everyone!
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Aleph, who is a few steps ahead of me, suddenly stops in his tracks.
+  - text: We decide to go to the tailor shop first to get me some clothes because
+      I only have what I had on during the earthquake back in my dimension.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
       spriteIndex: 0
       type: 1
-      position: {x: 0, y: -200}
+      position: {x: 0, y: 0}
       speed: 0
-      targetScale: 1.5
-    music: {fileID: 0}
+      targetScale: 0
+    music: {fileID: 8300000, guid: 4ddd349202a6f2d4ab954f83223dbcc0, type: 3}
     sound: {fileID: 0}
-  - text: I almost bump into him but manage to stop myself right before my nose hits
-      his back.
+  - text: Those clothes are dirty, so i borrow a shirt and some pants from Aleph
+      though they are a bit big on me.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: That was close!
+  - text: When we arrive there, Aleph introduces me to a woman and a man who run
+      the shop.
     alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Shit.
+  - text: The woman is very pregnant, has red hair and delicate facial features while
+      the man has a very lean stature with slightly slouched shoulders and a gloomy
+      looking face.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: This is Stella and her husband John.
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "I look ahead and see that we\u2019ve run into a dead end."
+  - text: Hello, nice to meet you. My name is {playerName}.
+    alternativeText: Hello, nice to meet you.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We chat a bit about how I came here and what happened in my universe.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: John has almost caught up to us.
+  - text: "John isn\u2019t very talkative though."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What do we do? what do we do???
+  - text: "That\u2019s unbelievable, we didn\u2019t even notice that his Majesty
+      was gone. Though, now that look closer, he seems to have matured a bit."
     alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    character: {fileID: 11400000, guid: 10d09e4eaae33774aa42e5e1555594e2, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I visibly panic and Aleph squeezes my hand tightly.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "For now, let\u2019s try to shift back to your universe."
+  - text: "You two look like you haven't aged\_a\_day."
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "What? But I don\u2019t know how to do that!"
+  - text: Hm, it seems like time froze here when he was away.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Try to remember what happened last time! I assume to shift together, we
-      should have physical contact. I\u2019m holding your hand right now. Everything
-      will be fine, I\u2019m right by your side."
+  - text: Right, I was surprised by that as well.
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I try to think of something that could have triggered the shift.
+  - text: "John isn\u2019t focused on the conversation anymore and is rocking back
+      and forth on his chair, as if he\u2019s struggling with something."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-      spriteIndex: 0
-      type: 3
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Panic? I\u2019m panicking right now, that\u2019s not it."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: b868b84ff56f35740bf7c30c3d24b83b, type: 3}
-  nextScene: {fileID: 11400000, guid: 74235f7c8789f2b40bbe849edc2bf8a4, type: 2}
+  - text: Then he suddenly gets up.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019ll bring the clothes."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh sure, thanks dear.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 10d09e4eaae33774aa42e5e1555594e2, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She whispers to us.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "He\u2019s been acting a bit weird since yesterday. I don\u2019t know what
+      it is. Maybe it\u2019s because I\u2019m giving birth soon."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 10d09e4eaae33774aa42e5e1555594e2, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019ve noticed as well. He doesn\u2019t seem like the same person that
+      I know. His Aura is different. Darker."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I look at them confused.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I did have a weird feeling about him as well but I don\u2019t say anything."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "But it\u2019s not just him. A few other people have been acting different
+      since yesterday as well. Like the Martin twins and aunt Rosa."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 10d09e4eaae33774aa42e5e1555594e2, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph glances at me with a meaningful look.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "We\u2019ll investigate that, don\u2019t worry."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: John comes back with a bag full of clothes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I prepared them. I\u2019ll excuse myself now."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He immediately leaves again after placing the bag on the counter.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Please excuse his rudeness.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 10d09e4eaae33774aa42e5e1555594e2, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Aleph and I tell her it\u2019s fine and say our goodbyes after paying
+      for the clothes."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thanks for getting me some clothes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You\u2019re welcome."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 888f377d03a5ba941952940f8ea0593a, type: 3}
+  nextScene: {fileID: 11400000, guid: 8bcadb8a6502a4c4ebc0f4efd945ecd2, type: 2}
