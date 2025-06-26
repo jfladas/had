@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
+  currentScene: {fileID: 11400000, guid: 8a93cb4f61e41354d8d5ea5e34f71ed9, type: 2}
   bottomBar: {fileID: 466386393}
   nameBar: {fileID: 1586933556}
   spriteSwitcher: {fileID: 1174363105}

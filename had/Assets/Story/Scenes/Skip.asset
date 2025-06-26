@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Start from the beginning.
-    nextScene: {fileID: 11400000, guid: 316af5f9bcbd4394a923d8f5ca38afe2, type: 2}
+    nextScene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
   - text: I have played the Demo, skip to Chapter 7. (Aleph)
     nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
   - text: Go to Chapter 10. (dev)

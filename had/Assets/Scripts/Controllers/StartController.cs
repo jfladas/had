@@ -33,7 +33,7 @@ public class StartController : MonoBehaviour
     public GameScene chapter3Scene;
     public GameScene chapter2Scene;
     public GameScene chapter1Scene;
-    public GameScene chapter0Scene; // Default starting scene
+    public GameScene startScene;
 
     void Start()
     {
@@ -92,7 +92,10 @@ public class StartController : MonoBehaviour
     private GameScene DetermineStartingScene()
     {
         if (ChapterScene.IsChapterDone("TheEnd"))
-            return chapter0Scene;
+        {
+            ScoreManager.ResetMinigameData();
+            return startScene;
+        }
 
         if (aChapter15Scene != null && ChapterScene.IsChapterDone("AChapter15"))
             return aChapter15Scene;
@@ -139,6 +142,6 @@ public class StartController : MonoBehaviour
         if (chapter1Scene != null && ChapterScene.IsChapterDone("Chapter1"))
             return chapter1Scene;
 
-        return chapter0Scene;
+        return startScene;
     }
 }

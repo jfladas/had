@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -37,6 +38,9 @@ public class GameController : MonoBehaviour
     private bool isVerticalLineMoving = false;
 
     private int score = 0;
+    private int sessionScore = 0;
+    private int currentMinigameLevel = -1;
+    private bool isReplayingMinigame = false;
 
     private State state = State.IDLE;
 
@@ -55,6 +59,8 @@ public class GameController : MonoBehaviour
         menuImage?.gameObject.SetActive(false);
         menuButton?.gameObject.SetActive(false);
         closeButton?.gameObject.SetActive(false);
+
+        score = ScoreManager.GetCurrentScore();
 
         if (StartController.overrideStartingScene != null)
         {
@@ -184,19 +190,37 @@ public class GameController : MonoBehaviour
 
     private IEnumerator DisplayChapterScene(ChapterScene chapterScene)
     {
+        if (chapterScene.name == "Home")
+        {
+            yield return new WaitForSeconds(0.5f);
+            SceneManager.LoadScene("StartScene");
+            yield break;
+        }
+
+        if (chapterScene.name == "Delete")
+        {
+            yield return new WaitForSeconds(0.5f);
+            ScoreManager.DeleteAllPlayerData();
+            SceneManager.LoadScene("StartScene");
+            yield break;
+        }
+
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);
-        float waitTime = 0f;
-        bool proceed = false;
-        while (waitTime < 5f && !proceed)
+        if (chapterScene.name != "Start")
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            float waitTime = 0f;
+            bool proceed = false;
+            while (waitTime < 5f && !proceed)
             {
-                proceed = true;
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
+                    proceed = true;
+                }
+                waitTime += Time.deltaTime;
+                yield return null;
             }
-            waitTime += Time.deltaTime;
-            yield return null;
         }
         PlayScene(chapterScene.nextScene);
     }
@@ -207,6 +231,24 @@ public class GameController : MonoBehaviour
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(minigameScene.background);
+
+        // Track the current minigame level and check if it's a replay
+        currentMinigameLevel = minigameScene.level;
+        isReplayingMinigame = ScoreManager.HasMinigameLevelBeenPlayed(currentMinigameLevel);
+
+        // Reset session score for this minigame
+        sessionScore = 0;
+
+        if (isReplayingMinigame)
+        {
+            // Show a brief message to the player about replay
+            if (bottomBar != null)
+            {
+                bottomBar.barText.text = $"Replaying Level {currentMinigameLevel} - Points won't be added to total score";
+                bottomBar.Show();
+                StartCoroutine(HideReplayMessageAfterDelay());
+            }
+        }
 
         minigameEndImage?.gameObject.SetActive(false);
         scoreText?.gameObject.SetActive(true);
@@ -252,7 +294,7 @@ public class GameController : MonoBehaviour
                 break;
         }
 
-        UpdateScoreText();
+        UpdateScoreText(score);
 
         float elapsedTime = 0f;
         float circleSpawnTimer = 0f;
@@ -268,7 +310,7 @@ public class GameController : MonoBehaviour
 
         float nextSpawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
 
-        if (minigameScene.level == 1)
+        if (minigameScene.level == 1 && !isReplayingMinigame)
         {
             Vector2 centerPos = Vector2.zero;
             float tutorialRadius = radiusMin;
@@ -421,11 +463,11 @@ public class GameController : MonoBehaviour
                             addScore = 300;
                         activeCircles.Remove(hitCircle);
                         Destroy(hitCircle);
-                        score += addScore;
+                        sessionScore += addScore;
                     }
                 }
                 if (hitCircles.Count > 0)
-                    UpdateScoreText();
+                    UpdateScoreText(score + sessionScore);
             }
             if (activeHorizontalLine != null)
                 Destroy(activeHorizontalLine);
@@ -433,7 +475,7 @@ public class GameController : MonoBehaviour
                 Destroy(activeVerticalLine);
         }
 
-        UpdateScoreText();
+        UpdateScoreText(score + sessionScore);
 
         while (elapsedTime < minigameDuration)
         {
@@ -562,12 +604,12 @@ public class GameController : MonoBehaviour
                             addScore = 200;
                         activeCircles.Remove(hitCircle);
                         Destroy(hitCircle);
-                        score += addScore;
+                        sessionScore += addScore;
                     }
                 }
                 if (hitCircles.Count > 0)
                 {
-                    UpdateScoreText();
+                    UpdateScoreText(score + sessionScore);
                 }
             }
 
@@ -595,8 +637,14 @@ public class GameController : MonoBehaviour
             Destroy(activeVerticalLine);
         }
 
+        bool pointsAdded = ScoreManager.TryAddMinigameScore(currentMinigameLevel, sessionScore);
+
+        score = ScoreManager.GetCurrentScore();
+
         minigameEndImage?.gameObject.SetActive(true);
         scoreText?.gameObject.SetActive(true);
+
+        UpdateScoreText(score);
 
         yield return new WaitForSeconds(1f);
 
@@ -614,6 +662,11 @@ public class GameController : MonoBehaviour
         scoreText?.gameObject.SetActive(false);
         timerText?.gameObject.SetActive(false);
         timerImage?.gameObject.SetActive(false);
+
+        // Reset minigame tracking variables
+        currentMinigameLevel = -1;
+        sessionScore = 0;
+        isReplayingMinigame = false;
 
         if (minigameScene.nextScene != null)
         {
@@ -780,11 +833,11 @@ public class GameController : MonoBehaviour
         audioController.PlayAudio(sentence.music, sentence.sound);
     }
 
-    private void UpdateScoreText()
+    private void UpdateScoreText(int s)
     {
         if (scoreText != null)
         {
-            scoreText.text = score.ToString();
+            scoreText.text = s.ToString();
         }
     }
 
@@ -824,6 +877,15 @@ public class GameController : MonoBehaviour
             {
                 bottomBar.PlayNextSentence(playerName);
             }*/
+        }
+    }
+
+    private IEnumerator HideReplayMessageAfterDelay()
+    {
+        yield return new WaitForSeconds(3f);
+        if (bottomBar != null)
+        {
+            bottomBar.Hide();
         }
     }
 }
