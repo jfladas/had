@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
-  m_Name: Skip
+  m_Name: GalleryA5
   m_EditorClassIdentifier: 
   labels:
-  - text: Start from the beginning.
-    nextScene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
-  - text: I have played the Demo, skip to Chapter 7. (Aleph)
-    nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
+  - text: Previous
+    nextScene: {fileID: 11400000, guid: f940cbb88144e76498777c4b468f0e10, type: 2}
+  - text: Save Image
+    nextScene: {fileID: 0}
+  - text: Next
+    nextScene: {fileID: 11400000, guid: 9aaa36a6ff1124149bea7a5bbbdd5028, type: 2}
+  - text: Back
+    nextScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}

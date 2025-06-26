@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
-  m_Name: 7_X1
+  m_Name: 6_X1
   m_EditorClassIdentifier: 
   labels:
   - text: Ash the worried girl.
     nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}
   - text: Miss Moon, my boss.
-    nextScene: {fileID: 11400000, guid: 2df28026dabe7e5488de40a2dccd7edf, type: 2}
+    nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}
   - text: The Horse-...Person?
-    nextScene: {fileID: 11400000, guid: a25610f7df3f14d4ba5da0bda751282d, type: 2}
+    nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}
   - text: Aleph the musician.
-    nextScene: {fileID: 11400000, guid: e89f2e045190d224e842c1b38de7b582, type: 2}
+    nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
   - text: Ethan the mean author.
-    nextScene: {fileID: 11400000, guid: d7be4ba602ebb294b903ed9559e7a376, type: 2}
+    nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}

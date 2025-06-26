@@ -137,36 +137,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Me: Nope! I think we should get up and eat breakfast. I\u2019ll make it."
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I quickly get up avoiding eye contact as much as possible.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "I\u2019ll help with breakfast."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: We go wash up and make breakfast together.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Luckily, after washing my face with cold water I finally regain my composure
-      and manage to make us some coffee while Aleph makes some scrambled eggs.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 96ec51593b93df042857171a2e8b311a, type: 3}
-  nextScene: {fileID: 11400000, guid: fdc2f2f733cffb44b848e19c684e0521, type: 2}
+  background: {fileID: 21300000, guid: c72b3a440fb18274a98a13ffde95e9c7, type: 3}
+  nextScene: {fileID: 11400000, guid: 5eb4298d97ce86a4e905f07f1d526095, type: 2}

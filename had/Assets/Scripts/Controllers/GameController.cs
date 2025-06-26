@@ -17,6 +17,16 @@ public class GameController : MonoBehaviour
     private string playerName;
 
     public MinigameController minigameController;
+
+    [Header("Gallery Illustrations")]
+    public Image illustrationA1;
+    public Image illustrationA2;
+    public Image illustrationA3;
+    public Image illustrationA4;
+    public Image illustrationA5;
+    public Image illustrationA6;
+    public Image illustrationLocked;
+
     public Button menuButton;
     public Image menuImage;
     public GameScene menuScene;
@@ -67,6 +77,8 @@ public class GameController : MonoBehaviour
         {
             minigameController.OnMinigameComplete += OnMinigameComplete;
         }
+
+        HideAllIllustrations();
     }
 
     void Update()
@@ -137,6 +149,7 @@ public class GameController : MonoBehaviour
         }
         if (scene is StoryScene)
         {
+            HideAllIllustrations();
             menuButton?.gameObject.SetActive(true);
             StoryScene storyScene = scene as StoryScene;
             spriteSwitcher.SwitchImage(storyScene.background);
@@ -155,8 +168,10 @@ public class GameController : MonoBehaviour
         }
         else if (scene is ChooseScene)
         {
+            ChooseScene chooseScene = scene as ChooseScene;
+            HandleGalleryIllustrations(chooseScene.name);
             state = State.CHOOSE;
-            chooseController.SetupChoose(scene as ChooseScene);
+            chooseController.SetupChoose(chooseScene);
         }
         else if (scene is ChapterScene)
         {
@@ -165,6 +180,7 @@ public class GameController : MonoBehaviour
         }
         else if (scene is MinigameScene)
         {
+            HideAllIllustrations();
             if (minigameController != null)
             {
                 StartCoroutine(minigameController.PlayMinigame(scene as MinigameScene));
@@ -209,6 +225,98 @@ public class GameController : MonoBehaviour
         PlayScene(chapterScene.nextScene);
     }
 
+    private void HandleGalleryIllustrations(string sceneName)
+    {
+        HideAllIllustrations();
+
+        switch (sceneName)
+        {
+            case "GalleryA1":
+                if (ChapterScene.IsChapterDone("A1"))
+                {
+                    if (illustrationA1 != null)
+                        illustrationA1.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryA2":
+                if (ChapterScene.IsChapterDone("A2"))
+                {
+                    if (illustrationA2 != null)
+                        illustrationA2.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryA3":
+                if (ChapterScene.IsChapterDone("A3"))
+                {
+                    if (illustrationA3 != null)
+                        illustrationA3.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryA4":
+                if (ChapterScene.IsChapterDone("A4"))
+                {
+                    if (illustrationA4 != null)
+                        illustrationA4.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryA5":
+                if (ChapterScene.IsChapterDone("A5"))
+                {
+                    if (illustrationA5 != null)
+                        illustrationA5.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryA6":
+                if (ChapterScene.IsChapterDone("A6"))
+                {
+                    if (illustrationA6 != null)
+                        illustrationA6.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+        }
+    }
+
+    private void HideAllIllustrations()
+    {
+        if (illustrationA1 != null) illustrationA1.gameObject.SetActive(false);
+        if (illustrationA2 != null) illustrationA2.gameObject.SetActive(false);
+        if (illustrationA3 != null) illustrationA3.gameObject.SetActive(false);
+        if (illustrationA4 != null) illustrationA4.gameObject.SetActive(false);
+        if (illustrationA5 != null) illustrationA5.gameObject.SetActive(false);
+        if (illustrationA6 != null) illustrationA6.gameObject.SetActive(false);
+        if (illustrationLocked != null) illustrationLocked.gameObject.SetActive(false);
+    }
+
     private void PlayAudio(StoryScene.Sentence sentence)
     {
         audioController.PlayAudio(sentence.music, sentence.sound);
@@ -216,7 +324,6 @@ public class GameController : MonoBehaviour
 
     private void OnMenuButtonClicked()
     {
-        //Time.timeScale = 0f;
         menuImage?.gameObject.SetActive(true);
         closeButton?.gameObject.SetActive(true);
         menuButton?.gameObject.SetActive(false);
@@ -233,7 +340,6 @@ public class GameController : MonoBehaviour
         menuImage?.gameObject.SetActive(false);
         closeButton?.gameObject.SetActive(false);
         menuButton?.gameObject.SetActive(true);
-        //Time.timeScale = 1f;
         if (savedScene is StoryScene && bottomBar != null && savedSentenceIndex >= 0)
         {
             chooseController.HideChoose();

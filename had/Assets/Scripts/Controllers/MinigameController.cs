@@ -24,8 +24,6 @@ public class MinigameController : MonoBehaviour
     public BottomBarController bottomBar;
     public NameBarController nameBar;
     public SpriteSwitcher spriteSwitcher;
-
-    // Minigame state
     private List<GameObject> activeCircles = new List<GameObject>();
     private GameObject activeHorizontalLine;
     private GameObject activeVerticalLine;
@@ -37,7 +35,6 @@ public class MinigameController : MonoBehaviour
     private int currentMinigameLevel = -1;
     private bool isReplayingMinigame = false;
 
-    // Events
     public System.Action<GameScene> OnMinigameComplete;
 
     private class CircleColliderData : MonoBehaviour
