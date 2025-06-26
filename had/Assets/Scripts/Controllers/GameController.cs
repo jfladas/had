@@ -56,6 +56,12 @@ public class GameController : MonoBehaviour
         menuButton?.gameObject.SetActive(false);
         closeButton?.gameObject.SetActive(false);
 
+        if (StartController.overrideStartingScene != null)
+        {
+            currentScene = StartController.overrideStartingScene;
+            StartController.overrideStartingScene = null;
+        }
+
         playerName = player.characterName;
         if (currentScene is StoryScene)
         {

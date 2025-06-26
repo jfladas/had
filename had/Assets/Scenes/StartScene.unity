@@ -881,6 +881,22 @@ MonoBehaviour:
   playerNameInput: {fileID: 1557268301}
   meCharacter: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
   fadeImage: {fileID: 1806494128}
+  aChapter15Scene: {fileID: 0}
+  aChapter14Scene: {fileID: 0}
+  aChapter13Scene: {fileID: 0}
+  aChapter12Scene: {fileID: 0}
+  aChapter11Scene: {fileID: 11400000, guid: ea1b4845081890448a8360d78f04ef2c, type: 2}
+  aChapter10Scene: {fileID: 11400000, guid: f945dfcd7695a7849bd1ed91fe18b60d, type: 2}
+  aChapter9Scene: {fileID: 11400000, guid: 47b378a8ec8ff4e42859b9ef565fff7f, type: 2}
+  aChapter8Scene: {fileID: 11400000, guid: 6dcfb490320ae8c4685c7f8b453f889a, type: 2}
+  aChapter7Scene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
+  chapter6Scene: {fileID: 11400000, guid: d717243a1f2e9a940baba151c2581c42, type: 2}
+  chapter5Scene: {fileID: 11400000, guid: 7da4b89edd967644eb7ef285bafba849, type: 2}
+  chapter4Scene: {fileID: 11400000, guid: 62fe5780e9423b840b4830e6d3e39c97, type: 2}
+  chapter3Scene: {fileID: 11400000, guid: e1f3033fffc5215489cb6de3f4f160b8, type: 2}
+  chapter2Scene: {fileID: 11400000, guid: 6d86207c855e24b4fb35a96d2a4083c4, type: 2}
+  chapter1Scene: {fileID: 11400000, guid: c09a1e891469330458954ae4684aca0c, type: 2}
+  chapter0Scene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
 --- !u!95 &1438566538
 Animator:
   serializedVersion: 5
