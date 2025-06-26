@@ -896,7 +896,7 @@ MonoBehaviour:
   chapter3Scene: {fileID: 11400000, guid: e1f3033fffc5215489cb6de3f4f160b8, type: 2}
   chapter2Scene: {fileID: 11400000, guid: 6d86207c855e24b4fb35a96d2a4083c4, type: 2}
   chapter1Scene: {fileID: 11400000, guid: c09a1e891469330458954ae4684aca0c, type: 2}
-  chapter0Scene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
+  startScene: {fileID: 11400000, guid: 8a93cb4f61e41354d8d5ea5e34f71ed9, type: 2}
 --- !u!95 &1438566538
 Animator:
   serializedVersion: 5

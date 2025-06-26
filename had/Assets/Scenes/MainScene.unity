@@ -1381,6 +1381,7 @@ GameObject:
   - component: {fileID: 1242838787}
   - component: {fileID: 1242838786}
   - component: {fileID: 1242838790}
+  - component: {fileID: 1242838791}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1500,6 +1501,23 @@ MonoBehaviour:
   chooseController: {fileID: 461910396}
   audioController: {fileID: 109970441}
   player: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+  minigameController: {fileID: 1242838791}
+  menuButton: {fileID: 103138647}
+  menuImage: {fileID: 122590726}
+  menuScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}
+  closeButton: {fileID: 1500887315}
+--- !u!114 &1242838791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242838785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8ce3b0f165374bbc80c941ac42eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   circlePrefab: {fileID: 5715037799853049465, guid: 43354ecce43e59c42bf601059cbcaee3, type: 3}
   specialCirclePrefab: {fileID: 5715037799853049465, guid: d5ff4428a34b608459c22e36655ca6c6, type: 3}
   specialCirclePrefab2: {fileID: 5715037799853049465, guid: 70326695f11a65e47871650c6d4e4a5b, type: 3}
@@ -1510,10 +1528,9 @@ MonoBehaviour:
   timerText: {fileID: 250446527}
   timerImage: {fileID: 126341997}
   minigameEndImage: {fileID: 1223683316}
-  menuButton: {fileID: 103138647}
-  menuImage: {fileID: 122590726}
-  menuScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}
-  closeButton: {fileID: 1500887315}
+  bottomBar: {fileID: 466386393}
+  nameBar: {fileID: 1586933556}
+  spriteSwitcher: {fileID: 1174363105}
 --- !u!1 &1242896342
 GameObject:
   m_ObjectHideFlags: 0
