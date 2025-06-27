@@ -283,6 +283,13 @@ public class GameController : MonoBehaviour
             yield break;
         }
 
+        if (chapterScene.name == "TheEnd")
+        {
+            yield return new WaitForSeconds(5f);
+            SceneManager.LoadScene("StartScene");
+            yield break;
+        }
+
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);

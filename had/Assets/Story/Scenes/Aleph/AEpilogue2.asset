@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AEpilogue2
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: db57403e67de31743bf517eb5b332e69, type: 3}
-  nextScene: {fileID: 11400000, guid: b1c53c59af0b211459a865e309486b4e, type: 2}
+  nextScene: {fileID: 11400000, guid: 22d92cb04c44f014ea0895944a7ca579, type: 2}
