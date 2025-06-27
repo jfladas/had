@@ -1,6 +1,6 @@
 # Hearts Across Dimensions
 
-HSLU DI MEN3 HS24 | Lukas Bucher & Angelika Gort | Demo
+HSLU DI MEN3 HS24 | Lukas Bucher & Angelika Gort | Alpha
 
 ## Installation / Play Instructions
 
@@ -17,9 +17,9 @@ Based on your device or browser some issues might occur.
 ### Android
 
 To play the game on an Android device we recommend you download the respective build.
-Execute the file `HaD.apk` to install and open the application.
+Execute the file `had.apk` to install and open the application.
 Hearts across Dimensions will then be available as an app on your device.
 
 ### Windows
 
-To play the game on a Windows device you can download the respective build and execute the file `HaD (Demo).exe`.
+To play the game on a Windows device you can download the respective build and execute the file `HaD (Alpha).exe`.
