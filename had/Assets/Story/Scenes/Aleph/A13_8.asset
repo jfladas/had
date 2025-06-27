@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
-  m_Name: AChapter13
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A13_8
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: f85603a014e7cef4b964c6955802f55a, type: 3}
-  nextScene: {fileID: 11400000, guid: 4f58648104b13404e9418949fbca33f1, type: 2}
+  sentences: []
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

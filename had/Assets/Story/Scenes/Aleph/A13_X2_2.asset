@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A13_X2_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I thought we were both helping each other. Loving each other.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You know what?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I don\u2019t deserve to be treated like this."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Fine! I\u2019ll leave. I can\u2019t believe you lied to me and used me
+      like I\u2019m just a tool."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph is avoiding eye contact and remains silent.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 10
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph, will you really just let them go like this?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: James tries to get Aleph to change his mind but he just averts his eves.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s fine, James. This relationship was all just a lie anyways. Just
+      like his memory of his parents being alive."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I see how Aleph freezes for a second and I almost instantly regret what
+      I said.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Now I hurt him even more.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t bear how painful my chest feels right now and burst out of
+      the hospital room."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I hear James yelling something as I leave.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Please give me a call when you\u2019re home!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: James. At least you still care.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I make my way home to my studio apartment.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I don\u2019t even know if it\u2019s still standing or not."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 2602986837f6e4c43a2726a6a36b1b48, type: 3}
+  nextScene: {fileID: 11400000, guid: fade1e89335eb4c4395956fb0ecf1b20, type: 2}

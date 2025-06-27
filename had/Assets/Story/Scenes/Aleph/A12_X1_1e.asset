@@ -45,7 +45,7 @@ MonoBehaviour:
     - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
       spriteIndex: 0
       type: 2
-      position: {x: 0, y: 0}
+      position: {x: 0, y: -200}
       speed: -1
       targetScale: 1.5
     music: {fileID: 0}

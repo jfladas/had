@@ -10,15 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: A12_8
+  m_Name: A13_3
   m_EditorClassIdentifier: 
   sentences:
-  - text: "We spawn in Aleph\u2019s room again. We directly head out wearing cloaks
-      to stay inconspicuous."
+  - text: "I can\u2019t hear anything from John."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
+  - text: It must have worked then.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 96ec51593b93df042857171a2e8b311a, type: 3}
-  nextScene: {fileID: 11400000, guid: 1bc3aa26ba1e6a040808d12d76fed94c, type: 2}
+  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  nextScene: {fileID: 11400000, guid: a9b7d56b4d1891040b8a46b82b07bb99, type: 2}

@@ -23,3 +23,9 @@ MonoBehaviour:
     nextScene: {fileID: 11400000, guid: f945dfcd7695a7849bd1ed91fe18b60d, type: 2}
   - text: Chapter 11
     nextScene: {fileID: 11400000, guid: ea1b4845081890448a8360d78f04ef2c, type: 2}
+  - text: Chapter 12
+    nextScene: {fileID: 11400000, guid: 29a5d286bae6f2d4ebe347ae12c1ad68, type: 2}
+  - text: Chapter 13
+    nextScene: {fileID: 11400000, guid: 6f70dce0a5c63b94ea50089038fa1f18, type: 2}
+  - text: Back
+    nextScene: {fileID: 11400000, guid: 5d7fbb0d7f161ef4eb328bc6bc82a056, type: 2}

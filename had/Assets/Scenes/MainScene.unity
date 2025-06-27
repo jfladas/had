@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.88235295, g: 0.42745098, b: 0.627451, a: 1}
+    m_PressedColor: {r: 0.8679245, g: 0.7719866, b: 0.64684933, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1838,15 +1838,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5e2f9194121f0944aa3f8433f566f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logEntryPrefab: {fileID: 0}
-  logContentParent: {fileID: 0}
-  scrollRect: {fileID: 0}
-  backButton: {fileID: 0}
-  gameController: {fileID: 0}
-  backgroundImage: {fileID: 0}
-  titleText: {fileID: 0}
-  currentLogScene: {fileID: 0}
-  instantiatedLogEntries: []
 --- !u!1 &1242896342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,7 +2392,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.88235295, g: 0.42745098, b: 0.627451, a: 1}
+    m_PressedColor: {r: 0.8666667, g: 0.77254903, b: 0.64705884, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1

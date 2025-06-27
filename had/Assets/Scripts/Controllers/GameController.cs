@@ -282,7 +282,10 @@ public class GameController : MonoBehaviour
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);
-        if (chapterScene.name != "Start")
+        if (chapterScene.name != "Start" && !chapterScene.name.StartsWith("AFade"))
+        {
+            HandleGalleryIllustrations(chapterScene.name);
+        }
         {
             float waitTime = 0f;
             bool proceed = false;

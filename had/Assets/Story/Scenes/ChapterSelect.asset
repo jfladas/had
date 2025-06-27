@@ -15,9 +15,9 @@ MonoBehaviour:
   labels:
   - text: Prologue - Chapter 6
     nextScene: {fileID: 11400000, guid: dfbcd6c080c423d409a374e4667a237a, type: 2}
-  - text: Chapter 7 - 14 (Aleph)
+  - text: Chapter 7 - 13 (Aleph)
     nextScene: {fileID: 11400000, guid: 2d960f535233a1d4cab565df775b3f2a, type: 2}
-  - text: Chapter 15 - Epilogue (Aleph)
+  - text: Chapter 14 - Epilogue (Aleph)
     nextScene: {fileID: 11400000, guid: 2974858fcb46a2245a183fa8d6792589, type: 2}
   - text: Back
     nextScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}

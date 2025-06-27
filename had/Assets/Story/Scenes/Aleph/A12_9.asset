@@ -13,13 +13,6 @@ MonoBehaviour:
   m_Name: A12_9
   m_EditorClassIdentifier: 
   sentences:
-  - text: "We spawn in Aleph\u2019s room again. We directly head out wearing cloaks
-      to stay inconspicuous."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: We search for clues, anything that could lead us to that other timeline.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
@@ -39,8 +32,506 @@ MonoBehaviour:
       with them."
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I agree. Last time John mentioned something. He said that the Interdimensional
+      spirits will rule over everything. I think that refers to them. Then them corrupting
+      and replacing the spirits of the people seems plausible.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 96ec51593b93df042857171a2e8b311a, type: 3}
-  nextScene: {fileID: 11400000, guid: 5f6b079910c6f7f41a7fb288ef4963f7, type: 2}
+  - text: Just as we discuss our thoughts while hiding in an alley, someone knocks
+      Aleph out.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
+    sound: {fileID: 0}
+  - text: They came out of the shadow, I saw it but it was jus too fast.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s John again."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: How? We managed to stay hidden from the Interdimensional Spirits until
+      now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Aleph is unconscious. He\u2019s been hit with a shovel on the head and
+      is bleeding."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What are you doing?!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I kneel down beside Aleph.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Now I finally got you. He wont be standing in my way again. I will finally
+      kill you, Sustainer.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What should I do?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph! Please wake up!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I try to shake him awake, but it\u2019s no use."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I see blood pooling underneath his head and tears well up in my eyes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "No! He\u2019ll die!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Don\u2019t worry, little Sustainer. He will be patched up at the facility
+      later. We need this individual after all. Now die!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He raises his hand and his black magic oozes out.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wait! Please, I will surrender!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Ha! You should be ashamed. Do you take no pride in being the Sustainer?
+      Hm, it does make things more entertaining, I suppose.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "As if I\u2019d just surrender. I\u2019m just trying to stall here."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Well then? How will you beg for your life. Who knows, I might spare you
+      if I feel like it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "How about, we answer 3 questions each? After that I will do whatever you
+      want. I\u2019ll even let you kill me if I must."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019ll have to shift without closing my eyes this time. And I have
+      to be quick."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I hold Aleph\u2019s head in my lap and pretend like I\u2019m trying to
+      have a relaxed conversation with John."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He laughs at me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You are a failure of a Sustainer. The last one was much harder to bring
+      down. At least you\u2019re entertaining though. Fine then. State your first
+      question."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He sits down comfortably in front of me but forms a circle with his black
+      magic around us.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "He\u2019s still ready to attack any time."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Um, why do you need Aleph? You could have just killed him and you didn\u2019t
+      even use your black magic."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He seems to be debating if he should answer me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh well, you\u2019ll die later anyway. I guess it won\u2019t matter. We
+      need him to get this universe under control. Your little friend here is the
+      core of this universe."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: So they are trying to capture each core of every universe?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: John interrupts my thoughts.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Now you answer my question. How did you escape last time? I didn\u2019t
+      see you use any power."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "He didn\u2019t see? Did the last Sustainer have visible powers?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hurry and answer or you\u2019ll die right now."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I, uh, I don\u2019t know! I just ended up somewhere else when you came
+      close to me with that magic."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Ugh, I can\u2019t think of a good response without revealing the truth,
+      all while simultaneously trying to shift with my eyes open."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hm. so, you\u2019re clueless? I guess you never got to meet the last Sustainer
+      because we killed her before she could teach you anything."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Phew, he bought it. He isn\u2019t very sharp, that\u2019s good."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You may continue with your next question. Though, I must disappoint you,
+      I don\u2019t really know much about Sustainers."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He has an evil smirk on his face.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "He must enjoy being the one with the upper hand here, he\u2019s like a
+      cat playing with a mouse."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I have to come up with a plan soon, I don\u2019t have much time left."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I act disappointed and sigh.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Um, then I will ask something else. Aleph mentioned something about two
+      different timelines or parallel universes. One where certain events didn\u2019t
+      happen. Do you know something about that?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'You never know, he might give some information we can use. '
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: John looks at me with a surprised face for a second and then bursts out
+      in laughter.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "What\u2019s so funny?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: John has tears in his eyes and is gasping for air.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh, you crack me up. Don\u2019t tell me this lad thinks he can still meet
+      his family? They are definitely gone. Our organisation was responsible for
+      that after all."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: They were behind the incident with the falling stars??
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You look shocked. Did he tell you about it? It was necessary for us to
+      do that. We are trying to break his mind.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m at a loss for words."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is he saying? All that pain. The agony. Everything Aleph had to go
+      through, was because of those people.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel hot rage come up inside of me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: But I try keeping a calm demeanor.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You were\u2026 trying to break\u2026 Aleph? Because he\u2019s the core?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "M-hm. We need them alive but in a state where they can be controlled.
+      The first attempt didn\u2019t work. Despite losing his family, he was still
+      pretty sane. So we tempered with his mind with the help of our leader, he\u2019s
+      very competent, you know. We made him see a fake alternate reality."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t believe it. These bastards."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I feel frustrated and can\u2019t bring myself to speak another word. I\u2019m
+      sure I would start crying if I try."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What he saw was fake, his parents and everyone else that died that day
+      are long gone. But before we could succeed with our plan, the cores were dragged
+      out of their universe. Not just this one, a few others from different dimensions
+      as well.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u2026Why?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "My voice trembled and I couldn\u2019t continue speaking."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Nu-uh. It\u2019s my turn to ask a question now. You better have a satisfying
+      reply."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t make him suspicious. And I need to get out of here. Fast.
+      Aleph is dying."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I nod and force a smile to try to keep up the carefree vibe from earlier.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Right. Ask away.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m curious. How much do you even know about the role of the Sustainer?
+      Tell me everything you know."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "What should I do? I\u2019m too worked up to find a good excuse or make
+      up a story."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "That\u2019s a big question\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You better answer accordingly then. Go.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Just then, an idea pops into my mind.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 888f377d03a5ba941952940f8ea0593a, type: 3}
+  nextScene: {fileID: 11400000, guid: 6f70dce0a5c63b94ea50089038fa1f18, type: 2}
