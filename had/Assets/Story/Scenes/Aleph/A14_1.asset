@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A14_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "I have been living in Aleph\u2019s apartment for the past few days."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
+  - text: Aleph must be out of the hospital by now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: In the meantime, I tried calling the company several times, but to this
+      day, nobody is able to contact Ms. Moon.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: So for the moment, the other employees and I are working without her guidance
+      and also without getting paid.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We filed a missing person report but the police is not interested.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: James has been delivering groceries to me so I can survive, which is more
+      than kind of him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "And he still keeps me being here a secret of Aleph. But he also doesn\u2019t
+      give me any updates about him."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The one thing I noticed, is that James is more cheerful again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "That must mean that Aleph\u2019s condition has improved, right?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m glad, if that\u2019s the case."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Sometimes, I even catch him smirking and humming a melody I\u2019ve never
+      heard before."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aside from working, I go outside when I get too emotional thinking about
+      Aleph.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I try to search some of the people from the other universes, like Ethan
+      for example
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Or that weird horse person I saw in the train way back when I didn\u2019t
+      even know about the Sustainer."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "But I can\u2019t find anyone."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I believe Aleph mentioned that Ms. Moon had a soul of otherworldly color
+      as well.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Something is not right.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019ve been feeling weird lately, like some kind of ominous foreshadowing."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s similar to how I felt when the earthquake was about to happen."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It must be because these days without Aleph feel like literal years.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I miss him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "The reason I\u2019ve been wandering the streets in search of people from
+      other dimensions might also be because I\u2019m actually hoping to run into
+      Aleph somewhere."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I bet he\u2019d be disgusted if he knew."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "And so, a few more days pass, while I can\u2019t help but long for the
+      presence of Aleph."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Then one day, I get a phone call from James while I\u2019m on a walk."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "What\u2019s up James? Are you both doing well?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yeah. I\u2019m at the apartment now, but you\u2019re not here. I\u2019m
+      just dropping off some meals. Make sure to eat them when you get home."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: James is just too kind. This time he even cooked for me?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You sound just like a doting parent. As always, thank you. I promise I\u2019ll
+      make it up to you when things at the company are sorted out."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Don\u2019t you worry about it, dear. By the way, have you watched the
+      TV recently?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Nope, I\u2019ve been busy connecting to nature. You know, touching some
+      grass to try and forget Aleph."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You still love him, right?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I sigh.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes. I might need a long time to get over him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Okay, that\u2019s good then."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hm? What was that?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Then be home by four o\u2019clock. Watch some TV. Bye then!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Uh, sure. By-
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I hear a click before finishing my sentence.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "He hung up on me! What\u2019s with him today?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I look at my wrist watch.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s three in the afternoon right now. I might make it home by four
+      if I go now."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I think about the dish that James brought over.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m feeling a little hungry. I wonder what it\u2019s gonna be."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I make my way home and arrive ten minutes early, because I couldn\u2019t
+      stop thinking about the food."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: f710f8d7b86d6b546984f1ceedaf7fbd, type: 3}
+  nextScene: {fileID: 11400000, guid: e41084411cc3ee3449131eed84617df1, type: 2}

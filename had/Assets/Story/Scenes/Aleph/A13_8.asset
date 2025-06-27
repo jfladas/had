@@ -12,6 +12,225 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
   m_Name: A13_8
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: "I know that it\u2019s my own fault for placing my hope on their abilities."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
+  - text: "But now that they left\u2026 It feels so empty."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: And the look on their face when I told the truth.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel a pang in my chest.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It hurts.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The door opens and James walks in.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It seems like he was just on the phone with someone.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He looks at me sternly.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Why did you have to do that?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What. It was the truth.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I wonder if they made it home safe.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The truth, my butt! I can see that your thoughts are still occupied by
+      {playerName}.
+    alternativeText: The truth, my butt! I can see that your thoughts are still occupied
+      by them.
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Because I feel bad. I hurt them, made them cry.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s over. I don\u2019t have any purpose anymore. I just want to
+      sleep and not think about anything. I wish I won\u2019t wake up after falling
+      asleep."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Don\u2019t say that! You rascal, you\u2019re normally a sharp child but
+      right now, you don\u2019t even realise what makes you feel this miserable."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Tsk. Whatever.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I lie down on the hospital bed and turn my back to James.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I had a suspicion that I would never see my parents again when I first
+      came here. At that time James really helped me. I almost accepted that fate
+      but then {playerName} came into play with the power of the Sustainer.
+    alternativeText: I had a suspicion that I would never see my parents again when
+      I first came here. At that time James really helped me. I almost accepted that
+      fate but then this person came into play with the power of the Sustainer.
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel my heart throbbing painfully again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Damn it. Every time I think of them this pain in my chest won\u2019t go
+      away."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t get the sight of them leaving out of my mind."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I suppose you need to rest right now. You\u2019re still a patient after
+      all. Just get yourself together and think about things again, or you will regret
+      it. Just know, that you seem happiest when you\u2019re around {playerName}."
+    alternativeText: "I suppose you need to rest right now. You\u2019re still a patient
+      after all. Just get yourself together and think about things again, or you
+      will regret it. Just know, that you seem happiest when you\u2019re around them."
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I know that you\u2019re not THAT great of an actor. Your strong point
+      is still singing."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: James opens the door.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019ll be back tomorrow. They said they\u2019ll discharge you then."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: With that he leaves me alone in the hospital room.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I was\u2026 happy by their side?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I think back to all the memories {playerName} and I made together.
+    alternativeText: I think back to all the memories we made together.
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s true. No one\u2019s to blame but me."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is this heavy feeling that seems to twist my insides so painfully?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It used to feel so different.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It was ticklish and light before.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What do I do now?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 2602986837f6e4c43a2726a6a36b1b48, type: 3}
+  nextScene: {fileID: 11400000, guid: 616003bc88428c541a7e875193738b3f, type: 2}

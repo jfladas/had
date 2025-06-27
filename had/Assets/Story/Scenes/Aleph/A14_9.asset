@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A14_9
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: A group of people are in the middle of the street. The road under their
+      feet is cracked, as if they landed there with massive force.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: They are wearing black cloaks with hoods.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: They look like some kind of cult.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s the Interdimensional Spirits, just as you suspected."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Now that I take a closer look at them, I think I can recognise John in
+      between them.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The pedestrians are frightened and distance themselves from the suspicious
+      lot.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: In the front center of the group there is an especially tall figure.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: His stature is haughty but still intimidating.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Reminds me of Slender Man.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "That\u2019s when I notice him holding something with his long arms."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph, look! Those orbs, they look important.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The slender figure is holding four different coloured orbs.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Green, purple, blue\u2026 and a red one."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "This is\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph seems to have come to a realisation.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is it?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "This is bad. I think those orbs are the cores of the universes. The blue
+      one is exactly the same colour as Ethan\u2019s aura, and the red one is definitely
+      the same as Ms. Moon\u2019s."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "What?? Is that why they can\u2019t be found anywhere right now? They\u2019ve
+      been captured by those spirits?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: In that moment, the tall figure casts his gaze in our direction.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh, no! They\u2019re after Aleph!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The final core and the Sustainer of Dimensional Principles. Seize them!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 52af34180e7f71641aafe2ffb133637b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The group starts coming for us, each wielding the same black magic as John.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Aleph is the final orb?? I can\u2019t let them get to him!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ZING
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "My head\u2019s suddenly filled with ringing and then a familiar voice
+      speaks to me, as if telepathically."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Child, the time has come. The evil Spirits seek to destroy every universe
+      and unify the remains to rule over one single dimension on their own.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 937c3266c032ed848b44570d5bcf9116, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s her! The one I saw in my dreams for a while, when I still didn\u2019t
+      know anything about the state of the dimensions."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You must put a halt to their plans. Protect the last core with all your
+      strength. With this, the last of my presence will vanish. Farewell, Child.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 937c3266c032ed848b44570d5bcf9116, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thank you, former Sustainer. I will try anything to protect Aleph and fulfill
+      my duties as the new Sustainer of Dimensional Principles!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph! Get behind me!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel a new power surge through my body.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m not sure if it\u2019s because I just got a message from the former
+      Sustainer or of it\u2019s just the adrenaline."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can still save Aleph and the other cores. I can feel it!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Something that resembles the black magic power flows out of my hand, the
+      only difference is that it was a pure, shimmering pink colour.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel the powers within me overflow from my hands and suddenly my vision
+      changes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 2ac81b3fa8c07cf4883385768872e799, type: 3}
+  nextScene: {fileID: 11400000, guid: fd27ea441d348b64e97e430be034160b, type: 2}

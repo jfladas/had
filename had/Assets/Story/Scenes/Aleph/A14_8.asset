@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A14_8
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Thank you. It was really wonderful.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 4
+      type: 1
+      position: {x: 0, y: -200}
+      speed: 0
+      targetScale: 1.5
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
+    sound: {fileID: 0}
+  - text: "I can dedicate every song I write to you, if that\u2019s what it takes
+      to make you happy."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I think the fans wouldn\u2019t like that. You might loose your career."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m fine with that. As long as you\u2019re happy and by my side,
+      nothing else matters. I came to that conclusion shortly after I left the hospital.
+      I was painfully aware of it when I came back home and saw how lifeless this
+      place was without you."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We chat a bit more, but then, this odd  feeling creeps into my mind again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Something\u2019s definitely not right."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I try to think of something that could explain this weird feeling.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aleph, you know how there are cores in each universe?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yeah, is something wrong? You suddenly look like you\u2019re worried about
+      something. Almost like that time before the earthquake."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yeah, actually, I\u2019ve been having this weird feeling. Like something\u2019s
+      telling me that something is about to happen. I also expected Ethan to contact
+      me again but I\u2019ve searched for him and never saw any sight of him."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You think it has to do something with the cores of each dimension?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yeah, I was thinking, what if Ethan is also the core of his universe?
+      The same goes for my boss. She\u2019s been missing too. What if the Interdimensional
+      Spiri-"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: A loud bang confirms my suspicions about something bad happening.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
+    sound: {fileID: 0}
+  - text: We hear yelling from outside the house.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Aleph and I look at each other and immediately rush outside to see what\u2019s
+      going on."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 2
+      position: {x: 0, y: 0}
+      speed: -1
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: e6d245d606423614b9b3f09975142dfd, type: 3}
+  nextScene: {fileID: 11400000, guid: f679755d96685ba4eba1837f16766c52, type: 2}

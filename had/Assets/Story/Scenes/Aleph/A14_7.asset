@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A14_7
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Aleph starts singing and I\u2019m completely in awe."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: d406a437aaf305640a867de5a788c5c4, type: 3}
+    sound: {fileID: 0}
+  - text: "It\u2019s an even better feeling compared to the concert I went to."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "This time, it\u2019s just for me."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It makes me remember all the past memories, the good and the bad ones.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "So, ultimately, his kind actions stemmed from real feelings, even though
+      he didn\u2019t notice it back then."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: As I listen to the lyrics, which are about how much he realised he loves
+      me and how much he regrets some of his actions, I notice that the melody seems
+      familiar.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Haven\u2019t I heard this before? When was it\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, right!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I remember that James started humming this melody some time ago and I would
+      always hear it when he came to visit.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "So, they\u2019ve been plotting this since then, huh."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I enjoy the rest of the song, which is about three minutes long.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I could listen to this for days.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 5fe2e1270fb27ac46819fe8a80248a64, type: 3}
+  nextScene: {fileID: 11400000, guid: b19b8ce77a9f3c24d862d36b5a25eae5, type: 2}

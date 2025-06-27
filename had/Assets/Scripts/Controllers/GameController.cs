@@ -18,6 +18,14 @@ public class GameController : MonoBehaviour
 
     public MinigameController minigameController;
 
+    public GameScene aEpilogue1Scene;
+    public int requiredMinigameScore = 5000;
+
+    public Button menuButton;
+    public Image menuImage;
+    public GameScene menuScene;
+    public Button closeButton;
+
     [Header("Gallery Illustrations")]
     public Image illustrationA1;
     public Image illustrationA2;
@@ -27,10 +35,6 @@ public class GameController : MonoBehaviour
     public Image illustrationA6;
     public Image illustrationLocked;
 
-    public Button menuButton;
-    public Image menuImage;
-    public GameScene menuScene;
-    public Button closeButton;
 
     private int score = 0;
 
@@ -286,6 +290,49 @@ public class GameController : MonoBehaviour
         {
             HandleGalleryIllustrations(chapterScene.name);
         }
+
+        if (chapterScene.name == "A14_P")
+        {
+            int currentScore = ScoreManager.GetCurrentScore();
+
+            bottomBar.Show();
+            bottomBar.ClearText();
+            string scoreMessage = $"Current Minigame Score: {currentScore}/{requiredMinigameScore}";
+
+            if (currentScore < requiredMinigameScore)
+            {
+                scoreMessage = $"Score: {currentScore}/{requiredMinigameScore}\nNot enough points collected...";
+
+                if (aEpilogue1Scene != null)
+                {
+                    chapterScene.nextScene = aEpilogue1Scene;
+                }
+            }
+            else
+            {
+                scoreMessage = $"Score: {currentScore}/{requiredMinigameScore}\nSufficient points collected!";
+            }
+
+            if (bottomBar.barText != null)
+            {
+                bottomBar.barText.text = scoreMessage;
+            }
+
+            float waitTime = 0f;
+            bool proceed = false;
+            while (waitTime < 7f && !proceed)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                {
+                    proceed = true;
+                }
+                waitTime += Time.deltaTime;
+                yield return null;
+            }
+
+            bottomBar.Hide();
+        }
+        else
         {
             float waitTime = 0f;
             bool proceed = false;

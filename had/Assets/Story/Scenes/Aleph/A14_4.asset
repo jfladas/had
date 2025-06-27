@@ -10,45 +10,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: A13_2
+  m_Name: A14_4
   m_EditorClassIdentifier: 
   sentences:
-  - text: Ugh. Go on, use that brain of yours, you must know at least SOMETHING.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I already have the familiar sight in front of me.
+  - text: "I dash out of the house and run all the way to Aleph\u2019s house."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "All I have to do now is shift back. Aleph\u2019s head is in my lap and
-      one of my hands is touching his cheek, so this should work."
+  - text: Countless thoughts are running through my mind.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Right, right\u2026 Um.. How do I put this\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Now!
+  - text: Am I in a dream?
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I see the swirls clearly in front of me and begin the shifting process.
+  - text: Will we get back together?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Is it gonna be fine\u2026?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t wait to see him."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I have a feeling that all the anxiousness I\u2019ve been feeling in the
+      past few days will just vanish as soon as I see Aleph again."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9a30f0f4419ca0e4fbae37cd4ae0090c, type: 3}
-  nextScene: {fileID: 11400000, guid: e813d1a338cb2e74e810e94e99c030ff, type: 2}
+  background: {fileID: 21300000, guid: f710f8d7b86d6b546984f1ceedaf7fbd, type: 3}
+  nextScene: {fileID: 11400000, guid: 017095a289d3b9745a1db2955b0efab4, type: 2}

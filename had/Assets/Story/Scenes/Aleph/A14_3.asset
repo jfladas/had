@@ -1,0 +1,414 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A14_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Aleph said he would make it for me some time. Looks like James beat him
+      to it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I take it out of the fridge and am about to remove the cling wrap from
+      it, when I notice a sticky note on the bottom of the plate.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I remove it and read what it says.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u201CChannel 12\u201D"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What does it mean?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I warm the food up in the microwave and think about what James told me
+      on the phone.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Right, he told me I should watch some TV. Does the sticky note mean, he
+      wants me to watch channel 12?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Because I have nothing better to do, I follow the instructions and head
+      to the couch with my food all warmed up.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I look at the time.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Nice. It\u2019s 3:57 pm so I\u2019m even on time, just like James demanded.
+      Now, time to dig in!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I put on channel 12 and begin to eat.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Of course, the food is delicious.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Ah, it\u2019s a music show. And it\u2019s live."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It makes me think about Aleph\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Just I\u2019m thinking that, I suddenly hear his voice."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Ahem, Um, is it four o\u2019clock yet?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The former artist left the stage and now, Aleph is standing there with
+      a microphone in his hand.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Aleph! He\u2019s on TV!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 1
+      type: 1
+      position: {x: 0, y: -200}
+      speed: 0
+      targetScale: 1.5
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I feel a sense of relief seeing him look healthy and smiling.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "But there\u2019s also a lingering sadness."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I really miss him\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Uh, hello everyone. Thanks for coming here and also, thanks for the people
+      watching this from home. The truth is, today I\u2019m not here to perform.
+      I have an important announcement to make."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I have been struggling a bit recently, due to a fight with my lover.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What???
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m so shocked that i stop eating for a moment."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Is he talking about me?!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can hear the audience making surprised sounds through the TV.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019ve made a really big mistake and we ended up separating. Now I\u2019m
+      here, hoping that my lover is watching the program right now, so that I can
+      deliver my heartfelt message."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He looks directly into the camera and it feels like we are looking at each
+      other.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 3
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I hear my heart beat quicken.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hi, I hope you really are watching this right now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He smiles awkwardly as camera shutters go off.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: This will certainly be in the news later.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I just wanted to let you know, that I made a mistake and that you\u2019ve
+      done nothing wrong. You\u2019ve always helped me and I failed to realise that.
+      Everything that happened, it\u2019s my fault. And I really want to apologise
+      to you."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t believe what I\u2019m seeing and hearing right now."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: A complicated mix of emotions overwhelms me and I feel my hands trembling.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I tried to cook your favourite meal. I hope I could make it to your taste.
+      I\u2019m happy to try again if it\u2019s not like you wanted. And I really
+      want to apologise in person. So, I\u2019ll be waiting for you. You know where
+      I live so\u2026 come over whenever you're ready."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Is he trying to throw away his career? The fans will throw a fit!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I don\u2019t know how to feel right now."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m confused."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m not sure if I can trust him again, even though I would be happy
+      to."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I also feel touched because he actually remembered our conversation about
+      my favourite food.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "And he even cooked it himself, it wasn\u2019t James."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I really want to run over to him right now but Aleph isn\u2019t done yet."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "And to all my fans: I would be really happy if you could support our relationship,
+      but I also understand if that\u2019s too much to ask."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I have a new song coming up, and it\u2019s about the person I love the
+      most. If you\u2019ll have me I will be happy to release it soon. But I want
+      the person that it\u2019s written for to be the first one to hear it."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He wrote a song for me??
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Okay then\u2026 I hope my feelings have reached you. And I hope my sincerity
+      came across. I also hope we\u2019ll see each other again soon. I love you."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Everyone is silent, as if waiting for a response.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I love you too. I\u2019ve never stopped loving you."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I wish I could tell him right now, but my thoughts don\u2019t reach him
+      through the TV screen."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: That was all. Thank you.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 2
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He leaves the stage and the audience breaks into an applause.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It seems like the fans will still support him, I\u2019m glad."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I have to see him. Now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 17259816d083dbf418fb2fd14b1f2374, type: 3}
+  nextScene: {fileID: 11400000, guid: a366224850e51eb4aa9db85a0b39881f, type: 2}

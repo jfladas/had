@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: A14_6
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Where is he?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I go through all the rooms but Aleph is nowhere to be seen.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Finally, I open the door to the room I was staying in.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I open the door and see Aleph sitting on the bed with a guitar.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 3
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "{playerName}. I didn\u2019t expect you to come here immediately."
+    alternativeText: "I didn\u2019t expect you to come here immediately."
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I ignore him and jump directly into his arms.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 3
+      type: 2
+      position: {x: 0, y: -200}
+      speed: -1
+      targetScale: 1.5
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can\u2019t stop the tears from falling."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I missed you so much! I couldn\u2019t imagine a life without you anymore."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m so sorry about how I acted and for all the hurtful things I said.
+      I missed you too."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He squeezes me in a loving hug and we only separate after a while that
+      seems like eternity.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Would you mind listening to the song I made for you?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I nod and he takes his guitar and positions himself in front of me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: e6d245d606423614b9b3f09975142dfd, type: 3}
+  nextScene: {fileID: 11400000, guid: 2ab7a616ab658104ebe3b84845c21a5d, type: 2}
