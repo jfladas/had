@@ -283,13 +283,6 @@ public class GameController : MonoBehaviour
             yield break;
         }
 
-        if (chapterScene.name == "TheEnd")
-        {
-            yield return new WaitForSeconds(5f);
-            SceneManager.LoadScene("StartScene");
-            yield break;
-        }
-
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);
@@ -352,6 +345,11 @@ public class GameController : MonoBehaviour
                 waitTime += Time.deltaTime;
                 yield return null;
             }
+        }
+        if (chapterScene.name == "TheEnd")
+        {
+            SceneManager.LoadScene("StartScene");
+            yield break;
         }
         PlayScene(chapterScene.nextScene);
     }
