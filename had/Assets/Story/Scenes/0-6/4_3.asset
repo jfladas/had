@@ -80,7 +80,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Did you see that? Sunny picked that girl to perform with him. Who is she?
+  - text: Did you see that? Sunny picked that person to perform with him. Who are
+      they?
     alternativeText: 
     character: {fileID: 11400000, guid: 229e5df98f0545f45956710a651ade50, type: 2}
     actions: []

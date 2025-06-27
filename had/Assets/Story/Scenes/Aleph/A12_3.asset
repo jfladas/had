@@ -18,7 +18,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: 4d0717af095410a4fa1bed777103ae6d, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: There. I can see the golden swirl.
     alternativeText: 

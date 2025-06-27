@@ -434,8 +434,14 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "M-hm. We need them alive but in a state where they can be controlled.
       The first attempt didn\u2019t work. Despite losing his family, he was still
-      pretty sane. So we tempered with his mind with the help of our leader, he\u2019s
-      very competent, you know. We made him see a fake alternate reality."
+      pretty sane."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "So we tempered with his mind with the help of our leader, he\u2019s very
+      competent, you know. We made him see a fake alternate reality."
     alternativeText: 
     character: {fileID: 11400000, guid: 8ed5b662bbd7f24449a495e10f7a3ba3, type: 2}
     actions: []

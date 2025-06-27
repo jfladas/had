@@ -43,6 +43,22 @@ public class MinigameController : MonoBehaviour
         public bool isSpecial = false;
     }
 
+    public void ShowScoreText()
+    {
+        if (scoreText != null)
+        {
+            scoreText.gameObject.SetActive(true);
+        }
+    }
+
+    public void HideScoreText()
+    {
+        if (scoreText != null)
+        {
+            scoreText.gameObject.SetActive(false);
+        }
+    }
+
     public IEnumerator PlayMinigame(MinigameScene minigameScene)
     {
         bottomBar.Hide();
@@ -124,7 +140,7 @@ public class MinigameController : MonoBehaviour
                 circleRadius = 60f;
                 break;
             case 6:
-                minigameDuration = 10f;
+                minigameDuration = 15f;
                 spawnInterval = 0.5f;
                 lineSpeed = 2000f;
                 circleGrowDuration = 2.5f;
@@ -134,9 +150,9 @@ public class MinigameController : MonoBehaviour
             case 7:
                 minigameDuration = 30f;
                 spawnInterval = 0.3f;
-                lineSpeed = 2500f;
+                lineSpeed = 2000f;
                 circleGrowDuration = 4f;
-                circleRadius = 30f;
+                circleRadius = 40f;
                 break;
         }
 
@@ -158,6 +174,7 @@ public class MinigameController : MonoBehaviour
 
         if (minigameScene.level == 1 && !isReplayingMinigame)
         {
+            ScoreManager.SetCurrentScore(0);
             yield return StartCoroutine(PlayTutorial(lineSpeed, radiusMin, growDurationMin, growDurationMax));
         }
 

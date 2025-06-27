@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
     public MinigameController minigameController;
 
     public GameScene aEpilogue1Scene;
-    public int requiredMinigameScore = 5000;
+    public int requiredMinigameScore;
 
     public Button menuButton;
     public Image menuImage;
@@ -286,10 +286,8 @@ public class GameController : MonoBehaviour
         bottomBar.Hide();
         nameBar.Hide();
         spriteSwitcher.SwitchImage(chapterScene.background);
-        if (chapterScene.name != "Start" && !chapterScene.name.StartsWith("AFade"))
-        {
-            HandleGalleryIllustrations(chapterScene.name);
-        }
+
+        HandleGalleryIllustrations(chapterScene.name);
 
         if (chapterScene.name == "A14_P")
         {
@@ -297,11 +295,11 @@ public class GameController : MonoBehaviour
 
             bottomBar.Show();
             bottomBar.ClearText();
-            string scoreMessage = $"Current Minigame Score: {currentScore}/{requiredMinigameScore}";
+            string scoreMessage = string.Empty;
 
             if (currentScore < requiredMinigameScore)
             {
-                scoreMessage = $"Score: {currentScore}/{requiredMinigameScore}\nNot enough points collected...";
+                scoreMessage = "Energy level insufficient...";
 
                 if (aEpilogue1Scene != null)
                 {
@@ -310,17 +308,18 @@ public class GameController : MonoBehaviour
             }
             else
             {
-                scoreMessage = $"Score: {currentScore}/{requiredMinigameScore}\nSufficient points collected!";
+                scoreMessage = "Energy level sufficient!";
             }
 
             if (bottomBar.barText != null)
             {
                 bottomBar.barText.text = scoreMessage;
             }
+            minigameController.ShowScoreText();
 
             float waitTime = 0f;
             bool proceed = false;
-            while (waitTime < 7f && !proceed)
+            while (waitTime < 5f && !proceed)
             {
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
                 {
@@ -331,8 +330,9 @@ public class GameController : MonoBehaviour
             }
 
             bottomBar.Hide();
+            minigameController.HideScoreText();
         }
-        else
+        else if (chapterScene.name != "Start" && !chapterScene.name.StartsWith("AFade"))
         {
             float waitTime = 0f;
             bool proceed = false;

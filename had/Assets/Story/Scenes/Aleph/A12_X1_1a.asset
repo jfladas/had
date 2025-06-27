@@ -189,7 +189,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Right, but it\u2019s kind of different now. Our relationship is not exactly
-      Fan and Artist, right?"
+      fan and artist, right?"
     alternativeText: 
     character: {fileID: 11400000, guid: 8021ae93b2207b94a95f0fd830781878, type: 2}
     actions: []

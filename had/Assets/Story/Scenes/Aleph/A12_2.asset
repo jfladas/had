@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: A12_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: The next three weeks pass like this with me training my powers.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
-    sound: {fileID: 0}
   - text: Aleph also realises that he can not only see the color of the souls but
       also detect any special auras, like the one from John.
     alternativeText: 
@@ -64,13 +58,6 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: The fourth week starts and I feel like I can try shifting in a more controlled
       way now.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Aleph agrees and he holds my hand while I close my eyes, visualising the
-      space with the different dimensions again.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []

@@ -2165,7 +2165,7 @@ MonoBehaviour:
   player: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
   minigameController: {fileID: 1242838791}
   aEpilogue1Scene: {fileID: 11400000, guid: ce630b9171e21d14db3a7bfd1ce46d50, type: 2}
-  requiredMinigameScore: 5000
+  requiredMinigameScore: 6000
   menuButton: {fileID: 103138647}
   menuImage: {fileID: 122590726}
   menuScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}
