@@ -10,62 +10,78 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: A11_5
+  m_Name: A12_X1_1d
   m_EditorClassIdentifier: 
   sentences:
-  - text: My schedule was now packed with physical exercises in the mornings and
-      training for my powers in the afternoon. All while coming to terms with the
-      fact, that Aleph and I just confessed our feelings to each other.
+  - text: The concert goes on for three hours. Each and every song was breathtakingly
+      beautiful.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "That probably means we\u2019re together now, right?"
+  - text: It makes me question myself.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: How have I never heard of him before? I should get more into music.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The next day we start with training.
+  - text: As everyone is leaving, I also get up and head to the exit.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: My first task is running laps on the track field. Aleph suggested that
-      we start with 3km because that was what we did in High School.
+  - text: I see James waiting for me and approach him.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "But it turns out, that my athleticism was better back then. I struggle
-      very much the whole morning but Aleph supports me by running with me some laps
-      and cheering for me when I\u2019m about to give up."
+  - text: James!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, there you are. How was it? Pretty good right?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 62e84d2ec46b1f44d8a2b8c9e355591d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Good? It was incredible! It\u2019s like, a hundred times more powerful
+      compared to the time I saw him singing in the park."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We walk backstage together to reunite with Aleph.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: James comes over and brings refreshments when we take breaks.
+  - text: "The whole way I can\u2019t stop talking about how amazing it was and James
+      just nods proudly and lets out a chuckle here and there."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Then the afternoon \u201Cclass\u201D starts."
+  - text: "I am so distracted that I don\u2019t even notice someone sneakily following
+      us."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: To train this power I have, I do some quick meditation with Aleph. After
-      that I keep calm and try to visualise what I saw while shifting.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 2ac81b3fa8c07cf4883385768872e799, type: 3}
-  nextScene: {fileID: 11400000, guid: 109684b66f0ebb5429c616583ed8999a, type: 2}
+  background: {fileID: 21300000, guid: bd83f3418797c224983f33a8a46fd3bd, type: 3}
+  nextScene: {fileID: 11400000, guid: 87b5878e050019947a1b98780dc53e57, type: 2}

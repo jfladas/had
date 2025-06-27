@@ -10,62 +10,67 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: A11_5
+  m_Name: A12_X1_1c
   m_EditorClassIdentifier: 
   sentences:
-  - text: My schedule was now packed with physical exercises in the mornings and
-      training for my powers in the afternoon. All while coming to terms with the
-      fact, that Aleph and I just confessed our feelings to each other.
+  - text: He starts singing and immediately captures the whole audience with his
+      beautiful voice.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: d406a437aaf305640a867de5a788c5c4, type: 3}
+    sound: {fileID: 0}
+  - text: The melody flowed through the whole venue, like a big ocean wave, encapsulating
+      each and every one of us.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "That probably means we\u2019re together now, right?"
+  - text: "I\u2019m getting goosebumps."
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The next day we start with training.
+  - text: I can feel the emotions Aleph is portraying.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: My first task is running laps on the track field. Aleph suggested that
-      we start with 3km because that was what we did in High School.
+  - text: The sight of him and his guitar, standing in the spotlight while giving
+      in to the flow of the music, it makes me fall for him all over again.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "But it turns out, that my athleticism was better back then. I struggle
-      very much the whole morning but Aleph supports me by running with me some laps
-      and cheering for me when I\u2019m about to give up."
+  - text: "It\u2019s just so beautiful."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I stare at him in awe as he hits every single note.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: James comes over and brings refreshments when we take breaks.
+  - text: With the spotlight illuminating him, he almost seems like a deity.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Then the afternoon \u201Cclass\u201D starts."
+  - text: After he finishes the song, the audience breaks out in loud cheering, and
+      my heart fills with joy when I see his satisfied expression after delivering
+      such an amazing performance.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: To train this power I have, I do some quick meditation with Aleph. After
-      that I keep calm and try to visualise what I saw while shifting.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 2ac81b3fa8c07cf4883385768872e799, type: 3}
-  nextScene: {fileID: 11400000, guid: 109684b66f0ebb5429c616583ed8999a, type: 2}
+  background: {fileID: 21300000, guid: 0977e5bbb6a71454a91d33522602afcd, type: 3}
+  nextScene: {fileID: 11400000, guid: 6fe0f2251050ccd47aa448ff2b88c144, type: 2}

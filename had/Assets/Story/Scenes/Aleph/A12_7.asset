@@ -10,15 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: A11_7
+  m_Name: A12_7
   m_EditorClassIdentifier: 
   sentences:
-  - text: Slowly, the view I had back then constructs itself before my inner eye,
-      as if I am painting the scenery myself.
+  - text: "The next day, we head directly to Aleph\u2019s dimension."
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9a30f0f4419ca0e4fbae37cd4ae0090c, type: 3}
-  nextScene: {fileID: 11400000, guid: 756b8713711409f49b8eaaa0ffb9660b, type: 2}
+  - text: I hold on to his hands and close my eyes, trying to focus on the shift.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  nextScene: {fileID: 11400000, guid: 5f6b079910c6f7f41a7fb288ef4963f7, type: 2}

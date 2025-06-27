@@ -78,6 +78,7 @@ public class MinigameController : MonoBehaviour
 
         switch (minigameScene.level)
         {
+            // Prologue
             case 0:
                 minigameDuration = 15f;
                 spawnInterval = 0.8f;
@@ -85,6 +86,7 @@ public class MinigameController : MonoBehaviour
                 circleGrowDuration = 0.5f;
                 circleRadius = 80f;
                 break;
+            // Tutorial
             case 1:
             default:
                 minigameDuration = 20f;
@@ -96,23 +98,45 @@ public class MinigameController : MonoBehaviour
             case 2:
                 minigameDuration = 15f;
                 spawnInterval = 0.8f;
-                lineSpeed = 1500f;
+                lineSpeed = 1200f;
                 circleGrowDuration = 2f;
                 circleRadius = 60f;
                 break;
             case 3:
                 minigameDuration = 10f;
                 spawnInterval = 0.8f;
-                lineSpeed = 2000f;
+                lineSpeed = 1400f;
                 circleGrowDuration = 2f;
                 circleRadius = 60f;
                 break;
             case 4:
-                minigameDuration = 10f;
+                minigameDuration = 15f;
+                spawnInterval = 1f;
+                lineSpeed = 1600f;
+                circleGrowDuration = 2f;
+                circleRadius = 80f;
+                break;
+            case 5:
+                minigameDuration = 15f;
+                spawnInterval = 0.8f;
+                lineSpeed = 1800f;
+                circleGrowDuration = 2f;
+                circleRadius = 60f;
+                break;
+            case 6:
+                minigameDuration = 20f;
                 spawnInterval = 0.5f;
                 lineSpeed = 2000f;
-                circleGrowDuration = 1.5f;
-                circleRadius = 80f;
+                circleGrowDuration = 2.5f;
+                circleRadius = 60f;
+                break;
+            //Final Minigame
+            case 7:
+                minigameDuration = 30f;
+                spawnInterval = 0.3f;
+                lineSpeed = 3000f;
+                circleGrowDuration = 3.5f;
+                circleRadius = 30f;
                 break;
         }
 

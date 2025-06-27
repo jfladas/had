@@ -25,12 +25,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Slowly, the view I had back then constructs itself before my inner eye,
-      as if I am painting the scenery myself.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
-  nextScene: {fileID: 11400000, guid: 76d6a2262c89bf745a5afb9656e0eb8a, type: 2}
+  nextScene: {fileID: 11400000, guid: 33a1e6954c4901142a78f09e02f96489, type: 2}
