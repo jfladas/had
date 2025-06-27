@@ -881,10 +881,10 @@ MonoBehaviour:
   playerNameInput: {fileID: 1557268301}
   meCharacter: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
   fadeImage: {fileID: 1806494128}
-  aChapter15Scene: {fileID: 0}
-  aChapter14Scene: {fileID: 0}
-  aChapter13Scene: {fileID: 0}
-  aChapter12Scene: {fileID: 0}
+  aChapter15Scene: {fileID: 11400000, guid: 9fadc0592d556964da98ea979d488326, type: 2}
+  aChapter14Scene: {fileID: 11400000, guid: 616003bc88428c541a7e875193738b3f, type: 2}
+  aChapter13Scene: {fileID: 11400000, guid: 6f70dce0a5c63b94ea50089038fa1f18, type: 2}
+  aChapter12Scene: {fileID: 11400000, guid: 29a5d286bae6f2d4ebe347ae12c1ad68, type: 2}
   aChapter11Scene: {fileID: 11400000, guid: ea1b4845081890448a8360d78f04ef2c, type: 2}
   aChapter10Scene: {fileID: 11400000, guid: f945dfcd7695a7849bd1ed91fe18b60d, type: 2}
   aChapter9Scene: {fileID: 11400000, guid: 47b378a8ec8ff4e42859b9ef565fff7f, type: 2}

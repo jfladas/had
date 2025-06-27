@@ -332,11 +332,16 @@ public class GameController : MonoBehaviour
             bottomBar.Hide();
             minigameController.HideScoreText();
         }
-        else if (chapterScene.name != "Start" && !chapterScene.name.StartsWith("AFade"))
+        else if (chapterScene.name.StartsWith("AFade"))
         {
+            yield return new WaitForSeconds(0.5f);
+        }
+        else if (chapterScene.name != "Start")
+        {
+            yield return new WaitForSeconds(0.5f);
             float waitTime = 0f;
             bool proceed = false;
-            while (waitTime < 5f && !proceed)
+            while (waitTime < 4f && !proceed)
             {
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
                 {
