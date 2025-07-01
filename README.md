@@ -23,3 +23,6 @@ Hearts across Dimensions will then be available as an app on your device.
 ### Windows
 
 To play the game on a Windows device you can download the respective build and execute the file `HaD (Alpha).exe`.
+
+## Survey
+We would appreciate if you fill out our survey after playing: https://forms.gle/HbSeV4yHSr4Eiaxk6
