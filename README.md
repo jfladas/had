@@ -1,6 +1,6 @@
-# Hearts Across Dimensions
+# Hearts across Dimensions
 
-HSLU DI MEN3 HS24 | Lukas Bucher & Angelika Gort | Alpha
+HSLU DI MEN3 & MEN4 HS24 | Lukas Bucher & Angelika Gort | Alpha
 
 ## Description
 
@@ -13,7 +13,7 @@ A complete route for Aleph Rei is playable in the Alpha version, with three endi
 Note that the game is built for a mobile/portrait layout, but it does work in landscape and on desktop as well.
 The game can be played and downloaded here:
 
-### [itch.io](https://jfladas.itch.io/hearts-across-dimensions)
+### https://jfladas.itch.io/hearts-across-dimensions
 
 ### Web (Mobile/Desktop)
 
