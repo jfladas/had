@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Mr. Horse
   sprites:
-  - {fileID: -2335973655005969691, guid: 3f7dcf8df7e77144fb33c9fffc176baf, type: 3}
-  - {fileID: 1989766529931552777, guid: 8afe71f4ef0d30f47b14b14d68ae79fa, type: 3}
-  - {fileID: 8936737985239408432, guid: 2b90b504698f1c44b9f0bc7883eaaea8, type: 3}
-  - {fileID: -2323918302308546174, guid: 0ea5e281a6b62e2459369f1f7bd217f0, type: 3}
-  - {fileID: 1430936856075131816, guid: bf1d4523f3911de43adf46f1149f0b79, type: 3}
-  - {fileID: 4611480839167176027, guid: 04234fee550ee34439e53b0fe5122e7b, type: 3}
-  - {fileID: -3102452751951793408, guid: 8ac86e98b7008d943acf6873708b45f9, type: 3}
-  - {fileID: 7868747400162315124, guid: 0d522d85e3ec25e41bbe33166cf69f7d, type: 3}
-  - {fileID: -101503926065322327, guid: 7658eae8731a3ca49aa9561e310e91f4, type: 3}
+  - {fileID: 21300000, guid: 3f7dcf8df7e77144fb33c9fffc176baf, type: 3}
+  - {fileID: 21300000, guid: 8afe71f4ef0d30f47b14b14d68ae79fa, type: 3}
+  - {fileID: 21300000, guid: 2b90b504698f1c44b9f0bc7883eaaea8, type: 3}
+  - {fileID: 21300000, guid: 0ea5e281a6b62e2459369f1f7bd217f0, type: 3}
+  - {fileID: 21300000, guid: bf1d4523f3911de43adf46f1149f0b79, type: 3}
+  - {fileID: 21300000, guid: 04234fee550ee34439e53b0fe5122e7b, type: 3}
+  - {fileID: 21300000, guid: 8ac86e98b7008d943acf6873708b45f9, type: 3}
+  - {fileID: 21300000, guid: 0d522d85e3ec25e41bbe33166cf69f7d, type: 3}
+  - {fileID: 21300000, guid: 7658eae8731a3ca49aa9561e310e91f4, type: 3}
   prefab: {fileID: -625994695525609269, guid: dbf3f6f83b1cda247b66e7aeab91a494, type: 3}

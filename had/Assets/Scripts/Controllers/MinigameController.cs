@@ -39,6 +39,7 @@ public class MinigameController : MonoBehaviour
     private int sessionScore = 0;
     private int currentMinigameLevel = -1;
     private bool isReplayingMinigame = false;
+    private string currentMinigameId = null;
 
     public System.Action<GameScene> OnMinigameComplete;
 
@@ -71,7 +72,8 @@ public class MinigameController : MonoBehaviour
         spriteSwitcher.SwitchImage(minigameScene.background);
 
         currentMinigameLevel = minigameScene.level;
-        isReplayingMinigame = ScoreManager.HasMinigameLevelBeenPlayed(currentMinigameLevel);
+        currentMinigameId = minigameScene != null ? minigameScene.name : null;
+        isReplayingMinigame = ScoreManager.HasMinigameBeenPlayed(currentMinigameId);
 
         sessionScore = 0;
         score = ScoreManager.GetCurrentScore();
@@ -345,7 +347,7 @@ public class MinigameController : MonoBehaviour
             Destroy(activeVerticalLine);
         }
 
-        bool pointsAdded = ScoreManager.TryAddMinigameScore(currentMinigameLevel, sessionScore);
+        bool pointsAdded = ScoreManager.TryAddMinigameScore(currentMinigameId, sessionScore);
 
         score = ScoreManager.GetCurrentScore();
 
@@ -372,6 +374,7 @@ public class MinigameController : MonoBehaviour
         timerImage?.gameObject.SetActive(false);
 
         currentMinigameLevel = -1;
+        currentMinigameId = null;
         sessionScore = 0;
         isReplayingMinigame = false;
 

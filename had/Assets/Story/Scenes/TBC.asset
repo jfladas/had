@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
   m_Name: TBC
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: c98763bc38406804e9e72daed3165535, type: 3}
+  background: {fileID: -1045707742836199449, guid: c723cd492e81f8443a05c90fef575bcd, type: 3}
   nextScene: {fileID: 0}
+  failScene: {fileID: 0}

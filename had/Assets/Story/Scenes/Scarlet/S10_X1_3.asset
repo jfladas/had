@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,25 +13,28 @@ MonoBehaviour:
   m_Name: S10_X1_3
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: She still hasn't told me more about the people that were with her in the bunker.
+  - text: She still hasn't told me more about the people that were with her in the
+      bunker.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Instead, she revealed her past of becoming a princess and murdering her ex to me.
+  - text: Instead, she revealed her past of becoming a princess and murdering her
+      ex to me.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I wonder if the people she called her family know about her being a vampire too.
+  - text: I wonder if the people she called her family know about her being a vampire
+      too.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Surely they do, if she trusts them, no? But they called her “boss”.
+  - text: "Surely they do, if she trusts them, no? But they called her \u201Cboss\u201D."
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -43,12 +46,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What if they are also vampires? That would explain their mysteriousness to some degree.
+  - text: What if they are also vampires? That would explain their mysteriousness
+      to some degree.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
+  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
   nextScene: {fileID: 11400000, guid: 9a0b0c0d0e0f10111213141516171899, type: 2}
-

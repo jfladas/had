@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -43,7 +43,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I try to shake the thought of the Interdimensional Spirits and get out of bed.
+  - text: I try to shake the thought of the Interdimensional Spirits and get out
+      of bed.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -85,7 +86,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It's the man that called Scarlet “boss”.
+  - text: "It's the man that called Scarlet \u201Cboss\u201D."
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -109,25 +110,29 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Hm? Ah, sorry sorry. You're so right! I'm Ray, nice to meet'cha again! This right here is Lucius, we call him Lu. He's a bit shy but he'll warm up to ya in no time.
+  - text: Hm? Ah, sorry sorry. You're so right! I'm Ray, nice to meet'cha again!
+      This right here is Lucius, we call him Lu. He's a bit shy but he'll warm up
+      to ya in no time.
     alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: He points to the one tugging on his arm. Lu partly hides his body behind ray.
+  - text: He points to the one tugging on his arm. Lu partly hides his body behind
+      ray.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Hi…
+  - text: "Hi\u2026"
     alternativeText: 
     character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: And last but not least, this is Seth. Also not a man of many words, but I'll make up for it!
+  - text: And last but not least, this is Seth. Also not a man of many words, but
+      I'll make up for it!
     alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
@@ -145,19 +150,21 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Seth gives off kind of a stoic vibe. He's also so tall, which makes him a bit intimidating.
+  - text: Seth gives off kind of a stoic vibe. He's also so tall, which makes him
+      a bit intimidating.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yeah, nice to meet you guys, I'm {playerName}.
-    alternativeText: "Yeah, nice to meet you guys, I'm the one you met in the bunker."
+    alternativeText: Yeah, nice to meet you guys, I'm the one you met in the bunker.
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Oh! Yeah, yeah, we heard all about'cha! Boss told us to bring ya back with us.
+  - text: Oh! Yeah, yeah, we heard all about'cha! Boss told us to bring ya back with
+      us.
     alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
@@ -187,7 +194,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I let them in and rush to my room to get ready as fast as I physically can.
+  - text: I let them in and rush to my room to get ready as fast as I physically
+      can.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -199,6 +207,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
+  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
   nextScene: {fileID: 11400000, guid: aa0b0c0d0e0f101112131415161718aa, type: 2}
-

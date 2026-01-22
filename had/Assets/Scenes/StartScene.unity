@@ -881,6 +881,28 @@ MonoBehaviour:
   playerNameInput: {fileID: 1557268301}
   meCharacter: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
   fadeImage: {fileID: 1806494128}
+  continueCheckpoints: []
+  hChapter15Scene: {fileID: 0}
+  hChapter14Scene: {fileID: 0}
+  hChapter13Scene: {fileID: 11400000, guid: dee7ba4cc27149aab6227678e1d62920, type: 2}
+  hChapter12Scene: {fileID: 11400000, guid: 4e050463534c48858e3927b59cc5f7a8, type: 2}
+  hChapter11Scene: {fileID: 11400000, guid: ab2a051aca15495296ad753797fc6939, type: 2}
+  hChapter10Scene: {fileID: 11400000, guid: 2056c0e6bdf5470c9deefd0964c27ace, type: 2}
+  hChapter9Scene: {fileID: 11400000, guid: e0d62c29450843ff8b3aeb0bd8627233, type: 2}
+  hChapter8Scene: {fileID: 11400000, guid: 0dcdc21312a440f7a22d58806be311ad, type: 2}
+  hChapter7Scene: {fileID: 11400000, guid: 1b90ca0fc75e94d49b4acd3f57a7cde3, type: 2}
+  sEpilogue3Scene: {fileID: 11400000, guid: bbccddeeff11223344556677889900aa, type: 2}
+  sEpilogue2Scene: {fileID: 11400000, guid: 889900aabbccddeeff11223344556677, type: 2}
+  sEpilogue1Scene: {fileID: 11400000, guid: 3344556677889900aabbccddeeff1122, type: 2}
+  sChapter15Scene: {fileID: 11400000, guid: c8e9a0d0a5d44f93b7f8ab8edb9c0e11, type: 2}
+  sChapter14Scene: {fileID: 11400000, guid: 7dc6e362b2e148c9831b58ca7a41d109, type: 2}
+  sChapter13Scene: {fileID: 11400000, guid: 9c8c92102b244458b98a9c2c2c58285d, type: 2}
+  sChapter12Scene: {fileID: 11400000, guid: d0d0a2b3c4d5e6f708192a3b4c5d6e70, type: 2}
+  sChapter11Scene: {fileID: 11400000, guid: c0c0a2b3c4d5e6f708192a3b4c5d6e7f, type: 2}
+  sChapter10Scene: {fileID: 11400000, guid: 9a10b11c12d13e14f15a16b17c18d19e, type: 2}
+  sChapter9Scene: {fileID: 11400000, guid: 8b1f6d2c3a4e5f60718293a4b5c6d7e8, type: 2}
+  sChapter8Scene: {fileID: 11400000, guid: 4663a232e30121545be9e238ed6f6f17, type: 2}
+  sChapter7Scene: {fileID: 11400000, guid: 4c30d90454d2e504880b61680d116b3d, type: 2}
   aChapter15Scene: {fileID: 11400000, guid: 9fadc0592d556964da98ea979d488326, type: 2}
   aChapter14Scene: {fileID: 11400000, guid: 616003bc88428c541a7e875193738b3f, type: 2}
   aChapter13Scene: {fileID: 11400000, guid: 6f70dce0a5c63b94ea50089038fa1f18, type: 2}

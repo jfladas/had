@@ -32,6 +32,17 @@ public class StartController : MonoBehaviour
     public List<ContinueCheckpoint> continueCheckpoints;
 
     [Header("Chapter Scenes")]
+    [Header("MrHorse Scenes")]
+    public GameScene hChapter15Scene;
+    public GameScene hChapter14Scene;
+    public GameScene hChapter13Scene;
+    public GameScene hChapter12Scene;
+    public GameScene hChapter11Scene;
+    public GameScene hChapter10Scene;
+    public GameScene hChapter9Scene;
+    public GameScene hChapter8Scene;
+    public GameScene hChapter7Scene;
+
     [Header("Scarlet Scenes")]
     public GameScene sEpilogue3Scene;
     public GameScene sEpilogue2Scene;
@@ -270,6 +281,17 @@ public class StartController : MonoBehaviour
     {
         return new List<ContinueCheckpoint>
         {
+            // MrHorse route
+            new ContinueCheckpoint { chapterKey = "HChapter15", scene = hChapter15Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter14", scene = hChapter14Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter13", scene = hChapter13Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter12", scene = hChapter12Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter11", scene = hChapter11Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter10", scene = hChapter10Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter9", scene = hChapter9Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter8", scene = hChapter8Scene },
+            new ContinueCheckpoint { chapterKey = "HChapter7", scene = hChapter7Scene },
+
             // Scarlet route (new)
             new ContinueCheckpoint { chapterKey = "SEpilogue3", scene = sEpilogue3Scene },
             new ContinueCheckpoint { chapterKey = "SEpilogue2", scene = sEpilogue2Scene },

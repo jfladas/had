@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H10_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "I feel\u2026 nothing. I hear nothing. I see nothing. Oh, well that's probably
+      because my eyes are still closed."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I open my eyes but the bright light around me makes me instantly squint
+      them together again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I wonder where I have landed now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I take a second attempt to pry open my eyes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hello? Are you there, Mr. Horse?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Doesn't seem like he was transported with me this time, that's good.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I look around and see\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u2026nothing?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What? Everything's just white?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Everywhere I look, there is a void. Nothingness. But full of light.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Maybe I've finally found my way into the white room of a mental asylum.
+      I certainly feel like that's where I belong right now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I am standing upright, but when I look down I don't see a floor, just white.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I try walking in a direction. I know I am moving but visually, it's all
+      the same.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It doesn't even feel like walking, more like floating through space.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Maybe I'm a ghost.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh my god, am I dead?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: If this is what the afterlife is like, I don't get what all the hype is
+      about.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I stop in my tracks as I suddenly hear some faint murmurs in the distance.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Huh? What's that? It sounds like arguing voices. Not regular voices though,
+      they seem distorted.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: After taking a few more steps I see an obscure sparkle in the air in front
+      of me. I reach out my hand slowly and it abruptly gets stopped by a surface.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It feels like glass, or a mirror, but almost completely invisible.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My hand keeps lingering on the cold smooth barrier, while I listen for
+      anything I can make out from the mutters coming from behind it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u2026not acceptable! What do you mean, gone?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 1369599409dd49aab0e6c1c2ba77459e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We suspect the new Sustainer has acquired their shifting abilities sooner
+      than we expected. The entire perimeter of their origin dimension has been searched
+      and we have no trace yet.
+    alternativeText: 
+    character: {fileID: 11400000, guid: c86454fd71fe4258bbe97dd2023a6898, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Who is this \u201CSustainer\u201D they are talking about?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: That cannot be possible, it takes years to truly master shifting. That
+      is why this is the optimal time to act on our plans, so do not make this more
+      difficult than it needs to be. Search again then, they must be there.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 1369599409dd49aab0e6c1c2ba77459e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes sir, we will.
+    alternativeText: 
+    character: {fileID: 11400000, guid: c86454fd71fe4258bbe97dd2023a6898, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: In the meantime, commence with the next phase of unification, we cannot
+      wait any longer.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 1369599409dd49aab0e6c1c2ba77459e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Unification? I wonder what they wanna unify, and why they're stressing
+      out about it so much.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Sir, are you sure that's a good idea? If the Sustainer manages to\u2014"
+    alternativeText: 
+    character: {fileID: 11400000, guid: c86454fd71fe4258bbe97dd2023a6898, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You dare talk back to me?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 1369599409dd49aab0e6c1c2ba77459e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Of course not, sir, we will get right on it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: c86454fd71fe4258bbe97dd2023a6898, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hm, it sounds like the voices are getting closer, I can understand them
+      very clearly now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: That's what I thought.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 1369599409dd49aab0e6c1c2ba77459e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The voice is now crystal clear, as if it's coming right from the other
+      side of this wall.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6e03813dd6e4f1546b5d1fe791f26c50, type: 3}
+  nextScene: {fileID: 11400000, guid: 39a0b19f60b44d2194b0d8e181553ded, type: 2}

@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H9_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: My words get interrupted by a bright voice behind us.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh, by the way\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: If you need further help anytime, don't hesitate to come by my humble abode.
+      I live right by the fountain at the main plaza. You can't miss it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It is very much appreciated, thank you.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I turn around to thank her as well, but what I see makes me choke on my
+      words. Out of shock I take a step back.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse side-eyes me and whispers something under his breath.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Do not act impolite please.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I take a closer look at the woman. What I assumed to be her legs was hidden
+      by her dress and the grass until now. But now, with her having passed by and
+      looking back at us, I can see\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u2026a snake's tail?!"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: A thick appendage pokes out from under the dress and lies on the grass
+      behind her. The scales on it reflect the sunlight beautifully.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "She is a hybrid as well then? Now that would explain why she sees and
+      recognizes Mr. Horse. Does that mean we are\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: And it is not respectful to stare.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh no, this is embarrassing, I didn't mean to react this way.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: When I look up at her eyes, I can tell she has noticed my harsh reaction
+      to her appearance.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'm so sorry, it is the first time I've seen something like this. Apart
+      from Mr. Horse right here, that is.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can't tell if Mr. Horse took offense to me using this blunt name I gave
+      him in front of the snake lady. Soon after I hear both of them let out amused
+      chuckles.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It's alright, no worries. My name is Samantha by the way. It is nice to
+      meet you!
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Likewise, my name is {playerName}.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I will leave you two to it now, but be sure to come over, even if it's
+      just for a cup of tea. You're welcome anytime.
+    alternativeText: 
+    character: {fileID: 11400000, guid: c1e07724d9394b31aa9919cbfbf8b526, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thank you, that is exceptionally gracious.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I open my mouth and think about what to say as my parting goodbyes. But
+      I pause. There is still this uncomfortable feeling, like pressure inside of
+      my head. I have felt this ever since we got here and I think I know the origin
+      of this pain.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: This place is not right for me. Just like my world was not right for Mr.
+      Horse.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is it?
+    alternativeText: 
+    character: {fileID: 11400000, guid: c1e07724d9394b31aa9919cbfbf8b526, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Samantha seems nice, but I don't really know her. Maybe I should\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 45093754b13c7b740b938ce4a38bb4dd, type: 3}
+  nextScene: {fileID: 11400000, guid: e988bb87a5e94138be0c60477942c383, type: 2}

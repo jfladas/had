@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H12_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I did it! I shifted again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I open my eyes and immediately turn to check up on Mr. Horse, his hand
+      still in mine.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: His eyes open as well and he looks around the room. A big smile slowly
+      creeps onto his face.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh my goodness!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is it? Are you okay? What happened to you before we shifted?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Finally, he turns to me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I am feeling great. You did it, {playerName}! I am home at last.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I take in my surroundings for the first time and notice where we landed.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wow, we're in a very extravagant looking room. It does look like somewhere
+      the royal family would live.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We hear footsteps coming towards us, echoing from the hallway, and an appalled
+      voice shouting.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is this ruckus all about?
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can see Mr. Horse's eyes light up as he meets eyes with the tall figure
+      entering the room.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mom!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She lets out a loud gasp and runs towards us on sight. Her luscious mane
+      swinging behind her.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "This must be the infamous queen of this kingdom then. She's beautiful.
+      Her eyes remind me of Mr. Horse\u2026 The whole horsehead does, I suppose."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Prince! It is you!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I almost forgot that Prince is his real name. Maybe I should avoid calling
+      him Mr. Horse around his mother.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She wraps Mr. Horse in a big, long hug. When she steps back, her gaze shifts
+      in my direction.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: And who might this be?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "This is {playerName}. They're a friend from far away\u2026 It is a long
+      story, We will explain later."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I should greet her. How do you address a queen appropriately again? Mr.
+      Horse told me once, but I can't really remember.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Your Majesty, it's a pleasure.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She smirks.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: No need for all the formalities. You must be a very dear friend. Prince
+      doesn't even allow me to hold his hand more than once in a while.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I look down at my hand and notice it is indeed still interlinked with Mr.
+      Horse's. We quickly let go and separate awkwardly.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The queen lets out a small chuckle.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: In any way, you two must enlighten me about what has happened in the time
+      since my dear Prince has left. Oh, I was deeply worried. I am so glad my baby
+      is safe.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She nuzzles up to her son once more.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Mom\u2026 stop."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We head to the great hall to sit down and talk about everything.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse begins with telling his mother about how he suddenly got transported
+      into my dimension. He leaves out the details of where he first ended up, just
+      like when he told me about his teleportation.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He continues talking about his life in this foreign world and how he met
+      me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I chime in to explain the shift back to the kingdom, the weird experience
+      in the white void, and finally, the unusual things Mr. Horse went through since
+      then and how we ultimately ended up here once more.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh my\u2014"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: c017f2dc9f1c531439bd28453439c861, type: 3}
+  nextScene: {fileID: 11400000, guid: e8b4a7b7f32b4dddb7b8eac6b6b5a802, type: 2}

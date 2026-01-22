@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: S10_X1_1
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: What's wrong with me? Even though I know she's a vampire and also my boss, I can't stop worrying about her. I don't know about the people in the bunker either. What's the deal with them?
+  - text: What's wrong with me? Even though I know she's a vampire and also my boss,
+      I can't stop worrying about her. I don't know about the people in the bunker
+      either. What's the deal with them?
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -25,19 +27,20 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: No way, it can't be… or can it?
+  - text: "No way, it can't be\u2026 or can it?"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I can't take my mind off her and each time her face appears in my thoughts, it's tugging on my heart strings.
+  - text: I can't take my mind off her and each time her face appears in my thoughts,
+      it's tugging on my heart strings.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Am I… falling for her?
+  - text: "Am I\u2026 falling for her?"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -49,7 +52,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: No, that can't be! She's my boss! And a vampire! And she can be so mean at work.
+  - text: No, that can't be! She's my boss! And a vampire! And she can be so mean
+      at work.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -67,7 +71,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Then the image of her eating breakfast together with me and smiling during that time pops into my mind. And I suddenly notice this warm, fuzzy feeling.
+  - text: Then the image of her eating breakfast together with me and smiling during
+      that time pops into my mind. And I suddenly notice this warm, fuzzy feeling.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -85,12 +90,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Maybe I just got a bit overwhelmed, maybe a distraction would be good. But still, I'm worried…
+  - text: "Maybe I just got a bit overwhelmed, maybe a distraction would be good.
+      But still, I'm worried\u2026"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
+  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
   nextScene: {fileID: 11400000, guid: 9a0b0c0d0e0f10111213141516171899, type: 2}
-

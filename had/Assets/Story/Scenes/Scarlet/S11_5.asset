@@ -31,7 +31,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I'm sorry! I should have given you a warning! Sorry for shifting you so suddenly again, I wasn't thinking straight.
+  - text: I'm sorry! I should have given you a warning! Sorry for shifting you so
+      suddenly again, I wasn't thinking straight.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -60,12 +62,14 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Scarlet…?
+  - text: "Scarlet\u2026?"
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Did you achieve your goals? Finally feel like talking to me again?
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -76,12 +80,15 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I still haven't dealt with the Spirits, but I feel confident enough in my powers to let you accompany me now.
+  - text: I still haven't dealt with the Spirits, but I feel confident enough in
+      my powers to let you accompany me now.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I appreciate you worrying about me, but I have my own strengths.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -105,6 +112,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I thought you distanced yourself because you find me appalling.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -115,12 +123,17 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I would never think of you that way. I know it might have not been the best way, but I wouldn't be able to live with myself if anything happened to you because of me.
+  - text: I would never think of you that way. I know it might have not been the
+      best way, but I wouldn't be able to live with myself if anything happened to
+      you because of me.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You're such a dummy. I can take care of myself, I'm a vampire who survived multiple centuries, you know? But fine, I accept your apology.
+  - text: You're such a dummy. I can take care of myself, I'm a vampire who survived
+      multiple centuries, you know? But fine, I accept your apology.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -138,6 +151,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Thank you, Scarlet.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -149,6 +163,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Does that mean you're coming back to work?
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -160,11 +175,13 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Huh? Um, if the position is still open, I would be glad to.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Good. I'll allow it only if you promise to work hard!
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -176,6 +193,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I promise, Ma'am!
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -187,11 +205,15 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: If you want, we can try to rewrite your past now.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I was originally against doing that, because I'm not very fond of the idea of confronting the crown prince again, but now I think it might help me deal with the bad memories.
+  - text: I was originally against doing that, because I'm not very fond of the idea
+      of confronting the crown prince again, but now I think it might help me deal
+      with the bad memories.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -203,11 +225,13 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Great! Then, what should we do first?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Maybe, we could try to talk my father out of arranging the marriage?
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -219,6 +243,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Sure, how exactly can I help?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -230,6 +255,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Let's introduce you as my lover. Just pretend like we're in love.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -259,6 +285,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: My Lady, are you in here?
+    alternativeText: 
     character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
     actions: []
     music: {fileID: 0}
@@ -282,6 +309,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, Amelie. Come in.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -298,12 +326,16 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Oh, my Lady, I thought you were in the dining room a while ago, but I couldn't find you there. Turns out you're here with a guest.
+  - text: Oh, my Lady, I thought you were in the dining room a while ago, but I couldn't
+      find you there. Turns out you're here with a guest.
+    alternativeText: 
     character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Yes, I'll explain it all to you later, for now send word to father. We want to discuss something important with him.
+  - text: Yes, I'll explain it all to you later, for now send word to father. We
+      want to discuss something important with him.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -314,12 +346,15 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Actually, his Grace just sent me to get you. He wishes to discuss something as well. I shall lead you both to his office then.
+  - text: Actually, his Grace just sent me to get you. He wishes to discuss something
+      as well. I shall lead you both to his office then.
+    alternativeText: 
     character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Fine by me. Let's go {playerName}.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -336,6 +371,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 137d148fee6c9644e82521638931c070, type: 3}
+  background: {fileID: 21300000, guid: 9ffb627455adace4786cef9541e6c996, type: 3}
   nextScene: {fileID: 11400000, guid: 9c11a2b3c4d5e6f708192a3b4c5d6e7f, type: 2}
-

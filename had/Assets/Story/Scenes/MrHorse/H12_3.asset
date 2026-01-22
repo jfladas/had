@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H12_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: She looks like she went through a whole rollercoaster of emotions hearing
+      all of that. The expression she ends on is a concerned one, though.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: This is a lot of information for one sitting. She is probably a bit overwhelmed.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She mutters a sentence to herself.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aphilia's worries might have been justified after all.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Who's Aphilia?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: First of all, it is an immense relief you two made it back here safely.
+      {playerName}, you may stay here in our guest room until we have sorted things
+      out, of course.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can live in the royal palace? That is very nice of her. But what does
+      she mean by \u2018sorting things out'?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We will arrange a meeting with Aphilia immediately. I advise you two speak
+      with her, especially you, {playerName}.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse tries to answer, but his mom doesn't seem to be finished yet
+      and continues talking to me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: And how are you feeling now? Have you noticed anything out of the ordinary
+      since your return here?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Have I? I was pretty occupied by being happy for Mr. Horse for the most
+      part. But I did notice something.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: d1cdacf9c9530b74b9973cee8a95af55, type: 3}
+  nextScene: {fileID: 11400000, guid: 44fdf3762f1f4fd6a169b3992dc8da7f, type: 2}

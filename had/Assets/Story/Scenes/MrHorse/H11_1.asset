@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H11_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The next morning, I get woken up by a pleasing scent tickling my nose.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mmh, is it breakfast time already?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I stretch my body and glance over at the clock.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What, it's past noon already? Oh no, I hope Mr. Horse is okay.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I take another whiff of the smell and hear some dishes clanking together
+      in the kitchen.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse, is that you?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Is he cooking something? It would make sense for him to be hungry, we both
+      haven't eaten dinner yesterday. After all the action he must've been starving.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'm a bit ashamed of myself for how bad of a host I am.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I should've at least offered him a small snack yesterday. Especially since
+      he's probably feeling uncomfortable to be here again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My stomach emits a grumbling noise.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Now that I'm thinking about food\u2026 Actually, I am starving too. I'll
+      go look at what Mr. Horse is up to. Maybe I'll be able to help him a bit at
+      least."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I get up and head to the kitchen. In front of the stove, there's a busy
+      looking Mr. Horse working his magic with the two pans on the stovetop. One
+      has some deliciously golden hash browns in it, the other one looks like it
+      contains glazed carrots or something of the sort.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse turns around and spots me watching him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, good morning, {playerName}. Since we slept in a bit and you didn't
+      seem ready to get up, I thought I would prepare a small meal for us before
+      we commence with our training.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "That's\u2026 kind of sweet, actually. When did Mister Royalty get so kind
+      and considerate?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh thanks, you didn't have to do that.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It is my pleasure. You seemed so drained yesterday. This is the least
+      I can do to thank you for showing me my homeland again\u2026 And for your willingness
+      to try to do so once more ."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wow, I thought he would be a bit down, since I wasn't able to shift once
+      more.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We sit down at opposite sides of the table and begin our feast. I try a
+      bite of a hash brown while Mr. Horse digs right into his carrots.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yum! These are good! It's really nice to experience a small moment of normality
+      again, after all that has happened.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can't believe I consider eating brunch with a humanoid horse normal now.
+      But it really doesn't feel that unusual. I could get used to this.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We enjoy our meal in comfortable silence.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It's cute how Mr. Horse tries his best to follow table etiquette, even
+      in this casual setting.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: After every last crumb has been munched up by us, I clear off the table
+      and wash the dishes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Shall we make our way to the training grounds?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I let out a small chuckle hearing Mr. Horse's description.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You mean the gym?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yes\u2026 The gym. That is what it is called. I knew that."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Of course, let's get ready!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We change into our gym clothes. Once again, I have to lend some of my spares
+      to Mr. Horse, which are obviously a bit small on him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It's clear that he's no stranger to physical activities. I think the horse
+      genes help a bit too.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Is there something wrong?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I notice I've been eyeing his body a bit too long.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh\u2026 No, it's fine. Sorry that the shirt's a bit tight. It's the biggest
+      one I could find."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: No problem, it is comfortable. And nobody else will see me here either
+      way. Besides, I find it to be quite complimentary to my physique, don't you
+      think?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0edfb2c7f1f8272498381ab59722dc9a, type: 3}
+  nextScene: {fileID: 11400000, guid: 215f991776754f4b98d3a3fdcd7f37f7, type: 2}

@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H12_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Over the course of the next days, we regularly train together. We decided
+      to get a month pass at the gym. Mr. Horse has gotten used to the stares by
+      now. And regulars have learned to accept a horse-man working out among them.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We do physical and mental exercises, and I can tell that I'm slowly but
+      surely getting more aware of my powers. I attempt to shift a few times, trying
+      to travel back to the hybrid dimension, for Mr. Horse's sake. My efforts remain
+      fruitless though.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse makes sure to comfort me and tell me that it's fine. But I'm
+      noticing how he feels more uneasy day by day. He often acts differently, mentioning
+      unusual feelings in different parts of his body. Ultimately, he insists that
+      he will be okay every time. Or he blames it all on the fact that we are back
+      in my world, where he doesn't belong. I can't shake off the feeling that this
+      is something more than that.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We sit on the couch next to each other, as we do most evenings after an
+      exhausting training session. I feel Mr. Horse's muscular arm against my side.
+      His relaxed presence never fails to calm me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He has really grown fond of physical touch lately it seems. I remember
+      how he had this constant barrier of distance around him when we first met.
+      I'm glad he feels comfortable enough to let loose around me a bit now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '{playerName}?'
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yeah?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "If something happens to me\u2014"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What are you talking about? Nothing's gonna happen. We're doing this together,
+      remember?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: His expression remains concerned.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Why does he seem so worried about this?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Let us hope so.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I know you haven't been feeling your best here.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can see that you worry about me. And I feel very thankful. You know,
+      I am very glad to have met you.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse scratches his neck sheepishly, avoiding eye contact.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2014 I am too, Mr. Horse."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My heart is racing after hearing these heartfelt words from him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can't deny these feelings anymore. Every time I look at his face, I feel
+      my heart light up. I can't believe I'm thinking about a horse-man this way.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I do not really know how to describe this properly, but\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u2026{playerName}, I\u2014"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He takes a deep breath.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '*NEEIGH*'
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He lets out a loud horse-like sound. I almost fall off the couch from shock.
+      Immediately, he covers his mouth with his hands.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "What the\u2014"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Something definitely isn't right. I can feel it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Suddenly, I sense a tingle under my skin. A familiar feeling, but I can't
+      quite place it.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I think something is approaching\u2026 something dark."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I take Mr. Horse's hand and close my eyes. It's almost like I'm acting
+      on autopilot.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I must protect Mr. Horse.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0edfb2c7f1f8272498381ab59722dc9a, type: 3}
+  nextScene: {fileID: 11400000, guid: 86fefb3d082f40a3ae560e29f7b14025, type: 2}

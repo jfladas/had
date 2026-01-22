@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: S10_2
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: I hear Scarlet shouting, but at the same time I feel myself getting dragged into a dark abyss, together with the unknown person.
+  - text: I hear Scarlet shouting, but at the same time I feel myself getting dragged
+      into a dark abyss, together with the unknown person.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -43,7 +44,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: A lot of questions are running through my mind, but more than that, the feeling of being separated from Scarlet stings in my chest.
+  - text: A lot of questions are running through my mind, but more than that, the
+      feeling of being separated from Scarlet stings in my chest.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -55,19 +57,23 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I remember her expression just before I got dragged here. It's so vivid in my mind.
+  - text: I remember her expression just before I got dragged here. It's so vivid
+      in my mind.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I don't want to be drowning in this darkness. I want to be with Scarlet right now and know for sure that she's safe. Who knows if more of these weird people showed up after I vanished.
+  - text: I don't want to be drowning in this darkness. I want to be with Scarlet
+      right now and know for sure that she's safe. Who knows if more of these weird
+      people showed up after I vanished.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The moment I finish that thought, I see twinkling stars appear in the distance, illuminating this suffocating darkness and slowly inching closer to me.
+  - text: The moment I finish that thought, I see twinkling stars appear in the distance,
+      illuminating this suffocating darkness and slowly inching closer to me.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -97,7 +103,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I muster up all my strength until suddenly, I feel something tingle in my hands.
+  - text: I muster up all my strength until suddenly, I feel something tingle in
+      my hands.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -109,7 +116,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Before I can think any more about it, a massive explosion bursts out of my hands. It separates me from the mysterious person and I manage to escape into the familiar stars.
+  - text: Before I can think any more about it, a massive explosion bursts out of
+      my hands. It separates me from the mysterious person and I manage to escape
+      into the familiar stars.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -121,12 +130,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The shouts of the cloaked person grow fainter as they disappear into the distant darkness I left behind.
+  - text: The shouts of the cloaked person grow fainter as they disappear into the
+      distant darkness I left behind.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: 3a0b0c0d0e0f10111213141516171839, type: 2}
-

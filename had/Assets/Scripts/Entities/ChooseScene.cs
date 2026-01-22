@@ -6,6 +6,7 @@ using UnityEngine;
 [System.Serializable]
 public class ChooseScene : GameScene
 {
+    public Sprite background;
     public List<ChooseLabel> labels;
 
     [System.Serializable]

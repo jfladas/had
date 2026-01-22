@@ -101,8 +101,10 @@ public class ChooseController : MonoBehaviour
 
     private bool IsChapterSelectionScene(string sceneName)
     {
-        return sceneName == "ChapterSelect1" || sceneName == "ChapterSelect2" || sceneName == "ChapterSelect3"
-            || sceneName == "SChapterSelect2" || sceneName == "SChapterSelect3";
+        // Any ChooseScene named like *ChapterSelect* is treated as a chapter-selection menu,
+        // where labels are only shown once their progress key has been reached.
+        return !string.IsNullOrEmpty(sceneName)
+            && sceneName.Contains("ChapterSelect");
     }
 
     private bool ShouldShowChapterLabel(string sceneName, ChooseScene.ChooseLabel label)
@@ -124,8 +126,16 @@ public class ChooseController : MonoBehaviour
 
     private string GetChapterKeyFromText(string sceneName, string chapterText)
     {
-        bool isScarlet = sceneName == "SChapterSelect2" || sceneName == "SChapterSelect3";
-        string routePrefix = isScarlet ? "S" : "A";
+        // Route chapters are keyed by their ChapterScene asset name, e.g. AChapter7/SChapter7/HChapter7.
+        // Aleph is the default if no prefix is present.
+        string routePrefix = "A";
+        if (!string.IsNullOrEmpty(sceneName))
+        {
+            if (sceneName.StartsWith("SChapterSelect", System.StringComparison.Ordinal))
+                routePrefix = "S";
+            else if (sceneName.StartsWith("HChapterSelect", System.StringComparison.Ordinal))
+                routePrefix = "H";
+        }
 
         switch (chapterText)
         {

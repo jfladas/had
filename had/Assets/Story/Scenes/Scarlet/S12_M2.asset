@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: S12_M2
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: c7a9b71041f34dd4ea3fe85605df0a8d, type: 3}
-  level: 13
+  level: 6
   nextScene: {fileID: 11400000, guid: 9c8c92102b244458b98a9c2c2c58285d, type: 2}

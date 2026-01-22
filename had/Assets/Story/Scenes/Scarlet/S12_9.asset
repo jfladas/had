@@ -281,5 +281,5 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ffb0342e8c37ca41a593df06f3a93ab, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: d0e2a2b3c4d5e6f708192a3b4c5d6e7e, type: 2}

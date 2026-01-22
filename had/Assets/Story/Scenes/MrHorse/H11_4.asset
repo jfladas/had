@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: H11_4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: His friends cackle in response. Then, the room fills with a painful silence.
+      People are definitely looking at us now, even if some are pretending not to.
+      Mr. Horse stops with his movement and faces in my direction with a slightly
+      confused expression. He glances back around the room, noticing the uncomfortable
+      suspense hanging in the air.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What is this dude's problem anyway? Mr. Horse wasn't feeling at ease with
+      everyone seeing him already. Now it's only gonna be worse with all of the attention
+      being drawn to him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I believe I need a short break.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He does seem a bit out of breath to be fair, but surely, he needs to get
+      away from these piercing stares more than anything.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What's with the long face?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 64d8596f837844dc9a6de66f43ba811f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I watch as he retreats to a more private area of the gym.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "And he gallops away\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: dd01d3b0a4834cadae86b4e8dc786e45, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Another round of laughter echoes from the group.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What a bunch of idiots. What do I do?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0edfb2c7f1f8272498381ab59722dc9a, type: 3}
+  nextScene: {fileID: 11400000, guid: 0df59fcc23b94e75b384eeced8ea790a, type: 2}

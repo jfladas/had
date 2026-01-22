@@ -19,7 +19,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I already tried shifting but it didn't work. Aimlessly flailing around didn't get me anywhere either.
+  - text: I already tried shifting but it didn't work. Aimlessly flailing around
+      didn't get me anywhere either.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -49,19 +50,23 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The reason why I can't shift is probably because of the realm of the abyss. There must be some kind of spell or something that prevents me from using my shifting powers.
+  - text: The reason why I can't shift is probably because of the realm of the abyss.
+      There must be some kind of spell or something that prevents me from using my
+      shifting powers.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I think back to my training and try to find out if there are any clues that could help me escape.
+  - text: I think back to my training and try to find out if there are any clues
+      that could help me escape.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Right, I did master another power besides shifting. I can see Scarlet at any given moment if I close my eyes and think of her hard enough.
+  - text: Right, I did master another power besides shifting. I can see Scarlet at
+      any given moment if I close my eyes and think of her hard enough.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -73,7 +78,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: If something abstract like shifting doesn't work, maybe having something I can visualise will help me find a way.
+  - text: If something abstract like shifting doesn't work, maybe having something
+      I can visualise will help me find a way.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -91,7 +97,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: They are sitting together right where I left them and appear to be safe. Though, Scarlet doesn't look very lively. It looks like she was crying and the others are trying to comfort her.
+  - text: They are sitting together right where I left them and appear to be safe.
+      Though, Scarlet doesn't look very lively. It looks like she was crying and
+      the others are trying to comfort her.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -103,7 +111,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Just when I an about to sigh with relief I see how another portal opens, just like when the Spirits appeared earlier.
+  - text: Just when I an about to sigh with relief I see how another portal opens,
+      just like when the Spirits appeared earlier.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -115,13 +124,17 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I can only observe from where I am. The first person who steps out of the portal is Amon. He's followed by one cloaked Spirit, which I assume is the one I was with a little while ago.
+  - text: I can only observe from where I am. The first person who steps out of the
+      portal is Amon. He's followed by one cloaked Spirit, which I assume is the
+      one I was with a little while ago.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: He's carrying his silver Sword! At this rate, the whole gang is in danger, And if they find the duke and the guards who have been locked up somewhere in there, then the problem will grow even bigger.
+  - text: He's carrying his silver Sword! At this rate, the whole gang is in danger,
+      And if they find the duke and the guards who have been locked up somewhere
+      in there, then the problem will grow even bigger.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -133,7 +146,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: My power of visualisation still works in this space. But when I want to do something like shifting, which I did so much that I don't really think about it anymore, then this realm somehow blocks the power.
+  - text: My power of visualisation still works in this space. But when I want to
+      do something like shifting, which I did so much that I don't really think about
+      it anymore, then this realm somehow blocks the power.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -151,7 +166,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Portals! They're something I can visualise, and as the Sustainer of dimensional Principles, the one who should have the ability to conjure up something like that should definitely be me. Why haven't I thought of that before?
+  - text: Portals! They're something I can visualise, and as the Sustainer of dimensional
+      Principles, the one who should have the ability to conjure up something like
+      that should definitely be me. Why haven't I thought of that before?
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -187,13 +204,16 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I stretch out my arm and imagine the powers within me plowing out, creating a similar mist like those spirits, just prettier and not as menacing. It sparkles and looks magical.
+  - text: I stretch out my arm and imagine the powers within me plowing out, creating
+      a similar mist like those spirits, just prettier and not as menacing. It sparkles
+      and looks magical.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The mist swirls around in front of me. I move my arm with it, as if stirring it.
+  - text: The mist swirls around in front of me. I move my arm with it, as if stirring
+      it.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -205,7 +225,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Wow, it feels so real. I don't know if I'm imagining it anymore or if this is reality.
+  - text: Wow, it feels so real. I don't know if I'm imagining it anymore or if this
+      is reality.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -241,5 +262,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  background: {fileID: 21300000, guid: 6e03813dd6e4f1546b5d1fe791f26c50, type: 3}
   nextScene: {fileID: 11400000, guid: f1c2d3e4f5a6478b9c0d1e2f3a4b5c6d, type: 2}

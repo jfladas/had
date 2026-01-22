@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: HChapterSelect2
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Chapter 7
+    nextScene: {fileID: 11400000, guid: 1b90ca0fc75e94d49b4acd3f57a7cde3, type: 2}
+  - text: Chapter 8
+    nextScene: {fileID: 11400000, guid: 0dcdc21312a440f7a22d58806be311ad, type: 2}
+  - text: Chapter 9
+    nextScene: {fileID: 11400000, guid: e0d62c29450843ff8b3aeb0bd8627233, type: 2}
+  - text: Chapter 10
+    nextScene: {fileID: 11400000, guid: 2056c0e6bdf5470c9deefd0964c27ace, type: 2}
+  - text: Chapter 11
+    nextScene: {fileID: 11400000, guid: ab2a051aca15495296ad753797fc6939, type: 2}
+  - text: Chapter 12
+    nextScene: {fileID: 11400000, guid: 4e050463534c48858e3927b59cc5f7a8, type: 2}
+  - text: Chapter 13
+    nextScene: {fileID: 11400000, guid: dee7ba4cc27149aab6227678e1d62920, type: 2}
+  - text: Back
+    nextScene: {fileID: 11400000, guid: 5d7fbb0d7f161ef4eb328bc6bc82a056, type: 2}

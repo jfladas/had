@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -26,7 +26,9 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I arrive beside her again, but when I see her I notice several injuries on her body.
+  - text: I arrive beside her again, but when I see her I notice several injuries
+      on her body.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -38,6 +40,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I'm fine! Just continue what you're doing!
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -68,6 +71,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Scarlet, watch out!
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -79,6 +83,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ffb0342e8c37ca41a593df06f3a93ab, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: d0c2a2b3c4d5e6f708192a3b4c5d6e7c, type: 2}
-

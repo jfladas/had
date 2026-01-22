@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,25 +13,29 @@ MonoBehaviour:
   m_Name: S12_X2_1
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: The condition of my body is not at it's best, because of all that shifting earlier.
+  - text: The condition of my body is not at it's best, because of all that shifting
+      earlier.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Shifting the prince away might have been a bit much on me. I can feel that there is almost no energy left inside of me.
+  - text: Shifting the prince away might have been a bit much on me. I can feel that
+      there is almost no energy left inside of me.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You're right, going back might be the best course of action but I'll be frank, my body needs some rest as well before I can shift again.
+  - text: You're right, going back might be the best course of action but I'll be
+      frank, my body needs some rest as well before I can shift again.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It pains me to force her to bite me when she'd rather not, but she needs to live.
+  - text: It pains me to force her to bite me when she'd rather not, but she needs
+      to live.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -43,7 +47,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It looks like Scarlet wants to object but before she can say anything she inhales sharply and her face contorts in pain.
+  - text: It looks like Scarlet wants to object but before she can say anything she
+      inhales sharply and her face contorts in pain.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
@@ -61,6 +66,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ffb0342e8c37ca41a593df06f3a93ab, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: d112a2b3c4d5e6f708192a3b4c5d6e81, type: 2}
-

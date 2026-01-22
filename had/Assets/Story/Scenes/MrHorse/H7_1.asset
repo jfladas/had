@@ -11,7 +11,232 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
   m_Name: H7_1
-  m_EditorClassIdentifier: Assembly-CSharp::StoryScene
-  sentences: []
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I glance over at the mysterious horse figure.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I thought that was just some kind of hallucination in the subway, but clearly
+      there is a horse... person standing across the room.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can only see one of his eyes, but the brown orb captivates me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wait, is he coming closer?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I snap out of my trance and notice the horse-headed man heading in my direction.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Uhmm... What do I do? Should I leave?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Can you see me?
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Huh? I mean... I would say he is quite hard to overlook.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Y\u2014 yes, I\u2014"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Really? Oh my! That is great!
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'm not sure how good I am at deciphering horse emotions but the expression
+      on his face looks like relief to me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I am really confused and a bit unsettled.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You are probably really confused and a bit unsettled. Excuse me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Wow, I've never met a mind reading reverse centaur before.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Actually, I am quite confused as well.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Okay? I'm sorry about that.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, it is not your fault, do not worry!
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Let us make our way to a more secluded area of the bunker, otherwise bystanders
+      might think you have some schizophrenic tendencies.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He leads the way to the edge of the room, behind some old metal shelving.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The matter is, that you seem to be the only one here who is able to see
+      me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Is he for real? That would explain why nobody is freaking out about the
+      elepha\u2014... I mean horse in the room."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: But where are my manners? Let me introduce myself first. It is Your Royal
+      Highness Prince van Ross.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Your name is Prince?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes, I am Prince, the prince of our kingdom. You may call me Sir Prince.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yeah\u2026 I think I'll call you Horse."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He looks at me with a slightly disgusted expression and murmurs something
+      under his breath.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Such an animalistic name. But what else am I to expect from these people.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "May I at the very least suggest something like\u2026 Mr. Horse? If it
+      must be."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I guess that is an acceptable compromise.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Alright, nice to meet you, Mr. Horse! My name is {playerName}.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The pleasure is mine, {playerName}. I saw you, by the way.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What do you mean?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: In the subway.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh right, how could I forget my very first sighting of this peculiar being.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I noticed you looking at me, but I was unsure if you could truly see me.
+      For a very long time now, I have seemed invisible to any human I come across.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: e419016b858c40a998636c42952b9cc8, type: 2}

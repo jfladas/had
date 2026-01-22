@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -25,12 +25,15 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I can't shift us back right now. Who knows what could happen to your injuries on the way to the present.
+  - text: I can't shift us back right now. Who knows what could happen to your injuries
+      on the way to the present.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You think I could die on the way there?
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -41,12 +44,15 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I can't say for sure but I won't risk anything like that. That's why, just drink my blood right now.
+  - text: I can't say for sure but I won't risk anything like that. That's why, just
+      drink my blood right now.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: But I don't want that. It's going to hurt, you know.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -69,7 +75,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I'm sure it won't even be half as bad as what you're going through right now.
+  - text: I'm sure it won't even be half as bad as what you're going through right
+      now.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -80,6 +88,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ffb0342e8c37ca41a593df06f3a93ab, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: d112a2b3c4d5e6f708192a3b4c5d6e81, type: 2}
-

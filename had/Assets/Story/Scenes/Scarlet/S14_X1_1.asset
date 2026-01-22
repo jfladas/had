@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,25 +13,30 @@ MonoBehaviour:
   m_Name: S14_X1_1
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: How dare they talk so casually about my mentor, the person they murdered ruthlessly.
+  - text: How dare they talk so casually about my mentor, the person they murdered
+      ruthlessly.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You claim to want to go the peaceful way, but was it not you who caused a lot of pain by killing the Sustainer of the dimensional Principles? You killed her! You're all murderers!
+  - text: You claim to want to go the peaceful way, but was it not you who caused
+      a lot of pain by killing the Sustainer of the dimensional Principles? You killed
+      her! You're all murderers!
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I never knew her personally, but maybe we are still somehow connected in another way, seeing how emotional I get when she's being disrespected.
+  - text: I never knew her personally, but maybe we are still somehow connected in
+      another way, seeing how emotional I get when she's being disrespected.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "True, we did dispose of her quite violently. But you must understand, sacrifices for the greater good are inevitable."
+  - text: True, we did dispose of her quite violently. But you must understand, sacrifices
+      for the greater good are inevitable.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -43,7 +48,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Shut your mouth! Who do you think you are that you get to decide what the greater good is?!
+  - text: Shut your mouth! Who do you think you are that you get to decide what the
+      greater good is?!
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
@@ -55,5 +61,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: 6688f352637f4a7f935c13cebba1091e, type: 2}

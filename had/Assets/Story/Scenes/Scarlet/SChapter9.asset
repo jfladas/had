@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
   m_Name: SChapter9
   m_EditorClassIdentifier: 
-  background: {fileID: 881235490945372409, guid: 9747e4af41deea947a2f23126cfbae94, type: 3}
+  background: {fileID: 21300000, guid: 9747e4af41deea947a2f23126cfbae94, type: 3}
   nextScene: {fileID: 11400000, guid: 4ad6f3c1b2a7980e1f2d3c4b5a697887, type: 2}
+  failScene: {fileID: 0}

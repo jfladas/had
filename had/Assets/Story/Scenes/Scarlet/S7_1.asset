@@ -46,7 +46,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "It's like she's looking for someone."
+  - text: It's like she's looking for someone.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -59,8 +59,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "It's kind of intimidating, yet Miss Moon somehow fits right in. I
-      guess she herself is known to be kind of mysterious even in the office."
+  - text: It's kind of intimidating, yet Miss Moon somehow fits right in. I guess
+      she herself is known to be kind of mysterious even in the office.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -73,7 +73,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Oh, she's looking at me!"
+  - text: Oh, she's looking at me!
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -85,7 +85,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Ugh, now that she's seen me, it would be weird to just walk away."
+  - text: Ugh, now that she's seen me, it would be weird to just walk away.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -98,8 +98,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Hello {playerName}. I'm glad to see you also made it to safety."
-    alternativeText: "Hello. I'm glad to see you also made it to safety."
+  - text: Hello {playerName}. I'm glad to see you also made it to safety.
+    alternativeText: Hello. I'm glad to see you also made it to safety.
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -134,7 +134,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Uh … am I interrupting you?
+  - text: "Uh \u2026 am I interrupting you?"
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
@@ -190,7 +190,7 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "They're not— … well, I guess they're similar to family, so you're
+  - text: "They're not\u2014 \u2026 well, I guess they're similar to family, so you're
       not entirely wrong. I try to keep my personal life and business separate as
       strictly as possible."
     alternativeText: 
@@ -210,8 +210,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-    - text: "Haha … right. Then I won't pry any further, ahem. May I ask about what
-      will happen to work? Will we get a vacat—?"
+  - text: "Haha \u2026 right. Then I won't pry any further, ahem. May I ask about
+      what will happen to work? Will we get a vacat\u2014?"
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
@@ -274,7 +274,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Oh, uh … Sorry, wrong person.
+  - text: "Oh, uh \u2026 Sorry, wrong person."
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -328,6 +328,5 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
+  background: {fileID: 21300000, guid: 9ffb627455adace4786cef9541e6c996, type: 3}
   nextScene: {fileID: 11400000, guid: 1a98d4ef0d2342d4c8a9a9b2f1c3d4e5, type: 2}
-

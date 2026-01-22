@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: S14_X1_2
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: These Spirits are up to no good. And I promised Scarlet that I'll come back as soon as possible.
+  - text: These Spirits are up to no good. And I promised Scarlet that I'll come
+      back as soon as possible.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -25,7 +26,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Oh?"
+  - text: Oh?
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -37,7 +38,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Pray tell, how will you manage to do that? This realm is not like any other. It is our domain and we have the most control over it. It won't be easy, I've been trying to tell you."
+  - text: Pray tell, how will you manage to do that? This realm is not like any other.
+      It is our domain and we have the most control over it. It won't be easy, I've
+      been trying to tell you.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -49,7 +52,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Argh! Can't you shut up for a second?! Your endless yapping is preventing me from coming up with any ideas!
+  - text: Argh! Can't you shut up for a second?! Your endless yapping is preventing
+      me from coming up with any ideas!
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
@@ -67,7 +71,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The more you talk, the more I want to punch you in your face! I may have never seen it, but I'm sure it's disgusting and ugly. That's why you Spirits need to walk around with those hooded cloaks.
+  - text: The more you talk, the more I want to punch you in your face! I may have
+      never seen it, but I'm sure it's disgusting and ugly. That's why you Spirits
+      need to walk around with those hooded cloaks.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
@@ -79,5 +85,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: 6688f352637f4a7f935c13cebba1091e, type: 2}

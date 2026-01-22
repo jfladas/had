@@ -187,6 +187,10 @@ public class GameController : MonoBehaviour
         else if (scene is ChooseScene)
         {
             ChooseScene chooseScene = scene as ChooseScene;
+            if (chooseScene != null && chooseScene.background != null)
+            {
+                spriteSwitcher.SwitchImage(chooseScene.background);
+            }
             HandleGalleryIllustrations(chooseScene.name);
             state = State.CHOOSE;
             chooseController.SetupChoose(chooseScene);
@@ -268,6 +272,10 @@ public class GameController : MonoBehaviour
         else if (scene is ChooseScene)
         {
             ChooseScene chooseScene = scene as ChooseScene;
+            if (chooseScene != null && chooseScene.background != null)
+            {
+                spriteSwitcher.SwitchImage(chooseScene.background);
+            }
             HandleGalleryIllustrations(chooseScene.name);
             state = State.CHOOSE;
             chooseController.SetupChoose(chooseScene);

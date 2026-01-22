@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: S14_2
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: "I take that as you declining our proposal?"
+  - text: I take that as you declining our proposal?
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -25,7 +25,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Then you leave me no choice. I planned to keep the past and present from mixing, but I'll make an exception for this."
+  - text: Then you leave me no choice. I planned to keep the past and present from
+      mixing, but I'll make an exception for this.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -49,7 +50,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Your lover. There is one person she detests, and he is from the past if I remember correctly?"
+  - text: Your lover. There is one person she detests, and he is from the past if
+      I remember correctly?
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -67,7 +69,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Wait, a person she detests… Amon?!
+  - text: "Wait, a person she detests\u2026 Amon?!"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -79,19 +81,23 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The bad feeling I noticed earlier turns into fear now and I break out into a cold sweat.
+  - text: The bad feeling I noticed earlier turns into fear now and I break out into
+      a cold sweat.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "That must be the name of the one you fought a little while ago. You see, he seems to have been shifted into the abyssal realm. And he was willing to strike a deal with us, unlike you."
+  - text: That must be the name of the one you fought a little while ago. You see,
+      he seems to have been shifted into the abyssal realm. And he was willing to
+      strike a deal with us, unlike you.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What? Then at that time, I zapped one enemy straight into another enemy's arms???
+  - text: What? Then at that time, I zapped one enemy straight into another enemy's
+      arms???
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -103,13 +109,16 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Damn it! How could that happen??? I was too preoccupied with Scarlet's condition at that time. I was just glad he was gone.
+  - text: Damn it! How could that happen??? I was too preoccupied with Scarlet's
+      condition at that time. I was just glad he was gone.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "A deal with us is always beneficial for both parties. But you chose to ignore us. Now he will reap the benefits. I will allow him to enter the present, as he wished."
+  - text: A deal with us is always beneficial for both parties. But you chose to
+      ignore us. Now he will reap the benefits. I will allow him to enter the present,
+      as he wished.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -121,7 +130,9 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Well, our time here is nearing its end. You won't get out of here so easily, as this realm will soon be destroyed. We won't need it in the new universe. Farewell then."
+  - text: Well, our time here is nearing its end. You won't get out of here so easily,
+      as this realm will soon be destroyed. We won't need it in the new universe.
+      Farewell then.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -157,29 +168,34 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I feel like I'm slowly going insane after swimming in this darkness for so long.
+  - text: I feel like I'm slowly going insane after swimming in this darkness for
+      so long.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: This isn't good. If this goes on I will slowly lose my sanity and before long the Spirit's plan will be executed and the world we know now will be destroyed.
+  - text: This isn't good. If this goes on I will slowly lose my sanity and before
+      long the Spirit's plan will be executed and the world we know now will be destroyed.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: There must be something I'm able to do! Ugh, sometimes I wish that my mentor was still alive to teach me these things.
+  - text: There must be something I'm able to do! Ugh, sometimes I wish that my mentor
+      was still alive to teach me these things.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: But we never got to meet and I'll have to deal with this myself. She trusted me with this duty and believed that I will manage somehow. I just have to believe it too.
+  - text: But we never got to meet and I'll have to deal with this myself. She trusted
+      me with this duty and believed that I will manage somehow. I just have to believe
+      it too.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
   nextScene: {fileID: 11400000, guid: c8e9a0d0a5d44f93b7f8ab8edb9c0e11, type: 2}
