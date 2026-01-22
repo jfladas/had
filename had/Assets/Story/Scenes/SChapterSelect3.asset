@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: SChapterSelect3
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Chapter 14
+    nextScene: {fileID: 11400000, guid: 7dc6e362b2e148c9831b58ca7a41d109, type: 2}
+  - text: Chapter 15
+    nextScene: {fileID: 11400000, guid: c8e9a0d0a5d44f93b7f8ab8edb9c0e11, type: 2}
+  - text: Epilogue (Ending 1)
+    nextScene: {fileID: 11400000, guid: 3344556677889900aabbccddeeff1122, type: 2}
+  - text: Epilogue (Ending 2)
+    nextScene: {fileID: 11400000, guid: 889900aabbccddeeff11223344556677, type: 2}
+  - text: Epilogue (Ending 3)
+    nextScene: {fileID: 11400000, guid: bbccddeeff11223344556677889900aa, type: 2}
+  - text: Back
+    nextScene: {fileID: 11400000, guid: 5d7fbb0d7f161ef4eb328bc6bc82a056, type: 2}

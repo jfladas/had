@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: S8_X1_2b
+  m_EditorClassIdentifier: Assembly-CSharp::StoryScene
+  sentences:
+  - text: I decide to spend the next 30 minutes in the break room and sip my coffee
+      with enjoyment.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Then the door suddenly opens, and the person I didn't want to show up the
+      most enters the room.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: There you are.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 1
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I sit up straight immediately.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes, I was just taking a quick break.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She looks at me doubtfully.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: For half an hour? The others confirmed that you've been gone for quite
+      some time now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Tsk. Those traitors.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I apologise, Miss Moon. I just have a lot on my mind right now. With the
+      earthquake that happened and all\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I don't understand why you're so unmotivated right now. Did someone close
+      to you get hurt by the earthquake, or did something of the sort happen?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: No, everything is okay, just some furniture that needs to be replaced.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Then I really don't understand. The earthquake was yesterday. It didn't
+      have any significant effects for us. So why?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I \u2026 I just \u2026 I don't know. I'm sorry. I will get my act together."
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Am I the only one that finds this a bit too hectic right now? It's true.
+      Everyone else doesn't seem to mind work right now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You're still relatively new here, so I expect you to show me that I didn't
+      make a mistake in hiring you.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I guess she has a point.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Ashamed I look down on the floor.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes ma'am, I'll do my best.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Then show it. Finish the extra work I left on your desk by the end of today.
+      And understand that I do this because I care about the company and its staff.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: So she's saying this is my punishment for slacking off for half an hour
+      and that I'll lose my job if I can't prove that I'm hard-working.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I already dread the sight of my desk and just nod.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Miss Moon finally leaves the room, and I breathe a sigh of relief as all
+      the tension leaves my body.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I don't know what's wrong with me. Why can't I get it together? Now I got
+      scolded by the office fury.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 4ff4ebcdba0d15c42b065336944f4a8a, type: 3}
+  nextScene: {fileID: 11400000, guid: 0718293a4b5c6d7e8f901ab2c3d4e5f6, type: 2}

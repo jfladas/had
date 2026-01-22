@@ -17,7 +17,36 @@ public class StartController : MonoBehaviour
     private Animator animator;
     private AsyncOperation asyncLoad;
 
+    [System.Serializable]
+    public struct ContinueCheckpoint
+    {
+        [Tooltip("PlayerPrefs key that marks this checkpoint as completed (usually the ChapterScene asset name, e.g. AChapter7, SChapter7, HChapter7).")]
+        public string chapterKey;
+
+        [Tooltip("Scene to start from when this checkpoint is the most recent completed one.")]
+        public GameScene scene;
+    }
+
+    [Header("Continue / Route Checkpoints")]
+    [Tooltip("Optional ordered list of checkpoints (newest -> oldest). If set, this list is used to determine where to continue from. This is the recommended way to add new routes like Scarlet/MrHorse.")]
+    public List<ContinueCheckpoint> continueCheckpoints;
+
     [Header("Chapter Scenes")]
+    [Header("Scarlet Scenes")]
+    public GameScene sEpilogue3Scene;
+    public GameScene sEpilogue2Scene;
+    public GameScene sEpilogue1Scene;
+    public GameScene sChapter15Scene;
+    public GameScene sChapter14Scene;
+    public GameScene sChapter13Scene;
+    public GameScene sChapter12Scene;
+    public GameScene sChapter11Scene;
+    public GameScene sChapter10Scene;
+    public GameScene sChapter9Scene;
+    public GameScene sChapter8Scene;
+    public GameScene sChapter7Scene;
+
+    [Header("Aleph Scenes")]
     public GameScene aChapter15Scene;
     public GameScene aChapter14Scene;
     public GameScene aChapter13Scene;
@@ -27,6 +56,8 @@ public class StartController : MonoBehaviour
     public GameScene aChapter9Scene;
     public GameScene aChapter8Scene;
     public GameScene aChapter7Scene;
+
+    [Header("Global Scenes")]
     public GameScene chapter6Scene;
     public GameScene chapter5Scene;
     public GameScene chapter4Scene;
@@ -45,7 +76,7 @@ public class StartController : MonoBehaviour
 
     private void LoadSavedPlayerName()
     {
-        string savedName = PlayerPrefs.GetString("PlayerName", "");
+        string savedName = PlayerPrefs.GetString(ProgressKeys.PlayerName, "");
         if (!string.IsNullOrEmpty(savedName))
         {
             playerNameInput.text = savedName;
@@ -65,7 +96,7 @@ public class StartController : MonoBehaviour
         if (playerName != "")
         {
             meCharacter.characterName = playerName;
-            PlayerPrefs.SetString("PlayerName", playerName);
+            PlayerPrefs.SetString(ProgressKeys.PlayerName, playerName);
             PlayerPrefs.Save();
         }
         else
@@ -97,51 +128,180 @@ public class StartController : MonoBehaviour
             return startScene;
         }
 
-        if (aChapter15Scene != null && ChapterScene.IsChapterDone("AChapter15"))
-            return aChapter15Scene;
+        var checkpointsToUse = BuildContinueCheckpointList();
 
-        if (aChapter14Scene != null && ChapterScene.IsChapterDone("AChapter14"))
-            return aChapter14Scene;
+        // Prefer explicit "most recent checkpoint" if present.
+        string lastKey = PlayerPrefs.GetString(ProgressKeys.LastCompletedCheckpointKey, "");
+        if (!string.IsNullOrEmpty(lastKey) && ChapterScene.IsChapterDone(lastKey))
+        {
+            for (int i = 0; i < checkpointsToUse.Count; i++)
+            {
+                var cp = checkpointsToUse[i];
+                if (cp.scene == null)
+                    continue;
+                if (!string.IsNullOrEmpty(cp.chapterKey) && cp.chapterKey == lastKey)
+                    return cp.scene;
+            }
+        }
 
-        if (aChapter13Scene != null && ChapterScene.IsChapterDone("AChapter13"))
-            return aChapter13Scene;
+        // Otherwise pick the most recently completed checkpoint among all routes.
+        long bestTicks = 0;
+        GameScene bestScene = null;
+        int bestFallbackRank = int.MinValue;
 
-        if (aChapter12Scene != null && ChapterScene.IsChapterDone("AChapter12"))
-            return aChapter12Scene;
+        for (int i = 0; i < checkpointsToUse.Count; i++)
+        {
+            var cp = checkpointsToUse[i];
+            if (cp.scene == null)
+                continue;
+            if (string.IsNullOrEmpty(cp.chapterKey))
+                continue;
+            if (!ChapterScene.IsChapterDone(cp.chapterKey))
+                continue;
 
-        if (aChapter11Scene != null && ChapterScene.IsChapterDone("AChapter11"))
-            return aChapter11Scene;
+            if (ChapterScene.TryGetChapterDoneAtUtcTicks(cp.chapterKey, out long ticks) && ticks > 0)
+            {
+                if (ticks > bestTicks)
+                {
+                    bestTicks = ticks;
+                    bestScene = cp.scene;
+                }
+                continue;
+            }
 
-        if (aChapter10Scene != null && ChapterScene.IsChapterDone("AChapter10"))
-            return aChapter10Scene;
+            // Fallback for older saves that don't have timestamps yet:
+            // choose the most advanced checkpoint by a simple rank.
+            int rank = GetCheckpointRank(cp.chapterKey);
+            if (rank > bestFallbackRank)
+            {
+                bestFallbackRank = rank;
+                if (bestScene == null)
+                    bestScene = cp.scene;
+            }
+        }
 
-        if (aChapter9Scene != null && ChapterScene.IsChapterDone("AChapter9"))
-            return aChapter9Scene;
-
-        if (aChapter8Scene != null && ChapterScene.IsChapterDone("AChapter8"))
-            return aChapter8Scene;
-
-        if (aChapter7Scene != null && ChapterScene.IsChapterDone("AChapter7"))
-            return aChapter7Scene;
-
-        if (chapter6Scene != null && ChapterScene.IsChapterDone("Chapter6"))
-            return chapter6Scene;
-
-        if (chapter5Scene != null && ChapterScene.IsChapterDone("Chapter5"))
-            return chapter5Scene;
-
-        if (chapter4Scene != null && ChapterScene.IsChapterDone("Chapter4"))
-            return chapter4Scene;
-
-        if (chapter3Scene != null && ChapterScene.IsChapterDone("Chapter3"))
-            return chapter3Scene;
-
-        if (chapter2Scene != null && ChapterScene.IsChapterDone("Chapter2"))
-            return chapter2Scene;
-
-        if (chapter1Scene != null && ChapterScene.IsChapterDone("Chapter1"))
-            return chapter1Scene;
+        if (bestScene != null)
+            return bestScene;
 
         return startScene;
+    }
+
+    private List<ContinueCheckpoint> BuildContinueCheckpointList()
+    {
+        // Some scenes may still have continueCheckpoints populated with an older list
+        // (e.g., Aleph-only). Merge it with legacy defaults so new routes (Scarlet)
+        // always work without needing manual inspector updates.
+        var merged = new List<ContinueCheckpoint>(64);
+        var seenKeys = new HashSet<string>();
+
+        if (continueCheckpoints != null)
+        {
+            for (int i = 0; i < continueCheckpoints.Count; i++)
+            {
+                var cp = continueCheckpoints[i];
+                if (cp.scene == null)
+                    continue;
+                if (!string.IsNullOrEmpty(cp.chapterKey) && seenKeys.Contains(cp.chapterKey))
+                    continue;
+
+                merged.Add(cp);
+                if (!string.IsNullOrEmpty(cp.chapterKey))
+                    seenKeys.Add(cp.chapterKey);
+            }
+        }
+
+        var legacy = BuildLegacyContinueCheckpoints();
+        for (int i = 0; i < legacy.Count; i++)
+        {
+            var cp = legacy[i];
+            if (cp.scene == null)
+                continue;
+            if (!string.IsNullOrEmpty(cp.chapterKey) && seenKeys.Contains(cp.chapterKey))
+                continue;
+
+            merged.Add(cp);
+            if (!string.IsNullOrEmpty(cp.chapterKey))
+                seenKeys.Add(cp.chapterKey);
+        }
+
+        return merged;
+    }
+
+    private int GetCheckpointRank(string chapterKey)
+    {
+        // Higher = more advanced.
+        // Epilogues should outrank chapters.
+        if (string.IsNullOrEmpty(chapterKey))
+            return int.MinValue;
+
+        if (chapterKey == "TheEnd")
+            return 1_000_000;
+
+        // Route epilogues.
+        if (chapterKey.StartsWith("SEpilogue"))
+        {
+            if (int.TryParse(chapterKey.Substring("SEpilogue".Length), out int e))
+                return 900_000 + e;
+        }
+        if (chapterKey.StartsWith("AEpilogue"))
+        {
+            if (int.TryParse(chapterKey.Substring("AEpilogue".Length), out int e))
+                return 900_000 + e;
+        }
+
+        // Route chapters like SChapter15 / AChapter7.
+        if (chapterKey.Length >= 9 && (chapterKey[0] == 'S' || chapterKey[0] == 'A' || chapterKey[0] == 'H') && chapterKey.Substring(1).StartsWith("Chapter"))
+        {
+            if (int.TryParse(chapterKey.Substring(1 + "Chapter".Length), out int c))
+                return 800_000 + c;
+        }
+
+        // Global chapters.
+        if (chapterKey.StartsWith("Chapter"))
+        {
+            if (int.TryParse(chapterKey.Substring("Chapter".Length), out int c))
+                return 700_000 + c;
+        }
+
+        return 0;
+    }
+
+    private List<ContinueCheckpoint> BuildLegacyContinueCheckpoints()
+    {
+        return new List<ContinueCheckpoint>
+        {
+            // Scarlet route (new)
+            new ContinueCheckpoint { chapterKey = "SEpilogue3", scene = sEpilogue3Scene },
+            new ContinueCheckpoint { chapterKey = "SEpilogue2", scene = sEpilogue2Scene },
+            new ContinueCheckpoint { chapterKey = "SEpilogue1", scene = sEpilogue1Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter15", scene = sChapter15Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter14", scene = sChapter14Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter13", scene = sChapter13Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter12", scene = sChapter12Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter11", scene = sChapter11Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter10", scene = sChapter10Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter9", scene = sChapter9Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter8", scene = sChapter8Scene },
+            new ContinueCheckpoint { chapterKey = "SChapter7", scene = sChapter7Scene },
+
+            // Aleph route (existing)
+            new ContinueCheckpoint { chapterKey = "AChapter15", scene = aChapter15Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter14", scene = aChapter14Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter13", scene = aChapter13Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter12", scene = aChapter12Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter11", scene = aChapter11Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter10", scene = aChapter10Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter9", scene = aChapter9Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter8", scene = aChapter8Scene },
+            new ContinueCheckpoint { chapterKey = "AChapter7", scene = aChapter7Scene },
+
+            // Global chapters
+            new ContinueCheckpoint { chapterKey = "Chapter6", scene = chapter6Scene },
+            new ContinueCheckpoint { chapterKey = "Chapter5", scene = chapter5Scene },
+            new ContinueCheckpoint { chapterKey = "Chapter4", scene = chapter4Scene },
+            new ContinueCheckpoint { chapterKey = "Chapter3", scene = chapter3Scene },
+            new ContinueCheckpoint { chapterKey = "Chapter2", scene = chapter2Scene },
+            new ContinueCheckpoint { chapterKey = "Chapter1", scene = chapter1Scene },
+        };
     }
 }

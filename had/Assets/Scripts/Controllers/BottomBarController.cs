@@ -21,6 +21,7 @@ public class BottomBarController : MonoBehaviour
     private Coroutine typingCoroutine;
 
     public Dictionary<Character, SpriteController> sprites;
+    private HashSet<Character> visibleSprites;
     public GameObject spritesPrefab;
     public NameBarController nameBar;
 
@@ -32,8 +33,15 @@ public class BottomBarController : MonoBehaviour
     private void Start()
     {
         sprites = new Dictionary<Character, SpriteController>();
+        visibleSprites = new HashSet<Character>();
         animator = GetComponent<Animator>();
         bottomBarImage = GetComponent<Image>();
+    }
+
+    public void ClearSpriteState()
+    {
+        sprites?.Clear();
+        visibleSprites?.Clear();
     }
 
     public int GetSentenceIndex()
@@ -192,17 +200,17 @@ public class BottomBarController : MonoBehaviour
             switch (action.type)
             {
                 case StoryScene.Sentence.Action.Type.SHOW:
-                    if (!sprites.ContainsKey(action.character))
+                    if (!sprites.TryGetValue(action.character, out controller))
                     {
                         controller = Instantiate(action.character.prefab.gameObject, spritesPrefab.transform).GetComponent<SpriteController>();
                         sprites.Add(action.character, controller);
                     }
-                    else
-                    {
-                        controller = sprites[action.character];
-                    }
                     controller.Setup(action.character.sprites[action.spriteIndex]);
-                    controller.Show(action.position, action.targetScale);
+                    if (!visibleSprites.Contains(action.character))
+                    {
+                        controller.Show(action.position, action.targetScale);
+                        visibleSprites.Add(action.character);
+                    }
                     break;
                 case StoryScene.Sentence.Action.Type.MOVE:
                     if (sprites.ContainsKey(action.character))
@@ -215,6 +223,7 @@ public class BottomBarController : MonoBehaviour
                     if (sprites.ContainsKey(action.character))
                     {
                         sprites[action.character].Hide();
+                        visibleSprites.Remove(action.character);
                     }
                     break;
                 case StoryScene.Sentence.Action.Type.NONE:

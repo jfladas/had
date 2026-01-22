@@ -2192,6 +2192,9 @@ MonoBehaviour:
   circlePrefab: {fileID: 5715037799853049465, guid: 43354ecce43e59c42bf601059cbcaee3, type: 3}
   specialCirclePrefab: {fileID: 5715037799853049465, guid: d5ff4428a34b608459c22e36655ca6c6, type: 3}
   specialCirclePrefab2: {fileID: 5715037799853049465, guid: 70326695f11a65e47871650c6d4e4a5b, type: 3}
+  specialCircle2SpriteDefault: {fileID: 21300000, guid: 492de955cd92fdb478002f4a2a3afe9a, type: 3}
+  specialCircle2SpriteScarlet: {fileID: 21300000, guid: e84d2788c8019f048941dfabd9d27e90, type: 3}
+  specialCircle2SpriteMrHorse: {fileID: 21300000, guid: fe1dc5bca71470948bb4df4396fa1bb4, type: 3}
   horizontalLinePrefab: {fileID: 3759942504408408695, guid: b81df0b2a8d8d2c48bd5129e0b8d0ce6, type: 3}
   verticalLinePrefab: {fileID: 3759942504408408695, guid: 7adb2d02e249db44da4b62043ab7e2f6, type: 3}
   canvasTransform: {fileID: 1242838789}

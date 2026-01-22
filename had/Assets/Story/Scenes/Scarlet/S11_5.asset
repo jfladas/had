@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: S11_5
+  m_EditorClassIdentifier: Assembly-CSharp::StoryScene
+  sentences:
+  - text: Tears start streaming down Scarlet's face.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 3
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh no!
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'm sorry! I should have given you a warning! Sorry for shifting you so suddenly again, I wasn't thinking straight.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I panic while feeling guilty for a lot of reasons.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What do I do now?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Before I can properly react, Scarlet throws her arms around me in an embrace.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Scarlet…?
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Did you achieve your goals? Finally feel like talking to me again?
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I still haven't dealt with the Spirits, but I feel confident enough in my powers to let you accompany me now.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I appreciate you worrying about me, but I have my own strengths.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She lets me go, wipes the remaining tears and looks me in the eyes.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I thought you distanced yourself because you find me appalling.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 3
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I would never think of you that way. I know it might have not been the best way, but I wouldn't be able to live with myself if anything happened to you because of me.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You're such a dummy. I can take care of myself, I'm a vampire who survived multiple centuries, you know? But fine, I accept your apology.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I sigh with relief.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thank you, Scarlet.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'm glad that we've got that sorted out.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Does that mean you're coming back to work?
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Huh? Um, if the position is still open, I would be glad to.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Good. I'll allow it only if you promise to work hard!
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I promise, Ma'am!
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We giggle at this silly conversation.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: If you want, we can try to rewrite your past now.
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I was originally against doing that, because I'm not very fond of the idea of confronting the crown prince again, but now I think it might help me deal with the bad memories.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 3
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Great! Then, what should we do first?
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Maybe, we could try to talk my father out of arranging the marriage?
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sure, how exactly can I help?
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She ponders for a few seconds.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Let's introduce you as my lover. Just pretend like we're in love.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, then I won't have to try all that hard, huh.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I nod silently, trying not to act too flustered.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We hear a knock on the door.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My Lady, are you in here?
+    character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Scarlet looks at me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Her expression seems to say \u201CThis is our chance\u201D."
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I nod again.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes, Amelie. Come in.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Amelie enters the room and looks surprised when she notices me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, my Lady, I thought you were in the dining room a while ago, but I couldn't find you there. Turns out you're here with a guest.
+    character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes, I'll explain it all to you later, for now send word to father. We want to discuss something important with him.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Actually, his Grace just sent me to get you. He wishes to discuss something as well. I shall lead you both to his office then.
+    character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Fine by me. Let's go {playerName}.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We are led to our destination.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 137d148fee6c9644e82521638931c070, type: 3}
+  nextScene: {fileID: 11400000, guid: 9c11a2b3c4d5e6f708192a3b4c5d6e7f, type: 2}
+

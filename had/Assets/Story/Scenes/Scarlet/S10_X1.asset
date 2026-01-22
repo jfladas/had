@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: S10_X1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: This feeling… could it be?
+    nextScene: {fileID: 11400000, guid: 6a0b0c0d0e0f10111213141516171869, type: 2}
+  - text: She's a vampire.
+    nextScene: {fileID: 11400000, guid: 7a0b0c0d0e0f10111213141516171879, type: 2}
+  - text: The people from the bunker.
+    nextScene: {fileID: 11400000, guid: 8a0b0c0d0e0f10111213141516171889, type: 2}

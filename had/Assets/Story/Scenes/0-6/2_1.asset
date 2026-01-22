@@ -102,7 +102,7 @@ MonoBehaviour:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
       type: 1
-      position: {x: 100, y: 0}
+      position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}
@@ -164,7 +164,7 @@ MonoBehaviour:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 0
       type: 1
-      position: {x: 100, y: 0}
+      position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}

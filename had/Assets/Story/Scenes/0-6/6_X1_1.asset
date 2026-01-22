@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 6_X1_1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Currently, only Aleph's Route is supported
+  - text: This route is not supported yet.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []

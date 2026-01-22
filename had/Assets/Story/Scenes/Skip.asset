@@ -15,5 +15,5 @@ MonoBehaviour:
   labels:
   - text: Start from the beginning.
     nextScene: {fileID: 11400000, guid: fd4c668fe81d0f442952c9bb2a124e62, type: 2}
-  - text: I have played the Demo, skip to Chapter 7. (Aleph)
-    nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
+  - text: I have played the demo, skip to end of chapter 6.
+    nextScene: {fileID: 11400000, guid: cba1aff2cf0149540a41ded3d0d51702, type: 2}

@@ -64,7 +64,10 @@ public class GameController : MonoBehaviour
             StoryScene storyScene = currentScene as StoryScene;
             bottomBar.PlayScene(storyScene, playerName);
             spriteSwitcher.SetImage(storyScene.background);
-            PlayAudio(storyScene.sentences[0]);
+            if (storyScene.sentences != null && storyScene.sentences.Count > 0)
+            {
+                PlayAudio(storyScene.sentences[0]);
+            }
             ScoreManager.SaveGameState(currentScene.name, 0);
         }
         else if (currentScene is ChapterScene)
@@ -103,7 +106,12 @@ public class GameController : MonoBehaviour
                         else
                         {
                             bottomBar.PlayNextSentence(playerName);
-                            PlayAudio((currentScene as StoryScene).sentences[bottomBar.GetSentenceIndex()]);
+                            var storyScene = currentScene as StoryScene;
+                            var sentenceIndex = bottomBar.GetSentenceIndex();
+                            if (storyScene != null && storyScene.sentences != null && sentenceIndex >= 0 && sentenceIndex < storyScene.sentences.Count)
+                            {
+                                PlayAudio(storyScene.sentences[sentenceIndex]);
+                            }
                             ScoreManager.SaveGameState(currentScene.name, bottomBar.GetSentenceIndex());
                         }
                     }
@@ -147,10 +155,7 @@ public class GameController : MonoBehaviour
                 {
                     GameObject.Destroy(child.gameObject);
                 }
-                if (bottomBar.sprites != null)
-                {
-                    bottomBar.sprites.Clear();
-                }
+                bottomBar.ClearSpriteState();
             }
         }
         if (scene is StoryScene)
@@ -158,12 +163,18 @@ public class GameController : MonoBehaviour
             HideAllIllustrations();
             menuButton?.gameObject.SetActive(true);
             StoryScene storyScene = scene as StoryScene;
+            if (storyScene == null || storyScene.sentences == null || storyScene.sentences.Count == 0)
+            {
+                Debug.LogError($"StoryScene '{scene?.name}' has no valid sentences[0].");
+                state = State.IDLE;
+                yield break;
+            }
             spriteSwitcher.SwitchImage(storyScene.background);
             PlayAudio(storyScene.sentences[0]);
             yield return new WaitForSeconds(0.5f);
             bottomBar.ClearText();
             bottomBar.Show();
-            string charName = storyScene.sentences[0].character.characterName;
+            string charName = storyScene.sentences[0].character != null ? storyScene.sentences[0].character.characterName : "";
             if (charName != "" && charName != "...")
             {
                 nameBar.Show();
@@ -219,12 +230,25 @@ public class GameController : MonoBehaviour
             StoryScene storyScene = scene as StoryScene;
             spriteSwitcher.SwitchImage(storyScene.background);
 
+            if (storyScene == null || storyScene.sentences == null || storyScene.sentences.Count == 0)
+            {
+                Debug.LogError($"StoryScene '{scene?.name}' has no sentences.");
+                state = State.IDLE;
+                yield break;
+            }
+
             int targetSentenceIndex = savedSentenceIndex >= 0 ? savedSentenceIndex : 0;
+            if (targetSentenceIndex < 0 || targetSentenceIndex >= storyScene.sentences.Count)
+            {
+                Debug.LogWarning($"StoryScene '{scene?.name}' savedSentenceIndex {savedSentenceIndex} is invalid; falling back to 0.");
+                targetSentenceIndex = 0;
+            }
+
             PlayAudio(storyScene.sentences[targetSentenceIndex]);
             yield return new WaitForSeconds(0.5f);
             bottomBar.ClearText();
             bottomBar.Show();
-            string charName = storyScene.sentences[targetSentenceIndex].character.characterName;
+            string charName = storyScene.sentences[targetSentenceIndex].character != null ? storyScene.sentences[targetSentenceIndex].character.characterName : "";
             if (charName != "" && charName != "...")
             {
                 nameBar.Show();
@@ -289,7 +313,7 @@ public class GameController : MonoBehaviour
 
         HandleGalleryIllustrations(chapterScene.name);
 
-        if (chapterScene.name == "A14_P")
+        if (chapterScene.name.EndsWith("_P"))
         {
             int currentScore = ScoreManager.GetCurrentScore();
 
@@ -301,10 +325,9 @@ public class GameController : MonoBehaviour
             {
                 scoreMessage = "Energy level insufficient...";
 
-                if (aEpilogue1Scene != null)
-                {
-                    chapterScene.nextScene = aEpilogue1Scene;
-                }
+                if (chapterScene.failScene != null)
+                    chapterScene.nextScene = chapterScene.failScene;
+
             }
             else
             {
@@ -332,7 +355,7 @@ public class GameController : MonoBehaviour
             bottomBar.Hide();
             minigameController.HideScoreText();
         }
-        else if (chapterScene.name.StartsWith("AFade"))
+        else if (chapterScene.name.Contains("Fade"))
         {
             yield return new WaitForSeconds(0.5f);
         }
@@ -453,6 +476,11 @@ public class GameController : MonoBehaviour
 
     private void PlayAudio(StoryScene.Sentence sentence)
     {
+        if (audioController == null)
+        {
+            return;
+        }
+
         audioController.PlayAudio(sentence.music, sentence.sound);
     }
 

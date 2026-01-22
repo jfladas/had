@@ -6,6 +6,7 @@ public static class ScoreManager
     private const string MINIGAME_PLAYED_PREFIX = "MinigameLevel_";
     private const string CURRENT_SCENE_KEY = "CurrentSceneName";
     private const string CURRENT_SENTENCE_INDEX_KEY = "CurrentSentenceIndex";
+    private const int MAX_MINIGAME_LEVEL = 50;
 
     public static int GetCurrentScore()
     {
@@ -54,7 +55,7 @@ public static class ScoreManager
     {
         SetCurrentScore(0);
 
-        for (int i = 0; i <= 10; i++)
+        for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
         {
             SetMinigameLevelPlayed(i, false);
         }
@@ -63,24 +64,17 @@ public static class ScoreManager
     public static void DeleteAllPlayerData()
     {
         SetCurrentScore(0);
-        for (int i = 0; i <= 10; i++)
+        for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
         {
             SetMinigameLevelPlayed(i, false);
         }
 
-        PlayerPrefs.DeleteKey("PlayerName");
+        PlayerPrefs.DeleteKey(ProgressKeys.PlayerName);
         ClearGameState();
 
         LogManager.ClearLog();
 
-        string[] chapterKeys = {
-            "TheEnd", "AEpilogue1", "AEpilogue2", "AEpilogue3", "AChapter15", "AChapter14", "AChapter13", "AChapter12",
-            "AChapter11", "AChapter10", "AChapter9", "AChapter8", "AChapter7",
-            "Chapter6", "Chapter5", "Chapter4", "Chapter3", "Chapter2", "Chapter1",
-            "A1", "A2", "A3", "A4", "A5", "A6"
-        };
-
-        foreach (string key in chapterKeys)
+        foreach (string key in ProgressKeys.AllProgressKeys)
         {
             PlayerPrefs.DeleteKey(key);
         }

@@ -16,9 +16,9 @@ MonoBehaviour:
   - text: Ash the worried girl.
     nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}
   - text: Miss Moon, my boss.
-    nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}
+    nextScene: {fileID: 11400000, guid: 4c30d90454d2e504880b61680d116b3d, type: 2}
   - text: The Horse-...Person?
-    nextScene: {fileID: 11400000, guid: 2baf96489b60f054383f7ffd650b1b78, type: 2}
+    nextScene: {fileID: 11400000, guid: 1b90ca0fc75e94d49b4acd3f57a7cde3, type: 2}
   - text: Aleph the musician.
     nextScene: {fileID: 11400000, guid: 2ad5baf390f4e724f8c109958cdd7b88, type: 2}
   - text: Ethan the mean author.

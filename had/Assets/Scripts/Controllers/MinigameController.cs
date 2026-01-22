@@ -13,6 +13,11 @@ public class MinigameController : MonoBehaviour
     public GameObject horizontalLinePrefab;
     public GameObject verticalLinePrefab;
 
+    [Header("Special Circle 2 Sprites (Route)")]
+    public Sprite specialCircle2SpriteDefault;
+    public Sprite specialCircle2SpriteScarlet;
+    public Sprite specialCircle2SpriteMrHorse;
+
     [Header("UI References")]
     public RectTransform canvasTransform;
     public TMPro.TMP_Text scoreText;
@@ -632,6 +637,25 @@ public class MinigameController : MonoBehaviour
         );
 
         GameObject circle = Instantiate(prefab, canvasTransform);
+
+        if (isSpecial && prefab == specialCirclePrefab2)
+        {
+            Sprite routeSprite = GetSpecialCircle2SpriteForCurrentRoute();
+            if (routeSprite != null)
+            {
+                Image image = circle.GetComponent<Image>();
+                if (image == null)
+                {
+                    image = circle.GetComponentInChildren<Image>(true);
+                }
+
+                if (image != null)
+                {
+                    image.sprite = routeSprite;
+                }
+            }
+        }
+
         circle.GetComponent<RectTransform>().anchoredPosition = randomPosition;
         var rect = circle.GetComponent<RectTransform>();
         rect.sizeDelta = new Vector2(actualRadius * 2f, actualRadius * 2f);
@@ -645,6 +669,26 @@ public class MinigameController : MonoBehaviour
         activeCircles.Add(circle);
 
         StartCoroutine(AnimateCircle(circle, growDuration, noFade));
+    }
+
+    private Sprite GetSpecialCircle2SpriteForCurrentRoute()
+    {
+        string lastCheckpointKey = PlayerPrefs.GetString(ProgressKeys.LastCompletedCheckpointKey, "");
+        if (!string.IsNullOrEmpty(lastCheckpointKey))
+        {
+            char prefix = lastCheckpointKey[0];
+            if (prefix == 'S')
+            {
+                return specialCircle2SpriteScarlet != null ? specialCircle2SpriteScarlet : specialCircle2SpriteDefault;
+            }
+
+            if (prefix == 'H')
+            {
+                return specialCircle2SpriteMrHorse != null ? specialCircle2SpriteMrHorse : specialCircle2SpriteDefault;
+            }
+        }
+
+        return specialCircle2SpriteDefault;
     }
 
     private IEnumerator AnimateCircle(GameObject circle, float growDuration = 3f, bool noFade = false)

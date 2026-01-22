@@ -58,7 +58,7 @@ public class ChooseController : MonoBehaviour
     {
         for (int index = 0; index < scene.labels.Count; index++)
         {
-            if (IsChapterSelectionScene(scene.name) && !ShouldShowChapterLabel(scene.labels[index]))
+            if (IsChapterSelectionScene(scene.name) && !ShouldShowChapterLabel(scene.name, scene.labels[index]))
             {
                 continue;
             }
@@ -101,17 +101,18 @@ public class ChooseController : MonoBehaviour
 
     private bool IsChapterSelectionScene(string sceneName)
     {
-        return sceneName == "ChapterSelect1" || sceneName == "ChapterSelect2" || sceneName == "ChapterSelect3";
+        return sceneName == "ChapterSelect1" || sceneName == "ChapterSelect2" || sceneName == "ChapterSelect3"
+            || sceneName == "SChapterSelect2" || sceneName == "SChapterSelect3";
     }
 
-    private bool ShouldShowChapterLabel(ChooseScene.ChooseLabel label)
+    private bool ShouldShowChapterLabel(string sceneName, ChooseScene.ChooseLabel label)
     {
         if (label.text == "Back")
         {
             return true;
         }
 
-        string chapterKey = GetChapterKeyFromText(label.text);
+        string chapterKey = GetChapterKeyFromText(sceneName, label.text);
 
         if (string.IsNullOrEmpty(chapterKey))
         {
@@ -121,8 +122,11 @@ public class ChooseController : MonoBehaviour
         return ChapterScene.IsChapterDone(chapterKey);
     }
 
-    private string GetChapterKeyFromText(string chapterText)
+    private string GetChapterKeyFromText(string sceneName, string chapterText)
     {
+        bool isScarlet = sceneName == "SChapterSelect2" || sceneName == "SChapterSelect3";
+        string routePrefix = isScarlet ? "S" : "A";
+
         switch (chapterText)
         {
             case "Prologue":
@@ -140,29 +144,29 @@ public class ChooseController : MonoBehaviour
             case "Chapter 6":
                 return "Chapter6";
             case "Chapter 7":
-                return "AChapter7";
+                return routePrefix + "Chapter7";
             case "Chapter 8":
-                return "AChapter8";
+                return routePrefix + "Chapter8";
             case "Chapter 9":
-                return "AChapter9";
+                return routePrefix + "Chapter9";
             case "Chapter 10":
-                return "AChapter10";
+                return routePrefix + "Chapter10";
             case "Chapter 11":
-                return "AChapter11";
+                return routePrefix + "Chapter11";
             case "Chapter 12":
-                return "AChapter12";
+                return routePrefix + "Chapter12";
             case "Chapter 13":
-                return "AChapter13";
+                return routePrefix + "Chapter13";
             case "Chapter 14":
-                return "AChapter14";
+                return routePrefix + "Chapter14";
             case "Chapter 15":
-                return "AChapter15";
+                return routePrefix + "Chapter15";
             case "Epilogue (Ending 1)":
-                return "AEpilogue1";
+                return routePrefix + "Epilogue1";
             case "Epilogue (Ending 2)":
-                return "AEpilogue2";
+                return routePrefix + "Epilogue2";
             case "Epilogue (Ending 3)":
-                return "AEpilogue3";
+                return routePrefix + "Epilogue3";
             default:
                 return null;
         }
