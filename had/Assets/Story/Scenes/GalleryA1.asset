@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Previous
-    nextScene: {fileID: 11400000, guid: 9aaa36a6ff1124149bea7a5bbbdd5028, type: 2}
+    nextScene: {fileID: 11400000, guid: e1f2d3c4b5a697887766554433221100, type: 2}
   - text: Next
     nextScene: {fileID: 11400000, guid: f130c6aff17b75b4f921d033f159cdf5, type: 2}
   - text: Back

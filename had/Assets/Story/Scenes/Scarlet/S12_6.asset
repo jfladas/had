@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,53 +13,81 @@ MonoBehaviour:
   m_Name: S12_6
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: When I open my eyes, we're in the gang's headquarters. I see Lu, Seth and Ray with shocked faces.
+  - text: I arrive beside her again, but when I see her I notice several injuries
+      on her body.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 12
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I arrive beside her again, but when I see her I notice several injuries
+      on her body.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Good, it worked!
+  - text: Those hooligans used their weapons against her?!
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Guys! I need you to deal with these for me. I'm really sorry but I have go back to help Scarlet.
+  - text: I'm fine! Just continue what you're doing!
     alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 10
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Damn, {playerName}! You took three people here?! That's kinda badass!
-    alternativeText: "Damn! You took three people here?! That's kinda badass!"
-    character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I'll bring more soon, be ready.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: The other two have already started to subdue the confused guards.
+  - text: Even though I'm worried about her, it's surprising to see how well she
+      can fight.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: We got it. Be careful!
-    alternativeText: 
-    character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I nod and shift back to the past where Scarlet is.
+  - text: I sprint over to the duke and the remaining guards try to stop me.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
-  nextScene: {fileID: 11400000, guid: d0b2a2b3c4d5e6f708192a3b4c5d6e7b, type: 2}
+  - text: I see Amon pulling out his sword in that moment.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Scarlet, watch out!
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I collide with the duke and feel several hands trying to pull me off of
+      him, so I start the second shift.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 70a7a049a9d73584984badc2185da3c5, type: 3}
+  nextScene: {fileID: 11400000, guid: d0c2a2b3c4d5e6f708192a3b4c5d6e7c, type: 2}

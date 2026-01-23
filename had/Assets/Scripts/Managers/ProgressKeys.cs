@@ -22,6 +22,8 @@ public static class ProgressKeys
     public static readonly string[] GalleryUnlockKeys =
     {
         "A1", "A2", "A3", "A4", "A5", "A6",
+        "S1", "S2", "S3", "S4", "S5", "S6",
+        "H1", "H2", "H3",
     };
 
     public static readonly string[] GlobalChapterKeys =

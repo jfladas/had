@@ -18,7 +18,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 7
+      spriteIndex: 0
       type: 1
       position: {x: 0, y: 0}
       speed: 0
@@ -34,14 +34,8 @@ MonoBehaviour:
   - text: Did you manage to finish everything? If so, that's very impressive. I'll
       give you that.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 7
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I walk over and present her with the document.
@@ -65,14 +59,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Right, let's see.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 1baa1407f6863264b8fc68ce06de4f09, type: 3}

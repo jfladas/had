@@ -17,7 +17,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: Mmh, is it breakfast time already?
     alternativeText: 
@@ -96,17 +96,25 @@ MonoBehaviour:
   - text: Mr. Horse turns around and spots me watching him.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, good morning, {playerName}. Since we slept in a bit and you didn't
       seem ready to get up, I thought I would prepare a small meal for us before
       we commence with our training.
-    alternativeText: 
+    alternativeText: Oh, good morning. Since we slept in a bit and you didn't
+      seem ready to get up, I thought I would prepare a small meal for us before
+      we commence with our training.
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-      spriteIndex: 0
+      spriteIndex: 1
       type: 1
       position: {x: 0, y: 0}
       speed: 0
@@ -145,7 +153,13 @@ MonoBehaviour:
       bite of a hash brown while Mr. Horse digs right into his carrots.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yum! These are good! It's really nice to experience a small moment of normality
@@ -203,13 +217,25 @@ MonoBehaviour:
   - text: "Yes\u2026 The gym. That is what it is called. I knew that."
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 5
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Of course, let's get ready!
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: We change into our gym clothes. Once again, I have to lend some of my spares
@@ -253,5 +279,49 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0edfb2c7f1f8272498381ab59722dc9a, type: 3}
+  - text: Why is he asking me this so casually? I need to change the topic.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mhm, let's head out now, do you wanna walk or take the subway?
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We are in no hurry, right? Let us walk. The subway tends to be a bit crowded.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Makes sense, that way we can talk freely with each other without people
+      thinking I'm hallucinating.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: That's fine with me. It should only be about a ten-minute walk from here.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I wonder how affected this area was by the earthquake. I almost forgot
+      it happened, since it looks like my apartment stayed intact.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We finish packing our bags and head outside.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
   nextScene: {fileID: 11400000, guid: 215f991776754f4b98d3a3fdcd7f37f7, type: 2}

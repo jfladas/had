@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: S12_X1_2
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: It sounds like Scarlet recruited you into the gang. What were you all doing before that happened?
+  - text: It sounds like Scarlet recruited you into the gang. What were you all doing
+      before that happened?
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -31,28 +33,39 @@ MonoBehaviour:
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 3
-      type: 1
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Well, for me, Scarlet rescued me from a human family that was holding me captive for several generations. They took me in and kept me as some sort of pet after my parents sold me off in exchange for some blood.
+  - text: Well, for me, Scarlet rescued me from a human family that was holding me
+      captive for several generations. They took me in and kept me as some sort of
+      pet after my parents sold me off in exchange for some blood.
+    alternativeText: 
     character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, that's terrible. i'm sorry for asking.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It's alright. It's been such a long time ago and I'm happy with my family that I have right now.
+  - text: It's alright. It's been such a long time ago and I'm happy with my family
+      that I have right now.
+    alternativeText: 
     character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Right? Nothin' beats staying here with the gang, who we consider family now. The boss taught me not to hunt humans back in the day, cuz they would start huntin' me in turn. Because I was alone, I never even considered the possibility to get the blood in a peaceful way. I was such a delinquent, but boss made me clean up my act and get my life together. No more beef with humans.
+  - text: Right? Nothin' beats staying here with the gang, who we consider family
+      now. The boss taught me not to hunt humans back in the day, cuz they would
+      start huntin' me in turn. Because I was alone, I never even considered the
+      possibility to get the blood in a peaceful way. I was such a delinquent, but
+      boss made me clean up my act and get my life together. No more beef with humans.
+    alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
@@ -64,16 +77,21 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I'm glad it turned out like this for you.
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Yeah! And as for Lu, we found him a few decades ago. He was just a wee little baby, abandoned on the side of the road, rummaging in the trash bags along with the stray kitties.
+  - text: Yeah! And as for Lu, we found him a few decades ago. He was just a wee
+      little baby, abandoned on the side of the road, rummaging in the trash bags
+      along with the stray kitties.
+    alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Hey... don't just blab about my past so carelessly.
+    alternativeText: 
     character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
     actions: []
     music: {fileID: 0}
@@ -85,6 +103,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ah, sorry, sorry. Ya don't have to be so shy anymore.
+    alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
@@ -96,6 +115,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ya know? {playerName} might join the family soon if boss continues-
+    alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
@@ -114,10 +134,10 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ahah ha... Nevermind.
+    alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
+  background: {fileID: 21300000, guid: 16dfa76dbb94f464989ce1c99d3fd82e, type: 3}
   nextScene: {fileID: 11400000, guid: d052a2b3c4d5e6f708192a3b4c5d6e75, type: 2}
-

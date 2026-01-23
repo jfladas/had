@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
+  m_Name: GalleryH2
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Previous
+    nextScene: {fileID: 11400000, guid: 3d9a4b2c1e5f47d2a3c4b5d6e7f8091a, type: 2}
+  - text: Next
+    nextScene: {fileID: 11400000, guid: e1f2d3c4b5a697887766554433221100, type: 2}
+  - text: Back
+    nextScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}

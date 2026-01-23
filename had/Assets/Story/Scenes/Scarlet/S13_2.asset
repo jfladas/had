@@ -17,7 +17,13 @@ MonoBehaviour:
       a live body.
     alternativeText: 
     character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Huh? Why?
@@ -35,18 +41,17 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: These guys don't remember because they are young, but I remember a time
       where we were hunted because humans were scared of us. They saw us as monsters.
-      I promised myself to never hurt somebody just to get blood. That's why the
-      organisation has connections with hospitals so we can get the blood without
+    alternativeText: 
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I promised myself to never hurt somebody just to get blood. That's why
+      the organisation has connections with hospitals so we can get the blood without
       causing anyone any harm.
     alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: It doesn't really surprise me.
@@ -88,7 +93,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: The Interdimensional Spirits!
     alternativeText: 
@@ -125,13 +130,7 @@ MonoBehaviour:
   - text: Scarlet remains calm.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: She must still be exhausted from the fight with Amon.
@@ -277,7 +276,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
+      spriteIndex: 1
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -388,7 +387,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
+      spriteIndex: 4
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -423,52 +422,14 @@ MonoBehaviour:
   - text: Take care of yourself Scarlet.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: With that, I step into the portal and let myself fall.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: The cloaked figures all follow.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Good. Looks like they really left them alone now.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Before the darkness completely engulfs me, I hear Scarlet yell out my name
-      in despair.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I'll just have to fight to death if that's what it takes to get back to
-      you.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: A faint whisper escapes my lips.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I will always find my way back to you. Even when I'm dead.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 2602986837f6e4c43a2726a6a36b1b48, type: 3}
-  nextScene: {fileID: 11400000, guid: 7dc6e362b2e148c9831b58ca7a41d109, type: 2}
+  background: {fileID: 21300000, guid: 16dfa76dbb94f464989ce1c99d3fd82e, type: 3}
+  nextScene: {fileID: 11400000, guid: 175f3ea802bf0cf499d7a6db343cbf56, type: 2}

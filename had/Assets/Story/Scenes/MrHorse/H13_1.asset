@@ -17,7 +17,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: "I wonder who this Aphilia is\u2026 Does she know something about my powers
       or the plans of whoever I heard talking in the white void?"
@@ -29,19 +29,19 @@ MonoBehaviour:
   - text: Mr. Horse's voice snaps me out of my thoughts.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Hey, are you ready for our excursion tomorrow?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
       spriteIndex: 0
       type: 1
       position: {x: 0, y: 0}
       speed: 0
-      targetScale: 1
+      targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hey, are you ready for our excursion tomorrow?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "I think so. I want answers. Both of us are changing and it's really scary.

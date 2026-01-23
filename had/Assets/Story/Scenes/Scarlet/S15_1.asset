@@ -17,7 +17,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: I already tried shifting but it didn't work. Aimlessly flailing around
       didn't get me anywhere either.
@@ -205,7 +205,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I stretch out my arm and imagine the powers within me plowing out, creating
-      a similar mist like those spirits, just prettier and not as menacing. It sparkles
+      a similar mist like those Spirits, just prettier and not as menacing. It sparkles
       and looks magical.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
@@ -262,5 +262,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 6e03813dd6e4f1546b5d1fe791f26c50, type: 3}
+  background: {fileID: 21300000, guid: db6143dffc3415a4cb9df1bede0e2ac3, type: 3}
   nextScene: {fileID: 11400000, guid: f1c2d3e4f5a6478b9c0d1e2f3a4b5c6d, type: 2}

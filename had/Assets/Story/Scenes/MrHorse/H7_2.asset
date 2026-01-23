@@ -13,146 +13,89 @@ MonoBehaviour:
   m_Name: H7_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: I think I see a hint of sadness hides behind his eyes, but he quickly shakes
-      it off and moves on.
+  - text: He pauses and there's a few seconds of silence between us. Then, Mr. Horse
+      straightens up and fixes his tie, trying to regain his composure.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I tried to go after you, but I could not find you on the train anymore.
+  - text: I know my person is intriguing and it may fascinate you. But I do not wish
+      to disclose any further information.
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
       spriteIndex: 0
-      type: 1
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 1
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: And now we cross paths again here. It must be fate or something of the
-      sort.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I don't know if that's the case.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: It is a bit weird though. Everything about this situation right now is
-      very weird actually.
+  - text: I wonder what horrible things have happened to Mr. Horse. It's understandable
+      that he doesn't wanna talk about it though. He seems to be pretty traumatized
+      by it.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: So, you mentioned your Kingdom. Where is that place? How did you come here?
+  - text: I'm sorry this happened to you.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "I am not sure. It was always just home\u2026 And now it is gone. I do
-      not know why. I just want to return home."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I feel sorry for Mr. Horse. It must be horrible for him to live in a foreign
-      place where nobody even notices you. I am curious about his origins.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "So, is everyone from where you come from\u2026 like\u2026 an animal?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Suddenly, he freezes and takes a step back. It seems like his cold stare
-      pierces right through me.
+  - text: I hear some murmurs from the other side of the room. I peek out from behind
+      the shelves and see that some people are gathering their things and the first
+      ones are beginning to head towards the exit of the bunker. There is still a
+      feeling of uncertainty in the air though.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What is happening now?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Are you okay?
+  - text: You think it's safe to head out?
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "\u2026"
+  - text: Let us find out.
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I feel well.
+  - text: You are welcome to lead the way.
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It certainly doesn't seem like that.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Mr. Horse continues to speak calmly, but in a more serious tone.
+  - text: I make my way over to the rusty door leading to the staircase. I notice
+      how Mr. Horse follows closely after me, trying to avoid any form of contact
+      with the metallic surfaces around us.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: To answer your question, no, I am nothing such as an animal and it would
-      be pleasant if you could refrain from referring to me as such.
+  - text: Why are you walking behind me so cautiously? I think the earthquake has
+      ended, we're safe now.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It is comfortable for me like this, staying alert is important. Besides,
+      these walls seem extremely insanitary, probably scattered with grime. I would
+      not want to risk any chance of dirtying my suit\u2026 or worse."
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: But yes, everyone living in our kingdom possesses some sort of hybrid features.
-      I just happen to hold features of the most majestic of all, as all members
-      of the royal family do.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: The horse.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Okay, he seems to be a bit full of himself.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Still, many questions buzz around in my head. Maybe I should ask Mr. Horse\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
-  nextScene: {fileID: 11400000, guid: d93d1b221f294905b0d856bb92349565, type: 2}
+  nextScene: {fileID: 11400000, guid: c188943f058dd53458e4388a10aaa72d, type: 2}

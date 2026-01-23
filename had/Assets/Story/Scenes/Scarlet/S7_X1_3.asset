@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -29,14 +29,8 @@ MonoBehaviour:
       it. I will send an email to all employees regarding work as soon as we get
       out of this bunker.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I don't want to just leave her like this though. I haven't even introduced
@@ -46,7 +40,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "I apologise. If I've offended anyone, I would like to-"
+  - text: I apologise. If I've offended anyone, I would like to-
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
@@ -56,7 +50,7 @@ MonoBehaviour:
       matters. I have nothing work-related to discuss with you anymore. I will see
       you at work soon.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
@@ -66,7 +60,7 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "I was just trying to fix things … Why is she so hostile?"
+  - text: "I was just trying to fix things \u2026 Why is she so hostile?"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -106,4 +100,3 @@ MonoBehaviour:
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
   nextScene: {fileID: 11400000, guid: b6b0f2b9e6f8a8b4c8b1b68b5e4d9c1a, type: 2}
-

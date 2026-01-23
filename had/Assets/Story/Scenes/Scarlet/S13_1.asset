@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -16,8 +16,14 @@ MonoBehaviour:
   - text: When we arrive in the present we are welcomed by the gang members.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 3
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: Woah! What happened?! Y'all look totally battered!
     alternativeText: 
@@ -31,37 +37,35 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: While Lu hastily gets the blood pack the other two help me get Scarlet to the sofa and we sit her down gently.
+  - text: While Lu hastily gets the blood pack the other two help me get Scarlet
+      to the sofa and we sit her down gently.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Looks like ya still had to fight that bastard. Your wounds are at the same place as your scars from before.
+  - text: Looks like ya still had to fight that bastard. Your wounds are at the same
+      place as your scars from before.
     alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: But they look more fresh and deep right now. It's a miracle that you're still alive. He had a silver sword, right?
+  - text: But they look more fresh and deep right now. It's a miracle that you're
+      still alive. He had a silver sword, right?
     alternativeText: 
     character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Do I tell them that I let her suck my blood?…
+  - text: "Do I tell them that I let her suck my blood?\u2026"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I don't know if that gesture is seen as something intimate or if it's normal. I don't want to make her feel awkward…
+  - text: "I don't know if that gesture is seen as something intimate or if it's
+      normal. I don't want to make her feel awkward\u2026"
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -73,5 +77,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
+  background: {fileID: 21300000, guid: 16dfa76dbb94f464989ce1c99d3fd82e, type: 3}
   nextScene: {fileID: 11400000, guid: 6eb537357cae47d68034aed2ab12d6fe, type: 2}

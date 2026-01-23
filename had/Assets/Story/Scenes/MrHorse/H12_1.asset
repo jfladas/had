@@ -19,7 +19,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: We do physical and mental exercises, and I can tell that I'm slowly but
       surely getting more aware of my powers. I attempt to shift a few times, trying
@@ -32,7 +32,13 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Mr. Horse makes sure to comfort me and tell me that it's fine. But I'm
       noticing how he feels more uneasy day by day. He often acts differently, mentioning
-      unusual feelings in different parts of his body. Ultimately, he insists that
+      unusual feelings in different parts of his body.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Ultimately, he insists that
       he will be okay every time. Or he blames it all on the fact that we are back
       in my world, where he doesn't belong. I can't shake off the feeling that this
       is something more than that.
@@ -46,7 +52,13 @@ MonoBehaviour:
       His relaxed presence never fails to calm me.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He has really grown fond of physical touch lately it seems. I remember
@@ -58,12 +70,12 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '{playerName}?'
-    alternativeText: 
+    alternativeText: Hey, you?
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-      spriteIndex: 0
-      type: 1
+      spriteIndex: 3
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 1
@@ -116,7 +128,13 @@ MonoBehaviour:
       I am very glad to have met you.
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 5
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Mr. Horse scratches his neck sheepishly, avoiding eye contact.
@@ -151,7 +169,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "\u2026{playerName}, I\u2014"
-    alternativeText: 
+    alternativeText: "I\u2014"
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions: []
     music: {fileID: 0}
@@ -165,7 +183,13 @@ MonoBehaviour:
   - text: '*NEEIGH*'
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 7
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: He lets out a loud horse-like sound. I almost fall off the couch from shock.
@@ -210,8 +234,14 @@ MonoBehaviour:
   - text: I must protect Mr. Horse.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0edfb2c7f1f8272498381ab59722dc9a, type: 3}
+  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
   nextScene: {fileID: 11400000, guid: 86fefb3d082f40a3ae560e29f7b14025, type: 2}

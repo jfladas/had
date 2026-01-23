@@ -14,18 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: I shouldn't have said anything.
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: We sit down and she looks at me coldly.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: As you've said just now, this won't happen again. I only need competent
       workers in my company.
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    alternativeText: 
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
@@ -36,35 +39,41 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, ma'am...
+    alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Next time something like this happens, you ask for help so that you won't
       be an inconvenience to anybody.
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    alternativeText: 
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "We have a very competent team here and we do not want anyone on it that
       drags us down. That\u2019s not why I hired you. Have I made myself clear?"
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    alternativeText: 
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I nod and cast my eyes downward in shame.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Why do I always manage to get into situations like these?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '*Sigh* Apologies. I spoke rather harshly because I have lost some sleep
       over the last few nights.'
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    alternativeText: 
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 2
@@ -75,17 +84,20 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: She closes her eyes and rubs her temples.
+    alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: She looks so fed up with me, what should I do?
+    alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "I need you to take these. That\u2019s what we came here for."
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    alternativeText: 
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 0

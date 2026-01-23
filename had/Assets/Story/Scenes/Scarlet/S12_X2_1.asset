@@ -53,8 +53,8 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 1
+      spriteIndex: 21
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
@@ -66,5 +66,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
+  background: {fileID: 21300000, guid: 70a7a049a9d73584984badc2185da3c5, type: 3}
   nextScene: {fileID: 11400000, guid: d112a2b3c4d5e6f708192a3b4c5d6e81, type: 2}

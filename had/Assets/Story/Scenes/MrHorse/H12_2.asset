@@ -23,7 +23,13 @@ MonoBehaviour:
       still in mine.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 8
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Mr. Horse?
@@ -36,19 +42,19 @@ MonoBehaviour:
       creeps onto his face.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh my goodness!
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-      spriteIndex: 0
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 1
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What is it? Are you okay? What happened to you before we shifted?
@@ -64,7 +70,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I am feeling great. You did it, {playerName}! I am home at last.
-    alternativeText: 
+    alternativeText: I am feeling great. You did it! I am home at last.
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions: []
     music: {fileID: 0}
@@ -99,7 +105,13 @@ MonoBehaviour:
       entering the room.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 2
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Mom!
@@ -150,9 +162,16 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "This is {playerName}. They're a friend from far away\u2026 It is a long
       story, We will explain later."
-    alternativeText: 
+    alternativeText: "They're a friend from far away\u2026 It is a long story, We
+      will explain later."
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 1
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I should greet her. How do you address a queen appropriately again? Mr.
@@ -211,13 +230,25 @@ MonoBehaviour:
   - text: "Mom\u2026 stop."
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 2
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: We head to the great hall to sit down and talk about everything.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Mr. Horse begins with telling his mother about how he suddenly got transported
@@ -249,5 +280,82 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: c017f2dc9f1c531439bd28453439c861, type: 3}
-  nextScene: {fileID: 11400000, guid: e8b4a7b7f32b4dddb7b8eac6b6b5a802, type: 2}
+  - text: She looks like she went through a whole rollercoaster of emotions hearing
+      all of that. The expression she ends on is a concerned one, though.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: This is a lot of information for one sitting. She is probably a bit overwhelmed.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She mutters a sentence to herself.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aphilia's worries might have been justified after all.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Who's Aphilia?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: First of all, it is an immense relief you two made it back here safely.
+      {playerName}, you may stay here in our guest room until we have sorted things
+      out, of course.
+    alternativeText: First of all, it is an immense relief you two made it back here safely.
+      And you may stay here in our guest room until we have sorted things
+      out, of course.
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I can live in the royal palace? That is very nice of her. But what does
+      she mean by \u2018sorting things out'?"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We will arrange a meeting with Aphilia immediately. I advise you two speak
+      with her, especially you, {playerName}.
+    alternativeText: We will arrange a meeting with Aphilia immediately. I advise you two speak
+      with her, especially you.
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mr. Horse tries to answer, but his mom doesn't seem to be finished yet
+      and continues talking to me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: And how are you feeling now? Have you noticed anything out of the ordinary
+      since your return here?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 61fc1d7aa81b44fd96274f46c48e8dfa, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Have I? I was pretty occupied by being happy for Mr. Horse for the most
+      part. But I did notice something.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: d1cdacf9c9530b74b9973cee8a95af55, type: 3}
+  nextScene: {fileID: 11400000, guid: 44fdf3762f1f4fd6a169b3992dc8da7f, type: 2}

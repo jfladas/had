@@ -16,7 +16,13 @@ MonoBehaviour:
   - text: I think we've seen enough of this gym for today.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Are you ready to head back to the apartment?
@@ -28,13 +34,7 @@ MonoBehaviour:
   - text: I am.
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-      spriteIndex: 0
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 1
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: We leave the building, not without being silently stared down by everyone
@@ -44,36 +44,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Outside, Mr. Horse pauses briefly and mutters something to himself while
-      looking down at his hands.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "How strange\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Huh?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: He just shakes his head dismissively.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Let us go home.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 7b521cb938d99694f8bb4a5d62954a19, type: 3}
-  nextScene: {fileID: 11400000, guid: 4e050463534c48858e3927b59cc5f7a8, type: 2}
+  background: {fileID: 21300000, guid: 0edfb2c7f1f8272498381ab59722dc9a, type: 3}
+  nextScene: {fileID: 11400000, guid: 62f038b4c0b44fb498d5b6806b650752, type: 2}

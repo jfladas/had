@@ -4,13 +4,29 @@ using UnityEngine;
 
 public static class ScoreManager
 {
-    private const string CURRENT_SCORE_KEY = "CurrentTotalScore";
+    private const string CURRENT_SCORE_KEY_LEGACY = "CurrentTotalScore";
+    private const string CURRENT_SCORE_KEY_PREFIX = "CurrentTotalScore_";
     private const string MINIGAME_PLAYED_PREFIX = "MinigameLevel_";
     private const string MINIGAME_PLAYED_ID_PREFIX = "MinigameId_";
     private const string MINIGAME_PLAYED_IDS_KEY = "MinigamePlayedIds";
     private const string CURRENT_SCENE_KEY = "CurrentSceneName";
     private const string CURRENT_SENTENCE_INDEX_KEY = "CurrentSentenceIndex";
     private const int MAX_MINIGAME_LEVEL = 50;
+
+    private static readonly string[] RouteKeys = { "A", "S", "H" };
+
+    public static string GetRouteKeyFromSceneName(string sceneName)
+    {
+        if (string.IsNullOrEmpty(sceneName))
+            return "A";
+
+        // Route assets typically start with a route prefix, e.g. S12_1, H7_1, SChapter10, HChapter7.
+        // Everything else is treated as the default (Aleph / shared prologue).
+        char c = sceneName[0];
+        if (c == 'S') return "S";
+        if (c == 'H') return "H";
+        return "A";
+    }
 
     private static string SanitizeMinigameId(string id)
     {
@@ -31,7 +47,15 @@ public static class ScoreManager
         return sb.ToString();
     }
 
-    private static void RegisterPlayedMinigameId(string sanitizedId)
+    private static string NormalizeMinigameId(string minigameId)
+    {
+        // Ensure played-state is route-scoped even if different routes reuse level numbers.
+        string routeKey = GetRouteKeyFromSceneName(minigameId);
+        string sanitized = SanitizeMinigameId(minigameId);
+        return routeKey + "_" + sanitized;
+    }
+
+    private static void RegisterPlayedMinigameId(string normalizedId)
     {
         // Keep a registry so we can reset/delete later.
         string existing = PlayerPrefs.GetString(MINIGAME_PLAYED_IDS_KEY, string.Empty);
@@ -43,7 +67,7 @@ public static class ScoreManager
                 if (!string.IsNullOrEmpty(part)) set.Add(part);
             }
         }
-        if (set.Add(sanitizedId))
+        if (set.Add(normalizedId))
         {
             PlayerPrefs.SetString(MINIGAME_PLAYED_IDS_KEY, string.Join("|", set));
         }
@@ -51,14 +75,14 @@ public static class ScoreManager
 
     public static bool HasMinigameBeenPlayed(string minigameId)
     {
-        string id = SanitizeMinigameId(minigameId);
+        string id = NormalizeMinigameId(minigameId);
         string key = MINIGAME_PLAYED_ID_PREFIX + id;
         return PlayerPrefs.GetInt(key, 0) == 1;
     }
 
     public static void SetMinigamePlayed(string minigameId, bool played = true)
     {
-        string id = SanitizeMinigameId(minigameId);
+        string id = NormalizeMinigameId(minigameId);
         string key = MINIGAME_PLAYED_ID_PREFIX + id;
         PlayerPrefs.SetInt(key, played ? 1 : 0);
         RegisterPlayedMinigameId(id);
@@ -67,32 +91,66 @@ public static class ScoreManager
 
     public static bool TryAddMinigameScore(string minigameId, int points)
     {
+        string routeKey = GetRouteKeyFromSceneName(minigameId);
         if (HasMinigameBeenPlayed(minigameId))
         {
             SetMinigamePlayed(minigameId, true);
             return false;
         }
 
-        AddToCurrentScore(points);
+        AddToCurrentScore(points, routeKey);
         SetMinigamePlayed(minigameId, true);
         return true;
     }
 
     public static int GetCurrentScore()
     {
-        return PlayerPrefs.GetInt(CURRENT_SCORE_KEY, 0);
+        // Legacy behavior: default route score (Aleph/shared).
+        return GetCurrentScore("A");
+    }
+
+    public static int GetCurrentScore(string routeKey)
+    {
+        routeKey = string.IsNullOrEmpty(routeKey) ? "A" : routeKey;
+        string key = CURRENT_SCORE_KEY_PREFIX + routeKey;
+
+        if (PlayerPrefs.HasKey(key))
+            return PlayerPrefs.GetInt(key, 0);
+
+        // Backwards compatibility: if no route-specific score exists yet, fall back to legacy.
+        if (routeKey == "A")
+            return PlayerPrefs.GetInt(CURRENT_SCORE_KEY_LEGACY, 0);
+
+        return 0;
     }
 
     public static void SetCurrentScore(int score)
     {
-        PlayerPrefs.SetInt(CURRENT_SCORE_KEY, score);
+        SetCurrentScore(score, "A");
+    }
+
+    public static void SetCurrentScore(int score, string routeKey)
+    {
+        routeKey = string.IsNullOrEmpty(routeKey) ? "A" : routeKey;
+        string key = CURRENT_SCORE_KEY_PREFIX + routeKey;
+        PlayerPrefs.SetInt(key, score);
+        if (routeKey == "A")
+        {
+            // Keep legacy key in sync for existing screens that might still read it.
+            PlayerPrefs.SetInt(CURRENT_SCORE_KEY_LEGACY, score);
+        }
         PlayerPrefs.Save();
     }
 
     public static void AddToCurrentScore(int points)
     {
-        int currentScore = GetCurrentScore();
-        SetCurrentScore(currentScore + points);
+        AddToCurrentScore(points, "A");
+    }
+
+    public static void AddToCurrentScore(int points, string routeKey)
+    {
+        int currentScore = GetCurrentScore(routeKey);
+        SetCurrentScore(currentScore + points, routeKey);
     }
 
     public static bool HasMinigameLevelBeenPlayed(int level)
@@ -123,7 +181,10 @@ public static class ScoreManager
 
     public static void ResetMinigameData()
     {
-        SetCurrentScore(0);
+        foreach (var rk in RouteKeys)
+        {
+            SetCurrentScore(0, rk);
+        }
 
         for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
         {
@@ -146,7 +207,12 @@ public static class ScoreManager
 
     public static void DeleteAllPlayerData()
     {
-        SetCurrentScore(0);
+        foreach (var rk in RouteKeys)
+        {
+            SetCurrentScore(0, rk);
+            PlayerPrefs.DeleteKey(CURRENT_SCORE_KEY_PREFIX + rk);
+        }
+        PlayerPrefs.DeleteKey(CURRENT_SCORE_KEY_LEGACY);
         for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
         {
             SetMinigameLevelPlayed(i, false);

@@ -13,10 +13,13 @@ public static class RouteAssetTools
 
     private const string ScarletScenesFolder = "Assets/Story/Scenes/Scarlet";
     private const string MrHorseScenesFolder = "Assets/Story/Scenes/MrHorse";
+    private const string Chapters0To6ScenesFolder = "Assets/Story/Scenes/0-6";
 
     private const string CharacterSpritesFolder = "Assets/Sprites/Characters";
     private const string BackgroundsFolder = "Assets/Sprites/Backgrounds";
     private const string ChapterCardsFolder = "Assets/Sprites/Backgrounds/Chapters";
+
+    private const string MissMoonCharacterAssetPath = "Assets/Story/Chars/Miss Moon.asset";
 
     [MenuItem("Tools/Story/Characters/Rebuild Scarlet Sprites")]
     public static void RebuildScarletSprites()
@@ -30,6 +33,80 @@ public static class RouteAssetTools
     {
         var spritePaths = BuildMrHorseSpritePaths();
         SetCharacterSprites(MrHorseCharacterAssetPath, spritePaths);
+    }
+
+    [MenuItem("Tools/Story/Characters/Fix Miss Moon -> Scarlet Transition (Ch1-6 + early Scarlet)")]
+    public static void FixMissMoonCharacterRefs()
+    {
+        var scarlet = AssetDatabase.LoadAssetAtPath<Character>(ScarletCharacterAssetPath);
+        var missMoon = AssetDatabase.LoadAssetAtPath<Character>(MissMoonCharacterAssetPath);
+
+        if (scarlet == null)
+        {
+            Debug.LogError($"[RouteAssetTools] Scarlet character asset not found: {ScarletCharacterAssetPath}");
+            return;
+        }
+
+        if (missMoon == null)
+        {
+            Debug.LogError($"[RouteAssetTools] Miss Moon character asset not found: {MissMoonCharacterAssetPath}");
+            return;
+        }
+
+        // Chapters 1-6 (global): Miss Moon is the speaker whenever Scarlet is referenced.
+        var changedCh1To6 = ReplaceSpeakerCharacterInStoryScenesByNameGate(
+            Chapters0To6ScenesFolder,
+            from: scarlet,
+            to: missMoon,
+            shouldProcessSceneName: ShouldTreatAsMissMoon_Ch1To6);
+
+        // Scarlet route: extend Miss Moon period through end of Chapter 8.
+        var changedScarletCh7To8 = ReplaceSpeakerCharacterInStoryScenesByNameGate(
+            ScarletScenesFolder,
+            from: scarlet,
+            to: missMoon,
+            shouldProcessSceneName: ShouldTreatAsMissMoon_ScarletCh7To8);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        Debug.Log($"[RouteAssetTools] FixMissMoonCharacterRefs done. Changed scenes: Ch1-6={changedCh1To6}, ScarletCh7-8={changedScarletCh7To8}.");
+    }
+
+    [MenuItem("Tools/Story/Characters/Repair Actions: Miss Moon -> Scarlet (Ch1-6 + early Scarlet)")]
+    public static void RepairMissMoonActionCharacters()
+    {
+        var scarlet = AssetDatabase.LoadAssetAtPath<Character>(ScarletCharacterAssetPath);
+        var missMoon = AssetDatabase.LoadAssetAtPath<Character>(MissMoonCharacterAssetPath);
+
+        if (scarlet == null)
+        {
+            Debug.LogError($"[RouteAssetTools] Scarlet character asset not found: {ScarletCharacterAssetPath}");
+            return;
+        }
+
+        if (missMoon == null)
+        {
+            Debug.LogError($"[RouteAssetTools] Miss Moon character asset not found: {MissMoonCharacterAssetPath}");
+            return;
+        }
+
+        var changedCh1To6 = ReplaceActionCharactersInStoryScenesByNameGate(
+            Chapters0To6ScenesFolder,
+            from: missMoon,
+            to: scarlet,
+            shouldProcessSceneName: ShouldTreatAsMissMoon_Ch1To6);
+
+        var changedScarletCh7To8 = ReplaceActionCharactersInStoryScenesByNameGate(
+            ScarletScenesFolder,
+            from: missMoon,
+            to: scarlet,
+            shouldProcessSceneName: ShouldTreatAsMissMoon_ScarletCh7To8);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        Debug.Log($"[RouteAssetTools] RepairMissMoonActionCharacters done. Changed scenes: Ch1-6={changedCh1To6}, ScarletCh7-8={changedScarletCh7To8}.");
     }
 
     [MenuItem("Tools/Story/Backgrounds/Reevaluate Scarlet + MrHorse Scene Backgrounds")]
@@ -56,6 +133,174 @@ public static class RouteAssetTools
         ReevaluateRouteStorySceneBackgrounds();
         Debug.Log("[RouteAssetTools] Done.");
     }
+
+    private static int ReplaceSpeakerCharacterInStoryScenesByNameGate(
+        string folder,
+        Character from,
+        Character to,
+        Func<string, bool> shouldProcessSceneName)
+    {
+        if (!AssetDatabase.IsValidFolder(folder))
+        {
+            Debug.LogWarning($"[RouteAssetTools] Folder not found: {folder}");
+            return 0;
+        }
+
+        if (from == null || to == null)
+            return 0;
+
+        if (shouldProcessSceneName == null)
+            return 0;
+
+        var guids = AssetDatabase.FindAssets("t:StoryScene", new[] { folder });
+        var paths = guids.Select(AssetDatabase.GUIDToAssetPath)
+            .OrderBy(p => p, StringComparer.OrdinalIgnoreCase)
+            .ToArray();
+
+        var changedScenes = 0;
+
+        foreach (var path in paths)
+        {
+            var scene = AssetDatabase.LoadAssetAtPath<StoryScene>(path);
+            if (scene == null || scene.sentences == null || scene.sentences.Count == 0)
+                continue;
+
+            if (!shouldProcessSceneName(scene.name))
+                continue;
+
+            var didChange = false;
+            var sentences = scene.sentences;
+
+            for (var i = 0; i < sentences.Count; i++)
+            {
+                var s = sentences[i];
+
+                if (s.character == from)
+                {
+                    s.character = to;
+                    didChange = true;
+                }
+
+                sentences[i] = s;
+            }
+
+            if (!didChange)
+                continue;
+
+            Undo.RecordObject(scene, "Replace character references");
+            scene.sentences = sentences;
+            EditorUtility.SetDirty(scene);
+            changedScenes++;
+        }
+
+        return changedScenes;
+    }
+
+    private static int ReplaceActionCharactersInStoryScenesByNameGate(
+        string folder,
+        Character from,
+        Character to,
+        Func<string, bool> shouldProcessSceneName)
+    {
+        if (!AssetDatabase.IsValidFolder(folder))
+        {
+            Debug.LogWarning($"[RouteAssetTools] Folder not found: {folder}");
+            return 0;
+        }
+
+        if (from == null || to == null)
+            return 0;
+
+        if (shouldProcessSceneName == null)
+            return 0;
+
+        var guids = AssetDatabase.FindAssets("t:StoryScene", new[] { folder });
+        var paths = guids.Select(AssetDatabase.GUIDToAssetPath)
+            .OrderBy(p => p, StringComparer.OrdinalIgnoreCase)
+            .ToArray();
+
+        var changedScenes = 0;
+
+        foreach (var path in paths)
+        {
+            var scene = AssetDatabase.LoadAssetAtPath<StoryScene>(path);
+            if (scene == null || scene.sentences == null || scene.sentences.Count == 0)
+                continue;
+
+            if (!shouldProcessSceneName(scene.name))
+                continue;
+
+            var didChange = false;
+            var sentences = scene.sentences;
+
+            for (var i = 0; i < sentences.Count; i++)
+            {
+                var s = sentences[i];
+                if (s.actions == null || s.actions.Count == 0)
+                {
+                    sentences[i] = s;
+                    continue;
+                }
+
+                for (var a = 0; a < s.actions.Count; a++)
+                {
+                    var act = s.actions[a];
+                    if (act.character == from)
+                    {
+                        act.character = to;
+                        s.actions[a] = act;
+                        didChange = true;
+                    }
+                }
+
+                sentences[i] = s;
+            }
+
+            if (!didChange)
+                continue;
+
+            Undo.RecordObject(scene, "Replace action character references");
+            scene.sentences = sentences;
+            EditorUtility.SetDirty(scene);
+            changedScenes++;
+        }
+
+        return changedScenes;
+    }
+
+    private static bool ShouldTreatAsMissMoon_Ch1To6(string sceneName)
+    {
+        if (string.IsNullOrEmpty(sceneName))
+            return false;
+
+        // Only scenes belonging to chapters 1-6 in Assets/Story/Scenes/0-6.
+        // Naming convention: 1_*, 2_*, ... 6_* (including X branches like 2_X1_1).
+        var first = sceneName[0];
+        return first >= '1' && first <= '6';
+    }
+
+    private static bool ShouldTreatAsMissMoon_ScarletCh7To8(string sceneName)
+    {
+        if (string.IsNullOrEmpty(sceneName))
+            return false;
+
+        // Scarlet route story scenes for chapters 7 and 8.
+        // Naming convention observed: S7_*, S7_X*, S7_M*, S7_I* and similarly S8_*.
+        if (!sceneName.StartsWith("S", StringComparison.Ordinal))
+            return false;
+
+        if (sceneName.Length < 2)
+            return false;
+
+        var ch = sceneName[1];
+        if (ch != '7' && ch != '8')
+            return false;
+
+        return true;
+    }
+
+    // Note: We intentionally avoid gating on text like "Miss Moon" because the
+    // visible text can change independently from the intended speaker identity.
 
     private static List<string> BuildScarletSpritePaths()
     {

@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,38 +13,95 @@ MonoBehaviour:
   m_Name: S13_X1_2
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: Um, no?
+  - text: She knows better about stuff concerning vampire behaviour after all.
     alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I try to avoid everyone's intense gazes.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Now Scarlet turns her face to us.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She seems to have noticed what our conversation is about because her cheeks
-      are red as well.
+  - text: I stay quiet and watch Scarlet drink her blood pack in peace.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 1
+      spriteIndex: 0
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What are you guys so worked up about? I had no other choice but to drink {playerName}'s blood. We were both in no condition to shift. Though, I did get a little lost in the sensation…
+  - text: I feel relieved now that we're safe.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Then Lu points at me.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You're bleeding. Are you okay? Need me to get you a band aid?
+    alternativeText: 
+    character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I cover the bite wound on my neck with my hand.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh. Now they'll find out.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I glance over at Scarlet and she meets my gaze.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What? What is it?
+    alternativeText: 
+    character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Scarlet lets out a sigh and throws the empty blood packet in the bin.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I had to drink {playerName}'s blood. Seth can you bring me the first aid
+      kit? I'll take care of it.
+    alternativeText: I had to drink your blood. Seth can you bring me the first aid
+      kit? I'll take care of it.
+    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: They all stare at Scarlet with a shocked expression.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You? Drank blood? Not out of a pack, but like, straight out of {playerName}?
+    alternativeText: You? Drank blood? Not out of a pack, but like, straight out
+      of you?
+    character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Couldn't be helped. I was in bad shape.
+    alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
@@ -55,25 +112,11 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: She awkwardly looks away.
+  - text: "That's\u2026 surprising."
     alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Aww. How cute.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I chuckle at her visible shyness and watch her gulp down the blood from
-      the pack.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
+  background: {fileID: 21300000, guid: 16dfa76dbb94f464989ce1c99d3fd82e, type: 3}
   nextScene: {fileID: 11400000, guid: c46edc7f55494cb6834057c903bccce9, type: 2}
-

@@ -17,7 +17,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: After walking for a few minutes, Mr. Horse suddenly stops in his tracks.
       He turns and signals me to get closer with a wave of his hand.
@@ -27,7 +27,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '{playerName}! Come look at this!'
-    alternativeText: 
+    alternativeText: Hey! Come look at this!
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
@@ -56,7 +56,13 @@ MonoBehaviour:
       he expressed before.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 7
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Isn't he glad we found some sign of civilization?
@@ -74,7 +80,13 @@ MonoBehaviour:
   - text: He doesn't respond and begins walking again.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What has gotten into him now?
@@ -136,5 +148,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: c017f2dc9f1c531439bd28453439c861, type: 3}
+  background: {fileID: 21300000, guid: 41de7d8911b06044eb1ffbfc63d6d72a, type: 3}
   nextScene: {fileID: 11400000, guid: 061050f298024e13a46b447a191a4f68, type: 2}

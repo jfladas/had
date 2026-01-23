@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4a526d5bd70df4d9034bcf1a1de57a, type: 3}
   m_Name: S3
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 21be1c2afdef1dd498ca7441fdb7cd11, type: 3}
-  nextScene: {fileID: 11400000, guid: 268ce4dbc18e12840803f8e665e9ec9c, type: 2}
+  background: {fileID: 21300000, guid: 9a9aab5fda8960b4789f2d422517754c, type: 3}
+  nextScene: {fileID: 11400000, guid: ffc5db59db8a459b997463dfb4909c98, type: 2}
+  failScene: {fileID: 0}

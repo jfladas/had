@@ -18,7 +18,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: I open my eyes but the bright light around me makes me instantly squint
       them together again.
@@ -239,5 +239,23 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 6e03813dd6e4f1546b5d1fe791f26c50, type: 3}
-  nextScene: {fileID: 11400000, guid: 39a0b19f60b44d2194b0d8e181553ded, type: 2}
+  - text: What about the hybrid?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 1369599409dd49aab0e6c1c2ba77459e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hybrid, as in Mr. Horse type hybrid? Surely, they don't mean him.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I should\u2026"
+    alternativeText: 
+    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: db6143dffc3415a4cb9df1bede0e2ac3, type: 3}
+  nextScene: {fileID: 11400000, guid: 710afa0ca7114da89851e23656ab2bfd, type: 2}

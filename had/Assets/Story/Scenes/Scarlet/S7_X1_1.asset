@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -43,13 +43,7 @@ MonoBehaviour:
   - text: I peek up at her only to see her coldly staring down at me.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Her eyes are two different colours, but both express an icy yet blazing
@@ -61,14 +55,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Already thinking of slacking off again?
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I've made a mistake.
@@ -97,14 +85,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: That's what I thought. Now off you go.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, Ma'am!
@@ -127,4 +109,3 @@ MonoBehaviour:
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
   nextScene: {fileID: 11400000, guid: b6b0f2b9e6f8a8b4c8b1b68b5e4d9c1a, type: 2}
-

@@ -37,8 +37,8 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-      spriteIndex: 0
-      type: 1
+      spriteIndex: 1
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 1
@@ -60,7 +60,13 @@ MonoBehaviour:
   - text: Do not act impolite please.
     alternativeText: 
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 4
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "I take a closer look at the woman. What I assumed to be her legs was hidden
@@ -122,7 +128,13 @@ MonoBehaviour:
       chuckles.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
+      spriteIndex: 0
+      type: 0
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: It's alright, no worries. My name is Samantha by the way. It is nice to
@@ -133,7 +145,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Likewise, my name is {playerName}.
-    alternativeText: 
+    alternativeText: Likewise!
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
@@ -179,5 +191,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 45093754b13c7b740b938ce4a38bb4dd, type: 3}
+  background: {fileID: 21300000, guid: 41de7d8911b06044eb1ffbfc63d6d72a, type: 3}
   nextScene: {fileID: 11400000, guid: e988bb87a5e94138be0c60477942c383, type: 2}

@@ -13,439 +13,55 @@ MonoBehaviour:
   m_Name: S12_5
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: When we enter the room we see the silver haired man sitting on the sofa.
+  - text: When I open my eyes, we're in the gang's headquarters. I see Lu, Seth and
+      Ray with shocked faces.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It must be his tea time right now.
+  - text: Good, it worked!
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I notice the cup of tea in front of him.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Father, I have something to tell you.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Mr. Moon looks surprised when he sees us.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Where have you been? You suddenly disappeared that day and nobody was able
-      to find you!
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "I'm sorry, father. But we can explain everything that happened, if you'd
-      just listen\u2014"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: He pierces me with an unimpressed stare.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Hmph. It must have something to do with that brat you've been taking here.
-      I've found you suspicious the moment I laid my eyes on you. But be as it may,
-      it's good that you're both here. The Crown Prince will be arriving here any
-      minute now to discuss how his search of my dear daughter has been going.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Ugh, not again. Why must he always be here to interfere?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Father! Please, listen to us first! that man can't be trusted! He will
-      betray me in the end! And we can prove it!
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: What nonsense are you spouting right now, child? How exactly would he betray
-      us? We both have something to gain and nothing to lose in this marriage.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Gosh, would you please just listen to your daughter?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I feel how Scarlet tenses up beside me.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: He loves someone else! He just plans to throw me away ass soon as we're
-      married. We'll lose the rights to the mines as well. And then it will all be
-      for nothing.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Mr. Moon scoffs.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: This is all you're afraid of? There are a lot of marriages that don't involve
-      love. This is for the greater good of our family. I might have kept something
-      from you until now, but I'll tell you. In exchange for marrying you and obtaining
-      the mining rights that way, we will get access to the imperial silver chamber.
-      That means they cannot make any more weapons that will be troublesome for our
-      family.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I feel rage filling my head and can't hold back any longer.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: How could you marry off your daughter like that? She truly loved the Prince
-      but he hurt her so much! don't you care about her at all?
+  - text: Guys! I need you to deal with these for me. I'm really sorry but I have
+      go back to help Scarlet.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Who do you think you are? How dare you question me. Love is a fleeting
-      and useless thing. As soon as the Prince dies, it would be over anyways.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
+  - text: Damn, {playerName}! You took three people here?! That's kinda badass!
+    alternativeText: Damn! You took three people here?! That's kinda badass!
+    character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Suddenly, we hear a nock on the door.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Your grace, the Crown Prince has arrived.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 0a0b0c0d0e0f10111213141516171819, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I see the color draining from Scarlet's face.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Oh, here we go.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Let him in.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Amon enters the room and looks surprised when he sees us.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: My Lady? When did you come back? What a pleasant surprise! I was quite
-      worried about you.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: We tried to end things peacefully, but it seems like it was in vain. Nobody
-      here is willing to listen.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: What's the meaning of this, Lady Scarlet? End what peacefully? Surely,
-      you are not talking about our marriage, right?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: No, the marriage will be happening. I will see to it.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: That's not what Scarlet wants!
+  - text: I'll bring more soon, be ready.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Amon glances at me, and I can feel that he's appalled by my presence here.
+  - text: The other two have already started to subdue the confused guards.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Who are you to address the Lady so casually? Not even I have dared to call
-      herby her first name only.
+  - text: We got it. Be careful!
     alternativeText: 
-    character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
+    character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Oops. I forgot, I was so used to calling her that, that it just slipped
-      out.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Scarlet positions herself between me and the Prince.
+  - text: I nod and shift back to the past where Scarlet is.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You're right Prince Amon. I might have genuinely loved you once, but now
-      I know that you have someone else in your heart. I want us to go our separate
-      ways from now on.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: The Prince is silent for a while.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: He then drops his forced smile and he shows a more relaxed but condescending
-      expression.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Fine. i don't know how you found out, but it doesn't matter. Both your
-      father and me want this marriage. That's more than enough. We can just divorce
-      a day after, no?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I decline. I'm just asking you to leave me alone. I'm sure you can find
-      another family with greater assets that will please the king.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Amon is visibly annoyed now, the veins are popping out of his neck.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Duke. it seems like you still have to teach your daughter a lesson.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Scarlet's father appears to be a little flustered.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: My apologies, your Highness. Guards! Take my daughter and this insolent
-      intruder to the confinement cells!
-    alternativeText: 
-    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Soon after he shouts his command, several armed guards appear and try to
-      seize us.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Stop! You can't make me marry this man!
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She looks at me pleadingly.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I know what I have to do.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I nod in Scarlet's direction to let her know, that I've got her back.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She pulls out her dagger, trying to defend herself without getting anyone
-      hurt.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: As quickly as possible, I scan the room.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: There's Amon and the duke. Also, there are about six guards.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Three of them are trying to keep me still by gripping both my arms and
-      the back of my neck.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Good, there's physical contact.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I start initiating the shift, even though I'm worried about shifting more
-      than two people for the first time.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Please work!
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I squeeze my eyes shot, trying to concentrate as much as I can.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
-  nextScene: {fileID: 11400000, guid: d0a2a2b3c4d5e6f708192a3b4c5d6e7a, type: 2}
+  background: {fileID: 21300000, guid: 16dfa76dbb94f464989ce1c99d3fd82e, type: 3}
+  nextScene: {fileID: 11400000, guid: d0b2a2b3c4d5e6f708192a3b4c5d6e7b, type: 2}

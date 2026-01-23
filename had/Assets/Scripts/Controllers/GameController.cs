@@ -33,6 +33,15 @@ public class GameController : MonoBehaviour
     public Image illustrationA4;
     public Image illustrationA5;
     public Image illustrationA6;
+    public Image illustrationS1;
+    public Image illustrationS2;
+    public Image illustrationS3;
+    public Image illustrationS4;
+    public Image illustrationS5;
+    public Image illustrationS6;
+    public Image illustrationH1;
+    public Image illustrationH2;
+    public Image illustrationH3;
     public Image illustrationLocked;
 
 
@@ -50,7 +59,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        score = ScoreManager.GetCurrentScore();
+        score = ScoreManager.GetCurrentScore("A");
 
         if (StartController.overrideStartingScene != null)
         {
@@ -187,10 +196,6 @@ public class GameController : MonoBehaviour
         else if (scene is ChooseScene)
         {
             ChooseScene chooseScene = scene as ChooseScene;
-            if (chooseScene != null && chooseScene.background != null)
-            {
-                spriteSwitcher.SwitchImage(chooseScene.background);
-            }
             HandleGalleryIllustrations(chooseScene.name);
             state = State.CHOOSE;
             chooseController.SetupChoose(chooseScene);
@@ -272,10 +277,6 @@ public class GameController : MonoBehaviour
         else if (scene is ChooseScene)
         {
             ChooseScene chooseScene = scene as ChooseScene;
-            if (chooseScene != null && chooseScene.background != null)
-            {
-                spriteSwitcher.SwitchImage(chooseScene.background);
-            }
             HandleGalleryIllustrations(chooseScene.name);
             state = State.CHOOSE;
             chooseController.SetupChoose(chooseScene);
@@ -323,7 +324,7 @@ public class GameController : MonoBehaviour
 
         if (chapterScene.name.EndsWith("_P"))
         {
-            int currentScore = ScoreManager.GetCurrentScore();
+            int currentScore = ScoreManager.GetCurrentScore(ScoreManager.GetRouteKeyFromSceneName(chapterScene.name));
 
             bottomBar.Show();
             bottomBar.ClearText();
@@ -468,6 +469,114 @@ public class GameController : MonoBehaviour
                         illustrationLocked.gameObject.SetActive(true);
                 }
                 break;
+            case "GalleryS1":
+                if (ChapterScene.IsChapterDone("S1"))
+                {
+                    if (illustrationS1 != null)
+                        illustrationS1.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryS2":
+                if (ChapterScene.IsChapterDone("S2"))
+                {
+                    if (illustrationS2 != null)
+                        illustrationS2.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryS3":
+                if (ChapterScene.IsChapterDone("S3"))
+                {
+                    if (illustrationS3 != null)
+                        illustrationS3.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryS4":
+                if (ChapterScene.IsChapterDone("S4"))
+                {
+                    if (illustrationS4 != null)
+                        illustrationS4.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryS5":
+                if (ChapterScene.IsChapterDone("S5"))
+                {
+                    if (illustrationS5 != null)
+                        illustrationS5.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryS6":
+                if (ChapterScene.IsChapterDone("S6"))
+                {
+                    if (illustrationS6 != null)
+                        illustrationS6.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryH1":
+                if (ChapterScene.IsChapterDone("H1"))
+                {
+                    if (illustrationH1 != null)
+                        illustrationH1.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryH2":
+                if (ChapterScene.IsChapterDone("H2"))
+                {
+                    if (illustrationH2 != null)
+                        illustrationH2.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
+            case "GalleryH3":
+                if (ChapterScene.IsChapterDone("H3"))
+                {
+                    if (illustrationH3 != null)
+                        illustrationH3.gameObject.SetActive(true);
+                }
+                else
+                {
+                    if (illustrationLocked != null)
+                        illustrationLocked.gameObject.SetActive(true);
+                }
+                break;
         }
     }
 
@@ -479,6 +588,15 @@ public class GameController : MonoBehaviour
         if (illustrationA4 != null) illustrationA4.gameObject.SetActive(false);
         if (illustrationA5 != null) illustrationA5.gameObject.SetActive(false);
         if (illustrationA6 != null) illustrationA6.gameObject.SetActive(false);
+        if (illustrationS1 != null) illustrationS1.gameObject.SetActive(false);
+        if (illustrationS2 != null) illustrationS2.gameObject.SetActive(false);
+        if (illustrationS3 != null) illustrationS3.gameObject.SetActive(false);
+        if (illustrationS4 != null) illustrationS4.gameObject.SetActive(false);
+        if (illustrationS5 != null) illustrationS5.gameObject.SetActive(false);
+        if (illustrationS6 != null) illustrationS6.gameObject.SetActive(false);
+        if (illustrationH1 != null) illustrationH1.gameObject.SetActive(false);
+        if (illustrationH2 != null) illustrationH2.gameObject.SetActive(false);
+        if (illustrationH3 != null) illustrationH3.gameObject.SetActive(false);
         if (illustrationLocked != null) illustrationLocked.gameObject.SetActive(false);
     }
 

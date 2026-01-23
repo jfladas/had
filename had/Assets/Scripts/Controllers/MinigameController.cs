@@ -40,6 +40,7 @@ public class MinigameController : MonoBehaviour
     private int currentMinigameLevel = -1;
     private bool isReplayingMinigame = false;
     private string currentMinigameId = null;
+    private string currentRouteKey = "A";
 
     public System.Action<GameScene> OnMinigameComplete;
 
@@ -73,10 +74,11 @@ public class MinigameController : MonoBehaviour
 
         currentMinigameLevel = minigameScene.level;
         currentMinigameId = minigameScene != null ? minigameScene.name : null;
+        currentRouteKey = ScoreManager.GetRouteKeyFromSceneName(currentMinigameId);
         isReplayingMinigame = ScoreManager.HasMinigameBeenPlayed(currentMinigameId);
 
         sessionScore = 0;
-        score = ScoreManager.GetCurrentScore();
+        score = ScoreManager.GetCurrentScore(currentRouteKey);
 
         if (isReplayingMinigame)
         {
@@ -181,7 +183,7 @@ public class MinigameController : MonoBehaviour
 
         if (minigameScene.level == 1 && !isReplayingMinigame)
         {
-            ScoreManager.SetCurrentScore(0);
+            ScoreManager.SetCurrentScore(0, currentRouteKey);
             yield return StartCoroutine(PlayTutorial(lineSpeed, radiusMin, growDurationMin, growDurationMax));
         }
 
@@ -349,7 +351,7 @@ public class MinigameController : MonoBehaviour
 
         bool pointsAdded = ScoreManager.TryAddMinigameScore(currentMinigameId, sessionScore);
 
-        score = ScoreManager.GetCurrentScore();
+        score = ScoreManager.GetCurrentScore(currentRouteKey);
 
         minigameEndImage?.gameObject.SetActive(true);
         scoreText?.gameObject.SetActive(true);

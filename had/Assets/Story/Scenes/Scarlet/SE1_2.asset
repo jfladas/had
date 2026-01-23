@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -19,16 +19,11 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Let me go! I can't just leave {playerName} there! What if something happens?"
-    alternativeText: "Let me go! I can't just leave them there! What if something happens?"
+  - text: Let me go! I can't just leave {playerName} there! What if something happens?
+    alternativeText: Let me go! I can't just leave them there! What if something
+      happens?
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Lu closes the door behind him.
@@ -37,34 +32,33 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "We don't have the power to go against that."
+  - text: We don't have the power to go against that.
     alternativeText: 
     character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I don't care right now. If anything happens to {playerName} I could never forgive myself. The fight against the Interdimensional Spirits is enough trouble already, but because of me, Amon is here as well.
-    alternativeText: I don't care right now. If anything happens to them I could never forgive myself. The fight against the Interdimensional Spirits is enough trouble already, but because of me, Amon is here as well.
+  - text: I don't care right now. If anything happens to {playerName} I could never
+      forgive myself. The fight against the Interdimensional Spirits is enough trouble
+      already, but because of me, Amon is here as well.
+    alternativeText: I don't care right now. If anything happens to them I could
+      never forgive myself. The fight against the Interdimensional Spirits is enough
+      trouble already, but because of me, Amon is here as well.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I am about to tell them off, but before I can say anything we hear a loud bang from the basement.
+  - text: I am about to tell them off, but before I can say anything we hear a loud
+      bang from the basement.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "What… was that?"
+  - text: "What\u2026 was that?"
     alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 4
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Silence.
@@ -73,13 +67,14 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Boss, I have a bad feelin'!"
+  - text: Boss, I have a bad feelin'!
     alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Seth tries to usher me further towards the exit but then the basement door opens with a creak.
+  - text: Seth tries to usher me further towards the exit but then the basement door
+      opens with a creak.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -91,16 +86,10 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "{playerName}?"
-    alternativeText: "Are you there?"
+  - text: '{playerName}?'
+    alternativeText: Are you there?
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: It's {playerName} right? I'm glad they're alive.
@@ -127,46 +116,36 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: He's holding his silver sword, which has already injured Seth and the others in the brawl before {playerName} arrived here.
-    alternativeText: He's holding his silver sword, which has already injured Seth and the others in the brawl before they arrived here.
+  - text: He's holding his silver sword, which has already injured Seth and the others
+      in the brawl before {playerName} arrived here.
+    alternativeText: He's holding his silver sword, which has already injured Seth
+      and the others in the brawl before they arrived here.
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Boss, we have to hurry. Or else we won't make it out alive."
+  - text: Boss, we have to hurry. Or else we won't make it out alive.
     alternativeText: 
     character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "No! Where's {playerName}?"
-    alternativeText: "No! Where are they?"
+  - text: No! Where's {playerName}?
+    alternativeText: No! Where are they?
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Seth! Lu! Get the boss outta here. Leave the scumbag to me."
+  - text: Seth! Lu! Get the boss outta here. Leave the scumbag to me.
     alternativeText: 
     character: {fileID: 11400000, guid: f5a7c9d1e2b34567890123456789abcd, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Wait! what about {playerName}???"
-    alternativeText: "Wait! what about them???"
+  - text: Wait! what about {playerName}???
+    alternativeText: Wait! what about them???
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Amon starts laughing maniacally.
@@ -175,7 +154,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "This is why it's worth making a deal with the devil. I get to travel back and forth in time, and the devil even kills people for me!"
+  - text: This is why it's worth making a deal with the devil. I get to travel back
+      and forth in time, and the devil even kills people for me!
     alternativeText: 
     character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
     actions: []
@@ -187,31 +167,27 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Boss, please! Let's go!"
+  - text: Boss, please! Let's go!
     alternativeText: 
     character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Shut up! It can't be! You wouldn't be able to defeat someone like {playerName}!"
-    alternativeText: "Shut up! It can't be! You wouldn't be able to defeat someone like them!"
+  - text: Shut up! It can't be! You wouldn't be able to defeat someone like {playerName}!
+    alternativeText: Shut up! It can't be! You wouldn't be able to defeat someone
+      like them!
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Amon lunges forward with incredible speed and pierces through Ray's stomach with the sword.
+  - text: Amon lunges forward with incredible speed and pierces through Ray's stomach
+      with the sword.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Ray!"
+  - text: Ray!
     alternativeText: 
     character: {fileID: 11400000, guid: a7b8c9d0e1f2031445566778899aabbc, type: 2}
     actions: []
@@ -229,13 +205,15 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Boss."
+  - text: Boss.
     alternativeText: 
     character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "You're right, my dear Scarlet. I wouldn't have been able to defeat that weird friend of yours. But that devil did. And I might have borrowed some of its power."
+  - text: You're right, my dear Scarlet. I wouldn't have been able to defeat that
+      weird friend of yours. But that devil did. And I might have borrowed some of
+      its power.
     alternativeText: 
     character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
     actions: []
@@ -265,13 +243,14 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "{playerName} is dead? and Ray as well."
-    alternativeText: "They're dead? and Ray as well."
+  - text: '{playerName} is dead? and Ray as well.'
+    alternativeText: They're dead? and Ray as well.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I feel a vast emptiness in my chest, like a part of it has been ripped out.
+  - text: I feel a vast emptiness in my chest, like a part of it has been ripped
+      out.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -301,7 +280,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Boss! Boss!"
+  - text: Boss! Boss!
     alternativeText: 
     character: {fileID: 11400000, guid: bbccddeeff00112233445566778899aa, type: 2}
     actions: []
@@ -319,7 +298,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Then Amon lunges forward again and finally kills Seth, who has thrown his body in front of me, trying to shield me from the blade.
+  - text: Then Amon lunges forward again and finally kills Seth, who has thrown his
+      body in front of me, trying to shield me from the blade.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
@@ -349,7 +329,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "I don't even need your stupid marriage anymore. Thanks to you, I managed to come to the future. I'm going to have plenty of fun here even without you."
+  - text: I don't even need your stupid marriage anymore. Thanks to you, I managed
+      to come to the future. I'm going to have plenty of fun here even without you.
     alternativeText: 
     character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
     actions: []
@@ -361,7 +342,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Though, it would be nice to keep you as a memento. You know? For old time's sake."
+  - text: Though, it would be nice to keep you as a memento. You know? For old time's
+      sake.
     alternativeText: 
     character: {fileID: 11400000, guid: 8c4b2a190f3e4d5c6b7a8190a1b2c3d4, type: 2}
     actions: []
@@ -379,12 +361,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Amon picks me up and takes my limp body back into the basement and into a confinement room.
+  - text: Amon picks me up and takes my limp body back into the basement and into
+      a confinement room.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 0a531472eb715104e8acc946d055c0dd, type: 3}
-  nextScene: {fileID: 11400000, guid: 6677889900aabbccddeeff1122334455, type: 2}
-
+  background: {fileID: 21300000, guid: e8749dc4fcfa9474a8a3c72c7bdc659e, type: 3}
+  nextScene: {fileID: 11400000, guid: 1f7eda7ae976b934d8623d28f783d011, type: 2}

@@ -16,21 +16,21 @@ MonoBehaviour:
   - text: Are you ready to send them back to the past?
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: You know, now that this conflict is resolved, why don't you come back to
       the past with me? You saved me and I want to see what my life back then would
       have looked like. With you.
     alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 7
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: That's a really big question.
@@ -118,7 +118,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 4
+      spriteIndex: 3
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -128,8 +128,14 @@ MonoBehaviour:
   - text: "I won't live as long as you do. I'm just a human after all\u2026"
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 0
+      type: 3
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 76f3190e3c76a374099930a1bed6ca6f, type: 3}
-  nextScene: {fileID: 11400000, guid: ddeeff11223344556677889900aabbcc, type: 2}
+  background: {fileID: 21300000, guid: 16dfa76dbb94f464989ce1c99d3fd82e, type: 3}
+  nextScene: {fileID: 11400000, guid: 7f7dfd16e6adc544194bf6d272416d3a, type: 2}

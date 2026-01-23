@@ -16,7 +16,13 @@ MonoBehaviour:
   - text: We land back in Scarlet's room in the past again.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
+    actions:
+    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+      spriteIndex: 9
+      type: 1
+      position: {x: 0, y: 0}
+      speed: 0
+      targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: So what's the game plan?
@@ -28,13 +34,7 @@ MonoBehaviour:
   - text: I'll try to tell my father about what Prince Amon will do in the future.
     alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Do you think he will listen?
@@ -52,13 +52,7 @@ MonoBehaviour:
   - text: The dagger should still have his blood on it.
     alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: She pulls it out from under her dress but when she unsheathes it, there
@@ -73,7 +67,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
+      spriteIndex: 13
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -92,7 +86,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
+      spriteIndex: 10
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -118,7 +112,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
+      spriteIndex: 9
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -132,5 +126,17 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 137d148fee6c9644e82521638931c070, type: 3}
-  nextScene: {fileID: 11400000, guid: d082a2b3c4d5e6f708192a3b4c5d6e78, type: 2}
+  - text: We go directly to the door of Scarlet's father's office and she knocks.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Come in.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 3d2c1b0a9f8e7d6c5b4a392817161514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
+  nextScene: {fileID: 11400000, guid: d092a2b3c4d5e6f708192a3b4c5d6e79, type: 2}

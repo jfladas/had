@@ -18,12 +18,12 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 3
+      spriteIndex: 12
       type: 1
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: Something like that can't just be undone. I will still have to live with
       the fact that at one point, I killed that bastard. I can't just forget about
@@ -32,7 +32,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
+      spriteIndex: 9
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: Scarlet's eyes widen and she stands up abruptly, knocking her teacup from
       the table.
@@ -64,7 +64,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
+      spriteIndex: 13
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
+      spriteIndex: 10
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -133,26 +133,14 @@ MonoBehaviour:
   - text: Stop! Who do you think you are, barging in like this?!
     alternativeText: 
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: While Amelie and the guards arrive, Scarlet lunges forward, reaching out
       her hand towards me.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I told you, there is no use.
@@ -179,8 +167,8 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
+      spriteIndex: 0
+      type: 3
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0

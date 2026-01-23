@@ -13,402 +13,87 @@ MonoBehaviour:
   m_Name: S9_4
   m_EditorClassIdentifier: Assembly-CSharp::StoryScene
   sentences:
-  - text: Scarlet finishes the last bit of her tea and puts the cup down before she
-      finally begins to talk.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 9
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I grew up here as the only daughter of the duke. In two months from here,
-      I will enter an arranged marriage with the crown prince.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: My eyes widen with surprise.
+  - text: The next day I am woken up by Amelie.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: She will be a princess?
+  - text: Good morning. Are you feeling better?
+    alternativeText: 
+    character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She opens the curtains and lets the sunlight flood into the room.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes. I was able to rest comfortably, thank you.
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My fever and headache are completely gone. It must be because the bed is
+      so soft. I slept like a log.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: We returned right back to where my life began to unravel into chaos. But
-      we're already at the point of no return. This marriage will lead to a tragedy
-      that will haunt me for the rest of my life.
+  - text: I'm glad. I will tell Lady Scarlet. Someone will take you to eat breakfast
+      with the Lady so please wait here for a moment.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 12
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 5f2a7b1c9d3e4f60718293a4b5c6d7e8, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What do you mean?
+  - text: Okay.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: If things continue like they did in the past, then I will end up being
-      a murderer.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I gasp and cover my mouth with my hand in shock.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "That means\u2026 you're a murderer? Like, even when I got to know you
-      at the company, you were already a murderer?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Unfortunately, yes. And I don't want to go through that again, so I'm hoping
-      that either we will be able to return to the present soon or that I can change
-      the events in a way so that I won't have to kill anyone.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Have to?
+  - text: She's referred to as a lady again. What's her status exactly?
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Wait, it sounds to me like the murder wasn't exactly something you planned.
-      So, if I may ask, what was the reason, and who did you kill?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She looks away with a saddened expression.
+  - text: Amelie bows and leaves the room.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "The crown prince was\u2026 no, is a deceiving cheater. And well, things
-      happened after I found out\u2026 I don't really want to recall all those memories,
-      to be honest. But aren't you curious about something else?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Hm?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Honestly, I can't imagine my boss murdering someone for real, but I can't
-      help but imagine the whole scenario. Especially since we're talking about a
-      crown prince.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Oh, now that I think about it, how was she able to live such a long life?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Right, how did you make it to the present? You look a lot younger than
-      a few centuries old.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "This might come as another surprise to you, but\u2026 I am a vampire.
-      We age differently than normal humans."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: It's quiet for a few seconds.
+  - text: Before I can decide what to do next, two new women in maid uniforms enter
+      the room.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Like, the ones who bite the necks of people to drink their blood? Like
-      in the movies?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Suddenly, her killing a person doesn't seem that shocking anymore.
+  - text: Without talking much, they help me wash up and get ready.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: But, you don't seem like a bloodthirsty monster to me.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She is about to take another sip of her tea but stops moving after my statement.
+  - text: They even help me get dressed.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: She then gives me a piercing look and I flinch at the sight.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 10
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Her eyes are red!
+  - text: I've never worn clothes like these before. They seem similar in fashion
+      to what Scarlet was wearing last night.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I constantly hide my true form, I've learned to do so when I was still
-      a child. But when I get too agitated or can't properly control it, then my
-      true form reveals itself.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She points to her very pointy canines before proceeding to drink from her
-      teacup.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 9
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Woah\u2026 That's kind of cool\u2026 but also a little scary."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: That's amazing! I don't think I could do that.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: What's so amazing about that? It's just like learning how to walk when
-      you're a child.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: If I'm not mistaken, I can see her blushing a little.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 12
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I mean, I thought you were amazing even before I knew about you being a
-      vampire. You are a hardworking boss and I can feel that you really care about
-      the company.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She turns her head to the side and avoids my gaze, but I can see how red
-      her ear is.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: And now that I know how long you've lived, I can only imagine what hardships
-      you had to go through to stay hidden and not raise any suspicions. I respect
-      you even more now.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Stop.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Hm?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Did I say something wrong?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: It's the first time I hear someone talk like that about a blood sucking
-      monster. You certainly are a weird one.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 0
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I chuckle at the sight of an embarrassed Scarlet.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Wait, if she drinks blood, does that mean\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: So, you need blood to survive, right?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Yes.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 9
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Blood\u2026 of a h-human?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Yes.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "How can she just admit that? Do I have to worry about my safety?\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Don't worry. Most vampires don't attack humans. We have other means to
-      get our hands on blood. We can also survive on animal blood for a while.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: My shoulders relax a bit.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Okay, then I'll take your word for it.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Most humans react in fear if they find out about vampires existing, and
-      a lot resort to violence without even hearing our side out. That's why we have
-      to hide the fact that we're vampires from the public eye. Even the crown prince
-      didn't know that he was supposed to get married to a vampire.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: That's understandable. The crown prince. He's still alive, right?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Scarlet just nods wordlessly.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Wait, that means\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Then we can undo your mistake of murdering him! Then you won't be troubled
-      by that anymore.
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 76f3190e3c76a374099930a1bed6ca6f, type: 3}
-  nextScene: {fileID: 11400000, guid: 9a10b11c12d13e14f15a16b17c18d19e, type: 2}
+  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
+  nextScene: {fileID: 11400000, guid: 4e5f60718293a4b5c6d7e8f90a1b2c3d, type: 2}

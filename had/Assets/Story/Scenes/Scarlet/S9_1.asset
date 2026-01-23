@@ -17,7 +17,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: ca644bccb10bda444bd0ff07812d3a81, type: 3}
     sound: {fileID: 0}
   - text: What was that? I don't feel so good.
     alternativeText: 
@@ -33,14 +33,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: On second thought, just leave it here. I'll take care of it myself.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 9
-      type: 1
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "But you mustn't, my lady! It is my duty\u2014"
@@ -51,7 +45,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: It's fine, Amelie.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -85,155 +79,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Sorry, did I wake you up?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 12
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I blink a few times.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I notice that I'm lying in a big and comfy bed, and Miss Moon just placed
-      a wet towel on my forehead.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: The interior of the room I'm in looks pretty lavish, decorated in rococo
-      style.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Where am I? What happened, Miss Moon?
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I now notice that my boss looks completely different than what I'm used
-      to.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: She's wearing a dress? And her eyes are different. They're both blue now.
-      Was she really just wearing one contact lens then?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Sigh, how will I even begin to explain this?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Then I notice what's probably the biggest difference.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Her scar is gone???
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Huh? Miss Moon! Y-Your scar\u2026"
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I try to sit up but sink back down after being hit with a wave of dizziness.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: You should stay put in bed for now. You're sick.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 9
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Yeah, I can feel it.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "First of all, please call me Lady Scarlet\u2026 or just Scarlet from now
-      on."
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Call her by her first name?? Wait, what's with the \u201Clady\u201D?"
-    alternativeText: 
-    character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "What do you mean, Miss M\u2014"
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: None of that! You cannot say that here under any circumstances, understood?
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 10
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Okay, uh\u2026 S-Scarlet."
-    alternativeText: 
-    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Good. Now listen to me. I know it might be hard to believe, but it seems
-      we've travelled back in time. We're in the house I grew up in.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 9
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 96ec51593b93df042857171a2e8b311a, type: 3}
-  nextScene: {fileID: 11400000, guid: 0d1a2b3c4e5f60718293a4b5c6d7e8f9, type: 2}
+  background: {fileID: 21300000, guid: 8ae56a62986e8624a8515e580a96d329, type: 3}
+  nextScene: {fileID: 11400000, guid: b98e3456e2cee60479629064f6d93b0b, type: 2}

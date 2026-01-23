@@ -18,7 +18,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c25807cf07d3642429ff3af939d3ec19, type: 3}
     sound: {fileID: 0}
   - text: Huh? Everything is dark. In fact, it's pitch black. I can't see a thing.
     alternativeText: 
@@ -145,7 +145,12 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Natural? The state of only one universe existing is an artificial order,
       created by you and your other abyssal Spirits! You can't call that natural.
-      And what you just said sounds like all the different inhabitants are going
+    alternativeText: 
+    character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: And what you just said sounds like all the different inhabitants are going
       to get into one big massacre. I can't let you do that.
     alternativeText: 
     character: {fileID: 11400000, guid: d69d53562766de143bf061768e3de597, type: 2}
@@ -174,9 +179,14 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, so you noticed our efforts? Our kind has always yearned for total control.
-      Maybe it was out of spite. I mean, all we knew was this empty darkness, so
-      once we got a taste of the light from other dimensions we just couldn't be
-      satiated anymore.
+      Maybe it was out of spite.
+    alternativeText: 
+    character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I mean, all we knew was this empty darkness, so once we got a taste of
+      the light from other dimensions we just couldn't be satiated anymore.
     alternativeText: 
     character: {fileID: 11400000, guid: e98f6dd1b5f6d3e4e87cd47b6a20f514, type: 2}
     actions: []
@@ -222,5 +232,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: c682d54ecf993f94e8171edb5751f2b1, type: 3}
+  background: {fileID: 21300000, guid: db6143dffc3415a4cb9df1bede0e2ac3, type: 3}
   nextScene: {fileID: 11400000, guid: 23bfb76f68c3481f83c093694e64c3fc, type: 2}

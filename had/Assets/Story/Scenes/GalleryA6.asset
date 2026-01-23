@@ -16,6 +16,6 @@ MonoBehaviour:
   - text: Previous
     nextScene: {fileID: 11400000, guid: 65cd4e470cc768b479edee5d71be5e17, type: 2}
   - text: Next
-    nextScene: {fileID: 11400000, guid: bfcc37f9e715f2e4eaa3dc6babd8776b, type: 2}
+    nextScene: {fileID: 11400000, guid: 0d6f2ccf1ce14d0c9a7b9a5a68c1d0a1, type: 2}
   - text: Back
     nextScene: {fileID: 11400000, guid: 623dff988c1f1b6418257ea6221fa2ed, type: 2}

@@ -22,11 +22,11 @@ MonoBehaviour:
   - text: This will not get my approval. It needs to be revised. I wish people wouldn't
       bring me this kind of sloppy work.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 1
+      spriteIndex: 2
+      type: 0
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   - text: I appreciate you working this late, but I ask you to remain professional
       while in the office.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
@@ -85,14 +85,8 @@ MonoBehaviour:
       me. And also, anyone with a working pair of eyes can see that this florist
       here is a mismatch because the bride requested Juliet Roses specifically.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: So what? I couldn't be bothered to double-check because I had my hands
@@ -118,13 +112,6 @@ MonoBehaviour:
   - text: Miss Moon sighs with disappointment.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Juliet roses are very rarely sold because they require meticulous treatment
-      and thus are very pricey. That's why only the most high-end florists sell them.
-    alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 0
@@ -132,6 +119,13 @@ MonoBehaviour:
       position: {x: 0, y: 0}
       speed: 0
       targetScale: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Juliet roses are very rarely sold because they require meticulous treatment
+      and thus are very pricey. That's why only the most high-end florists sell them.
+    alternativeText: 
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I didn't-
@@ -150,7 +144,7 @@ MonoBehaviour:
   - text: I should have known better than to expect this much of you. Redo this first
       thing tomorrow morning.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
@@ -174,14 +168,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: You may leave now.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I see my vision getting blurry.
@@ -198,7 +186,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '{playerName}? What''s the matter?'
     alternativeText: What's the matter?
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 4
@@ -234,5 +222,5 @@ MonoBehaviour:
       targetScale: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ffb627455adace4786cef9541e6c996, type: 3}
+  background: {fileID: 21300000, guid: 1baa1407f6863264b8fc68ce06de4f09, type: 3}
   nextScene: {fileID: 11400000, guid: c9c241a704154d745b756794ea808405, type: 2}

@@ -29,10 +29,10 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: There you are.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
+      spriteIndex: 0
       type: 1
       position: {x: 0, y: 0}
       speed: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
   - text: For half an hour? The others confirmed that you've been gone for quite
       some time now.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
@@ -86,14 +86,8 @@ MonoBehaviour:
   - text: I don't understand why you're so unmotivated right now. Did someone close
       to you get hurt by the earthquake, or did something of the sort happen?
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: No, everything is okay, just some furniture that needs to be replaced.
@@ -105,14 +99,8 @@ MonoBehaviour:
   - text: Then I really don't understand. The earthquake was yesterday. It didn't
       have any significant effects for us. So why?
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-    actions:
-    - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
-      type: 0
-      position: {x: 0, y: 0}
-      speed: 0
-      targetScale: 0
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "I \u2026 I just \u2026 I don't know. I'm sorry. I will get my act together."
@@ -131,10 +119,10 @@ MonoBehaviour:
   - text: You're still relatively new here, so I expect you to show me that I didn't
       make a mistake in hiring you.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
-      spriteIndex: 1
+      spriteIndex: 0
       type: 0
       position: {x: 0, y: 0}
       speed: 0
@@ -162,7 +150,7 @@ MonoBehaviour:
   - text: Then show it. Finish the extra work I left on your desk by the end of today.
       And understand that I do this because I care about the company and its staff.
     alternativeText: 
-    character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
+    character: {fileID: 11400000, guid: 0da3ca1f8a6962f4b9b7873516fd35e9, type: 2}
     actions:
     - character: {fileID: 11400000, guid: 9c82936b944e581478f4d23ce326563a, type: 2}
       spriteIndex: 1
@@ -205,5 +193,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ffb627455adace4786cef9541e6c996, type: 3}
+  background: {fileID: 21300000, guid: 4ff4ebcdba0d15c42b065336944f4a8a, type: 3}
   nextScene: {fileID: 11400000, guid: 0718293a4b5c6d7e8f901ab2c3d4e5f6, type: 2}

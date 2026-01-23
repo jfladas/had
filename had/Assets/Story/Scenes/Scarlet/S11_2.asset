@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -17,7 +17,7 @@ MonoBehaviour:
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 4ddd349202a6f2d4ab954f83223dbcc0, type: 3}
     sound: {fileID: 0}
   - text: Why can't I stop thinking about {playerName}?
     alternativeText: Why can't I stop thinking about them?
@@ -31,7 +31,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Why is it Important to me anyways? I should have known better… But I thought I finally found someone I could trust. A human I can trust.
+  - text: "Why is it Important to me anyways? I should have known better\u2026 But
+      I thought I finally found someone I could trust. A human I can trust."
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -49,7 +50,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The members are also walking on eggshells around me when I show up at the base.
+  - text: The members are also walking on eggshells around me when I show up at the
+      base.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -61,13 +63,15 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I make up my mind that this regret shall remind me to never get too close to anyone again.
+  - text: I make up my mind that this regret shall remind me to never get too close
+      to anyone again.
     alternativeText: 
     character: {fileID: 11400000, guid: 221cb615d975cab419307e866ebd5c5c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I will never make anyone scared of me again. It will also prevent myself from getting hurt.
+  - text: I will never make anyone scared of me again. It will also prevent myself
+      from getting hurt.
     alternativeText: 
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
@@ -91,8 +95,10 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: This just proves that I somehow got really attached to {playerName}. I don't think I will be able to get rid of this affection anytime soon.
-    alternativeText: This just proves that I somehow got really attached to them. I don't think I will be able to get rid of this affection anytime soon.
+  - text: This just proves that I somehow got really attached to {playerName}. I
+      don't think I will be able to get rid of this affection anytime soon.
+    alternativeText: This just proves that I somehow got really attached to them.
+      I don't think I will be able to get rid of this affection anytime soon.
     character: {fileID: 11400000, guid: 4849dc22c0fc77f45b58cdfcf9fc156e, type: 2}
     actions: []
     music: {fileID: 0}
@@ -117,4 +123,3 @@ MonoBehaviour:
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 1baa1407f6863264b8fc68ce06de4f09, type: 3}
   nextScene: {fileID: 11400000, guid: 2c11a2b3c4d5e6f708192a3b4c5d6e7f, type: 2}
-
