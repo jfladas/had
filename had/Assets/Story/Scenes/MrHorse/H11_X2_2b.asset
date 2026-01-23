@@ -94,7 +94,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: {playerName}, can I tell you something?
+  - text: '{playerName}, can I tell you something?'
     alternativeText: Can I tell you something?
     character: {fileID: 11400000, guid: 3db0785a05cdb804ead5133abfe270c1, type: 2}
     actions: []
