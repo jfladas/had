@@ -1,12 +1,14 @@
 # Hearts across Dimensions
 
-HSLU DI MEN3 & MEN4 HS24 | Lukas Bucher & Angelika Gort | Alpha
+HSLU DI MEN3/4/5 HS24 | Lukas Bucher & Angelika Gort | Alpha
 
 ## Description
 
 Hearts Across Dimensions is a Story-Based Game that can be compared to a Visual Novel or a Dating Sim. The player can get to know 5 different characters and play through their stories. 
 
-A complete route for Aleph Rei is playable in the Alpha version, with three endings. There are exclusive illustrations if you make the right choices.
+Complete routes for Aleph Rei & Scarlet Moon are playable in this Alpha version, with three endings. There are exclusive illustrations if you make the right choices.
+
+Also, you can play the route of our fan favourite: Mr. Horse! Explore his story up to chapter 13. Stay tuned for more.
 
 ## Installation / Play Instructions
 
@@ -29,6 +31,3 @@ Hearts across Dimensions will then be available as an app on your device.
 ### Windows
 
 To play the game on a Windows device you can download the respective build and execute the file `HaD (Alpha).exe`.
-
-## Survey
-We would appreciate if you fill out our survey after playing: https://forms.gle/HbSeV4yHSr4Eiaxk6
