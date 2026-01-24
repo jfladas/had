@@ -75,7 +75,12 @@ public class GameController : MonoBehaviour
             spriteSwitcher.SetImage(storyScene.background);
             if (storyScene.sentences != null && storyScene.sentences.Count > 0)
             {
+                // Delay audio playback on WebGL to ensure user interaction occurred
+#if UNITY_WEBGL && !UNITY_EDITOR
+                StartCoroutine(PlayAudioWithDelay(storyScene.sentences[0], 0.1f));
+#else
                 PlayAudio(storyScene.sentences[0]);
+#endif
             }
             ScoreManager.SaveGameState(currentScene.name, 0);
         }
@@ -609,6 +614,14 @@ public class GameController : MonoBehaviour
 
         audioController.PlayAudio(sentence.music, sentence.sound);
     }
+
+#if UNITY_WEBGL && !UNITY_EDITOR
+    private IEnumerator PlayAudioWithDelay(StoryScene.Sentence sentence, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        PlayAudio(sentence);
+    }
+#endif
 
     private void OnMenuButtonClicked()
     {

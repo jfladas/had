@@ -12,7 +12,15 @@ public class AudioController : MonoBehaviour
         if (sound != null)
         {
             soundSource.clip = sound;
-            soundSource.Play();
+            try
+            {
+                soundSource.Play();
+            }
+            catch (System.Exception ex)
+            {
+                // On WebGL mobile, audio might need user interaction first
+                Debug.LogWarning($"Could not play sound: {ex.Message}. This may require user interaction first.");
+            }
         }
         if (music != null && musicSource.clip != music)
         {
