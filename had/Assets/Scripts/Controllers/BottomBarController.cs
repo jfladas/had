@@ -70,6 +70,7 @@ public class BottomBarController : MonoBehaviour
     public void ClearText()
     {
         barText.text = "";
+        barText.maxVisibleCharacters = int.MaxValue;
     }
 
     public void PlayScene(StoryScene scene, string playerName)
@@ -100,7 +101,7 @@ public class BottomBarController : MonoBehaviour
         }
         sentenceText = sentenceText.Replace("{playerName}", playerName);
 
-        var characterName = currentScene.sentences[sentenceIndex].character.characterName;
+        var characterName = currentScene.sentences[sentenceIndex].character.DisplayName;
         if (characterName == "...")
         {
             characterName = "";
@@ -111,7 +112,7 @@ public class BottomBarController : MonoBehaviour
             barText.font = defaultFont;
         }
 
-        LogManager.AddLogEntry(currentScene.sentences[sentenceIndex].character.characterName, sentenceText);
+        LogManager.AddLogEntry(currentScene.sentences[sentenceIndex].character.DisplayName, sentenceText);
 
         typingCoroutine = StartCoroutine(TypeText(sentenceText));
 
@@ -160,6 +161,7 @@ public class BottomBarController : MonoBehaviour
         }
 
         barText.text = sentenceText;
+        barText.maxVisibleCharacters = int.MaxValue;
         state = State.COMPLETED;
     }
 
@@ -175,20 +177,21 @@ public class BottomBarController : MonoBehaviour
 
     private IEnumerator TypeText(string text)
     {
-        barText.text = "";
+        // Reveal characters instead of appending them, so rich text tags (<i>, <b>, ...) never show up raw.
+        barText.text = text;
+        barText.maxVisibleCharacters = 0;
+        barText.ForceMeshUpdate();
+        int characterCount = barText.textInfo.characterCount;
         state = State.PLAYING;
-        int wordIndex = 0;
 
-        while (state != State.COMPLETED)
+        for (int visible = 1; visible <= characterCount && state != State.COMPLETED; visible++)
         {
-            barText.text += text[wordIndex];
+            barText.maxVisibleCharacters = visible;
             yield return new WaitForSeconds(0.03f);
-            if (++wordIndex == text.Length)
-            {
-                state = State.COMPLETED;
-                break;
-            }
         }
+
+        barText.maxVisibleCharacters = int.MaxValue;
+        state = State.COMPLETED;
     }
 
     private void ActCharacter()
@@ -196,6 +199,12 @@ public class BottomBarController : MonoBehaviour
         List<StoryScene.Sentence.Action> actions = currentScene.sentences[sentenceIndex].actions;
         foreach (StoryScene.Sentence.Action action in actions)
         {
+            if (action.character == null)
+            {
+                Debug.LogWarning($"StoryScene '{currentScene.name}' sentence {sentenceIndex} has an action without a character.");
+                continue;
+            }
+
             SpriteController controller = null;
             switch (action.type)
             {

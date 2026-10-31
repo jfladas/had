@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
 public class GameController : MonoBehaviour
@@ -18,7 +19,6 @@ public class GameController : MonoBehaviour
 
     public MinigameController minigameController;
 
-    public GameScene aEpilogue1Scene;
     public int requiredMinigameScore;
 
     public Button menuButton;
@@ -44,9 +44,6 @@ public class GameController : MonoBehaviour
     public Image illustrationH3;
     public Image illustrationLocked;
 
-
-    private int score = 0;
-
     private State state = State.IDLE;
 
     private enum State
@@ -56,18 +53,17 @@ public class GameController : MonoBehaviour
 
     private GameScene savedScene;
     private int savedSentenceIndex;
+    private readonly List<RaycastResult> pointerRaycastResults = new List<RaycastResult>();
 
     void Start()
     {
-        score = ScoreManager.GetCurrentScore("A");
-
         if (StartController.overrideStartingScene != null)
         {
             currentScene = StartController.overrideStartingScene;
             StartController.overrideStartingScene = null;
         }
 
-        playerName = player.characterName;
+        playerName = player.DisplayName;
         if (currentScene is StoryScene)
         {
             StoryScene storyScene = currentScene as StoryScene;
@@ -105,7 +101,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space) || (Input.GetMouseButtonDown(0) && !IsPointerOverButton()))
         {
             if (state == State.IDLE)
             {
@@ -327,6 +323,9 @@ public class GameController : MonoBehaviour
 
         HandleGalleryIllustrations(chapterScene.name);
 
+        // Decided per visit; never written back into the asset.
+        GameScene nextScene = chapterScene.nextScene;
+
         if (chapterScene.name.EndsWith("_P"))
         {
             int currentScore = ScoreManager.GetCurrentScore(ScoreManager.GetRouteKeyFromSceneName(chapterScene.name));
@@ -340,7 +339,7 @@ public class GameController : MonoBehaviour
                 scoreMessage = "Energy level insufficient...";
 
                 if (chapterScene.failScene != null)
-                    chapterScene.nextScene = chapterScene.failScene;
+                    nextScene = chapterScene.failScene;
 
             }
             else
@@ -393,7 +392,7 @@ public class GameController : MonoBehaviour
             SceneManager.LoadScene("StartScene");
             yield break;
         }
-        PlayScene(chapterScene.nextScene);
+        PlayScene(nextScene);
     }
 
     private void HandleGalleryIllustrations(string sceneName)
@@ -661,12 +660,20 @@ public class GameController : MonoBehaviour
         }
     }
 
-    private IEnumerator HideReplayMessageAfterDelay()
+    // A tap on a button (e.g. the menu button) must not also advance the dialogue.
+    private bool IsPointerOverButton()
     {
-        yield return new WaitForSeconds(3f);
-        if (bottomBar != null)
+        if (EventSystem.current == null)
+            return false;
+
+        pointerRaycastResults.Clear();
+        var pointerData = new PointerEventData(EventSystem.current) { position = Input.mousePosition };
+        EventSystem.current.RaycastAll(pointerData, pointerRaycastResults);
+        foreach (var result in pointerRaycastResults)
         {
-            bottomBar.Hide();
+            if (result.gameObject.GetComponentInParent<Selectable>() != null)
+                return true;
         }
+        return false;
     }
 }

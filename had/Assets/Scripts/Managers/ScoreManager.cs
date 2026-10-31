@@ -103,12 +103,6 @@ public static class ScoreManager
         return true;
     }
 
-    public static int GetCurrentScore()
-    {
-        // Legacy behavior: default route score (Aleph/shared).
-        return GetCurrentScore("A");
-    }
-
     public static int GetCurrentScore(string routeKey)
     {
         routeKey = string.IsNullOrEmpty(routeKey) ? "A" : routeKey;
@@ -124,11 +118,6 @@ public static class ScoreManager
         return 0;
     }
 
-    public static void SetCurrentScore(int score)
-    {
-        SetCurrentScore(score, "A");
-    }
-
     public static void SetCurrentScore(int score, string routeKey)
     {
         routeKey = string.IsNullOrEmpty(routeKey) ? "A" : routeKey;
@@ -142,41 +131,19 @@ public static class ScoreManager
         PlayerPrefs.Save();
     }
 
-    public static void AddToCurrentScore(int points)
-    {
-        AddToCurrentScore(points, "A");
-    }
-
     public static void AddToCurrentScore(int points, string routeKey)
     {
         int currentScore = GetCurrentScore(routeKey);
         SetCurrentScore(currentScore + points, routeKey);
     }
 
-    public static bool HasMinigameLevelBeenPlayed(int level)
+    // Old saves tracked played minigames by level number; those keys are only cleaned up now.
+    private static void DeleteLegacyMinigameLevelKeys()
     {
-        string key = MINIGAME_PLAYED_PREFIX + level;
-        return PlayerPrefs.GetInt(key, 0) == 1;
-    }
-
-    public static void SetMinigameLevelPlayed(int level, bool played = true)
-    {
-        string key = MINIGAME_PLAYED_PREFIX + level;
-        PlayerPrefs.SetInt(key, played ? 1 : 0);
-        PlayerPrefs.Save();
-    }
-
-    public static bool TryAddMinigameScore(int level, int points)
-    {
-        if (HasMinigameLevelBeenPlayed(level))
+        for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
         {
-            SetMinigameLevelPlayed(level, true);
-            return false;
+            PlayerPrefs.DeleteKey(MINIGAME_PLAYED_PREFIX + i);
         }
-
-        AddToCurrentScore(points);
-        SetMinigameLevelPlayed(level, true);
-        return true;
     }
 
     public static void ResetMinigameData()
@@ -186,10 +153,7 @@ public static class ScoreManager
             SetCurrentScore(0, rk);
         }
 
-        for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
-        {
-            SetMinigameLevelPlayed(i, false);
-        }
+        DeleteLegacyMinigameLevelKeys();
 
         // Also clear any id-based minigame flags we have registered.
         string existing = PlayerPrefs.GetString(MINIGAME_PLAYED_IDS_KEY, string.Empty);
@@ -213,10 +177,7 @@ public static class ScoreManager
             PlayerPrefs.DeleteKey(CURRENT_SCORE_KEY_PREFIX + rk);
         }
         PlayerPrefs.DeleteKey(CURRENT_SCORE_KEY_LEGACY);
-        for (int i = 0; i <= MAX_MINIGAME_LEVEL; i++)
-        {
-            SetMinigameLevelPlayed(i, false);
-        }
+        DeleteLegacyMinigameLevelKeys();
 
         // Clear any id-based minigame flags we have registered.
         string existing = PlayerPrefs.GetString(MINIGAME_PLAYED_IDS_KEY, string.Empty);

@@ -43,11 +43,14 @@ public static class LogManager
 
         List<LogEntry> currentLog = GetLogEntries();
 
-        foreach (LogEntry existingEntry in currentLog)
+        // Only skip an immediate repeat (e.g. the same sentence replayed after closing the menu),
+        // so lines that legitimately occur again ("...", "Yes.") still show up.
+        if (currentLog.Count > 0)
         {
-            if (existingEntry.characterName == newEntry.characterName &&
-                existingEntry.text == newEntry.text &&
-                existingEntry.isThought == newEntry.isThought)
+            LogEntry lastEntry = currentLog[currentLog.Count - 1];
+            if (lastEntry.characterName == newEntry.characterName &&
+                lastEntry.text == newEntry.text &&
+                lastEntry.isThought == newEntry.isThought)
             {
                 return;
             }

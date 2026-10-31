@@ -475,7 +475,7 @@ public class MinigameController : MonoBehaviour
         nameBar.Hide();
         yield return new WaitForSeconds(1f);
 
-        bottomBar.barText.text = "Aim for coloured circles, they possess triple the power of regular ones. There is not much time, I believe in you.";
+        bottomBar.barText.text = "Aim for coloured circles, they possess double the power of regular ones. There is not much time, I believe in you.";
         bottomBar.Show();
         nameBar.Show();
         nameBar.SetName("???");
@@ -533,7 +533,7 @@ public class MinigameController : MonoBehaviour
                 {
                     int addScore = 100;
                     if (hitCircle.TryGetComponent<CircleColliderData>(out var data) && data.isSpecial)
-                        addScore = 300;
+                        addScore = 200;
                     activeCircles.Remove(hitCircle);
                     Destroy(hitCircle);
                     sessionScore += addScore;
@@ -678,19 +678,14 @@ public class MinigameController : MonoBehaviour
 
     private Sprite GetSpecialCircle2SpriteForCurrentRoute()
     {
-        string lastCheckpointKey = PlayerPrefs.GetString(ProgressKeys.LastCompletedCheckpointKey, "");
-        if (!string.IsNullOrEmpty(lastCheckpointKey))
+        if (currentRouteKey == "S")
         {
-            char prefix = lastCheckpointKey[0];
-            if (prefix == 'S')
-            {
-                return specialCircle2SpriteScarlet != null ? specialCircle2SpriteScarlet : specialCircle2SpriteDefault;
-            }
+            return specialCircle2SpriteScarlet != null ? specialCircle2SpriteScarlet : specialCircle2SpriteDefault;
+        }
 
-            if (prefix == 'H')
-            {
-                return specialCircle2SpriteMrHorse != null ? specialCircle2SpriteMrHorse : specialCircle2SpriteDefault;
-            }
+        if (currentRouteKey == "H")
+        {
+            return specialCircle2SpriteMrHorse != null ? specialCircle2SpriteMrHorse : specialCircle2SpriteDefault;
         }
 
         return specialCircle2SpriteDefault;

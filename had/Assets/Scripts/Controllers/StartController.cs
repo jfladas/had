@@ -106,13 +106,13 @@ public class StartController : MonoBehaviour
         string playerName = playerNameInput.text;
         if (playerName != "")
         {
-            meCharacter.characterName = playerName;
+            meCharacter.runtimeName = playerName;
             PlayerPrefs.SetString(ProgressKeys.PlayerName, playerName);
             PlayerPrefs.Save();
         }
         else
         {
-            meCharacter.characterName = "Me";
+            meCharacter.runtimeName = null;
         }
 
         GameScene startingScene = DetermineStartingScene();

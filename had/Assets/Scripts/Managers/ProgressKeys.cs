@@ -28,7 +28,7 @@ public static class ProgressKeys
 
     public static readonly string[] GlobalChapterKeys =
     {
-        "Chapter1", "Chapter2", "Chapter3", "Chapter4", "Chapter5", "Chapter6",
+        "Chapter0", "Chapter1", "Chapter2", "Chapter3", "Chapter4", "Chapter5", "Chapter6",
         "TheEnd",
     };
 
