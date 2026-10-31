@@ -22,6 +22,14 @@ public class PreferLayoutGroup : UIBehaviour, ILayoutElement
         }
     }
 
+    public float maxWidth
+    {
+        get
+        {
+            return GetLayoutGroup().maxWidth;
+        }
+    }
+
     public float flexibleWidth
     {
         get
@@ -43,6 +51,14 @@ public class PreferLayoutGroup : UIBehaviour, ILayoutElement
         get
         {
             return GetLayoutGroup().preferredHeight;
+        }
+    }
+
+    public float maxHeight
+    {
+        get
+        {
+            return GetLayoutGroup().maxHeight;
         }
     }
 

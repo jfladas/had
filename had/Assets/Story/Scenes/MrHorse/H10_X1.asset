@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b1b52c21e349d4198396f2e1d2dd0f, type: 3}
   m_Name: H10_X1
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: db6143dffc3415a4cb9df1bede0e2ac3, type: 3}
   labels:
-  - text: …keep listening.
+  - text: "\u2026keep listening."
     nextScene: {fileID: 11400000, guid: 4e04d1958f13494e941f233caae1bd26, type: 2}
-  - text: …back up from the wall.
+  - text: "\u2026back up from the wall."
     nextScene: {fileID: 11400000, guid: 1f54c5ca9bb34270b9b5dabaa062ca68, type: 2}
-
